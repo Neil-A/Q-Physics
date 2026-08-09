@@ -1,0 +1,35 @@
+{
+  "4a_duality_identity": {
+    "pure_joint_state": {
+      "max_dev_using_PATH_purity": 1.2212453270876722e-15,
+      "max_dev_using_MARKER_purity": 1.3322676295501878e-15
+    },
+    "mixed_joint_state": {
+      "max_dev_using_PATH_purity": 7.216449660063518e-16,
+      "max_dev_using_MARKER_purity": 0.6075388635151387
+    },
+    "finding": "the identity holds against the PATH (interfering system) purity always; it holds against the MARKER purity only when the joint state is pure, where the Schmidt decomposition forces the two purities equal"
+  },
+  "4b_englert_inequality": {
+    "samples": 20000,
+    "violations_of_V2_plus_D2_le_1_tol_1e-6": 0,
+    "max_value_observed": 1.0000000355969427,
+    "max_excess_over_1": 3.559694272681213e-08,
+    "fraction_within_1pct_of_saturation": 0.25785,
+    "note": "excess is at the 1e-8 level, set by eigenvalue clipping inside the fidelity operator -- numerical, not a violation"
+  },
+  "4c_streltsov": {
+    "CNOT_saturation_max_dev": 1.7763568394002505e-15,
+    "bound_violations_any_incoherent_op": 0,
+    "injective_ancilla_map": {
+      "n": 505,
+      "max_abs_gap": 1.3322676295501878e-15
+    },
+    "non_injective_ancilla_map": {
+      "n": 1895,
+      "mean_gap": 0.5773576503331865,
+      "min_gap": 0.006580061367078116
+    },
+    "finding": "entanglement generated equals coherence consumed to machine precision whenever the ancilla map is injective (the generalised CNOT); the gap under other incoherent operations is exactly the branches the ancilla fails to resolve -- coupling suboptimality, not missing physics"
+  }
+}

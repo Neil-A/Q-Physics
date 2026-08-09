@@ -1,0 +1,6 @@
+# SIM-SPEC-01 pinned dependencies
+# Verified working set, 6 August 2026, Python 3.13.
+numpy==2.5.1
+scipy==1.18.0
+qutip==5.3.1
+matplotlib==3.11.1

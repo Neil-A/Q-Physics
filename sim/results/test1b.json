@@ -1,0 +1,106 @@
+{
+  "1e_measure_ordering": {
+    "d=2": {
+      "random_full_rank_states": {
+        "pair_disagreement": 0.040756302521008404,
+        "spearman": 0.9878185985137857
+      },
+      "single_dephasing_trajectory": {
+        "pair_disagreement_mean": 0.0,
+        "spearman_mean": 1.0
+      },
+      "many_dephasing_trajectories_pooled": {
+        "pair_disagreement": 0.030392156862745098,
+        "spearman": 0.9908188068615876
+      }
+    },
+    "d=3": {
+      "random_full_rank_states": {
+        "pair_disagreement": 0.11274509803921569,
+        "spearman": 0.9193624557260921
+      },
+      "single_dephasing_trajectory": {
+        "pair_disagreement_mean": 0.0,
+        "spearman_mean": 1.0
+      },
+      "many_dephasing_trajectories_pooled": {
+        "pair_disagreement": 0.03123249299719888,
+        "spearman": 0.9935759427738038
+      }
+    },
+    "d=4": {
+      "random_full_rank_states": {
+        "pair_disagreement": 0.12591036414565826,
+        "spearman": 0.9175081602889089
+      },
+      "single_dephasing_trajectory": {
+        "pair_disagreement_mean": 0.0,
+        "spearman_mean": 1.0
+      },
+      "many_dephasing_trajectories_pooled": {
+        "pair_disagreement": 0.03711484593837535,
+        "spearman": 0.9896451142440448
+      }
+    },
+    "d=6": {
+      "random_full_rank_states": {
+        "pair_disagreement": 0.13277310924369748,
+        "spearman": 0.9005208695048267
+      },
+      "single_dephasing_trajectory": {
+        "pair_disagreement_mean": 0.0,
+        "spearman_mean": 1.0
+      },
+      "many_dephasing_trajectories_pooled": {
+        "pair_disagreement": 0.03207282913165266,
+        "spearman": 0.9926731022987707
+      }
+    },
+    "d=8": {
+      "random_full_rank_states": {
+        "pair_disagreement": 0.1350140056022409,
+        "spearman": 0.9067643586360163
+      },
+      "single_dephasing_trajectory": {
+        "pair_disagreement_mean": 0.0,
+        "spearman_mean": 1.0
+      },
+      "many_dephasing_trajectories_pooled": {
+        "pair_disagreement": 0.02142857142857143,
+        "spearman": 0.9962636294187096
+      }
+    },
+    "d=12": {
+      "random_full_rank_states": {
+        "pair_disagreement": 0.11246498599439776,
+        "spearman": 0.9296756719216612
+      },
+      "single_dephasing_trajectory": {
+        "pair_disagreement_mean": 0.0,
+        "spearman_mean": 1.0
+      },
+      "many_dephasing_trajectories_pooled": {
+        "pair_disagreement": 0.027170868347338936,
+        "spearman": 0.9936245572609209
+      }
+    },
+    "d=16": {
+      "random_full_rank_states": {
+        "pair_disagreement": 0.1330532212885154,
+        "spearman": 0.902402944648934
+      },
+      "single_dephasing_trajectory": {
+        "pair_disagreement_mean": 0.0,
+        "spearman_mean": 1.0
+      },
+      "many_dephasing_trajectories_pooled": {
+        "pair_disagreement": 0.018207282913165267,
+        "spearman": 0.9966456003889159
+      }
+    }
+  },
+  "1e_summary": {
+    "finding": "the two valid measures agree PERFECTLY along any single dephasing trajectory in every dimension -- that is the ordering the front actually needs, since resolution moves a state along one such path. They disagree on a growing fraction of pairs when comparing UNRELATED states, and the disagreement grows with d. So thickness is well defined as a monotone along a resolution history, and NOT well defined as an absolute cross-system quantity above d = 2.",
+    "consequence": "the framework may say \"this cell thinned\" without choosing a measure, but may not say \"cell A is thicker than cell B\" for unrelated A and B without choosing one"
+  }
+}

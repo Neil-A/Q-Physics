@@ -1,0 +1,85 @@
+{
+  "1a_qubit_sweep": {
+    "endpoints": {
+      "l1_super": 1.0,
+      "l1_dephased": 0.0,
+      "rel_super": 1.0,
+      "rel_dephased": 0.0,
+      "geo_super": 0.5,
+      "geo_dephased": 0.0
+    },
+    "monotone": {
+      "l1": true,
+      "rel": true,
+      "geo": true
+    },
+    "ordering_agreement_spearman": {
+      "l1_vs_rel": 1.0,
+      "l1_vs_geo": 1.0,
+      "rel_vs_geo": 1.0
+    },
+    "max_abs_gap_l1_minus_rel": 0.3219280948873624
+  },
+  "1b_inversion": {
+    "coherence_at_no_record": {
+      "l1": 0.9999999999999998,
+      "rel": 0.9999999999999997
+    },
+    "coherence_at_full_record": {
+      "l1": 1.1102230246251565e-16,
+      "rel": 0.0
+    },
+    "entanglement_entropy_at_no_record": 3.2034265038149176e-16,
+    "entanglement_entropy_at_full_record": 1.0,
+    "spearman_l1_vs_entropy": -1.0,
+    "coherence_equals_env_overlap_maxdev": 4.440892098500626e-16
+  },
+  "1c_dimension_scaling": {
+    "d=2": {
+      "max_l1_theory_d_minus_1": 1,
+      "max_l1_observed_on_max_coherent_state": 0.9999999999999998,
+      "max_rel_theory_log2_d": 1.0,
+      "max_rel_observed_on_max_coherent_state": 0.9999999999999997,
+      "spearman_l1_vs_rel_random_states": 0.9894069337933362
+    },
+    "d=3": {
+      "max_l1_theory_d_minus_1": 2,
+      "max_l1_observed_on_max_coherent_state": 2.000000000000001,
+      "max_rel_theory_log2_d": 1.584962500721156,
+      "max_rel_observed_on_max_coherent_state": 1.5849625007211563,
+      "spearman_l1_vs_rel_random_states": 0.9367106669416684
+    },
+    "d=4": {
+      "max_l1_theory_d_minus_1": 3,
+      "max_l1_observed_on_max_coherent_state": 3.0,
+      "max_rel_theory_log2_d": 2.0,
+      "max_rel_observed_on_max_coherent_state": 1.9999999999999998,
+      "spearman_l1_vs_rel_random_states": 0.9307275045469035
+    },
+    "d=6": {
+      "max_l1_theory_d_minus_1": 5,
+      "max_l1_observed_on_max_coherent_state": 5.000000000000003,
+      "max_rel_theory_log2_d": 2.584962500721156,
+      "max_rel_observed_on_max_coherent_state": 2.584962500721157,
+      "spearman_l1_vs_rel_random_states": 0.9006502540640879
+    },
+    "d=8": {
+      "max_l1_theory_d_minus_1": 7,
+      "max_l1_observed_on_max_coherent_state": 6.999999999999999,
+      "max_rel_theory_log2_d": 3.0,
+      "max_rel_observed_on_max_coherent_state": 2.9999999999999982,
+      "spearman_l1_vs_rel_random_states": 0.8996336227101419
+    }
+  },
+  "1d_l2_not_a_monotone": {
+    "d": 3,
+    "l2_before": 0.26983544215545524,
+    "l2_after": 0.3590746765399135,
+    "increase": 0.08923923438445824,
+    "l1_before": 1.2668038600456168,
+    "l1_after": 0.8474369316237209,
+    "rel_before": 0.6157671187986123,
+    "rel_after": 0.4540255488346936,
+    "valid_measures_still_monotone": true
+  }
+}
