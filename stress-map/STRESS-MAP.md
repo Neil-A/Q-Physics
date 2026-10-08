@@ -24,6 +24,22 @@
 | Gravity & spacetime | 10 / 11 |
 | Cosmology | 8 / 9 |
 
+## Review queue
+
+*Items queued for Neil's review. Their status stays provisional until reviewed.*
+
+- [ ] Why dark energy and matter are similar now `c-coinc` — Outside an interpretation, Cosmology (queued 9 Oct 2026)
+- [ ] Hubble tension `c-hubble` — Outside an interpretation, Cosmology (queued 9 Oct 2026)
+- [ ] Cosmological constant problem `c-lambda` — Outside an interpretation, Cosmology (queued 9 Oct 2026)
+- [ ] Matter–antimatter imbalance `p-asym` — Outside an interpretation, Particles & fields (queued 9 Oct 2026)
+- [ ] Quark confinement `p-confine` — Outside an interpretation, Particles & fields (queued 9 Oct 2026)
+- [ ] Strong CP problem `p-cp` — Outside an interpretation, Particles & fields (queued 9 Oct 2026)
+- [ ] Three generations of matter `p-gen` — Outside an interpretation, Particles & fields (queued 9 Oct 2026)
+- [ ] Hierarchy problem `p-hier` — Outside an interpretation, Particles & fields (queued 9 Oct 2026)
+- [ ] Mass and the Higgs `p-higgs` — Outside an interpretation, Particles & fields (queued 9 Oct 2026)
+- [ ] Neutrino mass `p-nu` — Outside an interpretation, Particles & fields (queued 9 Oct 2026)
+- [ ] Fine-tuned constants `p-tune` — Outside an interpretation, Particles & fields (queued 9 Oct 2026)
+
 ## Framework commitments (as recorded on the map)
 
 1. Charter (updated 8 Oct): RFF is an interpretation of quantum mechanics plus one semiclassical claim about gravity. Everywhere else it adds a story, not dynamics; for gravity it is a physical theory that can be proved wrong. If no conserved source can be written for averaged gravity, the claim is parked and RFF returns to an interpretation.
@@ -45,7 +61,7 @@
 17. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
 18. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
 
-**Open questions:** What sources the front's thickness?
+**Open questions:** What sources the front's thickness?; Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.
 
 ## Agreed map
 
@@ -396,7 +412,7 @@
 - **What it is.** Particles get mass from the Higgs field; the masses themselves are unexplained inputs.
 - **RFF placement.** Mass sets how fast a particle's clock ticks (de Broglie, mc²/h, from Oct 4), so the Higgs field sets clock rates. RFF can say what mass does, but the values themselves are inputs.
 - **Built from.** Each path carries a clock; verify-or-leave-open.
-- **To work through.** None for RFF.
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Three generations of matter  `p-gen`
@@ -407,7 +423,7 @@
 - **What it is.** Matter comes in three copies of different mass. No one knows why three.
 - **RFF placement.** Nothing in the balloon picture prefers three generations. Left as an input.
 - **Built from.** Verify-or-leave-open.
-- **To work through.** Likely outside an interpretation.
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Matter–antimatter imbalance  `p-asym`
@@ -418,7 +434,7 @@
 - **What it is.** The universe is made of matter, not equal parts of each.
 - **RFF placement.** Explaining the imbalance needs three conditions (Sakharov). RFF's arrow supplies one of them, being out of equilibrium, for free. The amount of matter–antimatter difference in the laws is dynamics.
 - **Built from.** Arrow = folds closing.
-- **To work through.** Is there an arrow-of-time link, or is this pure dynamics?
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then. Open: is there an arrow-of-time link, or is this pure dynamics?
 - **Prior art.** Sakharov 1967.
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
@@ -431,7 +447,7 @@
 - **RFF placement.** The mass values are inputs. But neutrino oscillation is a clean example of your relative-time idea working: a neutrino is a mix of components whose clocks tick at slightly different rates, so their comparison drifts and the flavour changes along the way.
 - **Built from.** Each path carries a clock; relative clock rates between histories (Oct 4).
 - **Assessment.** Worth noting for the relative-time thread: relative clock rates between components produce a measured effect here.
-- **To work through.** Likely outside an interpretation.
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.
 - **Prior art.** Super-Kamiokande 1998; SNO 2001 (Nobel 2015).
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
@@ -443,7 +459,7 @@
 - **What it is.** Many constants sit in narrow windows that allow structure and life.
 - **RFF placement.** The seed is a starting condition. By the verify-or-leave-open rule, RFF doesn't explain the constants' values.
 - **Built from.** Seed as starting condition; verify-or-leave-open.
-- **To work through.** Does the seed's conditions say anything here?
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then. Open: do the seed's conditions say anything here?
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Hierarchy problem  `p-hier`
@@ -454,7 +470,7 @@
 - **What it is.** Gravity is far weaker than the other forces, with no accepted reason.
 - **RFF placement.** Dynamics. RFF says nothing about why gravity is so weak.
 - **Built from.** Verify-or-leave-open.
-- **To work through.** Likely outside an interpretation.
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Strong CP problem  `p-cp`
@@ -465,7 +481,7 @@
 - **What it is.** The strong force treats matter and mirror-matter the same to absurd precision.
 - **RFF placement.** Dynamics. Left to particle physics.
 - **Built from.** Verify-or-leave-open.
-- **To work through.** Likely outside an interpretation.
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Antimatter  `p-anti`
@@ -511,6 +527,7 @@
 - **What it is.** Quarks never appear alone. Proving why from the theory is still open.
 - **RFF placement.** Dynamics of the strong force. Left to particle physics.
 - **Built from.** Verify-or-leave-open.
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
 ### 4. Gravity & spacetime
@@ -717,7 +734,7 @@
 - **What it is.** Quantum vacuum energy predicts a dark-energy value ~10¹²⁰ times too large.
 - **RFF placement.** In the area-law route (reopened 7 Oct), a uniform vacuum energy doesn't curve spacetime: Λ appears as a free constant. That matches RFF's 'vacuum linking is texture, not thickness'. The 10¹²⁰ mismatch then becomes 'what fixes Λ's value?', which is still dynamics.
 - **Built from.** Area-law route to gravity; vacuum = rubber with no patterns; verify-or-leave-open.
-- **To work through.** Likely outside an interpretation.
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.
 - **Prior art.** Jacobson 1995 (Λ as integration constant); unimodular gravity; Weinberg 1987 (anthropic bound).
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
@@ -729,7 +746,7 @@
 - **What it is.** Early-universe and local measurements of the expansion rate disagree.
 - **RFF placement.** An observational disagreement. RFF has no stake in which value is right.
 - **Built from.** Verify-or-leave-open.
-- **To work through.** Likely outside an interpretation (observational).
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### The universe's fate  `c-fate`
@@ -749,6 +766,7 @@
 - **What it is.** Dark energy and matter have comparable densities today, though they change very differently over time.
 - **RFF placement.** In the vase, matter thins as the rubber stretches while dark energy doesn't, so they cross at one age. RFF has no reason we live near that age. If the wake proposal for dark matter holds, it might give a link.
 - **Built from.** Vase flare; dark-matter wake (proposal).
+- **To work through.** Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
 ## Claude's drafts — not agreed

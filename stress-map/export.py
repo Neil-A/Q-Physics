@@ -92,6 +92,10 @@ def main(path):
         its = [d for d in ph.values() if d.get("col") == ci]
         ex = sum(1 for d in its if d.get("status") != "open")
         o.append(f"| {c} | {ex} / {len(its)} |")
+    queue = sorted((k, d) for k, d in ph.items() if d.get("queued"))
+    if queue:
+        o += ["", "## Review queue", "", "*Items queued for Neil's review. Their status stays provisional until reviewed.*", ""]
+        o += [f"- [ ] {d.get('name', k)} `{k}` — {st(d.get('status'))}, {COLS[d.get('col', 0)]} (queued {d['queued']})" for k, d in queue]
     o += ["", "## Framework commitments (as recorded on the map)", ""]
     o += [f"{i}. {t}" for i, t in enumerate(meta.get("commitments", []), 1)]
     if meta.get("questions"):

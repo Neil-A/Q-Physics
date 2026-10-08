@@ -23,7 +23,8 @@
    "No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density."
   ],
   "questions": [
-   "What sources the front's thickness?"
+   "What sources the front's thickness?",
+   "Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final."
   ],
   "updated": "9 Oct 2026"
  },
@@ -40,7 +41,9 @@
    "plain": "Dark energy and matter have comparable densities today, though they change very differently over time.",
    "rff": "In the vase, matter thins as the rubber stretches while dark energy doesn't, so they cross at one age. RFF has no reason we live near that age. If the wake proposal for dark matter holds, it might give a link.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then."
   },
   "c-de": {
    "assess": "Resolved in part (5 Oct): the balloon's radius is the age, and the rubber's size at each age is separate, so the balloon flares like a vase. Dark energy shapes the flare, driving the stretching of space, which is standard. It does not drive the age, which avoids the clock problem. Still open: what dark energy is.",
@@ -102,14 +105,15 @@
     "c-de"
    ],
    "name": "Hubble tension",
-   "next": "Likely outside an interpretation (observational).",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.",
    "ord": 7,
    "plain": "Early-universe and local measurements of the expansion rate disagree.",
    "prior": "",
    "proposal": "",
    "rff": "An observational disagreement. RFF has no stake in which value is right.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026"
   },
   "c-infl": {
    "assess": "None detected so far. Simons Observatory, LiteBIRD and CMB-S4 aim for sensitivity near r ~ 10⁻³. A non-detection settles nothing (many inflation models sit below that line); a detection at the level standard inflation predicts for the same inflaton would count against RFF. What drives inflation (the inflaton) stays outside an interpretation.",
@@ -138,14 +142,15 @@
     "c-de"
    ],
    "name": "Cosmological constant problem",
-   "next": "Likely outside an interpretation.",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.",
    "ord": 6,
    "plain": "Quantum vacuum energy predicts a dark-energy value ~10¹²⁰ times too large.",
    "prior": "Jacobson 1995 (Λ as integration constant); unimodular gravity; Weinberg 1987 (anthropic bound).",
    "proposal": "",
    "rff": "In the area-law route (reopened 7 Oct), a uniform vacuum energy doesn't curve spacetime: Λ appears as a free constant. That matches RFF's 'vacuum linking is texture, not thickness'. The 10¹²⁰ mismatch then becomes 'what fixes Λ's value?', which is still dynamics.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026"
   },
   "c-struct": {
    "assess": "",
@@ -374,14 +379,15 @@
     "g-arrow"
    ],
    "name": "Matter–antimatter imbalance",
-   "next": "Is there an arrow-of-time link, or is this pure dynamics?",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then. Open: is there an arrow-of-time link, or is this pure dynamics?",
    "ord": 6,
    "plain": "The universe is made of matter, not equal parts of each.",
    "prior": "Sakharov 1967.",
    "proposal": "",
    "rff": "Explaining the imbalance needs three conditions (Sakharov). RFF's arrow supplies one of them, being out of equilibrium, for free. The amount of matter–antimatter difference in the laws is dynamics.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026"
   },
   "p-confine": {
    "basis": "Verify-or-leave-open.",
@@ -394,7 +400,9 @@
    "plain": "Quarks never appear alone. Proving why from the theory is still open.",
    "rff": "Dynamics of the strong force. Left to particle physics.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then."
   },
   "p-cp": {
    "assess": "",
@@ -404,14 +412,15 @@
     "p-vac"
    ],
    "name": "Strong CP problem",
-   "next": "Likely outside an interpretation.",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.",
    "ord": 10,
    "plain": "The strong force treats matter and mirror-matter the same to absurd precision.",
    "prior": "",
    "proposal": "",
    "rff": "Dynamics. Left to particle physics.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026"
   },
   "p-gen": {
    "assess": "",
@@ -421,14 +430,15 @@
     "p-higgs"
    ],
    "name": "Three generations of matter",
-   "next": "Likely outside an interpretation.",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.",
    "ord": 5,
    "plain": "Matter comes in three copies of different mass. No one knows why three.",
    "prior": "",
    "proposal": "",
    "rff": "Nothing in the balloon picture prefers three generations. Left as an input.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026"
   },
   "p-hier": {
    "assess": "",
@@ -438,14 +448,15 @@
     "p-higgs"
    ],
    "name": "Hierarchy problem",
-   "next": "Likely outside an interpretation.",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.",
    "ord": 9,
    "plain": "Gravity is far weaker than the other forces, with no accepted reason.",
    "prior": "",
    "proposal": "",
    "rff": "Dynamics. RFF says nothing about why gravity is so weak.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026"
   },
   "p-higgs": {
    "assess": "",
@@ -455,14 +466,15 @@
     "p-vac"
    ],
    "name": "Mass and the Higgs",
-   "next": "None for RFF.",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.",
    "ord": 4,
    "plain": "Particles get mass from the Higgs field; the masses themselves are unexplained inputs.",
    "prior": "",
    "proposal": "",
    "rff": "Mass sets how fast a particle's clock ticks (de Broglie, mc²/h, from Oct 4), so the Higgs field sets clock rates. RFF can say what mass does, but the values themselves are inputs.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026"
   },
   "p-ident": {
    "assess": "Strong fit. It is the same pairing that gives fourth-order interference for two particles (Pleinert 2021).",
@@ -506,14 +518,15 @@
     "p-higgs"
    ],
    "name": "Neutrino mass",
-   "next": "Likely outside an interpretation.",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.",
    "ord": 7,
    "plain": "Neutrinos have mass, which the Standard Model didn't predict.",
    "prior": "Super-Kamiokande 1998; SNO 2001 (Nobel 2015).",
    "proposal": "",
    "rff": "The mass values are inputs. But neutrino oscillation is a clean example of your relative-time idea working: a neutrino is a mix of components whose clocks tick at slightly different rates, so their comparison drifts and the flavour changes along the way.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026"
   },
   "p-qft": {
    "assess": "If particles are patterns, waviness is native and the thing to explain is the dot, which settling does. Replaces the Oct 4 'particles really are particles' framing.",
@@ -558,14 +571,15 @@
     "g-past"
    ],
    "name": "Fine-tuned constants",
-   "next": "Does the seed's conditions say anything here?",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then. Open: do the seed's conditions say anything here?",
    "ord": 8,
    "plain": "Many constants sit in narrow windows that allow structure and life.",
    "prior": "",
    "proposal": "",
    "rff": "The seed is a starting condition. By the verify-or-leave-open rule, RFF doesn't explain the constants' values.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside"
+   "status": "outside",
+   "queued": "9 Oct 2026"
   },
   "p-vac": {
    "assess": "Adds no new commitment. 'What sources the thickness?' stays open. The Casimir force can also be computed as ordinary forces between the plates' atoms, so it isn't proof that the vacuum holds energy.",
