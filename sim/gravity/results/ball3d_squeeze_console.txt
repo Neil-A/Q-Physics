@@ -1,0 +1,9 @@
+R=   8.5 dS=+5.4190e-08  ratio canonical=-0.0000  ratio improved=-0.0120
+R=  16.5 dS=+7.2366e-08  ratio canonical=-0.0001  ratio improved=-0.0198
+R=  32.5 dS=+7.8340e-08  ratio canonical=-0.0001  ratio improved=-0.0231
+R=  64.5 dS=+7.9972e-08  ratio canonical=-0.0001  ratio improved=-0.0242
+R= 128.5 dS=+8.0391e-08  ratio canonical=-0.0001  ratio improved=-0.0245
+position scan, R=64.5
+  center=0.20R ratio canonical=-0.0000 improved=-0.0000
+  center=0.45R ratio canonical=-0.0001 improved=-0.0242
+  center=0.70R ratio canonical=-0.0302 improved=-0.4306

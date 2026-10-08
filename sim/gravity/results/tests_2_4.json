@@ -1,0 +1,136 @@
+{
+ "light_bending_arcsec": {
+  "time_only_gamma0_numeric": 0.8755958478761469,
+  "full_GR_gamma1_numeric": 1.751196482887154,
+  "time_only_formula": 0.8755951618498253,
+  "full_GR_formula": 1.7511903236996507
+ },
+ "reach_profile": [
+  {
+   "r_earth_radii": 0.0,
+   "gr_parts_per_1e10": 10.441911879887781,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 0.1,
+   "gr_parts_per_1e10": 10.407105506954824,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 0.2,
+   "gr_parts_per_1e10": 10.302686388155946,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 0.3,
+   "gr_parts_per_1e10": 10.12865452349115,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 0.4,
+   "gr_parts_per_1e10": 9.885009912960435,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 0.5,
+   "gr_parts_per_1e10": 9.571752556563801,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 0.6,
+   "gr_parts_per_1e10": 9.18888245430125,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 0.7,
+   "gr_parts_per_1e10": 8.736399606172778,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 0.8,
+   "gr_parts_per_1e10": 8.214304012178388,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 0.9,
+   "gr_parts_per_1e10": 7.622595672318081,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 1.0,
+   "gr_parts_per_1e10": 6.9612745865918555,
+   "local_load_parts_per_1e10": 6.9612745865918555
+  },
+  {
+   "r_earth_radii": 1.25,
+   "gr_parts_per_1e10": 5.569019669273484,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 1.5,
+   "gr_parts_per_1e10": 4.64084972439457,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 1.75,
+   "gr_parts_per_1e10": 3.977871192338203,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 2.0,
+   "gr_parts_per_1e10": 3.4806372932959277,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 2.25,
+   "gr_parts_per_1e10": 3.093899816263047,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 2.5,
+   "gr_parts_per_1e10": 2.784509834636742,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 2.75,
+   "gr_parts_per_1e10": 2.531372576942493,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 3.0,
+   "gr_parts_per_1e10": 2.320424862197285,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 3.25,
+   "gr_parts_per_1e10": 2.1419306420282633,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 3.5,
+   "gr_parts_per_1e10": 1.9889355961691015,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 3.75,
+   "gr_parts_per_1e10": 1.8563398897578283,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 4.0,
+   "gr_parts_per_1e10": 1.7403186466479639,
+   "local_load_parts_per_1e10": 0.0
+  },
+  {
+   "r_earth_radii": 4.25,
+   "gr_parts_per_1e10": 1.6379469615510247,
+   "local_load_parts_per_1e10": 0.0
+  }
+ ],
+ "gps_gravity_part_us_per_day": 45.71821278283108,
+ "hollow_shell_example": {
+  "shell": "Earth's mass in a thin shell of Earth's radius",
+  "clock_slowing_inside": 6.961274586591855e-10,
+  "pull_inside": 0
+ }
+}

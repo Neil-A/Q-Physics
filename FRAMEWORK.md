@@ -1,10 +1,12 @@
 # The Resolution-Front Framework
 
-*Working document. Last substantive revision 6 August 2026 (evening) — **SIM-SPEC-01 executed in full; results written back into §3, §4, §7, §8, §11, §14.** #4 confirmed, #9 internally verified, **#14's L/c prediction failed**. See [RESULTS-01.md](RESULTS-01.md). Earlier the same day: Reading B adopted (§7), handshake confined to the front (§7, §9), #1 marked idle, τ-adoption reversed. Seven blocking papers read 5 August 2026 ([SOURCES.md](SOURCES.md)).*
+*Working document. Last substantive revision **8 October 2026** — scope widened (5 Oct), gravity-origin reopened and tested ([RESULTS-02-gravity.md](RESULTS-02-gravity.md)), new commitments and two predictions collected in **§15**; targeted edits in §6, §8, §11, §12, §13, §14. Previous revision 6 August 2026 (evening) — **SIM-SPEC-01 executed in full; results written back into §3, §4, §7, §8, §11, §14.** #4 confirmed, #9 internally verified, **#14's L/c prediction failed**. See [RESULTS-01.md](RESULTS-01.md). Earlier the same day: Reading B adopted (§7), handshake confined to the front (§7, §9), #1 marked idle, τ-adoption reversed. Seven blocking papers read 5 August 2026 ([SOURCES.md](SOURCES.md)).*
 
-> **Read this first.** The framework's single distinguishing prediction — coherence lifetime tracking absorber distance L — was tested on 6 August and **does not hold**. Sections written before that run still argue for it; they are marked where they stand. The live claim is #9 (§8), which passed its internal check exactly and remains a sharp disagreement with Strubbe on a checkable experiment.
+> **Read this first (October 2026).** The framework is now positioned as a narrative around quantum mechanics that departs from it only for the gravity of unsettled masses. It carries **two predictions**: BMV-type experiments will see no entanglement through gravity, and there are no primordial gravitational waves of quantum origin. Gravity comes from the area law (Jacobson's route), checked on a lattice and against four tests. Start with §15, then [RESULTS-02-gravity.md](RESULTS-02-gravity.md).
+>
+> **August status, kept as history.** The framework's single distinguishing prediction — coherence lifetime tracking absorber distance L — was tested on 6 August and **does not hold**. Sections written before that run still argue for it; they are marked where they stand. The live claim is #9 (§8), which passed its internal check exactly and remains a sharp disagreement with Strubbe on a checkable experiment.
 
-**Scope: the double slit and the measurement problem.** Gravity-as-origin and cosmology were cut in July — they fed nothing back into the measurement story and carried all the empirical exposure. Do not let them back in.
+**Scope (widened 5 October 2026):** how much of known physics, small and large, fits the framework, tracked phenomenon by phenomenon on the RFF Stress Map (§15). Gravity-origin, cut in July, was reopened on 7 October through the area-law route and tested. *The July scope line, kept as history: "the double slit and the measurement problem; gravity-as-origin and cosmology were cut — they fed nothing back into the measurement story and carried all the empirical exposure."*
 
 | File | Role |
 |---|---|
@@ -12,9 +14,11 @@
 | [SOURCES.md](SOURCES.md) | Every paper, the question it was read for, and the answer. |
 | [SIM-SPEC-01-coherence.md](SIM-SPEC-01-coherence.md) | The computational task that verifies or kills §3. **Executed 6 Aug.** |
 | [RESULTS-01.md](RESULTS-01.md) | What the simulations returned, and what it does to the posits. |
-| [sim/](sim/) | The code. Python + QuTiP, pinned. |
-| [REVIEW.md](REVIEW.md) | External project review (status, risks, next actions). **v3, 9 Aug — post-simulation.** |
-| [Framework-Summary-Plain.md](Framework-Summary-Plain.md) | Lay summary, no jargon. Rewritten 9 Aug to match this file. |
+| [RESULTS-02-gravity.md](RESULTS-02-gravity.md) | **Oct 2026.** The area-law route to gravity: lattice checks, the four tests, the decisions and predictions. |
+| [sim/](sim/) | The code. Python + QuTiP, pinned. Gravity checks in [sim/gravity/](sim/gravity/). |
+| RFF Stress Map (private link in §15) | **Oct 2026.** Known physics mapped fundamental → abstract, each item marked fits / fits with work / strains / breaks / outside an interpretation. |
+| [REVIEW.md](REVIEW.md) | External project review (status, risks, next actions). **v3, 9 Aug — predates October; not yet refreshed.** |
+| [Framework-Summary-Plain.md](Framework-Summary-Plain.md) | Lay summary, no jargon. Rewritten 9 Aug; **predates October, not yet refreshed.** |
 | [papers/](papers/) | PDFs. |
 
 ---
@@ -168,7 +172,7 @@ For the double slit the relevant form is the duality relation **V² + D² ≤ 1*
 Falls out cleanly:
 - **Double slit.** Electron leaves as a thick cell, stays thick through both slits (nothing distinguishes the paths), thins to a dot at the screen.
 - **Which-path detector kills fringes.** Predicted, not bolted on.
-- **Resolution is nonlocal.** A record forming anywhere, irreversibly, resolves the cell — justified because the pair is one blob, so EPR correlations need no message.
+- **Resolution is nonlocal.** A record forming anywhere, irreversibly, resolves the cell — justified because the pair is one blob, so EPR correlations need no message. *(Refined 8 Oct 2026: a record settles the cell on its own side first; the result becomes a fact across regions only when records can meet, at light speed or slower. The correlation is still one blob's; what is local is when it becomes a shared fact. §15.)*
 
 **Quantified:** resolution = growth of entanglement entropy. This is Zurek's, and it inherits his gap — decoherence gives an improper mixture, not one outcome. So the rule buys the which-path result but not definite outcomes. Do not count those as two separate wins.
 
@@ -180,7 +184,7 @@ Vacuum entanglement across a spatial cut scales with boundary **area**, not volu
 
 *Note: the field is massless, i.e. gapless, and the law is clean anyway. Earlier notes hedged this against "gapped ground states"; that was wrong.*
 
-**Call this locality, never "gravitational propensity"** — that would contradict #9.
+~~**Call this locality, never "gravitational propensity"** — that would contradict #9.~~ **Lifted 7 Oct 2026.** The area law is now the framework's route to gravity (Jacobson; §15, [RESULTS-02-gravity.md](RESULTS-02-gravity.md)). It does not contradict #9: gravity built this way is sourced by energy, and for an unsettled mass by its average, which carries no which-path information. On a 3D lattice the 2π rule needs a surface (Wald) term alongside the bulk linking; keep that in mind when talking about thickness at a boundary.
 
 ---
 
@@ -302,7 +306,7 @@ Then front thickness and margin depth are different quantities, and the range li
 | | This framework | Strubbe |
 |---|---|---|
 | Gravitational collapse (Diósi–Penrose) | **No** | No |
-| Gravitationally induced entanglement | not stated | **No** |
+| Gravitationally induced entanglement | **No** — decided 8 Oct 2026 (averaged gravity, §15) | **No** |
 | Gravity can distinguish which-path | **No** | **Yes** |
 
 **State it loudly, and name him.** A bet against a named opponent on one experiment is worth more than a bet against a research programme. This belongs in the abstract.
@@ -312,6 +316,10 @@ Then front thickness and margin depth are different quantities, and the range li
 **So thinning is *exactly* the distinguishability of the environment record** — not approximately, not generically. A non-distinguishing coupling cannot resolve, as a matter of arithmetic rather than of modelling choice.
 
 **#9 can now only be killed from outside.** That raises the stakes on the Strubbe disagreement rather than lowering them, and since the L-sweep failed (§7), **this is the only empirical content the framework has left.** Build the paper here.
+
+### 8 October 2026 — #9 grounded rather than asserted
+
+The original argument, "both slit-paths have identical mass, so gravity sees the same thing," is weak: a mass in superposition sits in different places, and a quantum gravitational field would distinguish them. That is why an August review session retired #9 on BMV grounds (recorded in project notes, never written back here). **The averaged-gravity decision (§15) restores it on firmer footing:** an unsettled mass gravitates by its average, which carries no which-path information, so gravity cannot resolve. The price is a definite prediction, now the framework's first: **BMV-type experiments will see no entanglement through gravity.** The disagreement with Strubbe stands: he lets gravity distinguish which-path; we do not.
 
 ---
 
@@ -388,6 +396,8 @@ Whichever is picked must cough up the Born weighting. That is the test everythin
 
 **Verdicts:** KEEP (load-bearing, ours) · PRIOR (load-bearing, someone else's — cite) · OPEN (load-bearing, unconstrained — declare) · RISK (in contact with a live experiment)
 
+*October 2026 commitments are collected in §15. They extend this ledger rather than renumber it.*
+
 ### Structure
 
 | # | Posit | Work it does | Verdict |
@@ -410,7 +420,7 @@ Whichever is picked must cough up the Born weighting. That is the test everythin
 | # | Posit | Work it does | Verdict |
 |---|---|---|---|
 | 8 | Resolution ⟸ which-path record (= entanglement); nonlocal. Quantified as growth of entanglement entropy | Which-path detector kills fringes | **PRIOR** — Zurek |
-| 9 | Non-distinguishing coupling does **not** resolve — gravity included | Superposition survives the slits; gravity never collapses anything | **KEEP + RISK** — contested by Strubbe, §8 |
+| 9 | Non-distinguishing coupling does **not** resolve — gravity included | Superposition survives the slits; gravity never collapses anything | **KEEP + RISK** — contested by Strubbe, §8. **8 Oct 2026: grounded by averaged gravity; carries the BMV prediction (§15).** |
 | 10 | Exactly one tail closes per trial | Definite outcomes | **OPEN** — the selection problem, §10 |
 
 ### Handshake
@@ -430,6 +440,8 @@ Whichever is picked must cough up the Born weighting. That is the test everythin
 | 16 | Selection reproduces \|ψ\|² exactly; hidden conditions permanently unreadable | Empirical adequacy + no-signalling | **OPEN** — §10 |
 
 ### Summary
+
+**October 2026:** #9 is now grounded by averaged gravity and carries the first of two predictions (§15). The second, no primordial gravitational waves of quantum origin, follows from gravity never being quantum.
 
 **Ours, load-bearing — 6 Aug, after the sims:** #3 informational thickness · #4 thickness = coherence, now confirmed (*the use* is ours; the measure is standard quantum information theory) · **#9 gravity never resolves — internally verified, and now the only empirical claim the framework carries.** ~~#14 confirmation closes the tail, ~L/c~~ **failed its test**; it survives only as the observation that record formation at a distant absorber takes L/c, which is time of flight and belongs to everyone.
 
@@ -451,9 +463,12 @@ Whichever is picked must cough up the Born weighting. That is the test everythin
 - **Front encodes the past ⇒ holography.** That's determinism plus reversibility — true in Newtonian mechanics, needs no brane. Real holography is dimension-directional, not time-directional.
 - **Volume burst driving expansion.** Arithmetic works (saturate and differentiate → de Sitter). Dies on: unitary evolution accumulates no records at all; it's an inequality with no saturation argument; we sit ~18 orders below the bound (10¹⁰⁴ vs ~10¹²²); and three expansion epochs can't come from one constant ratio.
 - **Branching tree / graph instead of a front.** Dies on the sign: it predicts record-rich regions expand fastest, whereas dense regions expand slowest and collapse while near-empty voids expand fastest. Also, a branching graph isn't a manifold — no tangent space at nodes, so no metric and no Lorentz invariance.
-- **The entire gravity-origin story.** Front curvature = metric, resolution lag as time dilation. Cut: fed nothing back into measurement, carried all the empirical exposure.
+- ~~**The entire gravity-origin story.** Front curvature = metric, resolution lag as time dilation. Cut: fed nothing back into measurement, carried all the empirical exposure.~~ **Reopened 7 Oct 2026** through the area-law route and tested ([RESULTS-02-gravity.md](RESULTS-02-gravity.md), §15). What stays dead is the next entry.
+- **Settling load as the *cause* of time dilation** (7 Oct 2026). "More mass slows time because resolution takes time to process" fails three tests: reach (clock slowing extends through empty space: GPS, Galileo), universality (all clocks slow identically: MICROSCOPE), and direction (dense matter settles fast). Survives only as "the place slows everything, settling included."
+- **Observer–observed clock-rate difference as the source of quantum behaviour** (4 Oct 2026 simulations). With realistic rates across 10⁻²⁰ to 10, no version produced interference or Bell correlations; the observer's clock drops out. Clock differences do the work *between a particle's alternative histories* instead, which is Feynman's sum over histories.
+- **The vacuum as the future / the front advancing into vacuum** (7 Oct 2026). Empty space is rubber with no patterns; ahead of the front is the unsettled future. The balloon's "outside" is not space.
 
-*Closing note for any write-up: the front's variable advance rate suggests a connection to gravitational time dilation. Say that in one sentence and do not pursue it. It keeps the intuition on record without handing a referee a section to attack.*
+*Closing note, superseded 7 Oct 2026: "the front's variable advance rate suggests a connection to gravitational time dilation; say it in one sentence and do not pursue it." It was pursued, through the area law rather than through advance rate, and it passed its tests.*
 
 ---
 
@@ -466,7 +481,10 @@ Metaphors are not decorative here — they have repeatedly become commitments. "
 | **Ember burning through paper** — front as flame, wake as ash | The **glowing margin**: ash isn't uniformly cold right behind the flame. That's #14 — a record exists but isn't final. Best picture yet of the L/c window. | **Keep.** The old objection — "paper never un-burns, but the eraser recovers coherence" — is **withdrawn**: the eraser doesn't un-burn anything either (below). |
 | **Gap-wave** — vacancy propagating outward, not structure accreting | **Resolution as subtraction**: a superposition has more terms than its outcome, so resolution *removes*. More honest than "crystallizing," which is additive. Nearest real physics: Dirac hole theory, and Coleman–De Luccia false-vacuum decay (bubble wall converts false→true, resolved behind, undecided ahead — closest existing formalism). | **Keep the mechanism, drop the shells.** The hollow centre reintroduces a singular boundary at t=0. And the "refillable vacancy" payoff is **dead** — see the eraser note below. Watch the r² dilution problem: an outward wave on a sphere weakens as it spreads, predicting the universe becomes *less* classical with age. |
 | **Entanglement as re-established prior unity** | — | **DEAD.** Entanglement swapping: two particles that never interacted and share no common origin can be entangled by a Bell measurement on their partners. Entanglement is created fresh between strangers, so it cannot be a record of prior contact. Also fails monogamy. The legitimate restricted version already exists as #6; keep that, do not generalise it. |
-| **Entanglement propensity across the gap** | The area law (§6). Propensity isn't memory, so swapping doesn't touch it. | **Keep, renamed.** It's locality, not gravity. |
+| **Entanglement propensity across the gap** | The area law (§6). Propensity isn't memory, so swapping doesn't touch it. | **Keep, renamed.** ~~It's locality, not gravity.~~ Since 7 Oct 2026 it is also the route to gravity. |
+| **Balloon / vase** (Oct 2026) — rubber = 3D space, outward = time | Age = radius (cosmic time); the rubber's size at each age is separate, so it flares like a vase; dark energy shapes the flare. One time dimension falls out of the shape. | **Keep, as an analogy only.** Its "outside" is not space, and the vacuum is not the future. No fifth dimension unless it pays off. |
+| **Fold** (Oct 2026) — unsettled past trailing behind the front | Quantum eraser, delayed choice, Wigner's friend (nested folds), black holes (a fold sealed by geometry). Change keeps ticking inside a fold; only the record lags. | **Keep.** Say "nested," not "fractal" — fractal structure was cut in §5. |
+| **"The universe wants to smooth out folds"** (Oct 2026) | — | **Reworded.** Purpose language. Say "folds always close eventually, because links always spread." |
 
 **The eraser does not work the way we assumed.** Englert's own experiment demonstrates *non-erasing quantum erasure*: interference is recovered from a **completely mixed** input, where there was no which-path information to erase in the first place. The mechanism is **sorting the run into sub-ensembles** — one showing fringes, one anti-fringes, summing to nothing — and keeping one. It does not undo a record; nothing gets backfilled. This removes the framework's embarrassment about the eraser, but by dissolving the question: post-selection needs no ontology.
 
@@ -483,7 +501,7 @@ Metaphors are not decorative here — they have repeatedly become commitments. "
 
 **The remaining work, re-derived from the results:**
 
-5. **Write the paper around #9 versus Strubbe.** That is now the only empirical content the framework has. The machinery to present with it is the resolution rule — thinning = environment distinguishability, verified exactly (§8) — and the thickness variable, verified (§3). Report the L-sweep as a negative result in its own section: it is a real contribution to have closed it.
+5. **Write the paper around #9 versus Strubbe** *(Oct 2026: now with #9 grounded by averaged gravity and two predictions attached, §15)*. That is now the only empirical content the framework has. The machinery to present with it is the resolution rule — thinning = environment distinguishability, verified exactly (§8) — and the thickness variable, verified (§3). Report the L-sweep as a negative result in its own section: it is a real contribution to have closed it.
 6. **The selection problem** (§10). Last, and unmoved.
 
 *Discharged, and recorded so they aren't re-opened:*
@@ -492,4 +510,66 @@ Metaphors are not decorative here — they have repeatedly become commitments. "
 - *~~Long-baseline delayed choice may be fatal.~~ Dissolved by Reading B, and moot now that Reading B carries no empirical claim.*
 - *~~Is thinness basis-tuned?~~ No. Settled numerically, not argued (§3, Test 2).*
 
+**October 2026 — the remaining work, re-derived again:**
+
+7. **Check the narrowed signalling question** (F3): that averaged gravity sourced locally holds together, mainly the moment a distant pull updates. §15.
+8. **Write the framework's own account of information leaving an evaporating black hole.** The recent Page-curve results lean on quantum gravity, which the framework no longer has.
+9. **What sources the front's thickness?** Still open. The vacuum was ruled out as the source on 7 Oct.
+10. **Work through the remaining Stress Map drafts**, rechecking every agreed item after each merge.
+11. **Refresh [REVIEW.md](REVIEW.md) and [Framework-Summary-Plain.md](Framework-Summary-Plain.md)**, both of which predate October.
+
 **Worth holding, and it has changed.** The framework's problems were all downstream of one vacant variable. The variable was filled, and it turned out to be a good variable — Tests 1, 2 and 4 all pass. What it does not have is a distinguishing prediction from front thickness; that was tested and it is gone. **What remains is one sharp bet against a named opponent (#9 vs Strubbe) and a coherent interpretation of standard open-system quantum mechanics.** That is a smaller claim than the project set out to make, and it is one that survived contact with a computer.
+
+---
+
+## 15. October 2026 — the balloon, folds, and gravity
+
+*Written 8 October 2026. Collects the commitments agreed between 4 and 8 October. The phenomenon-by-phenomenon record lives on the **RFF Stress Map** (private artifact: https://claude.ai/artifact/EvGt54gPa6abYXUgFogfrn); the gravity work is in [RESULTS-02-gravity.md](RESULTS-02-gravity.md) and the overnight findings doc "Gravity via the Area Law" (private: https://claude.ai/code/artifact/722ae576-bdd5-4803-8791-0ecc5ad8ef2e). Rule since 8 Oct: after every merge into the map, recheck every agreed item for anything the merge breaks.*
+
+### Position
+
+- **RFF is a narrative around quantum mechanics.** It departs from it only for the gravity of unsettled masses, where experiments haven't yet reached.
+- **What can't be verified is left open, not explained.** A free interpretive choice is made where no experiment can tell the options apart, and recorded as a choice.
+
+### Geometry — the balloon (an analogy)
+
+- The rubber is 3D space; "outward" is time. No extra dimension unless it pays off. **The balloon's outside is not space.**
+- The balloon's radius is the **age of the universe** (cosmic time). Local clocks run fast, slow or appear stuck: that is each region's own time.
+- The rubber's size at each age is separate from the age: the balloon **flares like a vase**. Dark energy shapes the flare (the stretching), not the age.
+- **c is the rubber's rate of change** and the boundary that makes order possible. Settling never spreads faster than c, and isn't timed by it (the #14 lesson).
+- The **seed** is a point in spacetime, taken as a starting condition; it gives the beginning, and outward gives the arrow. A singularity is where an equation of state stops applying: bulk physics run back to where nothing had settled.
+- One time dimension follows from the shape; three space dimensions are an input.
+
+### Settling and folds
+
+- The rubber is the front, the "now". **The front advances by settling.** Change and settling differ: inside a fold, change keeps ticking at the normal rate; what lags is the record.
+- **Past ≠ settled.** The past holds the interaction (the link); it need not hold the outcome.
+- **Folds:** where a system is shielded, the front leaves a fold of unsettled past behind it. A fold holds the whole linked region. Folds can be very long and **nest**. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
+- **A fold closes when undoing becomes impossible** (practical impossibility, no hidden size threshold), and it **really closes**. Every fold eventually closes: that is entropy rising. A reversal is recorded as an act, never as an outcome.
+- **Results become facts across regions only when records can meet,** at light speed or slower. Until then, what is settled on one side is still open from the other. This is why entanglement can't signal. It refines §6's "resolution is nonlocal": the correlation is one blob's; when it becomes a shared fact is local. Closest prior art: Rovelli's relational QM, which differs in never making the facts shared.
+- **Quantum at the rubber's leading edge, classical in its bulk;** least action shapes the bulk (it picks the path, not the outcome). Gravity is the exception: it is never quantum.
+
+### The two-ended picture
+
+- Both ends of a history are fixed; nothing is chosen at the slit. Probability belongs to a **pair of histories**, compared by their clock readings where they meet. Consistent with higher-order interference experiments: one particle, pairs only; M particles, order 2M.
+- **Uncertainty:** settling anchors one quantity and solves the rest ("force x, y grows"). Not hidden values. What sets Planck's constant is open.
+- **Particles are stable patterns in the rubber** (ripples, standing waves, vortices). Waviness comes from paired histories; the dot comes from settling.
+- **The vacuum is not the future.** Empty space is rubber with no patterns; its linking is texture, not thickness, until something couples to it. It is what gravity keeps in balance.
+
+### Gravity
+
+- **Route:** the area law (Jacobson). Vacuum linking across any small surface scales with its area; an accelerating observer finds it warm (Unruh); energy crossing a surface changes the linking, and spacetime curves to keep it balanced, which gives Einstein's equations. G is an input; Λ is a free constant. Lattice checks and four tests: [RESULTS-02-gravity.md](RESULTS-02-gravity.md).
+- **Resolution rate has two meanings:** (a) how fast the front advances (local clock rate) and (b) how much settles per tick. Near mass the rubber's shape slows the front and everything on it by the same factor; the cause is the place, not the settling load. **At balance, settling measured on a far-away clock is the same everywhere** (gravitational redshift; Tolman–Ehrenfest).
+- **Settled mass:** gravity follows the outcome, because folds really close (consistent with Page & Geilker 1981).
+- **Unsettled mass gravitates by its average** (decided 8 Oct). **Gravity is never quantum:** it is the rubber's equation of state. Side effect: a spread-out heavy mass feels its own averaged pull (Newton–Schrödinger), a small departure from plain QM.
+- **Two predictions:** (1) BMV-type experiments will see no entanglement through gravity; (2) no primordial gravitational waves of quantum origin. Neither experiment has been done or has detected anything yet.
+- **Black holes:** no clock stops anywhere. Near the horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place (hovering takes ever-larger acceleration), not density. A black hole is a fold sealed by geometry, closed by evaporation.
+
+### Consistency notes against §1–§14
+
+- **#1** (block, future as potential) stays idle. The October geometry doesn't lean on it.
+- **#9** is grounded by averaged gravity (§8) and carries prediction 1.
+- **#14** stays failed. Nothing in this section times settling by L/c.
+- **§6 "resolution is nonlocal"** is refined, not reversed (above).
+- **§9's Born-by-relaxation:** its distinguishing regime was cosmological and set aside by the July scope cut. The scope is wider now; that regime has not been re-examined.
+- **§3 front thickness:** still unsourced. The vacuum was ruled out as the source on 7 Oct. Open.

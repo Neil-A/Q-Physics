@@ -1,0 +1,11 @@
+xi*L (sign free) coef [-0.09523] max rel resid 0.7679
+I1,I2 coef [0.0536  0.28015] max rel resid 0.6434
+L,I1,I2 coef [-1.68000e-01 -9.00000e-05  1.05635e+00] max rel resid 0.0033
+2*pi*xi = 1.0471975511965976  xi= 0.16666666666666666
+r_can median -0.0299 min -6.2124 max 7.729 count 51
+r_minus median -1.1389 min -2.0766 max -0.237 count 51
+r_plus median 0.2532 min -1.1314 max 6.8419 count 51
+--- corrected ratio (dS - 2*pi*xi*I2) / (dKc - xi*L), by ball radius ---
+R=16.5 corrected median 0.9780 (0.7195 to 1.0105) | plain median -0.015 (-5.96 to 7.73)
+R=32.5 corrected median 0.9836 (0.6621 to 1.0027) | plain median -0.016 (-6.16 to 7.30)
+R=64.5 corrected median 0.9848 (0.6434 to 1.0002) | plain median -0.016 (-6.21 to 7.26)

@@ -2,6 +2,8 @@
 
 Executes [SIM-SPEC-01-coherence.md](../SIM-SPEC-01-coherence.md). Results and interpretation in [RESULTS-01.md](../RESULTS-01.md).
 
+The October gravity checks are separate: see [gravity/](gravity/) and [RESULTS-02-gravity.md](../RESULTS-02-gravity.md).
+
 ## Setup
 
 ```bash

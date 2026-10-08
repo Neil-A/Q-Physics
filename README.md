@@ -1,23 +1,29 @@
 # Q-Physics — The Resolution-Front Framework
 
-A working research repository on the double slit and the measurement problem.
+A working research repository. It started on the double slit and the measurement problem; since
+October 2026 it tests how much known physics, small and large, the framework can fit.
 
-**Status as of 9 August 2026:** the framework's single distinguishing prediction — coherence
-lifetime tracking absorber distance *L* — was tested on 6 August and **failed**. The live
-claim is posit #9, which passed its internal check exactly. See
-[RESULTS-01.md](RESULTS-01.md) before reading anything else.
+**Status as of 8 October 2026:** the scope has widened from the double slit to "how much known
+physics fits." Gravity-origin was reopened on 7 October through the area-law route and passed
+its four tests; an unsettled mass gravitates by its average, so the framework predicts no
+gravity-mediated entanglement and no primordial gravitational waves of quantum origin. See
+[RESULTS-02-gravity.md](RESULTS-02-gravity.md), and FRAMEWORK.md §15.
 
-**Scope:** the double slit and the measurement problem. Gravity-as-origin and cosmology were
-cut in July and are out of scope.
+**Earlier (9 August 2026):** the framework's single distinguishing prediction — coherence
+lifetime tracking absorber distance *L* — was tested on 6 August and **failed**. Posit #9
+passed its internal check exactly. See [RESULTS-01.md](RESULTS-01.md).
+
+**Scope:** RFF is a narrative around quantum mechanics, not a challenge to it. It departs from
+it only for the gravity of unsettled masses, where experiments haven't yet reached.
 
 ## Where to start
 
 | If you want | Read |
 |---|---|
-| The idea, no jargon | [Framework-Summary-Plain.md](Framework-Summary-Plain.md) |
+| The idea, no jargon | [Framework-Summary-Plain.md](Framework-Summary-Plain.md) — predates October |
 | The full argument and all sixteen posits (canonical) | [FRAMEWORK.md](FRAMEWORK.md) |
-| What the simulations actually returned | [RESULTS-01.md](RESULTS-01.md) |
-| Current status, risks, next actions | [REVIEW.md](REVIEW.md) |
+| What the simulations actually returned | [RESULTS-01.md](RESULTS-01.md) (coherence), [RESULTS-02-gravity.md](RESULTS-02-gravity.md) (gravity) |
+| Current status, risks, next actions | [REVIEW.md](REVIEW.md) — predates October; FRAMEWORK.md §14–§15 are current |
 | The literature, and what each paper was read for | [SOURCES.md](SOURCES.md) |
 | The computational spec | [SIM-SPEC-01-coherence.md](SIM-SPEC-01-coherence.md) |
 | The code | [sim/](sim/) |
@@ -38,6 +44,15 @@ Runs in a few minutes. Raw JSON and figures are committed under `sim/results/` s
 outcome can be compared against a fresh run.
 
 See [sim/README.md](sim/README.md) for what each test does.
+
+The gravity checks (October) live in [sim/gravity/](sim/gravity/) and need only NumPy and SciPy:
+
+```bash
+cd sim/gravity
+python first_law.py && python rindler_scan.py && python ball3d_squeeze.py && python ball3d_fit.py && python tests_2_4.py
+```
+
+About a minute. See [sim/gravity/README.md](sim/gravity/README.md).
 
 ## A note on `papers/`
 
