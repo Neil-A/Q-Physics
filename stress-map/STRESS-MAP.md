@@ -8,21 +8,21 @@
 
 | Status | Count |
 |---|---|
-| Fits naturally | 20 |
-| Fits with work | 12 |
+| Fits naturally | 32 |
+| Fits with work | 13 |
 | Strains | 3 |
 | Breaks | 0 |
-| Outside an interpretation | 0 |
-| Not yet examined | 15 |
-| **Total** | **50** |
+| Outside an interpretation | 11 |
+| Not yet examined | 2 |
+| **Total** | **61** |
 
 | Column | Examined / total |
 |---|---|
-| Geometry & time | 8 / 8 |
-| Quantum foundations | 11 / 13 |
-| Particles & fields | 2 / 11 |
-| Gravity & spacetime | 9 / 10 |
-| Cosmology | 5 / 8 |
+| Geometry & time | 9 / 9 |
+| Quantum foundations | 17 / 17 |
+| Particles & fields | 15 / 15 |
+| Gravity & spacetime | 10 / 11 |
+| Cosmology | 8 / 9 |
 
 ## Framework commitments (as recorded on the map)
 
@@ -131,6 +131,17 @@
 - **To work through.** Does the pairwise ordering connect to the pairwise interference rule?
 - **Prior art.** Causal sets; Rideout–Sorkin classical sequential growth.
 - **Worked through.** Aug 2026
+
+#### Remembering the past, not the future  `g-psych`
+
+**Status:** Fits naturally
+**Builds on:** Arrow of time
+
+- **What it is.** We have records of the past and none of the future, though the laws treat both directions alike.
+- **RFF placement.** Records only exist behind the front. Ahead, nothing has settled, so there is nothing to remember. Memory points back for the same reason the arrow does.
+- **Built from.** Front = now; settling = record forming; folds closing = arrow.
+- **Prior art.** Hawking 1985 (psychological arrow follows the thermodynamic one).
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 ### 2. Quantum foundations
 
@@ -254,19 +265,73 @@
 
 #### Tunnelling  `q-tunnel`
 
-**Status:** Not yet examined
+**Status:** Fits naturally
 **Builds on:** Superposition and the double slit
 
 - **What it is.** Particles cross barriers they don't have the energy to climb.
-- **To work through.** How does an open region pass a barrier before it settles?
+- **RFF placement.** Nothing climbs the barrier. Before settling, the particle is an open region that already extends into and past the barrier; inside it, the path clocks fade rather than tick. When it settles on the far side, the history joining the two ends was always one of the candidate histories. 'How long did it spend inside?' has no answer until something inside records it.
+- **Built from.** Open regions; two-ended histories; each path carries a clock.
+- **Assessment.** Follows from the double-slit picture with nothing added. The 2020 Toronto experiment measured time inside the barrier with a clock carried by the atom itself, which suits RFF's path clocks.
+- **To work through.** Check that the measured in-barrier time matches what a per-path clock would read.
+- **Prior art.** Ramos et al., Nature 2020 (Larmor-clock measurement of tunnelling time).
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Quantum Zeno effect  `q-zeno`
 
-**Status:** Not yet examined
+**Status:** Fits naturally
 **Builds on:** Measurement: why one outcome
 
 - **What it is.** Watching an unstable system closely enough stops it changing.
+- **RFF placement.** Each observation is a settling: it anchors the system at its starting state. Anchor often enough and the open region never gets room to spread toward the decayed state, so it stays put. The reverse also happens: with different timing, frequent anchoring can speed decay.
+- **Built from.** Anchor-and-solve; settling = a record forming.
+- **Assessment.** Both Zeno and anti-Zeno come out, because RFF inherits QM's timing rules.
 - **To work through.** Does repeated settling pin the front in place?
+- **Prior art.** Itano et al. 1990 (trapped ions); Kofman & Kurizki, Nature 2000 (anti-Zeno).
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
+#### Erasing information costs heat  `g-landauer`
+
+**Status:** Fits naturally
+**Builds on:** Decoherence and the classical world, Arrow of time
+
+- **What it is.** Deleting one bit of information releases a minimum amount of heat (Landauer's principle).
+- **RFF placement.** This is the fold rule in thermodynamic form. Erasing a record once it has spread can't be done without trace: the record is pushed out into the environment as heat. 'The act of undoing is recorded' shows up as that heat.
+- **Built from.** The act of undoing is recorded; folds closing = entropy rising.
+- **Assessment.** Strong fit, and it's measured, not just theoretical.
+- **Prior art.** Landauer 1961; Bérut et al., Nature 2012 (measured).
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
+#### No values before measurement (contextuality)  `q-context`
+
+**Status:** Fits naturally
+**Builds on:** Measurement: why one outcome, Uncertainty principle
+
+- **What it is.** You can't assign every quantity a definite value in advance that doesn't depend on what else you measure.
+- **RFF placement.** Nothing has a value until it's anchored, and which question is asked sets the anchor. So a value can depend on what else is measured alongside it. That is your 'not a hidden value' point from the uncertainty discussion.
+- **Built from.** Anchor-and-solve; no pre-existing values.
+- **Prior art.** Kochen & Specker 1967.
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
+#### No-cloning and teleportation  `q-clone`
+
+**Status:** Fits naturally
+**Builds on:** Entanglement and Bell correlations
+
+- **What it is.** An unknown quantum state can't be copied, but it can be moved using entanglement plus an ordinary message.
+- **RFF placement.** Copying an unknown state would need reading it, and reading is settling, which closes the fold. Teleportation works because a shared fold carries the openness. A classical message, travelling no faster than c, tells the receiver how to unfold it.
+- **Built from.** Folds; settling = record forming; c as the limit.
+- **Prior art.** Wootters & Zurek 1982; Bennett et al. 1993.
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
+#### Quantum computing  `q-qc`
+
+**Status:** Fits naturally
+**Builds on:** Decoherence and the classical world, Why amplitudes cancel
+
+- **What it is.** Quantum computers solve some problems faster by keeping many possibilities in play until the end.
+- **RFF placement.** A quantum computer is an engineered, deliberately long, heavily nested fold. Computing means arranging histories so wrong answers cancel before the fold unfolds. Errors from decoherence are the fold closing early.
+- **Built from.** Nested folds; histories that cancel; decoherence = fold closing.
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 ### 3. Particles & fields
 
@@ -285,19 +350,29 @@
 
 #### Spin and the exclusion principle  `p-spin`
 
-**Status:** Not yet examined
+**Status:** Fits with work
 **Builds on:** Superposition and the double slit, No preferred frame (relativity)
 
 - **What it is.** Particles carry intrinsic spin; no two electrons share a state.
-- **To work through.** Does RFF say anything about spin, or treat it as given?
+- **RFF placement.** Spin is a clock property: a spin-½ particle's clock returns to its start only after two full turns (720°). Exclusion is cancellation between swapped histories: for two identical fermions, the history where they swap pairs with a minus sign, so two fermions can't settle into the same state.
+- **Built from.** Pairs of histories that can cancel; c as the boundary that makes order possible.
+- **Assessment.** Why fermions get the minus sign is the spin-statistics theorem, which needs relativity and causality. RFF has both through c, so the link is there but not yet spelled out.
+- **To work through.** Tell the 720° and minus-sign story in clock terms.
+- **Prior art.** Pauli 1940 (spin-statistics theorem).
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Identical particles  `p-ident`
 
-**Status:** Not yet examined
+**Status:** Fits naturally
 **Builds on:** Spin and the exclusion principle, Entanglement and Bell correlations
 
 - **What it is.** Two electrons are truly indistinguishable, which changes how they combine.
+- **RFF placement.** Only the ends of a history are fixed. If two identical particles could have swapped, 'which one went where' isn't a fact unless something recorded it, so the swapped and unswapped histories are both candidates and pair up. Bosons' pairs add (they bunch together); fermions' pairs cancel (they avoid each other).
+- **Built from.** Two-ended histories; pairwise comparison.
+- **Assessment.** Strong fit. It is the same pairing that gives fourth-order interference for two particles (Pleinert 2021).
 - **To work through.** Is swapping two identical particles a pair of histories?
+- **Prior art.** Hong–Ou–Mandel 1987 (photon bunching).
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Vacuum fluctuations and Casimir force  `p-vac`
 
@@ -315,59 +390,128 @@
 
 #### Mass and the Higgs  `p-higgs`
 
-**Status:** Not yet examined
+**Status:** Outside an interpretation
 **Builds on:** Vacuum fluctuations and Casimir force
 
 - **What it is.** Particles get mass from the Higgs field; the masses themselves are unexplained inputs.
-- **To work through.** Likely outside an interpretation: the values are dynamics. Decide together.
+- **RFF placement.** Mass sets how fast a particle's clock ticks (de Broglie, mc²/h, from Oct 4), so the Higgs field sets clock rates. RFF can say what mass does, but the values themselves are inputs.
+- **Built from.** Each path carries a clock; verify-or-leave-open.
+- **To work through.** None for RFF.
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Three generations of matter  `p-gen`
 
-**Status:** Not yet examined
+**Status:** Outside an interpretation
 **Builds on:** Mass and the Higgs
 
 - **What it is.** Matter comes in three copies of different mass. No one knows why three.
+- **RFF placement.** Nothing in the balloon picture prefers three generations. Left as an input.
+- **Built from.** Verify-or-leave-open.
 - **To work through.** Likely outside an interpretation.
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Matter–antimatter imbalance  `p-asym`
 
-**Status:** Not yet examined
+**Status:** Outside an interpretation
 **Builds on:** Mass and the Higgs, Arrow of time
 
 - **What it is.** The universe is made of matter, not equal parts of each.
+- **RFF placement.** Explaining the imbalance needs three conditions (Sakharov). RFF's arrow supplies one of them, being out of equilibrium, for free. The amount of matter–antimatter difference in the laws is dynamics.
+- **Built from.** Arrow = folds closing.
 - **To work through.** Is there an arrow-of-time link, or is this pure dynamics?
+- **Prior art.** Sakharov 1967.
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Neutrino mass  `p-nu`
 
-**Status:** Not yet examined
+**Status:** Outside an interpretation
 **Builds on:** Mass and the Higgs
 
 - **What it is.** Neutrinos have mass, which the Standard Model didn't predict.
+- **RFF placement.** The mass values are inputs. But neutrino oscillation is a clean example of your relative-time idea working: a neutrino is a mix of components whose clocks tick at slightly different rates, so their comparison drifts and the flavour changes along the way.
+- **Built from.** Each path carries a clock; relative clock rates between histories (Oct 4).
+- **Assessment.** Worth noting for the relative-time thread: relative clock rates between components produce a measured effect here.
 - **To work through.** Likely outside an interpretation.
+- **Prior art.** Super-Kamiokande 1998; SNO 2001 (Nobel 2015).
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Fine-tuned constants  `p-tune`
 
-**Status:** Not yet examined
+**Status:** Outside an interpretation
 **Builds on:** Low-entropy beginning
 
 - **What it is.** Many constants sit in narrow windows that allow structure and life.
+- **RFF placement.** The seed is a starting condition. By the verify-or-leave-open rule, RFF doesn't explain the constants' values.
+- **Built from.** Seed as starting condition; verify-or-leave-open.
 - **To work through.** Does the seed's conditions say anything here?
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Hierarchy problem  `p-hier`
 
-**Status:** Not yet examined
+**Status:** Outside an interpretation
 **Builds on:** Mass and the Higgs
 
 - **What it is.** Gravity is far weaker than the other forces, with no accepted reason.
+- **RFF placement.** Dynamics. RFF says nothing about why gravity is so weak.
+- **Built from.** Verify-or-leave-open.
 - **To work through.** Likely outside an interpretation.
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Strong CP problem  `p-cp`
 
-**Status:** Not yet examined
+**Status:** Outside an interpretation
 **Builds on:** Vacuum fluctuations and Casimir force
 
 - **What it is.** The strong force treats matter and mirror-matter the same to absurd precision.
+- **RFF placement.** Dynamics. Left to particle physics.
+- **Built from.** Verify-or-leave-open.
 - **To work through.** Likely outside an interpretation.
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
+#### Antimatter  `p-anti`
+
+**Status:** Fits naturally
+**Builds on:** Particles as field ripples (QFT), Why amplitudes cancel
+
+- **What it is.** Every particle has an antiparticle with opposite charge.
+- **RFF placement.** With both ends of a history fixed, a history that zigzags back in time is just another candidate. Feynman read a positron as an electron's history running backwards. In RFF, the arrow belongs to settling, not to which way a history's clock runs, so this needs nothing new.
+- **Built from.** Two-ended histories; arrow = settling.
+- **Prior art.** Stueckelberg 1941; Feynman 1949.
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
+#### Large quantum states (superconductors, condensates)  `p-macro`
+
+**Status:** Fits naturally
+**Builds on:** Decoherence and the classical world, Identical particles
+
+- **What it is.** Cooled enough, huge numbers of particles share one quantum state: superconductors, superfluids, condensates.
+- **RFF placement.** Cold and isolation keep links from spreading, so a huge fold stays open: a fold held open by temperature rather than distance. Identical bosons pair-add, so they pile into one state.
+- **Built from.** Folds held open by shielding; no size threshold; identical-particle pairing.
+- **Assessment.** Supports the 'no hidden size limit' commitment: big things can be quantum when shielded.
+- **Prior art.** Friedman et al. 2000; van der Wal et al. 2000 (SQUID superpositions).
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
+#### Aharonov–Bohm effect  `p-ab`
+
+**Status:** Fits naturally
+**Builds on:** Why amplitudes cancel, Particles as field ripples (QFT)
+
+- **What it is.** Electrons are shifted by a magnetic field in a region they never pass through.
+- **RFF placement.** Only the comparison between a pair of histories matters. A field enclosed between two paths changes their relative clock reading, even though neither path touches it. A single-path picture can't explain this; the pairs picture does.
+- **Built from.** Pairs of histories compared by clock reading.
+- **Assessment.** One of the clearest cases where 'pairs of whole histories' beats 'one real path'.
+- **Prior art.** Aharonov & Bohm 1959; Tonomura et al. 1986.
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
+#### Quark confinement  `p-confine`
+
+**Status:** Outside an interpretation
+**Builds on:** Particles as field ripples (QFT)
+
+- **What it is.** Quarks never appear alone. Proving why from the theory is still open.
+- **RFF placement.** Dynamics of the strong force. Left to particle physics.
+- **Built from.** Verify-or-leave-open.
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 ### 4. Gravity & spacetime
 
@@ -493,6 +637,18 @@
 - **To work through.** The conserved source (FRAMEWORK §14 item 7), then the derivation of prediction 2.
 - **Worked through.** 8 Oct 2026
 
+#### Gravitational waves  `r-gw`
+
+**Status:** Fits naturally
+**Builds on:** Equivalence principle
+
+- **What it is.** Ripples in spacetime from colliding black holes and neutron stars, detected since 2015.
+- **RFF placement.** Ripples in the rubber's shape, travelling at the rubber's own rate, c. The 2017 neutron-star merger showed gravity and light travel at the same speed to about one part in 10¹⁵, which supports 'c is the rubber's rate' for everything.
+- **Built from.** c as the rubber's rate; gravity from the area-law route (reopened 7 Oct).
+- **To work through.** Revisit after the gravity-origin work.
+- **Prior art.** LIGO 2015 (first detection); GW170817 (speed of gravity = c).
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
 ### 5. Cosmology
 
 #### Cosmic time and the CMB rest frame  `c-time`
@@ -555,19 +711,26 @@
 
 #### Cosmological constant problem  `c-lambda`
 
-**Status:** Not yet examined
+**Status:** Outside an interpretation
 **Builds on:** Vacuum fluctuations and Casimir force, Dark energy and accelerating expansion
 
 - **What it is.** Quantum vacuum energy predicts a dark-energy value ~10¹²⁰ times too large.
+- **RFF placement.** In the area-law route (reopened 7 Oct), a uniform vacuum energy doesn't curve spacetime: Λ appears as a free constant. That matches RFF's 'vacuum linking is texture, not thickness'. The 10¹²⁰ mismatch then becomes 'what fixes Λ's value?', which is still dynamics.
+- **Built from.** Area-law route to gravity; vacuum = rubber with no patterns; verify-or-leave-open.
 - **To work through.** Likely outside an interpretation.
+- **Prior art.** Jacobson 1995 (Λ as integration constant); unimodular gravity; Weinberg 1987 (anthropic bound).
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### Hubble tension  `c-hubble`
 
-**Status:** Not yet examined
+**Status:** Outside an interpretation
 **Builds on:** Dark energy and accelerating expansion
 
 - **What it is.** Early-universe and local measurements of the expansion rate disagree.
+- **RFF placement.** An observational disagreement. RFF has no stake in which value is right.
+- **Built from.** Verify-or-leave-open.
 - **To work through.** Likely outside an interpretation (observational).
+- **Worked through.** 9 Oct 2026 (merged from draft)
 
 #### The universe's fate  `c-fate`
 
@@ -578,10 +741,6 @@
 - **RFF placement.** Every fold eventually closes, so the far future is a fully settled front.
 - **To work through.** Is a fully settled front the same as heat death? Does the front stop?
 
-## Claude's drafts — not agreed
-
-*Proposals waiting for Neil's review. None of this counts toward the map.*
-
 #### Why dark energy and matter are similar now  `c-coinc`
 
 **Status:** Outside an interpretation
@@ -590,6 +749,11 @@
 - **What it is.** Dark energy and matter have comparable densities today, though they change very differently over time.
 - **RFF placement.** In the vase, matter thins as the rubber stretches while dark energy doesn't, so they cross at one age. RFF has no reason we live near that age. If the wake proposal for dark matter holds, it might give a link.
 - **Built from.** Vase flare; dark-matter wake (proposal).
+- **Worked through.** 9 Oct 2026 (merged from draft)
+
+## Claude's drafts — not agreed
+
+*Proposals waiting for Neil's review. None of this counts toward the map.*
 
 #### The universe's fate  `c-fate`
 
@@ -603,27 +767,6 @@
 - **To work through.** Is a fully settled front the same as heat death? Does the front stop?
 - **Prior art.** Penrose, conformal cyclic cosmology (2010).
 
-#### Hubble tension  `c-hubble`
-
-**Status:** Outside an interpretation *(draft; agreed status: Not yet examined)*
-**Builds on:** Dark energy and accelerating expansion
-
-- **What it is.** Early-universe and local measurements of the expansion rate disagree.
-- **RFF placement.** An observational disagreement. RFF has no stake in which value is right.
-- **Built from.** Verify-or-leave-open.
-- **To work through.** Likely outside an interpretation (observational).
-
-#### Cosmological constant problem  `c-lambda`
-
-**Status:** Outside an interpretation *(draft; agreed status: Not yet examined)*
-**Builds on:** Vacuum fluctuations and Casimir force, Dark energy and accelerating expansion
-
-- **What it is.** Quantum vacuum energy predicts a dark-energy value ~10¹²⁰ times too large.
-- **RFF placement.** In the area-law route (reopened 7 Oct), a uniform vacuum energy doesn't curve spacetime: Λ appears as a free constant. That matches RFF's 'vacuum linking is texture, not thickness'. The 10¹²⁰ mismatch then becomes 'what fixes Λ's value?', which is still dynamics.
-- **Built from.** Area-law route to gravity; vacuum = rubber with no patterns; verify-or-leave-open.
-- **To work through.** Likely outside an interpretation.
-- **Prior art.** Jacobson 1995 (Λ as integration constant); unimodular gravity; Weinberg 1987 (anthropic bound).
-
 #### Time-travel loops  `g-ctc`
 
 **Status:** Fits naturally
@@ -635,229 +778,6 @@
 - **Built from.** Arrow; folds never rewrite settled outcomes.
 - **Assessment.** Agrees with Hawking's chronology protection conjecture. It's a claim, but no experiment contradicts it.
 - **Prior art.** Hawking 1992 (chronology protection); Deutsch 1991.
-
-#### Erasing information costs heat  `g-landauer`
-
-**Status:** Fits naturally
-**Builds on:** Decoherence and the classical world, Arrow of time
-
-- **What it is.** Deleting one bit of information releases a minimum amount of heat (Landauer's principle).
-- **RFF placement.** This is the fold rule in thermodynamic form. Erasing a record once it has spread can't be done without trace: the record is pushed out into the environment as heat. 'The act of undoing is recorded' shows up as that heat.
-- **Built from.** The act of undoing is recorded; folds closing = entropy rising.
-- **Assessment.** Strong fit, and it's measured, not just theoretical.
-- **Prior art.** Landauer 1961; Bérut et al., Nature 2012 (measured).
-
-#### Remembering the past, not the future  `g-psych`
-
-**Status:** Fits naturally
-**Builds on:** Arrow of time
-
-- **What it is.** We have records of the past and none of the future, though the laws treat both directions alike.
-- **RFF placement.** Records only exist behind the front. Ahead, nothing has settled, so there is nothing to remember. Memory points back for the same reason the arrow does.
-- **Built from.** Front = now; settling = record forming; folds closing = arrow.
-- **Prior art.** Hawking 1985 (psychological arrow follows the thermodynamic one).
-
-#### Aharonov–Bohm effect  `p-ab`
-
-**Status:** Fits naturally
-**Builds on:** Why amplitudes cancel, Particles as field ripples (QFT)
-
-- **What it is.** Electrons are shifted by a magnetic field in a region they never pass through.
-- **RFF placement.** Only the comparison between a pair of histories matters. A field enclosed between two paths changes their relative clock reading, even though neither path touches it. A single-path picture can't explain this; the pairs picture does.
-- **Built from.** Pairs of histories compared by clock reading.
-- **Assessment.** One of the clearest cases where 'pairs of whole histories' beats 'one real path'.
-- **Prior art.** Aharonov & Bohm 1959; Tonomura et al. 1986.
-
-#### Antimatter  `p-anti`
-
-**Status:** Fits naturally
-**Builds on:** Particles as field ripples (QFT), Why amplitudes cancel
-
-- **What it is.** Every particle has an antiparticle with opposite charge.
-- **RFF placement.** With both ends of a history fixed, a history that zigzags back in time is just another candidate. Feynman read a positron as an electron's history running backwards. In RFF, the arrow belongs to settling, not to which way a history's clock runs, so this needs nothing new.
-- **Built from.** Two-ended histories; arrow = settling.
-- **Prior art.** Stueckelberg 1941; Feynman 1949.
-
-#### Matter–antimatter imbalance  `p-asym`
-
-**Status:** Outside an interpretation *(draft; agreed status: Not yet examined)*
-**Builds on:** Mass and the Higgs, Arrow of time
-
-- **What it is.** The universe is made of matter, not equal parts of each.
-- **RFF placement.** Explaining the imbalance needs three conditions (Sakharov). RFF's arrow supplies one of them, being out of equilibrium, for free. The amount of matter–antimatter difference in the laws is dynamics.
-- **Built from.** Arrow = folds closing.
-- **To work through.** Is there an arrow-of-time link, or is this pure dynamics?
-- **Prior art.** Sakharov 1967.
-
-#### Quark confinement  `p-confine`
-
-**Status:** Outside an interpretation
-**Builds on:** Particles as field ripples (QFT)
-
-- **What it is.** Quarks never appear alone. Proving why from the theory is still open.
-- **RFF placement.** Dynamics of the strong force. Left to particle physics.
-- **Built from.** Verify-or-leave-open.
-
-#### Strong CP problem  `p-cp`
-
-**Status:** Outside an interpretation *(draft; agreed status: Not yet examined)*
-**Builds on:** Vacuum fluctuations and Casimir force
-
-- **What it is.** The strong force treats matter and mirror-matter the same to absurd precision.
-- **RFF placement.** Dynamics. Left to particle physics.
-- **Built from.** Verify-or-leave-open.
-- **To work through.** Likely outside an interpretation.
-
-#### Three generations of matter  `p-gen`
-
-**Status:** Outside an interpretation *(draft; agreed status: Not yet examined)*
-**Builds on:** Mass and the Higgs
-
-- **What it is.** Matter comes in three copies of different mass. No one knows why three.
-- **RFF placement.** Nothing in the balloon picture prefers three generations. Left as an input.
-- **Built from.** Verify-or-leave-open.
-- **To work through.** Likely outside an interpretation.
-
-#### Hierarchy problem  `p-hier`
-
-**Status:** Outside an interpretation *(draft; agreed status: Not yet examined)*
-**Builds on:** Mass and the Higgs
-
-- **What it is.** Gravity is far weaker than the other forces, with no accepted reason.
-- **RFF placement.** Dynamics. RFF says nothing about why gravity is so weak.
-- **Built from.** Verify-or-leave-open.
-- **To work through.** Likely outside an interpretation.
-
-#### Mass and the Higgs  `p-higgs`
-
-**Status:** Outside an interpretation *(draft; agreed status: Not yet examined)*
-**Builds on:** Vacuum fluctuations and Casimir force
-
-- **What it is.** Particles get mass from the Higgs field; the masses themselves are unexplained inputs.
-- **RFF placement.** Mass sets how fast a particle's clock ticks (de Broglie, mc²/h, from Oct 4), so the Higgs field sets clock rates. RFF can say what mass does, but the values themselves are inputs.
-- **Built from.** Each path carries a clock; verify-or-leave-open.
-- **To work through.** None for RFF.
-
-#### Identical particles  `p-ident`
-
-**Status:** Fits naturally *(draft; agreed status: Not yet examined)*
-**Builds on:** Spin and the exclusion principle, Entanglement and Bell correlations
-
-- **What it is.** Two electrons are truly indistinguishable, which changes how they combine.
-- **RFF placement.** Only the ends of a history are fixed. If two identical particles could have swapped, 'which one went where' isn't a fact unless something recorded it, so the swapped and unswapped histories are both candidates and pair up. Bosons' pairs add (they bunch together); fermions' pairs cancel (they avoid each other).
-- **Built from.** Two-ended histories; pairwise comparison.
-- **Assessment.** Strong fit. It is the same pairing that gives fourth-order interference for two particles (Pleinert 2021).
-- **To work through.** Is swapping two identical particles a pair of histories?
-- **Prior art.** Hong–Ou–Mandel 1987 (photon bunching).
-
-#### Large quantum states (superconductors, condensates)  `p-macro`
-
-**Status:** Fits naturally
-**Builds on:** Decoherence and the classical world, Identical particles
-
-- **What it is.** Cooled enough, huge numbers of particles share one quantum state: superconductors, superfluids, condensates.
-- **RFF placement.** Cold and isolation keep links from spreading, so a huge fold stays open: a fold held open by temperature rather than distance. Identical bosons pair-add, so they pile into one state.
-- **Built from.** Folds held open by shielding; no size threshold; identical-particle pairing.
-- **Assessment.** Supports the 'no hidden size limit' commitment: big things can be quantum when shielded.
-- **Prior art.** Friedman et al. 2000; van der Wal et al. 2000 (SQUID superpositions).
-
-#### Neutrino mass  `p-nu`
-
-**Status:** Outside an interpretation *(draft; agreed status: Not yet examined)*
-**Builds on:** Mass and the Higgs
-
-- **What it is.** Neutrinos have mass, which the Standard Model didn't predict.
-- **RFF placement.** The mass values are inputs. But neutrino oscillation is a clean example of your relative-time idea working: a neutrino is a mix of components whose clocks tick at slightly different rates, so their comparison drifts and the flavour changes along the way.
-- **Built from.** Each path carries a clock; relative clock rates between histories (Oct 4).
-- **Assessment.** Worth noting for the relative-time thread: relative clock rates between components produce a measured effect here.
-- **To work through.** Likely outside an interpretation.
-- **Prior art.** Super-Kamiokande 1998; SNO 2001 (Nobel 2015).
-
-#### Spin and the exclusion principle  `p-spin`
-
-**Status:** Fits with work *(draft; agreed status: Not yet examined)*
-**Builds on:** Superposition and the double slit, No preferred frame (relativity)
-
-- **What it is.** Particles carry intrinsic spin; no two electrons share a state.
-- **RFF placement.** Spin is a clock property: a spin-½ particle's clock returns to its start only after two full turns (720°). Exclusion is cancellation between swapped histories: for two identical fermions, the history where they swap pairs with a minus sign, so two fermions can't settle into the same state.
-- **Built from.** Pairs of histories that can cancel; c as the boundary that makes order possible.
-- **Assessment.** Why fermions get the minus sign is the spin-statistics theorem, which needs relativity and causality. RFF has both through c, so the link is there but not yet spelled out.
-- **To work through.** Tell the 720° and minus-sign story in clock terms.
-- **Prior art.** Pauli 1940 (spin-statistics theorem).
-
-#### Fine-tuned constants  `p-tune`
-
-**Status:** Outside an interpretation *(draft; agreed status: Not yet examined)*
-**Builds on:** Low-entropy beginning
-
-- **What it is.** Many constants sit in narrow windows that allow structure and life.
-- **RFF placement.** The seed is a starting condition. By the verify-or-leave-open rule, RFF doesn't explain the constants' values.
-- **Built from.** Seed as starting condition; verify-or-leave-open.
-- **To work through.** Does the seed's conditions say anything here?
-
-#### No-cloning and teleportation  `q-clone`
-
-**Status:** Fits naturally
-**Builds on:** Entanglement and Bell correlations
-
-- **What it is.** An unknown quantum state can't be copied, but it can be moved using entanglement plus an ordinary message.
-- **RFF placement.** Copying an unknown state would need reading it, and reading is settling, which closes the fold. Teleportation works because a shared fold carries the openness. A classical message, travelling no faster than c, tells the receiver how to unfold it.
-- **Built from.** Folds; settling = record forming; c as the limit.
-- **Prior art.** Wootters & Zurek 1982; Bennett et al. 1993.
-
-#### No values before measurement (contextuality)  `q-context`
-
-**Status:** Fits naturally
-**Builds on:** Measurement: why one outcome, Uncertainty principle
-
-- **What it is.** You can't assign every quantity a definite value in advance that doesn't depend on what else you measure.
-- **RFF placement.** Nothing has a value until it's anchored, and which question is asked sets the anchor. So a value can depend on what else is measured alongside it. That is your 'not a hidden value' point from the uncertainty discussion.
-- **Built from.** Anchor-and-solve; no pre-existing values.
-- **Prior art.** Kochen & Specker 1967.
-
-#### Quantum computing  `q-qc`
-
-**Status:** Fits naturally
-**Builds on:** Decoherence and the classical world, Why amplitudes cancel
-
-- **What it is.** Quantum computers solve some problems faster by keeping many possibilities in play until the end.
-- **RFF placement.** A quantum computer is an engineered, deliberately long, heavily nested fold. Computing means arranging histories so wrong answers cancel before the fold unfolds. Errors from decoherence are the fold closing early.
-- **Built from.** Nested folds; histories that cancel; decoherence = fold closing.
-
-#### Tunnelling  `q-tunnel`
-
-**Status:** Fits naturally *(draft; agreed status: Not yet examined)*
-**Builds on:** Superposition and the double slit
-
-- **What it is.** Particles cross barriers they don't have the energy to climb.
-- **RFF placement.** Nothing climbs the barrier. Before settling, the particle is an open region that already extends into and past the barrier; inside it, the path clocks fade rather than tick. When it settles on the far side, the history joining the two ends was always one of the candidate histories. 'How long did it spend inside?' has no answer until something inside records it.
-- **Built from.** Open regions; two-ended histories; each path carries a clock.
-- **Assessment.** Follows from the double-slit picture with nothing added. The 2020 Toronto experiment measured time inside the barrier with a clock carried by the atom itself, which suits RFF's path clocks.
-- **To work through.** Check that the measured in-barrier time matches what a per-path clock would read.
-- **Prior art.** Ramos et al., Nature 2020 (Larmor-clock measurement of tunnelling time).
-
-#### Quantum Zeno effect  `q-zeno`
-
-**Status:** Fits naturally *(draft; agreed status: Not yet examined)*
-**Builds on:** Measurement: why one outcome
-
-- **What it is.** Watching an unstable system closely enough stops it changing.
-- **RFF placement.** Each observation is a settling: it anchors the system at its starting state. Anchor often enough and the open region never gets room to spread toward the decayed state, so it stays put. The reverse also happens: with different timing, frequent anchoring can speed decay.
-- **Built from.** Anchor-and-solve; settling = a record forming.
-- **Assessment.** Both Zeno and anti-Zeno come out, because RFF inherits QM's timing rules.
-- **To work through.** Does repeated settling pin the front in place?
-- **Prior art.** Itano et al. 1990 (trapped ions); Kofman & Kurizki, Nature 2000 (anti-Zeno).
-
-#### Gravitational waves  `r-gw`
-
-**Status:** Fits naturally
-**Builds on:** Equivalence principle
-
-- **What it is.** Ripples in spacetime from colliding black holes and neutron stars, detected since 2015.
-- **RFF placement.** Ripples in the rubber's shape, travelling at the rubber's own rate, c. The 2017 neutron-star merger showed gravity and light travel at the same speed to about one part in 10¹⁵, which supports 'c is the rubber's rate' for everything.
-- **Built from.** c as the rubber's rate; gravity from the area-law route (reopened 7 Oct).
-- **To work through.** Revisit after the gravity-origin work.
-- **Prior art.** LIGO 2015 (first detection); GW170817 (speed of gravity = c).
 
 #### Holographic principle  `r-holo`
 

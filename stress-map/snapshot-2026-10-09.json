@@ -28,6 +28,20 @@
   "updated": "9 Oct 2026"
  },
  "phenomena": {
+  "c-coinc": {
+   "basis": "Vase flare; dark-matter wake (proposal).",
+   "col": 4,
+   "deps": [
+    "c-de",
+    "c-dm"
+   ],
+   "name": "Why dark energy and matter are similar now",
+   "ord": 9,
+   "plain": "Dark energy and matter have comparable densities today, though they change very differently over time.",
+   "rff": "In the vase, matter thins as the rubber stretches while dark energy doesn't, so they cross at one age. RFF has no reason we live near that age. If the wake proposal for dark matter holds, it might give a link.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
+  },
   "c-de": {
    "assess": "Resolved in part (5 Oct): the balloon's radius is the age, and the rubber's size at each age is separate, so the balloon flares like a vase. Dark energy shapes the flare, driving the stretching of space, which is standard. It does not drive the age, which avoids the clock problem. Still open: what dark energy is.",
    "basis": "Age = radius; vase flare; area-law route.",
@@ -82,6 +96,7 @@
   },
   "c-hubble": {
    "assess": "",
+   "basis": "Verify-or-leave-open.",
    "col": 4,
    "deps": [
     "c-de"
@@ -92,9 +107,9 @@
    "plain": "Early-universe and local measurements of the expansion rate disagree.",
    "prior": "",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "An observational disagreement. RFF has no stake in which value is right.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
   },
   "c-infl": {
    "assess": "None detected so far. Simons Observatory, LiteBIRD and CMB-S4 aim for sensitivity near r ~ 10⁻³. A non-detection settles nothing (many inflation models sit below that line); a detection at the level standard inflation predicts for the same inflaton would count against RFF. What drives inflation (the inflaton) stays outside an interpretation.",
@@ -116,6 +131,7 @@
   },
   "c-lambda": {
    "assess": "",
+   "basis": "Area-law route to gravity; vacuum = rubber with no patterns; verify-or-leave-open.",
    "col": 4,
    "deps": [
     "p-vac",
@@ -125,11 +141,11 @@
    "next": "Likely outside an interpretation.",
    "ord": 6,
    "plain": "Quantum vacuum energy predicts a dark-energy value ~10¹²⁰ times too large.",
-   "prior": "",
+   "prior": "Jacobson 1995 (Λ as integration constant); unimodular gravity; Weinberg 1987 (anthropic bound).",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "In the area-law route (reopened 7 Oct), a uniform vacuum energy doesn't curve spacetime: Λ appears as a free constant. That matches RFF's 'vacuum linking is texture, not thickness'. The 10¹²⁰ mismatch then becomes 'what fixes Λ's value?', which is still dynamics.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
   },
   "c-struct": {
    "assess": "",
@@ -227,6 +243,22 @@
    "session": "Aug 2026; 8 Oct 2026",
    "status": "fits"
   },
+  "g-landauer": {
+   "assess": "Strong fit, and it's measured, not just theoretical.",
+   "basis": "The act of undoing is recorded; folds closing = entropy rising.",
+   "col": 1,
+   "deps": [
+    "q-decoh",
+    "g-arrow"
+   ],
+   "name": "Erasing information costs heat",
+   "ord": 15,
+   "plain": "Deleting one bit of information releases a minimum amount of heat (Landauer's principle).",
+   "prior": "Landauer 1961; Bérut et al., Nature 2012 (measured).",
+   "rff": "This is the fold rule in thermodynamic form. Erasing a record once it has spread can't be done without trace: the record is pushed out into the environment as heat. 'The act of undoing is recorded' shows up as that heat.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
+  },
   "g-now": {
    "assess": "",
    "basis": "Front = now; folds; atomic clocks and delayed choice as evidence that change continues unrecorded.",
@@ -272,6 +304,20 @@
    "session": "Aug 2026",
    "status": "work"
   },
+  "g-psych": {
+   "basis": "Front = now; settling = record forming; folds closing = arrow.",
+   "col": 0,
+   "deps": [
+    "g-arrow"
+   ],
+   "name": "Remembering the past, not the future",
+   "ord": 9,
+   "plain": "We have records of the past and none of the future, though the laws treat both directions alike.",
+   "prior": "Hawking 1985 (psychological arrow follows the thermodynamic one).",
+   "rff": "Records only exist behind the front. Ahead, nothing has settled, so there is nothing to remember. Memory points back for the same reason the arrow does.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
+  },
   "g-sing": {
    "assess": "",
    "col": 0,
@@ -288,8 +334,40 @@
    "session": "Aug 2026; 5 Oct 2026",
    "status": "work"
   },
+  "p-ab": {
+   "assess": "One of the clearest cases where 'pairs of whole histories' beats 'one real path'.",
+   "basis": "Pairs of histories compared by clock reading.",
+   "col": 2,
+   "deps": [
+    "q-cancel",
+    "p-qft"
+   ],
+   "name": "Aharonov–Bohm effect",
+   "ord": 13,
+   "plain": "Electrons are shifted by a magnetic field in a region they never pass through.",
+   "prior": "Aharonov & Bohm 1959; Tonomura et al. 1986.",
+   "rff": "Only the comparison between a pair of histories matters. A field enclosed between two paths changes their relative clock reading, even though neither path touches it. A single-path picture can't explain this; the pairs picture does.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
+  },
+  "p-anti": {
+   "basis": "Two-ended histories; arrow = settling.",
+   "col": 2,
+   "deps": [
+    "p-qft",
+    "q-cancel"
+   ],
+   "name": "Antimatter",
+   "ord": 11,
+   "plain": "Every particle has an antiparticle with opposite charge.",
+   "prior": "Stueckelberg 1941; Feynman 1949.",
+   "rff": "With both ends of a history fixed, a history that zigzags back in time is just another candidate. Feynman read a positron as an electron's history running backwards. In RFF, the arrow belongs to settling, not to which way a history's clock runs, so this needs nothing new.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
+  },
   "p-asym": {
    "assess": "",
+   "basis": "Arrow = folds closing.",
    "col": 2,
    "deps": [
     "p-higgs",
@@ -299,14 +377,28 @@
    "next": "Is there an arrow-of-time link, or is this pure dynamics?",
    "ord": 6,
    "plain": "The universe is made of matter, not equal parts of each.",
-   "prior": "",
+   "prior": "Sakharov 1967.",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "Explaining the imbalance needs three conditions (Sakharov). RFF's arrow supplies one of them, being out of equilibrium, for free. The amount of matter–antimatter difference in the laws is dynamics.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
+  },
+  "p-confine": {
+   "basis": "Verify-or-leave-open.",
+   "col": 2,
+   "deps": [
+    "p-qft"
+   ],
+   "name": "Quark confinement",
+   "ord": 14,
+   "plain": "Quarks never appear alone. Proving why from the theory is still open.",
+   "rff": "Dynamics of the strong force. Left to particle physics.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
   },
   "p-cp": {
    "assess": "",
+   "basis": "Verify-or-leave-open.",
    "col": 2,
    "deps": [
     "p-vac"
@@ -317,12 +409,13 @@
    "plain": "The strong force treats matter and mirror-matter the same to absurd precision.",
    "prior": "",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "Dynamics. Left to particle physics.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
   },
   "p-gen": {
    "assess": "",
+   "basis": "Verify-or-leave-open.",
    "col": 2,
    "deps": [
     "p-higgs"
@@ -333,12 +426,13 @@
    "plain": "Matter comes in three copies of different mass. No one knows why three.",
    "prior": "",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "Nothing in the balloon picture prefers three generations. Left as an input.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
   },
   "p-hier": {
    "assess": "",
+   "basis": "Verify-or-leave-open.",
    "col": 2,
    "deps": [
     "p-higgs"
@@ -349,28 +443,30 @@
    "plain": "Gravity is far weaker than the other forces, with no accepted reason.",
    "prior": "",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "Dynamics. RFF says nothing about why gravity is so weak.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
   },
   "p-higgs": {
    "assess": "",
+   "basis": "Each path carries a clock; verify-or-leave-open.",
    "col": 2,
    "deps": [
     "p-vac"
    ],
    "name": "Mass and the Higgs",
-   "next": "Likely outside an interpretation: the values are dynamics. Decide together.",
+   "next": "None for RFF.",
    "ord": 4,
    "plain": "Particles get mass from the Higgs field; the masses themselves are unexplained inputs.",
    "prior": "",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "Mass sets how fast a particle's clock ticks (de Broglie, mc²/h, from Oct 4), so the Higgs field sets clock rates. RFF can say what mass does, but the values themselves are inputs.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
   },
   "p-ident": {
-   "assess": "",
+   "assess": "Strong fit. It is the same pairing that gives fourth-order interference for two particles (Pleinert 2021).",
+   "basis": "Two-ended histories; pairwise comparison.",
    "col": 2,
    "deps": [
     "p-spin",
@@ -380,14 +476,31 @@
    "next": "Is swapping two identical particles a pair of histories?",
    "ord": 2,
    "plain": "Two electrons are truly indistinguishable, which changes how they combine.",
-   "prior": "",
+   "prior": "Hong–Ou–Mandel 1987 (photon bunching).",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "Only the ends of a history are fixed. If two identical particles could have swapped, 'which one went where' isn't a fact unless something recorded it, so the swapped and unswapped histories are both candidates and pair up. Bosons' pairs add (they bunch together); fermions' pairs cancel (they avoid each other).",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
+  },
+  "p-macro": {
+   "assess": "Supports the 'no hidden size limit' commitment: big things can be quantum when shielded.",
+   "basis": "Folds held open by shielding; no size threshold; identical-particle pairing.",
+   "col": 2,
+   "deps": [
+    "q-decoh",
+    "p-ident"
+   ],
+   "name": "Large quantum states (superconductors, condensates)",
+   "ord": 12,
+   "plain": "Cooled enough, huge numbers of particles share one quantum state: superconductors, superfluids, condensates.",
+   "prior": "Friedman et al. 2000; van der Wal et al. 2000 (SQUID superpositions).",
+   "rff": "Cold and isolation keep links from spreading, so a huge fold stays open: a fold held open by temperature rather than distance. Identical bosons pair-add, so they pile into one state.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
   },
   "p-nu": {
-   "assess": "",
+   "assess": "Worth noting for the relative-time thread: relative clock rates between components produce a measured effect here.",
+   "basis": "Each path carries a clock; relative clock rates between histories (Oct 4).",
    "col": 2,
    "deps": [
     "p-higgs"
@@ -396,11 +509,11 @@
    "next": "Likely outside an interpretation.",
    "ord": 7,
    "plain": "Neutrinos have mass, which the Standard Model didn't predict.",
-   "prior": "",
+   "prior": "Super-Kamiokande 1998; SNO 2001 (Nobel 2015).",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "The mass values are inputs. But neutrino oscillation is a clean example of your relative-time idea working: a neutrino is a mix of components whose clocks tick at slightly different rates, so their comparison drifts and the flavour changes along the way.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
   },
   "p-qft": {
    "assess": "If particles are patterns, waviness is native and the thing to explain is the dot, which settling does. Replaces the Oct 4 'particles really are particles' framing.",
@@ -420,24 +533,26 @@
    "status": "fits"
   },
   "p-spin": {
-   "assess": "",
+   "assess": "Why fermions get the minus sign is the spin-statistics theorem, which needs relativity and causality. RFF has both through c, so the link is there but not yet spelled out.",
+   "basis": "Pairs of histories that can cancel; c as the boundary that makes order possible.",
    "col": 2,
    "deps": [
     "q-super",
     "g-frame"
    ],
    "name": "Spin and the exclusion principle",
-   "next": "Does RFF say anything about spin, or treat it as given?",
+   "next": "Tell the 720° and minus-sign story in clock terms.",
    "ord": 1,
    "plain": "Particles carry intrinsic spin; no two electrons share a state.",
-   "prior": "",
+   "prior": "Pauli 1940 (spin-statistics theorem).",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "Spin is a clock property: a spin-½ particle's clock returns to its start only after two full turns (720°). Exclusion is cancellation between swapped histories: for two identical fermions, the history where they swap pairs with a minus sign, so two fermions can't settle into the same state.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "work"
   },
   "p-tune": {
    "assess": "",
+   "basis": "Seed as starting condition; verify-or-leave-open.",
    "col": 2,
    "deps": [
     "g-past"
@@ -448,9 +563,9 @@
    "plain": "Many constants sit in narrow windows that allow structure and life.",
    "prior": "",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "The seed is a starting condition. By the verify-or-leave-open rule, RFF doesn't explain the constants' values.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "outside"
   },
   "p-vac": {
    "assess": "Adds no new commitment. 'What sources the thickness?' stays open. The Casimir force can also be computed as ordinary forces between the plates' atoms, so it isn't proof that the vacuum holds energy.",
@@ -502,6 +617,35 @@
    "rff": "Oct 4 simulations: give each path its own clock and combine as arrows, and the exact fringes appear. Positive weights never made a dark band. Two-ended reading: compare clocks pairwise where histories meet.",
    "session": "4 Oct 2026",
    "status": "strains"
+  },
+  "q-clone": {
+   "basis": "Folds; settling = record forming; c as the limit.",
+   "col": 1,
+   "deps": [
+    "q-ent"
+   ],
+   "name": "No-cloning and teleportation",
+   "ord": 17,
+   "plain": "An unknown quantum state can't be copied, but it can be moved using entanglement plus an ordinary message.",
+   "prior": "Wootters & Zurek 1982; Bennett et al. 1993.",
+   "rff": "Copying an unknown state would need reading it, and reading is settling, which closes the fold. Teleportation works because a shared fold carries the openness. A classical message, travelling no faster than c, tells the receiver how to unfold it.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
+  },
+  "q-context": {
+   "basis": "Anchor-and-solve; no pre-existing values.",
+   "col": 1,
+   "deps": [
+    "q-meas",
+    "q-uncert"
+   ],
+   "name": "No values before measurement (contextuality)",
+   "ord": 16,
+   "plain": "You can't assign every quantity a definite value in advance that doesn't depend on what else you measure.",
+   "prior": "Kochen & Specker 1967.",
+   "rff": "Nothing has a value until it's anchored, and which question is asked sets the anchor. So a value can depend on what else is measured alongside it. That is your 'not a hidden value' point from the uncertainty discussion.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
   },
   "q-decoh": {
    "assess": "",
@@ -604,6 +748,20 @@
    "session": "4 Oct 2026",
    "status": "fits"
   },
+  "q-qc": {
+   "basis": "Nested folds; histories that cancel; decoherence = fold closing.",
+   "col": 1,
+   "deps": [
+    "q-decoh",
+    "q-cancel"
+   ],
+   "name": "Quantum computing",
+   "ord": 18,
+   "plain": "Quantum computers solve some problems faster by keeping many possibilities in play until the end.",
+   "rff": "A quantum computer is an engineered, deliberately long, heavily nested fold. Computing means arranging histories so wrong answers cancel before the fold unfolds. Errors from decoherence are the fold closing early.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
+  },
   "q-super": {
    "assess": "",
    "col": 1,
@@ -621,20 +779,21 @@
    "status": "fits"
   },
   "q-tunnel": {
-   "assess": "",
+   "assess": "Follows from the double-slit picture with nothing added. The 2020 Toronto experiment measured time inside the barrier with a clock carried by the atom itself, which suits RFF's path clocks.",
+   "basis": "Open regions; two-ended histories; each path carries a clock.",
    "col": 1,
    "deps": [
     "q-super"
    ],
    "name": "Tunnelling",
-   "next": "How does an open region pass a barrier before it settles?",
+   "next": "Check that the measured in-barrier time matches what a per-path clock would read.",
    "ord": 13,
    "plain": "Particles cross barriers they don't have the energy to climb.",
-   "prior": "",
+   "prior": "Ramos et al., Nature 2020 (Larmor-clock measurement of tunnelling time).",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "Nothing climbs the barrier. Before settling, the particle is an open region that already extends into and past the barrier; inside it, the path clocks fade rather than tick. When it settles on the far side, the history joining the two ends was always one of the candidate histories. 'How long did it spend inside?' has no answer until something inside records it.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
   },
   "q-uncert": {
    "assess": "Gets the shape of the trade-off. Not yet the size: the minimum is set by Planck's constant, which also sets each path's clock rate. The time–energy version may connect to the front's thickness.",
@@ -670,7 +829,8 @@
    "status": "fits"
   },
   "q-zeno": {
-   "assess": "",
+   "assess": "Both Zeno and anti-Zeno come out, because RFF inherits QM's timing rules.",
+   "basis": "Anchor-and-solve; settling = a record forming.",
    "col": 1,
    "deps": [
     "q-meas"
@@ -679,11 +839,11 @@
    "next": "Does repeated settling pin the front in place?",
    "ord": 14,
    "plain": "Watching an unstable system closely enough stops it changing.",
-   "prior": "",
+   "prior": "Itano et al. 1990 (trapped ions); Kofman & Kurizki, Nature 2000 (anti-Zeno).",
    "proposal": "",
-   "rff": "",
-   "session": "",
-   "status": "open"
+   "rff": "Each observation is a settling: it anchors the system at its starting state. Anchor often enough and the open region never gets room to spread toward the decayed state, so it stays put. The reverse also happens: with different timing, frequent anchoring can speed decay.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
   },
   "r-area": {
    "assess": "",
@@ -808,6 +968,21 @@
    "session": "7–8 Oct 2026",
    "status": "work"
   },
+  "r-gw": {
+   "basis": "c as the rubber's rate; gravity from the area-law route (reopened 7 Oct).",
+   "col": 3,
+   "deps": [
+    "r-equiv"
+   ],
+   "name": "Gravitational waves",
+   "next": "Revisit after the gravity-origin work.",
+   "ord": 11,
+   "plain": "Ripples in spacetime from colliding black holes and neutron stars, detected since 2015.",
+   "prior": "LIGO 2015 (first detection); GW170817 (speed of gravity = c).",
+   "rff": "Ripples in the rubber's shape, travelling at the rubber's own rate, c. The 2017 neutron-star merger showed gravity and light travel at the same speed to about one part in 10¹⁵, which supports 'c is the rubber's rate' for everything.",
+   "session": "9 Oct 2026 (merged from draft)",
+   "status": "fits"
+  },
   "r-hawk": {
    "assess": "",
    "col": 3,
@@ -863,37 +1038,12 @@
   }
  },
  "drafts": {
-  "c-coinc": {
-   "basis": "Vase flare; dark-matter wake (proposal).",
-   "col": 4,
-   "deps": [
-    "c-de",
-    "c-dm"
-   ],
-   "isNew": true,
-   "name": "Why dark energy and matter are similar now",
-   "ord": 9,
-   "plain": "Dark energy and matter have comparable densities today, though they change very differently over time.",
-   "rff": "In the vase, matter thins as the rubber stretches while dark energy doesn't, so they cross at one age. RFF has no reason we live near that age. If the wake proposal for dark matter holds, it might give a link.",
-   "status": "outside"
-  },
   "c-fate": {
    "assess": "Open question: with nothing left to settle and no clocks, does 'now' still mean anything? Penrose uses the same observation to argue the universe resets.",
    "basis": "Every fold eventually closes; age = radius; folds closing = entropy rising.",
    "prior": "Penrose, conformal cyclic cosmology (2010).",
    "rff": "Every fold eventually closes, black holes included as they evaporate. The far future is smooth rubber: fully settled, nothing open. The age (radius) keeps growing, but with nothing left to settle the front has no thickness, so the 'now' becomes empty. That is heat death described in RFF terms.",
    "status": "fits"
-  },
-  "c-hubble": {
-   "basis": "Verify-or-leave-open.",
-   "rff": "An observational disagreement. RFF has no stake in which value is right.",
-   "status": "outside"
-  },
-  "c-lambda": {
-   "basis": "Area-law route to gravity; vacuum = rubber with no patterns; verify-or-leave-open.",
-   "prior": "Jacobson 1995 (Λ as integration constant); unimodular gravity; Weinberg 1987 (anthropic bound).",
-   "rff": "In the area-law route (reopened 7 Oct), a uniform vacuum energy doesn't curve spacetime: Λ appears as a free constant. That matches RFF's 'vacuum linking is texture, not thickness'. The 10¹²⁰ mismatch then becomes 'what fixes Λ's value?', which is still dynamics.",
-   "status": "outside"
   },
   "g-ctc": {
    "assess": "Agrees with Hawking's chronology protection conjecture. It's a claim, but no experiment contradicts it.",
@@ -910,223 +1060,6 @@
    "plain": "General relativity allows solutions where a path loops back into its own past. Nobody knows if nature forbids them.",
    "prior": "Hawking 1992 (chronology protection); Deutsch 1991.",
    "rff": "The front only moves outward. A loop back into the past would need it to revisit settled rubber. Folds can reach back (delayed choice), but they never rewrite settled outcomes, so RFF rules out loops through settled history.",
-   "status": "fits"
-  },
-  "g-landauer": {
-   "assess": "Strong fit, and it's measured, not just theoretical.",
-   "basis": "The act of undoing is recorded; folds closing = entropy rising.",
-   "col": 1,
-   "deps": [
-    "q-decoh",
-    "g-arrow"
-   ],
-   "isNew": true,
-   "name": "Erasing information costs heat",
-   "ord": 15,
-   "plain": "Deleting one bit of information releases a minimum amount of heat (Landauer's principle).",
-   "prior": "Landauer 1961; Bérut et al., Nature 2012 (measured).",
-   "rff": "This is the fold rule in thermodynamic form. Erasing a record once it has spread can't be done without trace: the record is pushed out into the environment as heat. 'The act of undoing is recorded' shows up as that heat.",
-   "status": "fits"
-  },
-  "g-psych": {
-   "basis": "Front = now; settling = record forming; folds closing = arrow.",
-   "col": 0,
-   "deps": [
-    "g-arrow"
-   ],
-   "isNew": true,
-   "name": "Remembering the past, not the future",
-   "ord": 9,
-   "plain": "We have records of the past and none of the future, though the laws treat both directions alike.",
-   "prior": "Hawking 1985 (psychological arrow follows the thermodynamic one).",
-   "rff": "Records only exist behind the front. Ahead, nothing has settled, so there is nothing to remember. Memory points back for the same reason the arrow does.",
-   "status": "fits"
-  },
-  "p-ab": {
-   "assess": "One of the clearest cases where 'pairs of whole histories' beats 'one real path'.",
-   "basis": "Pairs of histories compared by clock reading.",
-   "col": 2,
-   "deps": [
-    "q-cancel",
-    "p-qft"
-   ],
-   "isNew": true,
-   "name": "Aharonov–Bohm effect",
-   "ord": 13,
-   "plain": "Electrons are shifted by a magnetic field in a region they never pass through.",
-   "prior": "Aharonov & Bohm 1959; Tonomura et al. 1986.",
-   "rff": "Only the comparison between a pair of histories matters. A field enclosed between two paths changes their relative clock reading, even though neither path touches it. A single-path picture can't explain this; the pairs picture does.",
-   "status": "fits"
-  },
-  "p-anti": {
-   "basis": "Two-ended histories; arrow = settling.",
-   "col": 2,
-   "deps": [
-    "p-qft",
-    "q-cancel"
-   ],
-   "isNew": true,
-   "name": "Antimatter",
-   "ord": 11,
-   "plain": "Every particle has an antiparticle with opposite charge.",
-   "prior": "Stueckelberg 1941; Feynman 1949.",
-   "rff": "With both ends of a history fixed, a history that zigzags back in time is just another candidate. Feynman read a positron as an electron's history running backwards. In RFF, the arrow belongs to settling, not to which way a history's clock runs, so this needs nothing new.",
-   "status": "fits"
-  },
-  "p-asym": {
-   "basis": "Arrow = folds closing.",
-   "prior": "Sakharov 1967.",
-   "rff": "Explaining the imbalance needs three conditions (Sakharov). RFF's arrow supplies one of them, being out of equilibrium, for free. The amount of matter–antimatter difference in the laws is dynamics.",
-   "status": "outside"
-  },
-  "p-confine": {
-   "basis": "Verify-or-leave-open.",
-   "col": 2,
-   "deps": [
-    "p-qft"
-   ],
-   "isNew": true,
-   "name": "Quark confinement",
-   "ord": 14,
-   "plain": "Quarks never appear alone. Proving why from the theory is still open.",
-   "rff": "Dynamics of the strong force. Left to particle physics.",
-   "status": "outside"
-  },
-  "p-cp": {
-   "basis": "Verify-or-leave-open.",
-   "rff": "Dynamics. Left to particle physics.",
-   "status": "outside"
-  },
-  "p-gen": {
-   "basis": "Verify-or-leave-open.",
-   "rff": "Nothing in the balloon picture prefers three generations. Left as an input.",
-   "status": "outside"
-  },
-  "p-hier": {
-   "basis": "Verify-or-leave-open.",
-   "rff": "Dynamics. RFF says nothing about why gravity is so weak.",
-   "status": "outside"
-  },
-  "p-higgs": {
-   "basis": "Each path carries a clock; verify-or-leave-open.",
-   "next": "None for RFF.",
-   "rff": "Mass sets how fast a particle's clock ticks (de Broglie, mc²/h, from Oct 4), so the Higgs field sets clock rates. RFF can say what mass does, but the values themselves are inputs.",
-   "status": "outside"
-  },
-  "p-ident": {
-   "assess": "Strong fit. It is the same pairing that gives fourth-order interference for two particles (Pleinert 2021).",
-   "basis": "Two-ended histories; pairwise comparison.",
-   "prior": "Hong–Ou–Mandel 1987 (photon bunching).",
-   "rff": "Only the ends of a history are fixed. If two identical particles could have swapped, 'which one went where' isn't a fact unless something recorded it, so the swapped and unswapped histories are both candidates and pair up. Bosons' pairs add (they bunch together); fermions' pairs cancel (they avoid each other).",
-   "status": "fits"
-  },
-  "p-macro": {
-   "assess": "Supports the 'no hidden size limit' commitment: big things can be quantum when shielded.",
-   "basis": "Folds held open by shielding; no size threshold; identical-particle pairing.",
-   "col": 2,
-   "deps": [
-    "q-decoh",
-    "p-ident"
-   ],
-   "isNew": true,
-   "name": "Large quantum states (superconductors, condensates)",
-   "ord": 12,
-   "plain": "Cooled enough, huge numbers of particles share one quantum state: superconductors, superfluids, condensates.",
-   "prior": "Friedman et al. 2000; van der Wal et al. 2000 (SQUID superpositions).",
-   "rff": "Cold and isolation keep links from spreading, so a huge fold stays open: a fold held open by temperature rather than distance. Identical bosons pair-add, so they pile into one state.",
-   "status": "fits"
-  },
-  "p-nu": {
-   "assess": "Worth noting for the relative-time thread: relative clock rates between components produce a measured effect here.",
-   "basis": "Each path carries a clock; relative clock rates between histories (Oct 4).",
-   "prior": "Super-Kamiokande 1998; SNO 2001 (Nobel 2015).",
-   "rff": "The mass values are inputs. But neutrino oscillation is a clean example of your relative-time idea working: a neutrino is a mix of components whose clocks tick at slightly different rates, so their comparison drifts and the flavour changes along the way.",
-   "status": "outside"
-  },
-  "p-spin": {
-   "assess": "Why fermions get the minus sign is the spin-statistics theorem, which needs relativity and causality. RFF has both through c, so the link is there but not yet spelled out.",
-   "basis": "Pairs of histories that can cancel; c as the boundary that makes order possible.",
-   "next": "Tell the 720° and minus-sign story in clock terms.",
-   "prior": "Pauli 1940 (spin-statistics theorem).",
-   "rff": "Spin is a clock property: a spin-½ particle's clock returns to its start only after two full turns (720°). Exclusion is cancellation between swapped histories: for two identical fermions, the history where they swap pairs with a minus sign, so two fermions can't settle into the same state.",
-   "status": "work"
-  },
-  "p-tune": {
-   "basis": "Seed as starting condition; verify-or-leave-open.",
-   "rff": "The seed is a starting condition. By the verify-or-leave-open rule, RFF doesn't explain the constants' values.",
-   "status": "outside"
-  },
-  "q-clone": {
-   "basis": "Folds; settling = record forming; c as the limit.",
-   "col": 1,
-   "deps": [
-    "q-ent"
-   ],
-   "isNew": true,
-   "name": "No-cloning and teleportation",
-   "ord": 17,
-   "plain": "An unknown quantum state can't be copied, but it can be moved using entanglement plus an ordinary message.",
-   "prior": "Wootters & Zurek 1982; Bennett et al. 1993.",
-   "rff": "Copying an unknown state would need reading it, and reading is settling, which closes the fold. Teleportation works because a shared fold carries the openness. A classical message, travelling no faster than c, tells the receiver how to unfold it.",
-   "status": "fits"
-  },
-  "q-context": {
-   "basis": "Anchor-and-solve; no pre-existing values.",
-   "col": 1,
-   "deps": [
-    "q-meas",
-    "q-uncert"
-   ],
-   "isNew": true,
-   "name": "No values before measurement (contextuality)",
-   "ord": 16,
-   "plain": "You can't assign every quantity a definite value in advance that doesn't depend on what else you measure.",
-   "prior": "Kochen & Specker 1967.",
-   "rff": "Nothing has a value until it's anchored, and which question is asked sets the anchor. So a value can depend on what else is measured alongside it. That is your 'not a hidden value' point from the uncertainty discussion.",
-   "status": "fits"
-  },
-  "q-qc": {
-   "basis": "Nested folds; histories that cancel; decoherence = fold closing.",
-   "col": 1,
-   "deps": [
-    "q-decoh",
-    "q-cancel"
-   ],
-   "isNew": true,
-   "name": "Quantum computing",
-   "ord": 18,
-   "plain": "Quantum computers solve some problems faster by keeping many possibilities in play until the end.",
-   "rff": "A quantum computer is an engineered, deliberately long, heavily nested fold. Computing means arranging histories so wrong answers cancel before the fold unfolds. Errors from decoherence are the fold closing early.",
-   "status": "fits"
-  },
-  "q-tunnel": {
-   "assess": "Follows from the double-slit picture with nothing added. The 2020 Toronto experiment measured time inside the barrier with a clock carried by the atom itself, which suits RFF's path clocks.",
-   "basis": "Open regions; two-ended histories; each path carries a clock.",
-   "next": "Check that the measured in-barrier time matches what a per-path clock would read.",
-   "prior": "Ramos et al., Nature 2020 (Larmor-clock measurement of tunnelling time).",
-   "rff": "Nothing climbs the barrier. Before settling, the particle is an open region that already extends into and past the barrier; inside it, the path clocks fade rather than tick. When it settles on the far side, the history joining the two ends was always one of the candidate histories. 'How long did it spend inside?' has no answer until something inside records it.",
-   "status": "fits"
-  },
-  "q-zeno": {
-   "assess": "Both Zeno and anti-Zeno come out, because RFF inherits QM's timing rules.",
-   "basis": "Anchor-and-solve; settling = a record forming.",
-   "prior": "Itano et al. 1990 (trapped ions); Kofman & Kurizki, Nature 2000 (anti-Zeno).",
-   "rff": "Each observation is a settling: it anchors the system at its starting state. Anchor often enough and the open region never gets room to spread toward the decayed state, so it stays put. The reverse also happens: with different timing, frequent anchoring can speed decay.",
-   "status": "fits"
-  },
-  "r-gw": {
-   "basis": "c as the rubber's rate; gravity from the area-law route (reopened 7 Oct).",
-   "col": 3,
-   "deps": [
-    "r-equiv"
-   ],
-   "isNew": true,
-   "name": "Gravitational waves",
-   "next": "Revisit after the gravity-origin work.",
-   "ord": 11,
-   "plain": "Ripples in spacetime from colliding black holes and neutron stars, detected since 2015.",
-   "prior": "LIGO 2015 (first detection); GW170817 (speed of gravity = c).",
-   "rff": "Ripples in the rubber's shape, travelling at the rubber's own rate, c. The 2017 neutron-star merger showed gravity and light travel at the same speed to about one part in 10¹⁵, which supports 'c is the rubber's rate' for everything.",
    "status": "fits"
   },
   "r-holo": {
