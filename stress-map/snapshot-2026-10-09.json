@@ -23,7 +23,6 @@
    "No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density."
   ],
   "questions": [
-   "What sources the front's thickness?",
    "Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final."
   ],
   "updated": "9 Oct 2026"
@@ -270,13 +269,13 @@
    "col": 0,
    "deps": [],
    "name": "The flow of time and the 'now'",
-   "next": "Say what sets the thickness: the field that was left unsourced in August.",
+   "next": "Answered 9 Oct: the thickness is set by local coupling. The rubber thickens and thins as the amount of unresolved content at each place changes. August data: coherence lifetime 2/γ is flat in absorber distance (4 to 1500 sites) and falls with how much environment is coupled. A redescription of decoherence theory, not new structure.",
    "ord": 1,
    "plain": "Physics has no 'present moment' in its equations, yet experience has one.",
    "prior": "",
    "proposal": "",
    "rff": "The rubber is the front, the 'now'; its thickness varies. The front advances by settling (Neil, 7 Oct). Change and settling are different: inside a fold, change keeps ticking at the normal rate (an isolated atom's states keep ticking against each other; a photon held for billions of years keeps the right phase). What lags is the record. Folds trail behind the front but aren't frozen.",
-   "session": "Jul–Oct 2026",
+   "session": "Jul–Oct 2026; 9 Oct 2026 (thickness sourced)",
    "status": "fits"
   },
   "g-past": {

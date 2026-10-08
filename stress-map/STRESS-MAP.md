@@ -61,7 +61,7 @@
 17. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
 18. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
 
-**Open questions:** What sources the front's thickness?; Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.
+**Open questions:** Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.
 
 ## Agreed map
 
@@ -74,8 +74,8 @@
 - **What it is.** Physics has no 'present moment' in its equations, yet experience has one.
 - **RFF placement.** The rubber is the front, the 'now'; its thickness varies. The front advances by settling (Neil, 7 Oct). Change and settling are different: inside a fold, change keeps ticking at the normal rate (an isolated atom's states keep ticking against each other; a photon held for billions of years keeps the right phase). What lags is the record. Folds trail behind the front but aren't frozen.
 - **Built from.** Front = now; folds; atomic clocks and delayed choice as evidence that change continues unrecorded.
-- **To work through.** Say what sets the thickness: the field that was left unsourced in August.
-- **Worked through.** Jul–Oct 2026
+- **To work through.** Answered 9 Oct: the thickness is set by local coupling. The rubber thickens and thins as the amount of unresolved content at each place changes. August data: coherence lifetime 2/γ is flat in absorber distance (4 to 1500 sites) and falls with how much environment is coupled. A redescription of decoherence theory, not new structure.
+- **Worked through.** Jul–Oct 2026; 9 Oct 2026 (thickness sourced)
 
 #### Low-entropy beginning  `g-past`
 
