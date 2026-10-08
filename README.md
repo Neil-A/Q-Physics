@@ -8,8 +8,9 @@ physics fits." Gravity-origin was reopened on 7 October through the area-law rou
 "settling load slows time" mechanism is dead; the free-field entanglement first law checks out
 on a lattice. Gravity is not derived: G is an input, and the route is a compatibility argument
 with Jacobson. The framework's addition is a coupling rule — an unsettled mass gravitates by its
-average — which predicts no gravity-mediated entanglement in BMV-type experiments. **Open, and
-the gate for the reopening:** a conserved source for that rule (FRAMEWORK.md §14 item 7). See
+average, and there is no quantized metric anywhere. Two predictions: no gravity-mediated
+entanglement in BMV-type experiments, and strongly suppressed primordial gravitational waves of
+quantum origin (derivation owed). **Open, and the gate for the reopening:** a conserved source for that rule (FRAMEWORK.md §14 item 7). See
 [RESULTS-02-gravity.md](RESULTS-02-gravity.md), FRAMEWORK.md §15, and [REVIEW.md](REVIEW.md) v4.
 
 **Earlier (9 August 2026):** the framework's single distinguishing prediction — coherence
@@ -27,6 +28,7 @@ its average. There RFF is a semiclassical theory, and it can be proved wrong by 
 |---|---|
 | The idea, no jargon | [Framework-Summary-Plain.md](Framework-Summary-Plain.md) — predates October and contradicts §15 on gravity |
 | The full argument and all sixteen posits (canonical) | [FRAMEWORK.md](FRAMEWORK.md) |
+| How known physics fits, item by item (provisional until all items are done) | [stress-map/STRESS-MAP.md](stress-map/STRESS-MAP.md) |
 | What the simulations actually returned | [RESULTS-01.md](RESULTS-01.md) (coherence), [RESULTS-02-gravity.md](RESULTS-02-gravity.md) (gravity) |
 | Current status, risks, next actions | [REVIEW.md](REVIEW.md) — v4, 8 October, with a response section |
 | The literature, and what each paper was read for | [SOURCES.md](SOURCES.md) |

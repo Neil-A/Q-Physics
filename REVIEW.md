@@ -201,4 +201,8 @@ The question for §14 item 7 becomes: is the light-cone update rule one of these
 
 **Answered by Neil, 8 Oct:** question 1 — the charter is updated to "an interpretation of quantum mechanics plus one semiclassical claim about gravity" (README, FRAMEWORK §15). Question 4 — no re-derivation of Strubbe exists; §8 says so.
 
-**Still waiting on Neil:** questions 2, 5 and 6, and the lay-summary rewrite (after questions 2–3).
+Question 2 — **(a)**, the broad meaning: no quantized metric anywhere. Prediction 2 is restored in a sharper form (tensor modes strongly suppressed, second order only, after the inflaton settles), with its derivation owed (FRAMEWORK §14 item 13). Published precedent: León, Sudarsky and colleagues. Question 5 — the Stress Map is exported to [stress-map/](stress-map/); nothing on it is done until all of it is done. Question 6 — the measurement note comes first.
+
+Neil also stated (8 Oct) that there is no empty space in RFF: everything is primed for a resolution event. Recorded in §15 as a refinement of the vacuum bullet.
+
+**Still waiting:** question 3 (the update rule — this is the §14 item 7 work itself), and the lay-summary rewrite.

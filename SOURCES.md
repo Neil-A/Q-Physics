@@ -192,6 +192,12 @@ Out of scope for SIM-SPEC-01 anyway. Don't let it carry weight in a write-up wit
 **`[ ]` Oppenheim, Sparaciari, Šoda & Weller-Davies (Nature Communications 2023); arXiv:2203.01982** — the decoherence–diffusion trade-off.
 > What bound would an averaged-gravity framework have to meet, and has it been tested?
 
+**`[ ]` León, Kraiselburd & Landau (2015), PRD 92, 083516; arXiv:1509.08399** and **`[ ]` León, Majhi, Okon & Sudarsky, arXiv:1712.02435** — blocking for §14 item 13.
+> Semiclassical gravity with collapse suppresses primordial tensor modes. Which assumptions does RFF share, and does the UV-cutoff dependence carry over?
+
+**`[ ]` Perez, Sahlmann & Sudarsky (2006), CQG 23, 2317** — collapse as the source of the scalar seeds.
+> Can RFF's settling of the inflaton reproduce the observed scalar spectrum?
+
 Jacobson (1995, 2016) and the gravity papers cited in [RESULTS-02-gravity.md](RESULTS-02-gravity.md) left the "not to read" list below when gravity-origin was reopened on 7 October.
 
 ---

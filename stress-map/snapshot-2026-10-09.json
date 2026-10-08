@@ -1,0 +1,1155 @@
+{
+ "source": "RFF Stress Map artifact (private), database export",
+ "exported": "2026-10-09",
+ "meta": {
+  "commitments": [
+   "Charter (updated 8 Oct): RFF is an interpretation of quantum mechanics plus one semiclassical claim about gravity. Everywhere else it adds a story, not dynamics; for gravity it is a physical theory that can be proved wrong. If no conserved source can be written for averaged gravity, the claim is parked and RFF returns to an interpretation.",
+   "Gravity is never quantum, in the broad sense (decided 8 Oct): there is no quantized metric anywhere. It is the rubber's equation of state, sourced by the average for a mass whose position hasn't settled and by the outcome once it has. Open, and the gate: a conserved source for that rule.",
+   "RFF makes two predictions where physics is still open: (1) BMV-type experiments will see no entanglement through gravity; (2) primordial gravitational waves of quantum origin are strongly suppressed: with no quantum metric, tensor modes arise only at second order, after the inflaton's fluctuations settle (as in León, Sudarsky and colleagues). Prediction 2's derivation inside RFF is owed.",
+   "Shape: a balloon. The rubber is 3D space and 'outward' is time. No extra dimension unless it pays off. The balloon is an analogy: its 'outside' isn't space.",
+   "The balloon's radius is the age of the universe (cosmic time). Local clocks run fast, slow or appear stuck: that's each region's own time.",
+   "How big the rubber is at a given age is separate from the age: the balloon flares like a vase. Dark energy shapes the flare (the stretching), not the age.",
+   "c is the rubber's rate of change and the boundary that makes order possible. The front works inside it: settling never spreads faster than c.",
+   "Results become facts across regions only when records can meet, at light speed or slower. Until then, what is settled on one side is still open from the other, so nothing, averaged gravity included, ever shows a faster-than-light effect.",
+   "The seed is a point in spacetime, taken as a starting condition. What can't be verified is left open, not explained.",
+   "The seed gives the beginning; outward gives the arrow.",
+   "The rubber is the front, the 'now'. Its thickness varies and it can leave very long folds of unsettled past.",
+   "Particles are stable patterns in the rubber (ripples, standing waves, vortices), not little objects. Waviness comes from paired histories; the dot comes from settling.",
+   "The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.",
+   "Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.",
+   "Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.",
+   "A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.",
+   "At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.",
+   "No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density."
+  ],
+  "questions": [
+   "What sources the front's thickness?"
+  ],
+  "updated": "9 Oct 2026"
+ },
+ "phenomena": {
+  "c-de": {
+   "assess": "Resolved in part (5 Oct): the balloon's radius is the age, and the rubber's size at each age is separate, so the balloon flares like a vase. Dark energy shapes the flare, driving the stretching of space, which is standard. It does not drive the age, which avoids the clock problem. Still open: what dark energy is.",
+   "basis": "Age = radius; vase flare; area-law route.",
+   "col": 4,
+   "deps": [
+    "g-now",
+    "p-vac"
+   ],
+   "name": "Dark energy and accelerating expansion",
+   "next": "Say what dark energy is in RFF terms, or mark that part outside an interpretation.",
+   "ord": 5,
+   "plain": "Expansion slowed for most of history, then started speeding up about 5 billion years ago.",
+   "prior": "",
+   "proposal": "Dark energy drives the rubber. If something drives space, it could drive time too.",
+   "rff": "The balloon's radius is the age; the vase's flare is the stretching, and dark energy drives the stretching, not the age. In the area-law route (7–8 Oct), a uniform term appears as a free constant (Λ): the route allows a uniform driver of stretching but doesn't fix its size.",
+   "session": "5 Oct 2026",
+   "status": "work"
+  },
+  "c-dm": {
+   "assess": "Non-uniform density answers part of the location objection. Three hurdles remain. Dark matter moves with galaxies (Bullet Cluster), so the wake must cluster with present matter. Its ratio to ordinary matter is fixed at ~5:1 from the CMB onward, so 'apparent thinning' has to thin both together. Structure formation needs it present early. Mashhoon's work shows 'gravity remembering the past' can mimic galaxy-scale dark matter; even his papers flag structure formation as unsolved. The higher-dimension step would need the extra dimension to pay off. New tension (7–8 Oct): in the area-law route, gravity is set locally by the energy present now, so a gravitating wake would need a memory term, as in Mashhoon's nonlocal gravity, which this route doesn't have.",
+   "col": 4,
+   "deps": [
+    "r-equiv",
+    "g-now"
+   ],
+   "name": "Dark matter",
+   "next": "Either give the wake present-day energy, or add a memory term to the gravity route and test it.",
+   "ord": 4,
+   "plain": "Galaxies and clusters behave as if they hold ~5× more mass than we see.",
+   "prior": "Hehl & Mashhoon, 'Nonlocal gravity simulates dark matter' (2009): gravity with a memory of past events mimics dark matter in galaxies and clusters; that memory fades as the universe expands. The closest published cousin of the wake idea.",
+   "proposal": "The balloon's wake, the settled past behind the front, is what we see as dark matter. It needn't be uniform: its density depends on how it formed, perhaps from highly coherent resolved states. Its thinning is apparent: we ride the rubber forward while matter recedes into the wake, possibly a relativistic effect in a higher dimension.",
+   "rff": "",
+   "session": "5 Oct 2026",
+   "status": "strains"
+  },
+  "c-fate": {
+   "assess": "",
+   "col": 4,
+   "deps": [
+    "g-arrow",
+    "r-hawk"
+   ],
+   "name": "The universe's fate",
+   "next": "Is a fully settled front the same as heat death? Does the front stop?",
+   "ord": 8,
+   "plain": "Expansion continues and everything cools toward maximum entropy (heat death).",
+   "prior": "",
+   "proposal": "",
+   "rff": "Every fold eventually closes, so the far future is a fully settled front.",
+   "session": "",
+   "status": "open"
+  },
+  "c-hubble": {
+   "assess": "",
+   "col": 4,
+   "deps": [
+    "c-de"
+   ],
+   "name": "Hubble tension",
+   "next": "Likely outside an interpretation (observational).",
+   "ord": 7,
+   "plain": "Early-universe and local measurements of the expansion rate disagree.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "c-infl": {
+   "assess": "None detected so far. Simons Observatory, LiteBIRD and CMB-S4 aim for sensitivity near r ~ 10⁻³. A non-detection settles nothing (many inflation models sit below that line); a detection at the level standard inflation predicts for the same inflaton would count against RFF. What drives inflation (the inflaton) stays outside an interpretation.",
+   "basis": "Age = radius; the vase flare; dark energy drives stretching; gravity never quantum.",
+   "col": 4,
+   "deps": [
+    "g-past",
+    "p-vac"
+   ],
+   "name": "Inflation, horizon and flatness",
+   "next": "Derive prediction 2 inside RFF, and check that settling of the inflaton gives the observed scalar spectrum.",
+   "ord": 2,
+   "plain": "The early universe is too smooth and too flat to explain without a burst of rapid expansion.",
+   "prior": "Guth 1981; Krauss & Wilczek, PRD 89, 047501 (2014); León, Kraiselburd & Landau, PRD 92, 083516 (2015); León, Majhi, Okon & Sudarsky, arXiv:1712.02435.",
+   "proposal": "",
+   "rff": "Inflation is the vase's first sharp flare: the rubber stretched enormously at almost no change in age. The same kind of driver as dark energy does the stretching. Tiny open folds from that time were stretched to cosmic size and closed later, becoming the seeds of galaxies. Prediction 2 (committed 8 Oct, broad sense of 'never quantum'): with no quantum metric, there are no vacuum ripples of spacetime. The inflaton's fluctuations gravitate only by their average (uniform) until they settle, so tensor modes appear only at second order, after settling, and are strongly suppressed. León, Sudarsky and colleagues get the same result in semiclassical gravity with collapse. The derivation inside RFF is owed, and the scalar seeds must still come out with the observed spectrum.",
+   "session": "8 Oct 2026",
+   "status": "work"
+  },
+  "c-lambda": {
+   "assess": "",
+   "col": 4,
+   "deps": [
+    "p-vac",
+    "c-de"
+   ],
+   "name": "Cosmological constant problem",
+   "next": "Likely outside an interpretation.",
+   "ord": 6,
+   "plain": "Quantum vacuum energy predicts a dark-energy value ~10¹²⁰ times too large.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "c-struct": {
+   "assess": "",
+   "col": 4,
+   "deps": [
+    "c-infl",
+    "q-decoh"
+   ],
+   "name": "Quantum seeds of galaxies",
+   "next": "Show the quantum-to-classical step as fold closure.",
+   "ord": 3,
+   "plain": "Galaxies grew from quantum fluctuations in the early universe. How they became classical is unresolved.",
+   "prior": "Perez, Sahlmann & Sudarsky 2006 (collapse needed for the seeds of structure).",
+   "proposal": "",
+   "rff": "The early universe had little to keep records, so it was more open. Folds closed as structure formed. The universe gets more classical with age. Since 8 Oct (gravity follows the average for unsettled mass): quantum fluctuations gravitate only by their average, which is uniform, so the seeds' gravity appears only as their folds close. RFF's real settling is what supplies the seeds, the same move Sudarsky and colleagues make.",
+   "session": "Aug 2026",
+   "status": "work"
+  },
+  "c-time": {
+   "assess": "",
+   "col": 4,
+   "deps": [
+    "g-frame",
+    "g-now"
+   ],
+   "name": "Cosmic time and the CMB rest frame",
+   "next": "",
+   "ord": 1,
+   "plain": "Cosmology uses a universal 'cosmic time', and the CMB defines a natural rest frame (we move at ~370 km/s relative to it).",
+   "prior": "",
+   "proposal": "",
+   "rff": "The balloon's radius is the age of the universe, which is cosmic time. Local clocks run at their own rates (gravity and motion), which fits a front of varying thickness. A preferred 'now' set by the universe's contents is allowed; one built into the laws isn't.",
+   "session": "Aug 2026; 5 Oct 2026",
+   "status": "fits"
+  },
+  "g-arrow": {
+   "assess": "",
+   "col": 0,
+   "deps": [
+    "g-past"
+   ],
+   "name": "Arrow of time",
+   "next": "",
+   "ord": 3,
+   "plain": "The laws run the same forwards and backwards, yet entropy only rises.",
+   "prior": "",
+   "proposal": "",
+   "rff": "Two descriptions of one arrow. The geometry points outward from the seed, and folds only ever close on net, because links always spread. Folds closing is entropy rising.",
+   "session": "4 Oct 2026; 5 Oct 2026",
+   "status": "fits"
+  },
+  "g-c": {
+   "assess": "",
+   "col": 0,
+   "deps": [
+    "g-frame"
+   ],
+   "name": "Speed of light as the causal limit",
+   "next": "Guardrail: the front respects c, but isn't timed by it. 'Settling takes L/c' is the posit the L-sweep falsified.",
+   "ord": 7,
+   "plain": "c turns up in equations that have nothing to do with light, because it's the maximum speed of cause and effect.",
+   "prior": "Four-velocity normalisation (everything moves through spacetime at c); causal sets define order by light cones.",
+   "proposal": "",
+   "rff": "c is the rubber's rate of change. Every patch of rubber moves outward at c; sideways motion borrows from it, so local time slows (time dilation follows). The front works inside the rubber, so settling spreads no faster than c; entanglement is safe because correlations show only when records meet. c is also the boundary condition that makes order possible: without a speed limit, there's no fact about which distant event came first. Motivation (not a posit): an unconstrained system is unstable.",
+   "session": "5 Oct 2026",
+   "status": "fits"
+  },
+  "g-dims": {
+   "assess": "",
+   "col": 0,
+   "deps": [],
+   "name": "Why 3 + 1 dimensions",
+   "next": "Nothing pressing. Revisit only if a later item gives a reason for three.",
+   "ord": 5,
+   "plain": "Space has three dimensions and time one. No accepted theory says why.",
+   "prior": "Tegmark 1997, 'On the dimensionality of spacetime' (only 3+1 gives stable, predictable physics; an anthropic argument).",
+   "proposal": "",
+   "rff": "One time dimension follows from the shape: a balloon has exactly one 'outward' direction. With two or more time dimensions, physics loses predictability, so the picture rules that out. Three space dimensions are an input: the rubber is 3D, and nothing in the picture prefers three. Per the rule, it stays a given unless something later pays for it.",
+   "session": "5 Oct 2026",
+   "status": "work"
+  },
+  "g-frame": {
+   "assess": "",
+   "col": 0,
+   "deps": [
+    "g-now"
+   ],
+   "name": "No preferred frame (relativity)",
+   "next": "None pressing.",
+   "ord": 6,
+   "plain": "Relativity says no observer's 'now' is privileged; the laws look the same for all.",
+   "prior": "",
+   "proposal": "",
+   "rff": "A single global front would pick one frame. August's resolution: the front is a local field with a range of pocket sizes, and the global sphere is only its large-scale average, the same way cosmic time is. Since 8 Oct, results become facts across regions only when records can meet at light speed or slower, so settling never needs a global 'now' to decide anything.",
+   "session": "Aug 2026; 8 Oct 2026",
+   "status": "fits"
+  },
+  "g-now": {
+   "assess": "",
+   "basis": "Front = now; folds; atomic clocks and delayed choice as evidence that change continues unrecorded.",
+   "col": 0,
+   "deps": [],
+   "name": "The flow of time and the 'now'",
+   "next": "Say what sets the thickness: the field that was left unsourced in August.",
+   "ord": 1,
+   "plain": "Physics has no 'present moment' in its equations, yet experience has one.",
+   "prior": "",
+   "proposal": "",
+   "rff": "The rubber is the front, the 'now'; its thickness varies. The front advances by settling (Neil, 7 Oct). Change and settling are different: inside a fold, change keeps ticking at the normal rate (an isolated atom's states keep ticking against each other; a photon held for billions of years keeps the right phase). What lags is the record. Folds trail behind the front but aren't frozen.",
+   "session": "Jul–Oct 2026",
+   "status": "fits"
+  },
+  "g-past": {
+   "assess": "",
+   "col": 0,
+   "deps": [],
+   "name": "Low-entropy beginning",
+   "next": "RFF says where the beginning is, not why it was ordered. Decide whether 'why so ordered' is in scope.",
+   "ord": 2,
+   "plain": "The universe started in an extraordinarily ordered state. Nothing in the laws requires that; it's assumed (the 'past hypothesis').",
+   "prior": "",
+   "proposal": "",
+   "rff": "The seed at the centre of the balloon gives RFF its beginning. That places the start in the geometry.",
+   "session": "5 Oct 2026",
+   "status": "work"
+  },
+  "g-planck": {
+   "assess": "",
+   "col": 0,
+   "deps": [
+    "g-now"
+   ],
+   "name": "Granular spacetime at the Planck scale",
+   "next": "Does the pairwise ordering connect to the pairwise interference rule?",
+   "ord": 8,
+   "plain": "At about 10⁻³⁵ m, quantum effects on spacetime itself should matter. No experiment reaches it.",
+   "prior": "Causal sets; Rideout–Sorkin classical sequential growth.",
+   "proposal": "",
+   "rff": "Neil chose a discrete front: events get ordered pairwise as the front passes. That lines up with causal set theory. Since 8 Oct spacetime isn't quantized in RFF, so any granularity at the Planck scale comes from the front's pairwise ordering, not from quantum geometry.",
+   "session": "Aug 2026",
+   "status": "work"
+  },
+  "g-sing": {
+   "assess": "",
+   "col": 0,
+   "deps": [
+    "g-past"
+   ],
+   "name": "Big bang singularity",
+   "next": "This places the singularity; it doesn't resolve it. What replaces infinite density is left open.",
+   "ord": 4,
+   "plain": "Run the expansion backwards and density goes to infinity at t = 0, where the equations stop working.",
+   "prior": "Mainstream view that quantum effects take over near t = 0 (Planck era); Hartle–Hawking no-boundary proposal.",
+   "proposal": "",
+   "rff": "A singularity is classical bulk physics applied where nothing has settled yet. With gravity as an equation of state of the rubber's linking (area-law route, sourced by the average for unsettled mass), a singularity is where an equation of state stops applying, the way thermodynamics fails without balance. The seed is a point in spacetime; its size in any larger picture is left open as unverifiable.",
+   "session": "Aug 2026; 5 Oct 2026",
+   "status": "work"
+  },
+  "p-asym": {
+   "assess": "",
+   "col": 2,
+   "deps": [
+    "p-higgs",
+    "g-arrow"
+   ],
+   "name": "Matter–antimatter imbalance",
+   "next": "Is there an arrow-of-time link, or is this pure dynamics?",
+   "ord": 6,
+   "plain": "The universe is made of matter, not equal parts of each.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "p-cp": {
+   "assess": "",
+   "col": 2,
+   "deps": [
+    "p-vac"
+   ],
+   "name": "Strong CP problem",
+   "next": "Likely outside an interpretation.",
+   "ord": 10,
+   "plain": "The strong force treats matter and mirror-matter the same to absurd precision.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "p-gen": {
+   "assess": "",
+   "col": 2,
+   "deps": [
+    "p-higgs"
+   ],
+   "name": "Three generations of matter",
+   "next": "Likely outside an interpretation.",
+   "ord": 5,
+   "plain": "Matter comes in three copies of different mass. No one knows why three.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "p-hier": {
+   "assess": "",
+   "col": 2,
+   "deps": [
+    "p-higgs"
+   ],
+   "name": "Hierarchy problem",
+   "next": "Likely outside an interpretation.",
+   "ord": 9,
+   "plain": "Gravity is far weaker than the other forces, with no accepted reason.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "p-higgs": {
+   "assess": "",
+   "col": 2,
+   "deps": [
+    "p-vac"
+   ],
+   "name": "Mass and the Higgs",
+   "next": "Likely outside an interpretation: the values are dynamics. Decide together.",
+   "ord": 4,
+   "plain": "Particles get mass from the Higgs field; the masses themselves are unexplained inputs.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "p-ident": {
+   "assess": "",
+   "col": 2,
+   "deps": [
+    "p-spin",
+    "q-ent"
+   ],
+   "name": "Identical particles",
+   "next": "Is swapping two identical particles a pair of histories?",
+   "ord": 2,
+   "plain": "Two electrons are truly indistinguishable, which changes how they combine.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "p-nu": {
+   "assess": "",
+   "col": 2,
+   "deps": [
+    "p-higgs"
+   ],
+   "name": "Neutrino mass",
+   "next": "Likely outside an interpretation.",
+   "ord": 7,
+   "plain": "Neutrinos have mass, which the Standard Model didn't predict.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "p-qft": {
+   "assess": "If particles are patterns, waviness is native and the thing to explain is the dot, which settling does. Replaces the Oct 4 'particles really are particles' framing.",
+   "basis": "Quantum at the edge; settling = record forming; paired histories with clocks (Oct 4).",
+   "col": 2,
+   "deps": [
+    "g-c",
+    "q-super"
+   ],
+   "name": "Particles as field ripples (QFT)",
+   "ord": 0,
+   "plain": "In quantum field theory, particles are ripples in fields that fill space, and the number of particles isn't fixed.",
+   "prior": "Quantum field theory; electron orbitals as standing waves; Kelvin's vortex atoms (1867); topological solitons (e.g. skyrmions).",
+   "proposal": "Particles don't have to be physical objects. They can be quantum ripples, standing waves or vortices. RFF's job is to answer the waviness.",
+   "rff": "A particle is a stable pattern in the rubber's fields: a ripple, a standing wave or a vortex. Before settling, even how many particles there are can be open. RFF covers both halves of wave-particle behaviour: the waviness comes from paired histories whose clocks agree or cancel; the dot comes from settling, where the pattern's energy lands whole wherever the record forms.",
+   "session": "5 Oct 2026",
+   "status": "fits"
+  },
+  "p-spin": {
+   "assess": "",
+   "col": 2,
+   "deps": [
+    "q-super",
+    "g-frame"
+   ],
+   "name": "Spin and the exclusion principle",
+   "next": "Does RFF say anything about spin, or treat it as given?",
+   "ord": 1,
+   "plain": "Particles carry intrinsic spin; no two electrons share a state.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "p-tune": {
+   "assess": "",
+   "col": 2,
+   "deps": [
+    "g-past"
+   ],
+   "name": "Fine-tuned constants",
+   "next": "Does the seed's conditions say anything here?",
+   "ord": 8,
+   "plain": "Many constants sit in narrow windows that allow structure and life.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "p-vac": {
+   "assess": "Adds no new commitment. 'What sources the thickness?' stays open. The Casimir force can also be computed as ordinary forces between the plates' atoms, so it isn't proof that the vacuum holds energy.",
+   "basis": "Vacuum = rubber with no patterns; area-law route; 3D lattice check.",
+   "col": 2,
+   "deps": [
+    "q-super",
+    "g-frame"
+   ],
+   "name": "Vacuum fluctuations and Casimir force",
+   "next": "None pressing.",
+   "ord": 3,
+   "plain": "Empty space has measurable energy and pushes plates together.",
+   "prior": "Srednicki 1993; Unruh 1976; Jaffe 2005 (Casimir without vacuum energy).",
+   "proposal": "The front is not advancing into vacuum. Don't conflate the vacuum with the future; the balloon is just an analogy.",
+   "rff": "There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its neighbouring patches are slightly linked, and that linking is the priming: texture, not thickness, until something couples to it. Priming is readiness, not resolving: nothing settles in the vacuum on its own. Since 7 Oct the linking is also what gravity keeps in balance (area-law route); a uniform vacuum energy doesn't curve spacetime in that route. In 3D, the linking across a surface includes a surface term of its own.",
+   "session": "7 Oct 2026; 8 Oct 2026",
+   "status": "fits"
+  },
+  "q-born": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-meas",
+    "q-cancel"
+   ],
+   "name": "Born rule: probability is a square",
+   "next": "Get the square from the two-ended picture rather than assuming it.",
+   "ord": 4,
+   "plain": "Probabilities equal the squared size of the amplitude. It's a postulate.",
+   "prior": "Cramer/Kastner transactional picture; Strubbe arXiv:2505.10383 (circular derivation).",
+   "proposal": "",
+   "rff": "Read as offer × confirmation, or as a pair of histories compared at the screen. Still put in by hand, though comparing clock readings explains the conjugate better than the transactional version did.",
+   "session": "4 Oct 2026",
+   "status": "strains"
+  },
+  "q-cancel": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-super"
+   ],
+   "name": "Why amplitudes cancel",
+   "next": "Derive why the comparison is the cosine of the clock difference.",
+   "ord": 3,
+   "plain": "Possibilities combine like arrows that can cancel, not like chances that only add. Nobody knows why.",
+   "prior": "Feynman sum over histories (1948); Sorkin quantum measure (1994).",
+   "proposal": "",
+   "rff": "Oct 4 simulations: give each path its own clock and combine as arrows, and the exact fringes appear. Positive weights never made a dark band. Two-ended reading: compare clocks pairwise where histories meet.",
+   "session": "4 Oct 2026",
+   "status": "strains"
+  },
+  "q-decoh": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-ent",
+    "g-arrow"
+   ],
+   "name": "Decoherence and the classical world",
+   "next": "",
+   "ord": 8,
+   "plain": "Big warm things never show superposition; their links spread into the environment almost instantly.",
+   "prior": "Zurek, einselection.",
+   "proposal": "",
+   "rff": "Quantum at the rubber's leading edge, classical in its bulk. A fold closes when undoing it becomes impossible, and it really closes.",
+   "session": "4 Oct 2026; 5 Oct 2026",
+   "status": "fits"
+  },
+  "q-ent": {
+   "assess": "",
+   "basis": "Nested folds (Wigner's friend); c commitment.",
+   "col": 1,
+   "deps": [
+    "q-super"
+   ],
+   "name": "Entanglement and Bell correlations",
+   "next": "None pressing.",
+   "ord": 6,
+   "plain": "Distant particles agree more than any local hidden signal allows, but can't be used to signal.",
+   "prior": "Rovelli, relational quantum mechanics (facts relative to systems)",
+   "proposal": "If we cannot verify the results until Bob's result reaches Alice or vice versa, the system has not truly resolved yet. It eventually settles so that no apparent faster-than-light effect ever happens.",
+   "rff": "They're one open region, not two things talking. When one side looks, the result is settled on that side first; from the other side the fold is still open. The two results become a shared fact only when records can meet, at light speed or slower. So the correlation is real, but nothing either side can see changes before the news arrives, which is why entanglement can't be used to signal.",
+   "session": "4 Oct; 8 Oct 2026",
+   "status": "fits"
+  },
+  "q-eraser": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-ent",
+    "q-meas"
+   ],
+   "name": "Quantum eraser and delayed choice",
+   "next": "",
+   "ord": 7,
+   "plain": "Erasing which-path information later brings fringes back in the sorted data.",
+   "prior": "Ellis's 'pockets of residue' (crystallizing block universe).",
+   "proposal": "",
+   "rff": "The which-path link is an open fold. Erasing closes it without an outcome, so fringes return. The act of erasing is recorded; the outcome never was. Nothing travels backwards.",
+   "session": "4 Oct 2026",
+   "status": "fits"
+  },
+  "q-least": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-cancel",
+    "q-decoh"
+   ],
+   "name": "Classical paths: least action",
+   "next": "",
+   "ord": 9,
+   "plain": "Big objects follow the path of least action.",
+   "prior": "",
+   "proposal": "",
+   "rff": "Least action is where neighbouring histories' clocks agree, so they reinforce. It shapes the settled bulk. It picks the path, not the outcome.",
+   "session": "5 Oct 2026",
+   "status": "fits"
+  },
+  "q-meas": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-super",
+    "g-now"
+   ],
+   "name": "Measurement: why one outcome",
+   "next": "Write selection as a story, not a mechanism. Any mechanism must act on pairs only.",
+   "ord": 2,
+   "plain": "Quantum mechanics predicts the odds but never says why one result happens.",
+   "prior": "",
+   "proposal": "",
+   "rff": "Settling happens when a record forms. What picks *which* outcome (posits #10 and #16) is still open.",
+   "session": "4 Oct 2026",
+   "status": "work"
+  },
+  "q-pairs": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-born"
+   ],
+   "name": "Interference only ever in pairs",
+   "next": "Why pairs and not triples?",
+   "ord": 5,
+   "plain": "One particle: no third-order interference. M particles: maximum order 2M, always even.",
+   "prior": "Sinha et al. 2010; Kauten et al. 2017; Pleinert et al. 2021.",
+   "proposal": "",
+   "rff": "Settling is a two-ended handshake, so interference is between pairs of whole histories. It passes because it inherits QM; the result constrains any future selection story.",
+   "session": "4 Oct 2026",
+   "status": "fits"
+  },
+  "q-super": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "g-now"
+   ],
+   "name": "Superposition and the double slit",
+   "next": "",
+   "ord": 1,
+   "plain": "A single electron produces an interference pattern, as if it went through both slits.",
+   "prior": "",
+   "proposal": "",
+   "rff": "Before it settles, the electron isn't a dot on a path. It's an open region spanning both slits; nothing is chosen until a record forms at the screen.",
+   "session": "4 Oct 2026",
+   "status": "fits"
+  },
+  "q-tunnel": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-super"
+   ],
+   "name": "Tunnelling",
+   "next": "How does an open region pass a barrier before it settles?",
+   "ord": 13,
+   "plain": "Particles cross barriers they don't have the energy to climb.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "q-uncert": {
+   "assess": "Gets the shape of the trade-off. Not yet the size: the minimum is set by Planck's constant, which also sets each path's clock rate. The time–energy version may connect to the front's thickness.",
+   "col": 1,
+   "deps": [
+    "q-super"
+   ],
+   "name": "Uncertainty principle",
+   "next": "What sets how coarse the anchoring can be (Planck's constant), without building it in? Then, optionally, the time–energy link to thickness.",
+   "ord": 12,
+   "plain": "Position and momentum can't both be sharp.",
+   "prior": "Fourier pairs (standard wave mechanics); Kochen–Specker / Bell (no pre-existing values).",
+   "proposal": "Nothing should be built in. Resolution is a convergence of all possible states, like solving a system of equations: the solve needs an anchor ('let x be this value') and the rest is worked out relative to it. From inside the system you can't anchor both. Force x, and y spreads into probabilities. Not a hidden value.",
+   "rff": "Settling anchors one quantity and solves the rest. The Oct 4 model already worked this way: fringes came out right only when both ends of each history were fixed in place and time (the anchor); each path's speed was then worked out, and across paths it varied, so momentum came out spread. Position is a point; momentum is a rate along the region (how fast a path's clock changes), which needs a stretch to read. 'Force x, y grows' is the trade-off in shape.",
+   "session": "5 Oct 2026",
+   "status": "work"
+  },
+  "q-wigner": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-meas",
+    "q-decoh"
+   ],
+   "name": "Wigner's friend",
+   "next": "None pressing. RFF's stance on the no-go theorems: results aren't absolute until their fold merges with the rubber.",
+   "ord": 11,
+   "plain": "A friend measures inside a sealed lab. Outside, the whole lab is still in superposition. Who's right?",
+   "prior": "Frauchiger–Renner 2018; Bong et al. 2020 (local friendliness no-go); Rovelli's relational QM (facts relative to systems, but never becoming absolute).",
+   "proposal": "",
+   "rff": "The sealed lab is a fold. Inside it, the friend's result is settled for everything the fold contains; from outside, the fold is still open. Both are true at once. The result becomes a fact for everyone only when the fold unfolds into the rubber. Folds nest (friend inside lab inside building); each closes by unfolding into its parent. If Wigner undoes the whole lab, the friend's result never reaches the rubber, and only the act of undoing is recorded.",
+   "session": "5 Oct 2026",
+   "status": "fits"
+  },
+  "q-zeno": {
+   "assess": "",
+   "col": 1,
+   "deps": [
+    "q-meas"
+   ],
+   "name": "Quantum Zeno effect",
+   "next": "Does repeated settling pin the front in place?",
+   "ord": 14,
+   "plain": "Watching an unstable system closely enough stops it changing.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "r-area": {
+   "assess": "",
+   "basis": "Area-law route to gravity; 3D lattice check.",
+   "col": 3,
+   "deps": [
+    "r-hawk",
+    "q-decoh"
+   ],
+   "name": "Black hole entropy scales with area",
+   "next": "None pressing. G is still an input, set by the area law's strength.",
+   "ord": 8,
+   "plain": "A black hole's entropy is proportional to its surface area, not its volume.",
+   "prior": "Bekenstein–Hawking; Srednicki 1993; Jacobson 1995, 2016.",
+   "proposal": "",
+   "rff": "The 'locality, never gravity' rule was lifted on 7 Oct. RFF's area law is now its route to gravity: the vacuum's linking across a surface scales with area, and keeping it balanced gives Einstein's equations (Jacobson). Black-hole entropy scaling with area is the same law at a horizon. The 3D lattice check (8 Oct) showed the 2π rule needs a surface (Wald) term, the same kind that appears in black-hole entropy for such fields.",
+   "session": "Jul 2026",
+   "status": "fits"
+  },
+  "r-balance": {
+   "assess": "The laws fix the product; they don't say records cause the slowing. Mass sets the tick rate and the local churn adjusts. Holds only at balance (not in a burning star or a collapsing cloud). 'Records ∝ temperature' is a loose translation.",
+   "basis": "Front advances by settling; the place slows everything equally (7 Oct); Jacobson's balance (energy in = temperature × change in linking).",
+   "col": 3,
+   "deps": [
+    "r-dil"
+   ],
+   "name": "Hotter deeper at balance (Tolman–Ehrenfest)",
+   "next": "Gives follow-up F2 (balance being restored) a concrete target.",
+   "ord": 1.5,
+   "plain": "In a gravity field at thermal balance, deeper regions are hotter, measured locally, by exactly the factor their clocks run slow. Light climbing out loses frequency in step, so its energy measured from far away is conserved.",
+   "prior": "Tolman 1930; Tolman & Ehrenfest 1930; gravitational redshift (Pound–Rebka 1959).",
+   "proposal": "Denser mass creates many records; many records slow down the rate of tick. Sounds like there is a conservation law or a symmetry somewhere there.",
+   "rff": "Dense matter settles many records per tick, while its ticks run slow. At balance the product is fixed, so settling measured on a far-away clock is the same everywhere. The symmetry behind it: a gravity field that isn't changing looks the same at every moment, which conserves energy measured from far away (gravitational redshift).",
+   "session": "7–8 Oct 2026",
+   "status": "fits"
+  },
+  "r-bh": {
+   "assess": "Fits Neil's picture with one correction: the records come from the place (hovering near the horizon), not from density. M87*'s black hole, at about 6.5 billion solar masses, has an average density near 0.4 kg/m³, less than air, and its horizon can be empty space.",
+   "basis": "Nested folds (Wigner's friend); front advances by settling; place, not load (7 Oct); vacuum linking is texture until something couples.",
+   "col": 3,
+   "deps": [
+    "r-dil",
+    "q-eraser"
+   ],
+   "name": "Black hole interiors",
+   "next": "Evaporation unfolding the fold is the information-paradox item.",
+   "ord": 5,
+   "plain": "Inside the horizon, the equations predict a singularity where they break down.",
+   "prior": "GR (horizon redshift); Unruh 1976; Tolman 1930; Hawking 1974.",
+   "proposal": "Too many records to settle, so one tick takes infinite or near-infinite time. The clock really doesn't stop anywhere.",
+   "rff": "A black hole is a fold sealed by geometry. No clock ever stops: falling in, a clock ticks normally all the way. On a far-away clock, a tick at the horizon takes forever. The churn is set by the place, not by density: anything hovering just outside must accelerate ever harder, so it finds the vacuum ever hotter (Unruh), with more churn per tick and slower ticks, and the product fixed at the Hawking temperature seen from far away (Tolman). Something falling freely feels no extra churn. Matter inside stays settled relative to itself but can't unfold into the outside rubber until the black hole evaporates.",
+   "session": "7 Oct 2026",
+   "status": "fits"
+  },
+  "r-bmv": {
+   "assess": "Models where gravity is sourced by the wavefunction produce no entanglement (Struyve 2025). Aziz & Howl (Nature 2025) argue even classical gravity could entangle through indirect processes, but expect it to be far too small for near-future experiments, so a clear detection would contradict RFF. No BMV-type experiment has been done; one is hoped for within a decade. Signalling risk largely answered 8 Oct: results become facts across regions only when records can meet, so a distant speck keeps pulling from its average until news of a look could arrive.",
+   "basis": "Area-law route; folds really close; anchor-and-solve (interim value = net).",
+   "col": 3,
+   "deps": [
+    "q-ent",
+    "r-equiv"
+   ],
+   "name": "Can gravity entangle? (BMV)",
+   "next": "The gate (FRAMEWORK §14 item 7): 'a distant mass pulls from its average until records can meet' is a rule for observers, not yet a conserved stress tensor. Check it against Tilloy & Diósi 2016 and Oppenheim's postquantum classical gravity (2023). No conserved source, no reopening.",
+   "ord": 3,
+   "plain": "Proposed experiments test whether two masses can entangle through gravity alone.",
+   "prior": "Bose et al. 2017; Marletto & Vedral 2017; Struyve, arXiv:2510.20991; Aziz & Howl, Nature 2025; Dorau & Much 2025.",
+   "proposal": "Midpoint or average: a system that has to resolve things, when forced to arrive at an interim value, calculates the net average. If the experiments are ongoing, make a prediction and move on.",
+   "rff": "Decided 8 Oct: an open fold of mass (a mass whose position hasn't settled) gravitates by its average, as if its mass were spread over its possible places. This is what the area-law route gives directly when applied to quantum states. Once anything records the position, the fold closes and gravity follows the settled outcome. Prediction: BMV-type experiments will see no entanglement through gravity. A side effect: a spread-out mass feels its own averaged pull (the Newton–Schrödinger model).",
+   "session": "8 Oct 2026",
+   "status": "work"
+  },
+  "r-dil": {
+   "assess": "Neil's coupling survives with the cause placed in the rubber's shape. 'Settling load causes slowing' failed the reach, universality and direction tests (8 Oct).",
+   "basis": "Front = now; area-law route (7–8 Oct); each path carries a clock.",
+   "col": 3,
+   "deps": [
+    "g-frame",
+    "q-cancel"
+   ],
+   "name": "Gravitational time dilation",
+   "next": "None pressing.",
+   "ord": 1,
+   "plain": "Clocks tick slower lower down in gravity. It's measured routinely.",
+   "prior": "Pikovski et al. 2015; Gravity via the Area Law (8 Oct).",
+   "proposal": "The front advances only by resolving things; it slows when settling slows.",
+   "rff": "'Resolution rate' has two meanings: (a) how fast the front advances, which is the local clock rate, and (b) how much settles per tick. The front advances by settling, and near mass the rubber's shape slows the front and everything on it by the same factor, settling included. Every kind of clock slows identically, so the cause is the place (energy shapes the rubber, the area-law route), not the settling load. Dense matter: many records per tick, slow ticks. The reverse link also holds: clocks at two heights drift apart, which speeds the settling of a superposition across heights (Pikovski).",
+   "session": "4 Oct 2026",
+   "status": "fits"
+  },
+  "r-dp": {
+   "assess": "Still a way RFF could be proven wrong (a confirmed gravity-driven collapse would break it). It no longer 'sides with QM' in every respect: see the Newton–Schrödinger note.",
+   "col": 3,
+   "deps": [
+    "q-meas",
+    "r-equiv"
+   ],
+   "name": "Gravity-induced collapse",
+   "next": "",
+   "ord": 4,
+   "plain": "Some models (Diósi–Penrose) say gravity forces large masses to collapse. Experiments are testing this now.",
+   "prior": "",
+   "proposal": "",
+   "rff": "RFF says no gravity-driven collapse at any mass: averaged gravity never picks an outcome; settling does. One change since 8 Oct: averaged gravity adds a tiny self-pull on spread-out heavy masses (the Newton–Schrödinger effect). That isn't collapse, but it does make their motion differ slightly from plain quantum mechanics.",
+   "session": "Jul 2026; 8 Oct 2026",
+   "status": "fits"
+  },
+  "r-equiv": {
+   "assess": "Overnight tests (7–8 Oct): the free-field entanglement first law (the 2π rule) holds on a lattice, within 1% in 28 of 34 horizon cases, and for a 3D ball once the improved energy density and the Wald surface term are counted (median 0.98, floor 0.64). Scaled 8 Oct after review v4: this is a compatibility argument with Jacobson, not a derivation of gravity from the front. The tests of reach, universality and light bending kill the old settling-load mechanism; any route to Einstein's equations passes them. Settled masses: gravity follows the outcome (Page–Geilker). Unsettled masses: decided 8 Oct, they gravitate by their average. Limits: G is an input; no conserved source yet for the update rule.",
+   "basis": "RFF's area law; vacuum = rubber with no patterns, linking as texture; Unruh effect.",
+   "col": 3,
+   "deps": [
+    "r-dil"
+   ],
+   "name": "Equivalence principle",
+   "next": "The gate: write a conserved source for averaged gravity (FRAMEWORK §14 item 7). Start from Tilloy & Diósi 2016 and Oppenheim 2023.",
+   "ord": 2,
+   "plain": "Falling feels like no gravity at all; gravity and acceleration are locally the same.",
+   "prior": "Jacobson 1995; Jacobson 2016; Dorau & Much 2025 (semiclassical Einstein equations from relative entropy); Page & Geilker 1981; Verlinde 2011.",
+   "proposal": "More mass slows time down because resolution takes time to process; gravity comes out naturally from this. Reopened via the area-law route (7 Oct).",
+   "rff": "Gravity-origin is reopened. Route: the vacuum's linking across any small surface scales with its area (RFF's area law); an accelerating observer finds it warm (Unruh); energy crossing a surface changes the linking, and spacetime must curve to keep it balanced. The balancing equation is Einstein's. Gravity is what keeps the vacuum's linking in balance as patterns move through it. Time slowing near mass is part of the result, not the cause.",
+   "session": "7–8 Oct 2026",
+   "status": "work"
+  },
+  "r-hawk": {
+   "assess": "",
+   "col": 3,
+   "deps": [
+    "p-vac",
+    "r-bh"
+   ],
+   "name": "Hawking radiation",
+   "next": "Does the radiation carry the fold's contents out?",
+   "ord": 6,
+   "plain": "Black holes slowly radiate and evaporate, about 10⁶⁷ years for a solar mass.",
+   "prior": "",
+   "proposal": "",
+   "rff": "Evaporation is what eventually closes the long fold.",
+   "session": "4 Oct 2026",
+   "status": "work"
+  },
+  "r-info": {
+   "assess": "",
+   "col": 3,
+   "deps": [
+    "r-bh",
+    "r-hawk",
+    "q-decoh"
+   ],
+   "name": "Black hole information paradox",
+   "next": "The hard part of the black hole session: does the fold close cleanly, with the information getting out?",
+   "ord": 7,
+   "plain": "If a black hole evaporates into featureless heat, the information that fell in seems lost, which QM forbids.",
+   "prior": "",
+   "proposal": "",
+   "rff": "",
+   "session": "",
+   "status": "open"
+  },
+  "r-qg": {
+   "assess": "A bold stance with two tests attached: no gravitational entanglement in BMV-type experiments, and strongly suppressed primordial gravitational waves of quantum origin. 'Never quantum' is meant in the broad sense (decided 8 Oct): no quantized metric anywhere. It stands only if a conserved source for averaged gravity can be written.",
+   "basis": "Averaged-gravity decision (8 Oct); area-law route; c; discrete front.",
+   "col": 3,
+   "deps": [
+    "r-bmv",
+    "g-planck"
+   ],
+   "name": "Quantum gravity",
+   "next": "The conserved source (FRAMEWORK §14 item 7), then the derivation of prediction 2.",
+   "ord": 9,
+   "plain": "No accepted theory joins quantum mechanics and general relativity.",
+   "prior": "",
+   "proposal": "",
+   "rff": "RFF's gravity is never quantum (accepted 8 Oct): it is the rubber's equation of state, sourced by the average for unsettled mass and by the outcome once settled. So spacetime itself isn't quantized, and no quantum theory of gravity is needed in that sense. What RFF still needs: c as the boundary, the area law's strength (which sets G), and a discrete front that orders events pair by pair.",
+   "session": "8 Oct 2026",
+   "status": "fits"
+  }
+ },
+ "drafts": {
+  "c-coinc": {
+   "basis": "Vase flare; dark-matter wake (proposal).",
+   "col": 4,
+   "deps": [
+    "c-de",
+    "c-dm"
+   ],
+   "isNew": true,
+   "name": "Why dark energy and matter are similar now",
+   "ord": 9,
+   "plain": "Dark energy and matter have comparable densities today, though they change very differently over time.",
+   "rff": "In the vase, matter thins as the rubber stretches while dark energy doesn't, so they cross at one age. RFF has no reason we live near that age. If the wake proposal for dark matter holds, it might give a link.",
+   "status": "outside"
+  },
+  "c-fate": {
+   "assess": "Open question: with nothing left to settle and no clocks, does 'now' still mean anything? Penrose uses the same observation to argue the universe resets.",
+   "basis": "Every fold eventually closes; age = radius; folds closing = entropy rising.",
+   "prior": "Penrose, conformal cyclic cosmology (2010).",
+   "rff": "Every fold eventually closes, black holes included as they evaporate. The far future is smooth rubber: fully settled, nothing open. The age (radius) keeps growing, but with nothing left to settle the front has no thickness, so the 'now' becomes empty. That is heat death described in RFF terms.",
+   "status": "fits"
+  },
+  "c-hubble": {
+   "basis": "Verify-or-leave-open.",
+   "rff": "An observational disagreement. RFF has no stake in which value is right.",
+   "status": "outside"
+  },
+  "c-lambda": {
+   "basis": "Area-law route to gravity; vacuum = rubber with no patterns; verify-or-leave-open.",
+   "prior": "Jacobson 1995 (Λ as integration constant); unimodular gravity; Weinberg 1987 (anthropic bound).",
+   "rff": "In the area-law route (reopened 7 Oct), a uniform vacuum energy doesn't curve spacetime: Λ appears as a free constant. That matches RFF's 'vacuum linking is texture, not thickness'. The 10¹²⁰ mismatch then becomes 'what fixes Λ's value?', which is still dynamics.",
+   "status": "outside"
+  },
+  "g-ctc": {
+   "assess": "Agrees with Hawking's chronology protection conjecture. It's a claim, but no experiment contradicts it.",
+   "basis": "Arrow; folds never rewrite settled outcomes.",
+   "col": 3,
+   "deps": [
+    "r-equiv",
+    "g-arrow"
+   ],
+   "isNew": true,
+   "name": "Time-travel loops",
+   "needs": "Commit to 'no time-travel loops through settled history.' Your call.",
+   "ord": 10,
+   "plain": "General relativity allows solutions where a path loops back into its own past. Nobody knows if nature forbids them.",
+   "prior": "Hawking 1992 (chronology protection); Deutsch 1991.",
+   "rff": "The front only moves outward. A loop back into the past would need it to revisit settled rubber. Folds can reach back (delayed choice), but they never rewrite settled outcomes, so RFF rules out loops through settled history.",
+   "status": "fits"
+  },
+  "g-landauer": {
+   "assess": "Strong fit, and it's measured, not just theoretical.",
+   "basis": "The act of undoing is recorded; folds closing = entropy rising.",
+   "col": 1,
+   "deps": [
+    "q-decoh",
+    "g-arrow"
+   ],
+   "isNew": true,
+   "name": "Erasing information costs heat",
+   "ord": 15,
+   "plain": "Deleting one bit of information releases a minimum amount of heat (Landauer's principle).",
+   "prior": "Landauer 1961; Bérut et al., Nature 2012 (measured).",
+   "rff": "This is the fold rule in thermodynamic form. Erasing a record once it has spread can't be done without trace: the record is pushed out into the environment as heat. 'The act of undoing is recorded' shows up as that heat.",
+   "status": "fits"
+  },
+  "g-psych": {
+   "basis": "Front = now; settling = record forming; folds closing = arrow.",
+   "col": 0,
+   "deps": [
+    "g-arrow"
+   ],
+   "isNew": true,
+   "name": "Remembering the past, not the future",
+   "ord": 9,
+   "plain": "We have records of the past and none of the future, though the laws treat both directions alike.",
+   "prior": "Hawking 1985 (psychological arrow follows the thermodynamic one).",
+   "rff": "Records only exist behind the front. Ahead, nothing has settled, so there is nothing to remember. Memory points back for the same reason the arrow does.",
+   "status": "fits"
+  },
+  "p-ab": {
+   "assess": "One of the clearest cases where 'pairs of whole histories' beats 'one real path'.",
+   "basis": "Pairs of histories compared by clock reading.",
+   "col": 2,
+   "deps": [
+    "q-cancel",
+    "p-qft"
+   ],
+   "isNew": true,
+   "name": "Aharonov–Bohm effect",
+   "ord": 13,
+   "plain": "Electrons are shifted by a magnetic field in a region they never pass through.",
+   "prior": "Aharonov & Bohm 1959; Tonomura et al. 1986.",
+   "rff": "Only the comparison between a pair of histories matters. A field enclosed between two paths changes their relative clock reading, even though neither path touches it. A single-path picture can't explain this; the pairs picture does.",
+   "status": "fits"
+  },
+  "p-anti": {
+   "basis": "Two-ended histories; arrow = settling.",
+   "col": 2,
+   "deps": [
+    "p-qft",
+    "q-cancel"
+   ],
+   "isNew": true,
+   "name": "Antimatter",
+   "ord": 11,
+   "plain": "Every particle has an antiparticle with opposite charge.",
+   "prior": "Stueckelberg 1941; Feynman 1949.",
+   "rff": "With both ends of a history fixed, a history that zigzags back in time is just another candidate. Feynman read a positron as an electron's history running backwards. In RFF, the arrow belongs to settling, not to which way a history's clock runs, so this needs nothing new.",
+   "status": "fits"
+  },
+  "p-asym": {
+   "basis": "Arrow = folds closing.",
+   "prior": "Sakharov 1967.",
+   "rff": "Explaining the imbalance needs three conditions (Sakharov). RFF's arrow supplies one of them, being out of equilibrium, for free. The amount of matter–antimatter difference in the laws is dynamics.",
+   "status": "outside"
+  },
+  "p-confine": {
+   "basis": "Verify-or-leave-open.",
+   "col": 2,
+   "deps": [
+    "p-qft"
+   ],
+   "isNew": true,
+   "name": "Quark confinement",
+   "ord": 14,
+   "plain": "Quarks never appear alone. Proving why from the theory is still open.",
+   "rff": "Dynamics of the strong force. Left to particle physics.",
+   "status": "outside"
+  },
+  "p-cp": {
+   "basis": "Verify-or-leave-open.",
+   "rff": "Dynamics. Left to particle physics.",
+   "status": "outside"
+  },
+  "p-gen": {
+   "basis": "Verify-or-leave-open.",
+   "rff": "Nothing in the balloon picture prefers three generations. Left as an input.",
+   "status": "outside"
+  },
+  "p-hier": {
+   "basis": "Verify-or-leave-open.",
+   "rff": "Dynamics. RFF says nothing about why gravity is so weak.",
+   "status": "outside"
+  },
+  "p-higgs": {
+   "basis": "Each path carries a clock; verify-or-leave-open.",
+   "next": "None for RFF.",
+   "rff": "Mass sets how fast a particle's clock ticks (de Broglie, mc²/h, from Oct 4), so the Higgs field sets clock rates. RFF can say what mass does, but the values themselves are inputs.",
+   "status": "outside"
+  },
+  "p-ident": {
+   "assess": "Strong fit. It is the same pairing that gives fourth-order interference for two particles (Pleinert 2021).",
+   "basis": "Two-ended histories; pairwise comparison.",
+   "prior": "Hong–Ou–Mandel 1987 (photon bunching).",
+   "rff": "Only the ends of a history are fixed. If two identical particles could have swapped, 'which one went where' isn't a fact unless something recorded it, so the swapped and unswapped histories are both candidates and pair up. Bosons' pairs add (they bunch together); fermions' pairs cancel (they avoid each other).",
+   "status": "fits"
+  },
+  "p-macro": {
+   "assess": "Supports the 'no hidden size limit' commitment: big things can be quantum when shielded.",
+   "basis": "Folds held open by shielding; no size threshold; identical-particle pairing.",
+   "col": 2,
+   "deps": [
+    "q-decoh",
+    "p-ident"
+   ],
+   "isNew": true,
+   "name": "Large quantum states (superconductors, condensates)",
+   "ord": 12,
+   "plain": "Cooled enough, huge numbers of particles share one quantum state: superconductors, superfluids, condensates.",
+   "prior": "Friedman et al. 2000; van der Wal et al. 2000 (SQUID superpositions).",
+   "rff": "Cold and isolation keep links from spreading, so a huge fold stays open: a fold held open by temperature rather than distance. Identical bosons pair-add, so they pile into one state.",
+   "status": "fits"
+  },
+  "p-nu": {
+   "assess": "Worth noting for the relative-time thread: relative clock rates between components produce a measured effect here.",
+   "basis": "Each path carries a clock; relative clock rates between histories (Oct 4).",
+   "prior": "Super-Kamiokande 1998; SNO 2001 (Nobel 2015).",
+   "rff": "The mass values are inputs. But neutrino oscillation is a clean example of your relative-time idea working: a neutrino is a mix of components whose clocks tick at slightly different rates, so their comparison drifts and the flavour changes along the way.",
+   "status": "outside"
+  },
+  "p-spin": {
+   "assess": "Why fermions get the minus sign is the spin-statistics theorem, which needs relativity and causality. RFF has both through c, so the link is there but not yet spelled out.",
+   "basis": "Pairs of histories that can cancel; c as the boundary that makes order possible.",
+   "next": "Tell the 720° and minus-sign story in clock terms.",
+   "prior": "Pauli 1940 (spin-statistics theorem).",
+   "rff": "Spin is a clock property: a spin-½ particle's clock returns to its start only after two full turns (720°). Exclusion is cancellation between swapped histories: for two identical fermions, the history where they swap pairs with a minus sign, so two fermions can't settle into the same state.",
+   "status": "work"
+  },
+  "p-tune": {
+   "basis": "Seed as starting condition; verify-or-leave-open.",
+   "rff": "The seed is a starting condition. By the verify-or-leave-open rule, RFF doesn't explain the constants' values.",
+   "status": "outside"
+  },
+  "q-clone": {
+   "basis": "Folds; settling = record forming; c as the limit.",
+   "col": 1,
+   "deps": [
+    "q-ent"
+   ],
+   "isNew": true,
+   "name": "No-cloning and teleportation",
+   "ord": 17,
+   "plain": "An unknown quantum state can't be copied, but it can be moved using entanglement plus an ordinary message.",
+   "prior": "Wootters & Zurek 1982; Bennett et al. 1993.",
+   "rff": "Copying an unknown state would need reading it, and reading is settling, which closes the fold. Teleportation works because a shared fold carries the openness. A classical message, travelling no faster than c, tells the receiver how to unfold it.",
+   "status": "fits"
+  },
+  "q-context": {
+   "basis": "Anchor-and-solve; no pre-existing values.",
+   "col": 1,
+   "deps": [
+    "q-meas",
+    "q-uncert"
+   ],
+   "isNew": true,
+   "name": "No values before measurement (contextuality)",
+   "ord": 16,
+   "plain": "You can't assign every quantity a definite value in advance that doesn't depend on what else you measure.",
+   "prior": "Kochen & Specker 1967.",
+   "rff": "Nothing has a value until it's anchored, and which question is asked sets the anchor. So a value can depend on what else is measured alongside it. That is your 'not a hidden value' point from the uncertainty discussion.",
+   "status": "fits"
+  },
+  "q-qc": {
+   "basis": "Nested folds; histories that cancel; decoherence = fold closing.",
+   "col": 1,
+   "deps": [
+    "q-decoh",
+    "q-cancel"
+   ],
+   "isNew": true,
+   "name": "Quantum computing",
+   "ord": 18,
+   "plain": "Quantum computers solve some problems faster by keeping many possibilities in play until the end.",
+   "rff": "A quantum computer is an engineered, deliberately long, heavily nested fold. Computing means arranging histories so wrong answers cancel before the fold unfolds. Errors from decoherence are the fold closing early.",
+   "status": "fits"
+  },
+  "q-tunnel": {
+   "assess": "Follows from the double-slit picture with nothing added. The 2020 Toronto experiment measured time inside the barrier with a clock carried by the atom itself, which suits RFF's path clocks.",
+   "basis": "Open regions; two-ended histories; each path carries a clock.",
+   "next": "Check that the measured in-barrier time matches what a per-path clock would read.",
+   "prior": "Ramos et al., Nature 2020 (Larmor-clock measurement of tunnelling time).",
+   "rff": "Nothing climbs the barrier. Before settling, the particle is an open region that already extends into and past the barrier; inside it, the path clocks fade rather than tick. When it settles on the far side, the history joining the two ends was always one of the candidate histories. 'How long did it spend inside?' has no answer until something inside records it.",
+   "status": "fits"
+  },
+  "q-zeno": {
+   "assess": "Both Zeno and anti-Zeno come out, because RFF inherits QM's timing rules.",
+   "basis": "Anchor-and-solve; settling = a record forming.",
+   "prior": "Itano et al. 1990 (trapped ions); Kofman & Kurizki, Nature 2000 (anti-Zeno).",
+   "rff": "Each observation is a settling: it anchors the system at its starting state. Anchor often enough and the open region never gets room to spread toward the decayed state, so it stays put. The reverse also happens: with different timing, frequent anchoring can speed decay.",
+   "status": "fits"
+  },
+  "r-gw": {
+   "basis": "c as the rubber's rate; gravity from the area-law route (reopened 7 Oct).",
+   "col": 3,
+   "deps": [
+    "r-equiv"
+   ],
+   "isNew": true,
+   "name": "Gravitational waves",
+   "next": "Revisit after the gravity-origin work.",
+   "ord": 11,
+   "plain": "Ripples in spacetime from colliding black holes and neutron stars, detected since 2015.",
+   "prior": "LIGO 2015 (first detection); GW170817 (speed of gravity = c).",
+   "rff": "Ripples in the rubber's shape, travelling at the rubber's own rate, c. The 2017 neutron-star merger showed gravity and light travel at the same speed to about one part in 10¹⁵, which supports 'c is the rubber's rate' for everything.",
+   "status": "fits"
+  },
+  "r-holo": {
+   "basis": "Area law; dead-ends ledger.",
+   "col": 3,
+   "deps": [
+    "r-area"
+   ],
+   "isNew": true,
+   "name": "Holographic principle",
+   "ord": 12,
+   "plain": "The most information a region can hold grows with its surface area, not its volume.",
+   "prior": "'t Hooft 1993; Susskind 1995; Maldacena 1997.",
+   "rff": "RFF's area law (resolution rate scales with front area) agrees with information scaling with area. But the dead-ends ledger rejected 'the front encodes the past, so it's holography'. RFF should claim the area scaling only, not boundary encoding.",
+   "status": "strains"
+  },
+  "r-info": {
+   "assess": "Sides with information being preserved. Caution since 8 Oct: the recent Page-curve results lean on quantum gravity (a gravitational path integral), which RFF no longer has. RFF needs its own account of how the information gets out, through the fold unfolding as the black hole evaporates.",
+   "basis": "Folds close by unfolding into their parent; every fold eventually closes.",
+   "next": "Write RFF's own account of information leaving an evaporating black hole, without quantum gravity.",
+   "prior": "Page 1993; Penington 2019; Almheiri, Engelhardt, Marolf & Maxfield 2019 (Page curve recovered).",
+   "rff": "If a black hole is a sealed fold, Hawking radiation is the fold slowly unfolding into the rubber. Every fold closes by unfolding into its parent, so the information comes out. That also matches the Page curve: early radiation looks random while the fold is mostly sealed, and after the halfway point the information starts coming out.",
+   "status": "work"
+  }
+ }
+}
