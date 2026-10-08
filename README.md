@@ -16,8 +16,10 @@ the gate for the reopening:** a conserved source for that rule (FRAMEWORK.md §1
 lifetime tracking absorber distance *L* — was tested on 6 August and **failed**. Posit #9
 passed its internal check exactly. See [RESULTS-01.md](RESULTS-01.md).
 
-**Scope:** RFF is a narrative around quantum mechanics, not a challenge to it. It departs from
-it only for the gravity of unsettled masses, where experiments haven't yet reached.
+**Charter (updated 8 October 2026):** RFF is an interpretation of quantum mechanics plus one
+physical claim about gravity. Everywhere else it follows standard quantum mechanics and adds a
+story, not dynamics. For the gravity of unsettled masses it departs: such a mass gravitates by
+its average. There RFF is a semiclassical theory, and it can be proved wrong by experiment.
 
 ## Where to start
 

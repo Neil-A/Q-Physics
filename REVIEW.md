@@ -199,4 +199,6 @@ The question for §14 item 7 becomes: is the light-cone update rule one of these
 
 **Note on recommendation 6.** "Small" is likely right for the 25 kDa molecule. It is not obviously right for a BMV mass pair: the averaged self-pull between the two branches of one mass is tiny as a displacement, but whether it is tiny as a visibility or phase effect depends on the wave-packet width. Not priced yet.
 
-**Waiting on Neil:** questions 1, 4, 5 and 6 above, and the lay-summary rewrite (after questions 1–3).
+**Answered by Neil, 8 Oct:** question 1 — the charter is updated to "an interpretation of quantum mechanics plus one semiclassical claim about gravity" (README, FRAMEWORK §15). Question 4 — no re-derivation of Strubbe exists; §8 says so.
+
+**Still waiting on Neil:** questions 2, 5 and 6, and the lay-summary rewrite (after questions 2–3).

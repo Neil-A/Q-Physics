@@ -2,7 +2,7 @@
 
 *Working document. Last substantive revision **8 October 2026** — scope widened (5 Oct), gravity-origin reopened and tested ([RESULTS-02-gravity.md](RESULTS-02-gravity.md)), new commitments and predictions collected in **§15** (scaled back the same day after [REVIEW.md](REVIEW.md) v4: one prediction, conserved source as the gate); targeted edits in §6, §8, §11, §12, §13, §14. Previous revision 6 August 2026 (evening) — **SIM-SPEC-01 executed in full; results written back into §3, §4, §7, §8, §11, §14.** #4 confirmed, #9 internally verified, **#14's L/c prediction failed**. See [RESULTS-01.md](RESULTS-01.md). Earlier the same day: Reading B adopted (§7), handshake confined to the front (§7, §9), #1 marked idle, τ-adoption reversed. Seven blocking papers read 5 August 2026 ([SOURCES.md](SOURCES.md)).*
 
-> **Read this first (October 2026).** The framework is now positioned as a narrative around quantum mechanics that departs from it only for the gravity of unsettled masses. It carries **one prediction**: BMV-type experiments will see no entanglement through gravity (a second, on primordial gravitational waves, is parked). Gravity is taken from the area law (Jacobson's route) as a compatibility argument, not derived; the free-field first law is checked on a lattice, and the old settling-load mechanism is dead. **The reopening stands only if a conserved source can be written (§14 item 7).** Start with §15, then [RESULTS-02-gravity.md](RESULTS-02-gravity.md).
+> **Read this first (October 2026).** **Charter (updated 8 Oct):** an interpretation of quantum mechanics plus one semiclassical claim about gravity — an unsettled mass gravitates by its average. Everywhere else the framework adds a story, not dynamics; for that one claim it is a physical theory that can fail. It carries **one prediction**: BMV-type experiments will see no entanglement through gravity (a second, on primordial gravitational waves, is parked). Gravity is taken from the area law (Jacobson's route) as a compatibility argument, not derived; the free-field first law is checked on a lattice, and the old settling-load mechanism is dead. **The reopening stands only if a conserved source can be written (§14 item 7).** Start with §15, then [RESULTS-02-gravity.md](RESULTS-02-gravity.md).
 >
 > **August status, kept as history.** The framework's single distinguishing prediction — coherence lifetime tracking absorber distance L — was tested on 6 August and **does not hold**. Sections written before that run still argue for it; they are marked where they stand. The live claim is #9 (§8), which passed its internal check exactly and remains a sharp disagreement with Strubbe on a checkable experiment.
 
@@ -309,7 +309,7 @@ Then front thickness and margin depth are different quantities, and the range li
 | Gravitationally induced entanglement | **No** — decided 8 Oct 2026 (averaged gravity, §15) | **No** |
 | Gravity can distinguish which-path | **No** | **Yes** |
 
-**The Strubbe column is a reading of his paper, not a re-derivation** *(noted 8 Oct, [REVIEW.md](REVIEW.md) v4)*. With entanglement now "No" on both sides, BMV does not separate us; the separating experiment is a gravitational which-path measurement that, on his account, leaves the pattern intact. Collapse (Diósi–Penrose), which-path, and entanglement are three different apparatuses, not one disagreement.
+**The Strubbe column is a reading of his paper, not a re-derivation** *(noted 8 Oct, [REVIEW.md](REVIEW.md) v4; Neil confirmed the same day that no re-derivation exists anywhere)*. With entanglement now "No" on both sides, BMV does not separate us; the separating experiment is a gravitational which-path measurement that, on his account, leaves the pattern intact. Collapse (Diósi–Penrose), which-path, and entanglement are three different apparatuses, not one disagreement.
 
 **State it loudly, and name him** — once two debts are paid: his prediction re-derived from his equations, and the separating experiment specified (mass, separation, coherence time, what is measured, which apparatus could reach it). A bet against a named opponent on one experiment is worth more than a bet against a research programme. Then it belongs in the abstract.
 
@@ -531,7 +531,7 @@ Metaphors are not decorative here — they have repeatedly become commitments. "
 
 ### Position
 
-- **RFF is a narrative around quantum mechanics.** It departs from it only for the gravity of unsettled masses, where experiments haven't yet reached.
+- **Charter (updated 8 Oct, replacing "a narrative around quantum mechanics, never a challenge to it").** RFF is an interpretation of quantum mechanics plus one semiclassical claim: an unsettled mass gravitates by its average. Everywhere else it adds a story, not dynamics. For gravity it is a physical theory, and it can be proved wrong by a BMV-type experiment. If the conserved source fails (§14 item 7), the claim is parked and RFF returns to an interpretation.
 - **What can't be verified is left open, not explained.** A free interpretive choice is made where no experiment can tell the options apart, and recorded as a choice.
 
 ### Geometry — the balloon (an analogy)
