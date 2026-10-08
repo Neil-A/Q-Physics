@@ -56,10 +56,11 @@
 12. Particles are stable patterns in the rubber (ripples, standing waves, vortices), not little objects. Waviness comes from paired histories; the dot comes from settling.
 13. The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.
 14. Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
-15. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
-16. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
-17. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
-18. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
+15. Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.
+16. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
+17. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
+18. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
+19. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
 
 **Open questions:** Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.
 
@@ -604,13 +605,13 @@
 **Builds on:** Gravitational time dilation, Quantum eraser and delayed choice
 
 - **What it is.** Inside the horizon, the equations predict a singularity where they break down.
-- **RFF placement.** A black hole is a fold sealed by geometry. No clock ever stops: falling in, a clock ticks normally all the way. On a far-away clock, a tick at the horizon takes forever. The churn is set by the place, not by density: anything hovering just outside must accelerate ever harder, so it finds the vacuum ever hotter (Unruh), with more churn per tick and slower ticks, and the product fixed at the Hawking temperature seen from far away (Tolman). Something falling freely feels no extra churn. Matter inside stays settled relative to itself but can't unfold into the outside rubber until the black hole evaporates.
+- **RFF placement.** A black hole is a fold sealed by geometry: a large fold of thin rubber, stuck in the wake as the rest expands (Neil, 9 Oct). Its matter is strongly coupled and settled within; what is open is everything it holds, for everyone outside, because records inside can't meet records outside until it evaporates. The fold's size goes with the horizon area, which grows as the mass squared, so the fold accounts for the mass. No clock ever stops: falling in, a clock ticks normally all the way. On a far-away clock, a tick at the horizon takes forever. The churn is set by the place, not by density: anything hovering just outside must accelerate ever harder, so it finds the vacuum ever hotter (Unruh), with more churn per tick and slower ticks, and the product fixed at the Hawking temperature seen from far away (Tolman). Something falling freely feels no extra churn.
 - **Neil's proposal.** Too many records to settle, so one tick takes infinite or near-infinite time. The clock really doesn't stop anywhere.
 - **Built from.** Nested folds (Wigner's friend); front advances by settling; place, not load (7 Oct); vacuum linking is texture until something couples.
 - **Assessment.** Fits Neil's picture with one correction: the records come from the place (hovering near the horizon), not from density. M87*'s black hole, at about 6.5 billion solar masses, has an average density near 0.4 kg/m³, less than air, and its horizon can be empty space.
-- **To work through.** Evaporation unfolding the fold is the information-paradox item.
+- **To work through.** Held under the conserved-source gate (FRAMEWORK §14 item 7): reading the area-scaled entropy as the size of what is sealed off, and evaporation unfolding the fold (the information-paradox item).
 - **Prior art.** GR (horizon redshift); Unruh 1976; Tolman 1930; Hawking 1974.
-- **Worked through.** 7 Oct 2026
+- **Worked through.** 7 Oct 2026; 9 Oct 2026 (sealed fold)
 
 #### Hawking radiation  `r-hawk`
 
