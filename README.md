@@ -4,10 +4,13 @@ A working research repository. It started on the double slit and the measurement
 October 2026 it tests how much known physics, small and large, the framework can fit.
 
 **Status as of 8 October 2026:** the scope has widened from the double slit to "how much known
-physics fits." Gravity-origin was reopened on 7 October through the area-law route and passed
-its four tests; an unsettled mass gravitates by its average, so the framework predicts no
-gravity-mediated entanglement and no primordial gravitational waves of quantum origin. See
-[RESULTS-02-gravity.md](RESULTS-02-gravity.md), and FRAMEWORK.md §15.
+physics fits." Gravity-origin was reopened on 7 October through the area-law route. The old
+"settling load slows time" mechanism is dead; the free-field entanglement first law checks out
+on a lattice. Gravity is not derived: G is an input, and the route is a compatibility argument
+with Jacobson. The framework's addition is a coupling rule — an unsettled mass gravitates by its
+average — which predicts no gravity-mediated entanglement in BMV-type experiments. **Open, and
+the gate for the reopening:** a conserved source for that rule (FRAMEWORK.md §14 item 7). See
+[RESULTS-02-gravity.md](RESULTS-02-gravity.md), FRAMEWORK.md §15, and [REVIEW.md](REVIEW.md) v4.
 
 **Earlier (9 August 2026):** the framework's single distinguishing prediction — coherence
 lifetime tracking absorber distance *L* — was tested on 6 August and **failed**. Posit #9
@@ -20,10 +23,10 @@ it only for the gravity of unsettled masses, where experiments haven't yet reach
 
 | If you want | Read |
 |---|---|
-| The idea, no jargon | [Framework-Summary-Plain.md](Framework-Summary-Plain.md) — predates October |
+| The idea, no jargon | [Framework-Summary-Plain.md](Framework-Summary-Plain.md) — predates October and contradicts §15 on gravity |
 | The full argument and all sixteen posits (canonical) | [FRAMEWORK.md](FRAMEWORK.md) |
 | What the simulations actually returned | [RESULTS-01.md](RESULTS-01.md) (coherence), [RESULTS-02-gravity.md](RESULTS-02-gravity.md) (gravity) |
-| Current status, risks, next actions | [REVIEW.md](REVIEW.md) — predates October; FRAMEWORK.md §14–§15 are current |
+| Current status, risks, next actions | [REVIEW.md](REVIEW.md) — v4, 8 October, with a response section |
 | The literature, and what each paper was read for | [SOURCES.md](SOURCES.md) |
 | The computational spec | [SIM-SPEC-01-coherence.md](SIM-SPEC-01-coherence.md) |
 | The code | [sim/](sim/) |

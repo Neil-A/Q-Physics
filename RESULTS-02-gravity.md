@@ -2,7 +2,7 @@
 
 *Run 7–8 October 2026; re-run inside this repository on 8 October to confirm the numbers. Code in [sim/gravity/](sim/gravity/), raw output in `sim/gravity/results/`. Stack: Python 3.13, NumPy, SciPy (pinned in [sim/requirements.txt](sim/requirements.txt)); no QuTiP needed.*
 
-**Headline:** Gravity can come out of the framework's area law. The key ingredient, empty space's entanglement responding to energy with the 2π (Unruh) factor, checks out on a lattice, in 1D and in 3D. The route passes all four tests set for it. The original mechanism, "mass slows time because resolution takes time to process," fails three of them. What the framework adds beyond Jacobson is a reason gravity follows the outcome that actually happened.
+**Headline** *(rewritten 8 Oct after [REVIEW.md](REVIEW.md) v4)*: The old mechanism, "mass slows time because resolution takes time to process," is dead: it fails reach, universality and light bending. On a lattice, a free scalar field obeys the known entanglement first law (dS = 2π × weighted energy change) in 1D, and in 3D once the improved energy density and the Wald surface term are included; without them it fails. This is a check of Jacobson's ingredient for a free field, not a derivation of gravity from the resolution front. **G is not derived. Local equilibrium is not proved.** Tests 2 and 4 reproduce textbook formulas that kill the old mechanism; any route that yields Einstein's equations passes them. The framework's own addition is a coupling rule: gravity follows the average energy of an unsettled mass, and the settled outcome once records can meet. That rule does not yet have a conserved stress tensor ([FRAMEWORK.md](FRAMEWORK.md) §14 item 7), and the gravity reopening stands or falls on it.
 
 **Context.** Gravity-origin was cut in July (§12 of [FRAMEWORK.md](FRAMEWORK.md)). On 5 October the scope widened to "how much known physics fits," and on 7 October Neil reopened gravity-origin through the area-law route, with four tests set in advance: direction, reach, universality, light bending.
 
@@ -15,11 +15,13 @@
 | Step 0 | Does the framework supply Jacobson's ingredients? | Four of six outright; the area law in part; a story for the equilibrium assumption |
 | Lattice, 1D horizon | Does a region's entanglement change by 2π × distance-weighted energy change? | **PASS** — within 1% in 28 of 34 cases (3 masses, 2 kinds of nudge) |
 | Lattice, 1D small ball | Same, for a short interval of a massless field | **PASS** — 0.98–1.01, sizes 8 to 256 sites |
-| Lattice, 3D small ball | Same, in three dimensions | **PASS with a surface term** — 0.97–1.01 when the wave straddles the edge; plain energy density fails completely |
-| Test 1, direction | Does mass slow clocks without contradicting "dense matter settles fast"? | **PASS** |
-| Test 2, reach | Does slowing reach through empty space? | **PASS**; a local-load rule fails |
-| Test 3, universality | Do all clocks slow identically? | **PASS** by construction; a local-load rule fails |
-| Test 4, light bending | Full bending, not half? | **PASS** — 1.751″ at the Sun's edge; time-slowing alone gives 0.876″ |
+| Lattice, 3D small ball | Same, in three dimensions | **PASS with improved energy + Wald surface term** — median 0.978–0.985, floor 0.64–0.72 (where the wave sits mostly inside the ball and dS is tiny); plain energy density fails completely (median ≈ −0.016) |
+| Test 1, direction | Does mass slow clocks without contradicting "dense matter settles fast"? | Argument, no script. Consistent |
+| Test 2, reach | Does slowing reach through empty space? | Textbook GR profile vs a local-load step function: **the local-load rule fails**. Galileo cited, not computed |
+| Test 3, universality | Do all clocks slow identically? | Argument, no script. Passes by construction (couples only to energy); **the local-load rule fails** |
+| Test 4, light bending | Full bending, not half? | Ray trace reproduces 1.751″ vs time-only 0.876″: **the local-load rule fails**. Cassini cited, not fitted |
+
+*Tests 1–4 kill the old mechanism. They are not evidence for the area-law route over any other route to Einstein's equations.*
 
 ---
 
@@ -68,7 +70,7 @@ Partial waves (Srednicki's method); one smooth spherical wave squeezed, straddli
 | 32.5 | −0.016 | 0.984 |
 | 64.5 | −0.016 | 0.985 |
 
-A free fit of the two correction terms over 54 configurations returns −0.168 and 1.056, against theory's −1/6 (−0.167) and 2π/6 (1.047), residual 0.3%. In words: **dS(lattice) = 2π × (improved energy change) + 2πξ ∮ d⟨φ²⟩**, with ξ = 1/6. The surface term is the Wald entropy term for this field, the same kind that appears in black-hole entropy, and it is exactly what Jacobson 2016's "conformal fields only" caveat is about. Ratios drop (to 0.64) only where the wave sits mostly inside the ball and dS is tiny.
+A free three-coefficient fit over 54 configurations (Laplacian term, volume integral, surface integral) returns −0.168, −0.00009 and 1.056, against theory's −1/6 (−0.167), 0 and 2π/6 (1.047), max residual 0.33%. The volume coefficient landing on zero is the strong part: the lattice asks for the two corrections the conformal/Wald analysis already contains, and no third. The fit is scored on the same 54 configurations it was fitted to. In words: **dS(lattice) = 2π × (improved energy change) + 2πξ ∮ d⟨φ²⟩**, with ξ = 1/6. The surface term is the Wald entropy term for this field, the same kind that appears in black-hole entropy, and it is exactly what Jacobson 2016's "conformal fields only" caveat is about. Ratios drop (to 0.64) only where the wave sits mostly inside the ball and dS is tiny.
 
 **Two discarded first attempts, recorded.** (1) Mass nudges on a massless 1D chain are swamped by the longest-wavelength modes. (2) A mass-term nudge in 3D changes short-distance structure; its energy response grew with the cutoff (`ball3d.py`'s own run). Both replaced as described.
 
@@ -99,10 +101,12 @@ Gravity's share of the GPS clock offset comes out at 45.7 µs/day. A hollow shel
 
 - **Gravity is never quantum** in this framework: it is the rubber's equation of state.
 - **Prediction 1:** BMV-type experiments will see **no entanglement through gravity**. Wavefunction-sourced gravity produces none (Struyve 2025). Aziz & Howl (Nature 2025) argue classical gravity could still entangle indirectly, but expect it far too small for near-future experiments. None has been done.
-- **Prediction 2:** **no primordial gravitational waves of quantum origin**. Krauss & Wilczek (2014) argued their detection would establish quantum gravity. None detected; Simons Observatory, LiteBIRD and CMB-S4 aim for σ(r) ~ 10⁻³.
-- **Side effect:** a spread-out heavy mass feels its own averaged pull (Newton–Schrödinger). Not collapse, but a small departure from plain quantum mechanics.
+- ~~**Prediction 2:** no primordial gravitational waves of quantum origin.~~ **Parked 8 Oct** ([REVIEW.md](REVIEW.md) v4). It does not follow from prediction 1: prediction 1 needs only "an unsettled mass gravitates by its average"; prediction 2 needs "there is no quantized metric at all," and inflationary tensor modes are not the field of a lab mass in superposition. A non-detection at σ(r) ~ 10⁻³ (Simons Observatory, LiteBIRD, CMB-S4) leaves both quantum gravity and this framework standing. Krauss & Wilczek (2014) argue only the other direction: a detection would be evidence of quantum gravity. Comes back only with a derivation inside the framework.
+- **Side effect:** a spread-out heavy mass feels its own averaged pull (Newton–Schrödinger). Not collapse, but a departure from plain quantum mechanics. **Not yet priced for any system;** "small" is unverified, and for a BMV mass pair it depends on the wave-packet width.
 
 **The signalling worry, and its answer.** Averaged gravity plus real settling could let a distant observer see a pull jump from "middle" to "side" when someone elsewhere looks. Neil (8 Oct): until the records can meet, the system has not truly resolved. Recorded as: **results become facts across regions only when records can meet, at light speed or slower.** A distant mass keeps pulling from its average until news of a look could arrive. This also explains why entanglement can't signal. Remaining: check the published work on locally sourced averaged gravity, mainly the moment a distant pull updates.
+
+**Open, and the gate for the reopening (8 Oct).** The rule above is a rule for observers, not yet a stress tensor. Einstein's equations need a conserved source (∇·T = 0). A source that jumps from the average to one outcome must say what it is at events the record has not yet reached. Three readings: (1) ⟨T⟩ until the record's light cone arrives, then a jump — conservation must be shown; (2) the outcome all along — puts the result in the field before the record exists, and lets a test mass read it early (signalling); (3) some other structure carries the difference. Reading 3 has worked examples to start from: Tilloy & Diósi (2016) and Oppenheim's postquantum classical gravity (2023). If no conserved source can be written, gravity-origin is parked again and #9 stays as a semiclassical bet.
 
 ---
 
@@ -136,3 +140,6 @@ About a minute. See [sim/gravity/README.md](sim/gravity/README.md) for the four 
 - Aziz & Howl, Nature (2025), reported in Physics World, 11 Nov 2025
 - Krauss & Wilczek, "Using Cosmology to Establish the Quantization of Gravity," PRD 89, 047501 (2014), arXiv:1309.5343
 - Tolman (1930); Tolman & Ehrenfest (1930)
+- Tilloy & Diósi, "Sourcing semiclassical gravity from spontaneously localized quantum matter," PRD 93, 024026 (2016), arXiv:1509.08705 *(not yet read; added 8 Oct)*
+- Oppenheim, "A postquantum theory of classical gravity?" (PRX 2023), arXiv:1811.03116 *(not yet read; added 8 Oct)*
+- Oppenheim, Sparaciari, Šoda & Weller-Davies, "Gravitationally induced decoherence vs space-time diffusion: testing the quantum nature of gravity," Nature Communications (2023), arXiv:2203.01982 *(not yet read; added 8 Oct)*

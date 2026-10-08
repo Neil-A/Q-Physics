@@ -181,8 +181,23 @@ Out of scope for SIM-SPEC-01 anyway. Don't let it carry weight in a write-up wit
 
 ---
 
+## October 2026 — blocking for FRAMEWORK §14 item 7 (the conserved source)
+
+**`[ ]` Tilloy & Diósi (2016), PRD 93, 024026; arXiv:1509.08705** — semiclassical gravity sourced by the record of spontaneous localization.
+> How is the source written so that it is conserved and does not signal? Is the framework's light-cone update rule a version of it?
+
+**`[ ]` Oppenheim, "A postquantum theory of classical gravity?" (PRX 2023); arXiv:1811.03116** — classical metric coupled consistently to quantum matter.
+> Does the framework's rule map onto it? If so, prediction 1 is inherited from it rather than distinctive.
+
+**`[ ]` Oppenheim, Sparaciari, Šoda & Weller-Davies (Nature Communications 2023); arXiv:2203.01982** — the decoherence–diffusion trade-off.
+> What bound would an averaged-gravity framework have to meet, and has it been tested?
+
+Jacobson (1995, 2016) and the gravity papers cited in [RESULTS-02-gravity.md](RESULTS-02-gravity.md) left the "not to read" list below when gravity-origin was reopened on 7 October.
+
+---
+
 ## Not to read
 
-Emergent-gravity literature (Jacobson, Verlinde, Padmanabhan, Van Raamsdonk), holography and AdS/CFT, timeless programmes (Wheeler–DeWitt, Barbour, Page–Wootters), causal sets, eternal inflation.
+*(July list. Since 7 October, Jacobson is in use — see above.)* Emergent-gravity literature (Jacobson, Verlinde, Padmanabhan, Van Raamsdonk), holography and AdS/CFT, timeless programmes (Wheeler–DeWitt, Barbour, Page–Wootters), causal sets, eternal inflation.
 
 All were touched during the July sessions and all are out of scope. Listed here so the decision doesn't have to be re-made each time one looks relevant. It will look relevant. It isn't.

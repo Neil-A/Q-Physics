@@ -1,3 +1,5 @@
+> **Out of date (banner added 8 October 2026).** This summary predates October. It says gravity-as-origin was cut and should not come back; FRAMEWORK.md §15 reopened it on 7 October, and the gravity paragraphs below no longer match. The current position: an unsettled mass gravitates by its average, which predicts no entanglement through gravity in BMV-type experiments, and that position stands only if a conserved source can be written (FRAMEWORK.md §14 item 7). Read [README.md](README.md) and FRAMEWORK.md §15 first. A full rewrite waits on that check.
+
 # The Idea, In Plain Terms
 
 *Rewritten 9 August 2026 to match [FRAMEWORK.md](FRAMEWORK.md) after the 6 August simulations ([RESULTS-01.md](RESULTS-01.md)). The previous version described a gravity-and-time story cut in July and a handshake mechanism that has since failed its test. Both are gone from here.*

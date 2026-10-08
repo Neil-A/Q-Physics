@@ -1,8 +1,8 @@
 # The Resolution-Front Framework
 
-*Working document. Last substantive revision **8 October 2026** — scope widened (5 Oct), gravity-origin reopened and tested ([RESULTS-02-gravity.md](RESULTS-02-gravity.md)), new commitments and two predictions collected in **§15**; targeted edits in §6, §8, §11, §12, §13, §14. Previous revision 6 August 2026 (evening) — **SIM-SPEC-01 executed in full; results written back into §3, §4, §7, §8, §11, §14.** #4 confirmed, #9 internally verified, **#14's L/c prediction failed**. See [RESULTS-01.md](RESULTS-01.md). Earlier the same day: Reading B adopted (§7), handshake confined to the front (§7, §9), #1 marked idle, τ-adoption reversed. Seven blocking papers read 5 August 2026 ([SOURCES.md](SOURCES.md)).*
+*Working document. Last substantive revision **8 October 2026** — scope widened (5 Oct), gravity-origin reopened and tested ([RESULTS-02-gravity.md](RESULTS-02-gravity.md)), new commitments and predictions collected in **§15** (scaled back the same day after [REVIEW.md](REVIEW.md) v4: one prediction, conserved source as the gate); targeted edits in §6, §8, §11, §12, §13, §14. Previous revision 6 August 2026 (evening) — **SIM-SPEC-01 executed in full; results written back into §3, §4, §7, §8, §11, §14.** #4 confirmed, #9 internally verified, **#14's L/c prediction failed**. See [RESULTS-01.md](RESULTS-01.md). Earlier the same day: Reading B adopted (§7), handshake confined to the front (§7, §9), #1 marked idle, τ-adoption reversed. Seven blocking papers read 5 August 2026 ([SOURCES.md](SOURCES.md)).*
 
-> **Read this first (October 2026).** The framework is now positioned as a narrative around quantum mechanics that departs from it only for the gravity of unsettled masses. It carries **two predictions**: BMV-type experiments will see no entanglement through gravity, and there are no primordial gravitational waves of quantum origin. Gravity comes from the area law (Jacobson's route), checked on a lattice and against four tests. Start with §15, then [RESULTS-02-gravity.md](RESULTS-02-gravity.md).
+> **Read this first (October 2026).** The framework is now positioned as a narrative around quantum mechanics that departs from it only for the gravity of unsettled masses. It carries **one prediction**: BMV-type experiments will see no entanglement through gravity (a second, on primordial gravitational waves, is parked). Gravity is taken from the area law (Jacobson's route) as a compatibility argument, not derived; the free-field first law is checked on a lattice, and the old settling-load mechanism is dead. **The reopening stands only if a conserved source can be written (§14 item 7).** Start with §15, then [RESULTS-02-gravity.md](RESULTS-02-gravity.md).
 >
 > **August status, kept as history.** The framework's single distinguishing prediction — coherence lifetime tracking absorber distance L — was tested on 6 August and **does not hold**. Sections written before that run still argue for it; they are marked where they stand. The live claim is #9 (§8), which passed its internal check exactly and remains a sharp disagreement with Strubbe on a checkable experiment.
 
@@ -14,10 +14,10 @@
 | [SOURCES.md](SOURCES.md) | Every paper, the question it was read for, and the answer. |
 | [SIM-SPEC-01-coherence.md](SIM-SPEC-01-coherence.md) | The computational task that verifies or kills §3. **Executed 6 Aug.** |
 | [RESULTS-01.md](RESULTS-01.md) | What the simulations returned, and what it does to the posits. |
-| [RESULTS-02-gravity.md](RESULTS-02-gravity.md) | **Oct 2026.** The area-law route to gravity: lattice checks, the four tests, the decisions and predictions. |
+| [RESULTS-02-gravity.md](RESULTS-02-gravity.md) | **Oct 2026.** The area-law route to gravity: lattice checks, the tests that killed the settling-load mechanism, the decisions, and the open source question. |
 | [sim/](sim/) | The code. Python + QuTiP, pinned. Gravity checks in [sim/gravity/](sim/gravity/). |
 | RFF Stress Map (private link in §15) | **Oct 2026.** Known physics mapped fundamental → abstract, each item marked fits / fits with work / strains / breaks / outside an interpretation. |
-| [REVIEW.md](REVIEW.md) | External project review (status, risks, next actions). **v3, 9 Aug — predates October; not yet refreshed.** |
+| [REVIEW.md](REVIEW.md) | External project review (status, risks, next actions). **v4, 8 Oct** — reviews the October gravity work; response section at the end. |
 | [Framework-Summary-Plain.md](Framework-Summary-Plain.md) | Lay summary, no jargon. Rewritten 9 Aug; **predates October, not yet refreshed.** |
 | [papers/](papers/) | PDFs. |
 
@@ -309,7 +309,9 @@ Then front thickness and margin depth are different quantities, and the range li
 | Gravitationally induced entanglement | **No** — decided 8 Oct 2026 (averaged gravity, §15) | **No** |
 | Gravity can distinguish which-path | **No** | **Yes** |
 
-**State it loudly, and name him.** A bet against a named opponent on one experiment is worth more than a bet against a research programme. This belongs in the abstract.
+**The Strubbe column is a reading of his paper, not a re-derivation** *(noted 8 Oct, [REVIEW.md](REVIEW.md) v4)*. With entanglement now "No" on both sides, BMV does not separate us; the separating experiment is a gravitational which-path measurement that, on his account, leaves the pattern intact. Collapse (Diósi–Penrose), which-path, and entanglement are three different apparatuses, not one disagreement.
+
+**State it loudly, and name him** — once two debts are paid: his prediction re-derived from his equations, and the separating experiment specified (mass, separation, coherence time, what is measured, which apparatus could reach it). A bet against a named opponent on one experiment is worth more than a bet against a research programme. Then it belongs in the abstract.
 
 **Its internal check has now run, and #9 passed it exactly** *(6 Aug, [RESULTS-01.md](RESULTS-01.md); result routed here per the SIM-SPEC table).* Sweeping the distinguishing fraction α of the system–environment coupling: at α = 0 — a coupling proportional to the identity on the which-path degree of freedom, which is gravity's case since both slit-paths carry identical mass — coherence stays at **1.000000000000** at every N and every t. No thinning whatsoever. Coherence equals the environment-branch overlap |⟨E₀|E₁⟩| to zero deviation, and the small-α decay rate carries exponent 2.009 against a predicted 2.
 
@@ -384,7 +386,7 @@ Candidate pictures for how competing tails resolve to one:
 
 Whichever is picked must cough up the Born weighting. That is the test everything else has been building toward.
 
-**Status: unmoved since 1986.** Cramer never answered it. **Strubbe does not answer it either** — his outcome is decided by comparing an intensity to a hidden variable he postulates *uniform on [0,1]*, and the Born weights appear precisely because he chose that distribution. That is fiat wearing a hidden variable's clothes.
+**Status: unmoved, as far as we know.** Cramer (1986) appears never to have answered it — *inferred from Strubbe's silence; Cramer's paper is still unread ([SOURCES.md](SOURCES.md)). Read it before dating the problem to him.* **Strubbe does not answer it either** — his outcome is decided by comparing an intensity to a hidden variable he postulates *uniform on [0,1]*, and the Born weights appear precisely because he chose that distribution. That is fiat wearing a hidden variable's clothes.
 
 **Two things follow.** The problem is not scooped — good. And nobody has a route through it — so attack it last, not first. It is constrained by everything above, and it *dissolves* rather than resolves if a definite beable gets added (Bohm's move: the particle always had one position, so nothing ever needed selecting).
 
@@ -441,7 +443,7 @@ Whichever is picked must cough up the Born weighting. That is the test everythin
 
 ### Summary
 
-**October 2026:** #9 is now grounded by averaged gravity and carries the first of two predictions (§15). The second, no primordial gravitational waves of quantum origin, follows from gravity never being quantum.
+**October 2026:** #9 is now grounded by averaged gravity and carries the framework's one prediction (§15): no gravitational entanglement in BMV-type experiments. *(A second, on primordial gravitational waves, was parked 8 Oct: it does not follow from the first.)*
 
 **Ours, load-bearing — 6 Aug, after the sims:** #3 informational thickness · #4 thickness = coherence, now confirmed (*the use* is ours; the measure is standard quantum information theory) · **#9 gravity never resolves — internally verified, and now the only empirical claim the framework carries.** ~~#14 confirmation closes the tail, ~L/c~~ **failed its test**; it survives only as the observation that record formation at a distant absorber takes L/c, which is time of flight and belongs to everyone.
 
@@ -501,7 +503,7 @@ Metaphors are not decorative here — they have repeatedly become commitments. "
 
 **The remaining work, re-derived from the results:**
 
-5. **Write the paper around #9 versus Strubbe** *(Oct 2026: now with #9 grounded by averaged gravity and two predictions attached, §15)*. That is now the only empirical content the framework has. The machinery to present with it is the resolution rule — thinning = environment distinguishability, verified exactly (§8) — and the thickness variable, verified (§3). Report the L-sweep as a negative result in its own section: it is a real contribution to have closed it.
+5. **Write the paper around #9 versus Strubbe** *(Oct 2026: now with #9 grounded by averaged gravity, a semiclassical coupling claim with one prediction attached, §15)*. In August this was the only empirical content the framework had. Write it as a measurement note; the area-law material goes in an appendix titled as a compatibility check unless item 7 passes. The machinery to present with it is the resolution rule — thinning = environment distinguishability, verified exactly (§8) — and the thickness variable, verified (§3). Report the L-sweep as a negative result in its own section: it is a real contribution to have closed it.
 6. **The selection problem** (§10). Last, and unmoved.
 
 *Discharged, and recorded so they aren't re-opened:*
@@ -512,13 +514,14 @@ Metaphors are not decorative here — they have repeatedly become commitments. "
 
 **October 2026 — the remaining work, re-derived again:**
 
-7. **Check the narrowed signalling question** (F3): that averaged gravity sourced locally holds together, mainly the moment a distant pull updates. §15.
-8. **Write the framework's own account of information leaving an evaporating black hole.** The recent Page-curve results lean on quantum gravity, which the framework no longer has.
+7. **Write the conserved source — the gate for the gravity reopening** *(promoted 8 Oct, [REVIEW.md](REVIEW.md) v4)*. A short note: the proposed Tμν, the event at which it changes from the average to the outcome, and a check that ∇·T = 0 everywhere, including at events the record has not reached. Start by asking whether the light-cone update rule is Tilloy & Diósi (2016), Oppenheim's postquantum classical gravity (2023), a variant of one, or something that fails where they succeed. **If no conserved source can be written, park gravity-origin again with a closing note, and keep #9 as a semiclassical bet.**
+8. **Write the framework's own account of information leaving an evaporating black hole.** The recent Page-curve results lean on quantum gravity, which the framework no longer has. **Held until item 7 passes**, together with further balloon geometry: both would inherit a source not yet shown to exist.
 9. **What sources the front's thickness?** Still open. The vacuum was ruled out as the source on 7 Oct.
 10. **Work through the remaining Stress Map drafts**, rechecking every agreed item after each merge.
-11. **Refresh [REVIEW.md](REVIEW.md) and [Framework-Summary-Plain.md](Framework-Summary-Plain.md)**, both of which predate October.
+11. ~~Refresh [REVIEW.md](REVIEW.md).~~ **Done 8 Oct (v4).** [Framework-Summary-Plain.md](Framework-Summary-Plain.md) has a dated banner; the rewrite waits on item 7 and the scope decision.
+12. **Price the Newton–Schrödinger side effect** for one system already in the sources (a 25 kDa molecule, or a BMV mass pair), as a fractional effect on what the experiment measures. Until then, do not call it small.
 
-**Worth holding, and it has changed.** The framework's problems were all downstream of one vacant variable. The variable was filled, and it turned out to be a good variable — Tests 1, 2 and 4 all pass. What it does not have is a distinguishing prediction from front thickness; that was tested and it is gone. **What remains is one sharp bet against a named opponent (#9 vs Strubbe) and a coherent interpretation of standard open-system quantum mechanics.** That is a smaller claim than the project set out to make, and it is one that survived contact with a computer.
+**Worth holding, and it has changed.** The framework's problems were all downstream of one vacant variable. The variable was filled, and it turned out to be a good variable — Tests 1, 2 and 4 all pass. What it does not have is a distinguishing prediction from front thickness; that was tested and it is gone. **What remained in August was one sharp bet against a named opponent (#9 vs Strubbe) and a coherent interpretation of standard open-system quantum mechanics.** That is a smaller claim than the project set out to make, and it is one that survived contact with a computer. *(8 Oct: §15 adds one coupling claim — an unsettled mass gravitates by its average — and its prediction of no gravitational entanglement in BMV-type experiments. That claim is semiclassical, and it stands only if item 7 passes.)*
 
 ---
 
@@ -558,12 +561,13 @@ Metaphors are not decorative here — they have repeatedly become commitments. "
 
 ### Gravity
 
-- **Route:** the area law (Jacobson). Vacuum linking across any small surface scales with its area; an accelerating observer finds it warm (Unruh); energy crossing a surface changes the linking, and spacetime curves to keep it balanced, which gives Einstein's equations. G is an input; Λ is a free constant. Lattice checks and four tests: [RESULTS-02-gravity.md](RESULTS-02-gravity.md).
+- **Route:** the area law (Jacobson). Vacuum linking across any small surface scales with its area; an accelerating observer finds it warm (Unruh); energy crossing a surface changes the linking, and spacetime curves to keep it balanced, which gives Einstein's equations. G is an input; Λ is a free constant. **This is a compatibility argument, not a derivation from the front:** the framework supplies the area law only in part, and local equilibrium as a story. Lattice checks of the free-field first law (including the Wald term), and the tests that killed the settling-load mechanism: [RESULTS-02-gravity.md](RESULTS-02-gravity.md).
 - **Resolution rate has two meanings:** (a) how fast the front advances (local clock rate) and (b) how much settles per tick. Near mass the rubber's shape slows the front and everything on it by the same factor; the cause is the place, not the settling load. **At balance, settling measured on a far-away clock is the same everywhere** (gravitational redshift; Tolman–Ehrenfest).
 - **Settled mass:** gravity follows the outcome, because folds really close (consistent with Page & Geilker 1981).
-- **Unsettled mass gravitates by its average** (decided 8 Oct). **Gravity is never quantum:** it is the rubber's equation of state. Side effect: a spread-out heavy mass feels its own averaged pull (Newton–Schrödinger), a small departure from plain QM.
-- **Two predictions:** (1) BMV-type experiments will see no entanglement through gravity; (2) no primordial gravitational waves of quantum origin. Neither experiment has been done or has detected anything yet.
-- **Black holes:** no clock stops anywhere. Near the horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place (hovering takes ever-larger acceleration), not density. A black hole is a fold sealed by geometry, closed by evaporation.
+- **Unsettled mass gravitates by its average** (decided 8 Oct). **Gravity is never quantum:** it is the rubber's equation of state. Side effect: a spread-out heavy mass feels its own averaged pull (Newton–Schrödinger), a departure from plain QM, not yet priced (§14 item 12).
+- **Open — the source.** "A distant mass keeps pulling from its average until records can meet" is a rule for observers, not yet a conserved stress tensor. §14 item 7 is the gate: no conserved source, no reopening.
+- **One prediction:** BMV-type experiments will see no entanglement through gravity. Not yet done. *(A second — no primordial gravitational waves of quantum origin — was parked on 8 Oct: it needs "no quantized metric at all," which prediction 1 does not, and it has no derivation here yet. [RESULTS-02-gravity.md](RESULTS-02-gravity.md).)*
+- **Black holes** *(held until §14 item 7 passes)*: no clock stops anywhere. Near the horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place (hovering takes ever-larger acceleration), not density. A black hole is a fold sealed by geometry, closed by evaporation.
 
 ### Consistency notes against §1–§14
 
