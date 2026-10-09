@@ -1,0 +1,13 @@
+Test 1: M = 90.0, fringes across screen = 3.040
+Region area = 0.71875; slits at (0.1, -0.1), width 0.02, half-thickness 0.01
+rho=3e+04 N~2.16e+04 | cal a=345.11 (theory 244.95) b=-266.05 c=162.07 | corr 0.1998±0.3537  spacing 0.9525±0.1076  rms_unwr 1.809±0.843  rms_wr 1.528 | raw: corr 0.1703 spacing 0.9282 | 1s
+rho=1e+05 N~7.19e+04 | cal a=458.34 (theory 447.21) b=-48.03 c=28.77 | corr 0.5079±0.3103  spacing 0.9342±0.0594  rms_unwr 1.181±0.440  rms_wr 1.161 | raw: corr 0.5246 spacing 0.9462 | 1s
+rho=3e+05 N~2.16e+05 | cal a=871.20 (theory 774.60) b=-246.56 c=144.63 | corr 0.5816±0.2694  spacing 0.9642±0.0537  rms_unwr 0.987±0.349  rms_wr 0.987 | raw: corr 0.5640 spacing 0.9516 | 6s
+rho=1e+06 N~7.19e+05 | cal a=1382.01 (theory 1414.21) b=44.27 c=-26.17 | corr 0.7857±0.1344  spacing 0.9567±0.0405  rms_unwr 0.680±0.206  rms_wr 0.680 | raw: corr 0.7983 spacing 0.9681 | 25s
+rho=3e+06 N~2.16e+06 | cal a=2367.71 (theory 2449.49) b=241.98 c=-170.48 | corr 0.8812±0.0792  spacing 0.9804±0.0185  rms_unwr 0.492±0.152  rms_wr 0.492 | raw: corr 0.8808 spacing 0.9794 | 87s
+rho=1e+07 N~7.19e+06 | cal a=4450.43 (theory 4472.14) b=75.76 c=-71.61 | corr 0.9460±0.0400  spacing 0.9811±0.0207  rms_unwr 0.324±0.111  rms_wr 0.324 | raw: corr 0.9454 spacing 0.9801 | 352s
+
+Correlation rises at every density step: True  (1 - corr falls as rho^-0.455)
+Spacing ratio at highest density: 0.9811  -> within 2%: True
+RMS phase error exponent: -0.287 ± 0.012  (required -0.333 ± 0.08) -> True
+TEST 1: PASS
