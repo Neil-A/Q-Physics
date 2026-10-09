@@ -2,7 +2,9 @@
 
 *Written 9 October 2026, before any code. Purpose: attack the open problem behind the map items "Why amplitudes cancel" and "Born rule" (both marked **strains**), and the "granular spacetime" question of whether pairwise ordering connects to pairwise interference. Failure is a good outcome if it is clean.*
 
-> **STATUS: executed 9 October 2026.** A1–A5 accepted by Neil before the run. Results in [RESULTS-03-amplitudes.md](RESULTS-03-amplitudes.md).
+> **STATUS: FAILED kill condition 1 on independent review, 9 October 2026** ([REVIEW-03-amplitudes.md](REVIEW-03-amplitudes.md)). A3's justification borrows a quantum system: Boes & Navascués force strong positivity only on a world that already contains quantum systems, and Dowker & Wilkes's uniqueness theorem needs Galois self-duality as well as tensor closure. The §3 table row for Dowker & Wilkes and the §4 sentence under A3 ("by Boes–Navascués and Dowker–Wilkes this is strong positivity") overstate both papers. A2, A5 and the Herglotz step passed review. A candidate repair (A3′ + an observed dark fringe, via Dowker–Wilkes Theorem 4) is recorded, unchecked, at the end of RESULTS-03.
+>
+> **Executed 9 October 2026.** A1–A5 accepted by Neil before the run. Results in [RESULTS-03-amplitudes.md](RESULTS-03-amplitudes.md).
 >
 > | Test | Outcome |
 > |---|---|
@@ -10,7 +12,7 @@
 > | 2 | **PASS** — 52/52 non-positive rules give negative probabilities (22 only under composition); 0/31 positive rules do |
 > | 3 | **PASS** — decoherence is exactly a spread of clock rates on both August data sets |
 >
-> Still owed: an independent check that A1–A5 hide no phase rule (kill condition 1), and a full read of the prior art for novelty. The spec below is left as written.
+> The spec below is left as written, including the overstatements named above, so the review can be checked against it.
 
 ---
 

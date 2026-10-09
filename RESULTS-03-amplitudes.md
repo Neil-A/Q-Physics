@@ -2,7 +2,13 @@
 
 *Run 9 October 2026, against [SIM-SPEC-02-amplitudes.md](SIM-SPEC-02-amplitudes.md). Assumptions A1–A5 accepted by Neil before the run. Code in [sim/amplitudes/](sim/amplitudes/), committed before each test ran; raw output in `sim/amplitudes/results/`. Stack: Python 3.13, NumPy 2.5.3, SciPy 1.18.1, Numba 0.68.0.*
 
-**Headline:** All three tests pass against the conditions set in advance. **Link counts on a random discrete spacetime work as clocks:** the double-slit pattern built from them converges to the exact continuum pattern as density grows (pattern correlation 0.20 → 0.95). **Positivity under composition does the work A3 claims:** every comparison rule that is not positive semidefinite gave a negative probability once composed with a qubit, and no positive semidefinite rule ever did. **Decoherence reads exactly as a spread of clock rates.** One number was weak: the fringe spacing passed its 2% bar by a hair, with a residual bias of about 2%. A follow-up one density higher shows the bias halving to 1% (follow-up below), so it is a finite-density effect, not an offset.
+> **Review outcome, 9 October 2026: the derivation fails the spec's first kill condition.** An independent review ([REVIEW-03-amplitudes.md](REVIEW-03-amplitudes.md)) found that A3's justification borrows a quantum system. The cited theorem (Boes & Navascués) forces strong positivity only on a world that already contains quantum systems; Dowker & Wilkes's uniqueness result needs an extra condition (Galois self-duality) that the spec missed. Test 2 shows the same thing in numbers: the qubit caught all 22 rules that fail only under composition; a copy of the system caught one. Both papers were checked against their text after the review and the reviewer is right. **The derivation as specified (spec §4) fails.**
+>
+> What stands: A2 and A5 hide no phase rule; the Herglotz step is correct; the argument is not found in the literature; Tests 1–3 are honest and stay inside what they show. The proposed Stress Map moves are withdrawn: "Why amplitudes cancel" and "Born rule" stay at *strains*.
+>
+> Corrections the review asked for are made below: Test 3's result is moved out of "established by test" (it could not fail); two limits are added (equal weights; real kernels only in Test 2). A candidate repair of A3 is recorded as a lead at the end. It has not been checked and has not been adopted.
+
+**Headline (as written before the review):** All three tests pass against the conditions set in advance. **Link counts on a random discrete spacetime work as clocks:** the double-slit pattern built from them converges to the exact continuum pattern as density grows (pattern correlation 0.20 → 0.95). **Positivity under composition does the work A3 claims:** every comparison rule that is not positive semidefinite gave a negative probability once composed with a qubit, and no positive semidefinite rule ever did. **Decoherence reads exactly as a spread of clock rates.** One number was weak: the fringe spacing passed its 2% bar by a hair, with a residual bias of about 2%. A follow-up one density higher shows the bias halving to 1% (follow-up below), so it is a finite-density effect, not an offset.
 
 What this does and does not establish is in the last section. In short: the tests confirm the derivation's ingredients and its discrete carrier. They cannot confirm the derivation is free of circularity, and they do not show it is new.
 
@@ -103,19 +109,36 @@ One family of rate distributions throughout: the law of ω = Σ ±g_k (independe
 ## What this establishes, and what it does not
 
 **Established, by test:**
-- In 1+1 dimensions, on random discrete spacetime, **counting links along a chain is a working clock** for the clock-hand picture: the double-slit pattern converges to the exact one, with no fitting needed at high density. §1(a) of the spec now has a discrete carrier.
-- The composition argument behind A3 behaves as the theorems say, including the case where a rule only fails on meeting a quantum system.
-- Decoherence is exactly a spread of clock rates.
+- In 1+1 dimensions, on random discrete spacetime, **counting links along a chain is a working clock** for the clock-hand picture: the double-slit pattern converges to the exact one, with no fitting needed at high density. §1(a) of the spec now has a discrete carrier. *(Unaffected by the review.)*
+- The composition argument behind A3 behaves as the theorems say, including the case where a rule only fails on meeting a quantum system. *(This is also the review's evidence against A3: what forces positivity is the qubit.)*
 
-**Established, by argument (spec §4), not by test:** given A1–A5, Herglotz's theorem forces "each link turns the hand by a fixed angle; hands add; square." The tests check the inputs and the carrier, not the argument.
+**A known identity, not a test:** decoherence reads exactly as a spread of clock rates (Test 3). The test could not have refused this reading.
+
+**Established, by argument (spec §4), not by test:** given A1–A5 *with strong positivity taken as given*, Herglotz's theorem forces "each link turns the hand by a fixed angle; hands add; square." The review confirms the mathematics. What fails is the justification of A3 (review outcome, top).
 
 **Not established:**
-- **That A1–A5 contain no phase rule in disguise.** The spec's first kill condition. A self-review found none (spec §4, "possible circularity"); an independent read is still owed. Brief for that read: [REVIEW-BRIEF-03-amplitudes.md](REVIEW-BRIEF-03-amplitudes.md).
-- **That this is new.** A short search found no published derivation of this form. The Sorkin-school literature on decoherence functionals has not been read in full.
+- ~~That A1–A5 contain no phase rule in disguise.~~ **Settled by review: A3's justification borrows a quantum system. Kill condition 1 met.** A2 and A5 are clean.
+- **That this is new.** The reviewer did not find this argument in Sorkin, Dowker–Johnston–Sorkin, Gudder, Anastopoulos or Hartle. Gudder and Hartle have not been read in full.
+- **Unequal weights.** A2 gives every history the same weight, so the argument does not deliver the general path-integral weight, only the phase between near-equal histories (the two-path case tested).
+- **The complex half.** Test 2 used real symmetric kernels only. Single-angle (complex) kernels are covered by the theorem, not by the numbers.
 - **Why pairs (A1).** Still the single named input of the quantum column. Lead: higher-order sum rules permit signalling under stated assumptions (Joshi, Srikanth & Sinha), not yet read.
 - **Beyond the tested case:** one free particle, two stationary histories, 1+1 dimensions. Not the full sum over all histories, not 3+1, not many particles, not spin. The 4 October calculation had the same scope.
 
-**Proposed for the Stress Map (as drafts, for Neil):** "Why amplitudes cancel" and "Born rule" from *strains* to *fits with work*; "Granular spacetime" placement updated (the link count is the clock).
+**Stress Map:** ~~"Why amplitudes cancel" and "Born rule" from *strains* to *fits with work*~~ withdrawn after review; both stay at *strains*. Still proposed as drafts: "Granular spacetime" (the link count is the clock, from Test 1) and "Decoherence" (spread of clock rates, as a known identity).
+
+### Lead after the review — a possible repair of A3 *(not checked, not adopted)*
+
+Dowker & Wilkes (arXiv:2011.06120) also prove **Theorem 4: any tensor-closed set of systems lies entirely within the strongly positive systems, or entirely within the positive-entry systems** (every D(A, B) real and non-negative). No other hypothesis. *(Wording checked against the paper's text on 9 October; the reviewer should confirm.)*
+
+A positive-entry system can never show a dark fringe: destructive interference needs Re D(A, B) < 0. So:
+
+- **A3′** — every system in the world can be combined with every other, and every combination keeps probabilities non-negative (the world's systems are tensor-closed);
+- **E1** — destructive interference is observed somewhere (dark fringes exist, an observation with no theory attached);
+- then, by Theorem 4, every system is strongly positive, and the rest of §4 goes through.
+
+This would borrow no qubit, no Hilbert space and no Gram matrix: only the observed fact that something, somewhere, cancels. It would explain the **form** of interference everywhere (clock hands, the square), **given** that interference exists. It would **not** explain why interference exists at all. Test 2's pattern fits it: f(±1) = 0.8 is positive-entry and survives copies of itself forever, but cannot share a world with a system that cancels.
+
+It needs Neil's sign-off (it changes an assumption and adds an observational input) and a fresh independent check, since the author proposed both the original and this repair.
 
 ---
 

@@ -812,29 +812,29 @@
 
 #### Born rule: probability is a square  `q-born`
 
-**Status:** Fits with work *(draft; agreed status: Strains)*
+**Status:** Strains *(draft; agreed status: Strains)*
 **Builds on:** Measurement: why one outcome, Why amplitudes cancel
 
 - **What it is.** Probabilities equal the squared size of the amplitude. It's a postulate.
-- **RFF placement.** The square is the pairing. Once probability is built from pairs of histories (A1), the same argument that gives cancellation gives P(A) = |sum of hands|² (SIM-SPEC-02 §4). What remains put in is A1 itself: why pairs, not triples.
-- **Built from.** Pairs of histories; positivity under composition; Herglotz.
-- **Assessment.** Moves from 'put in by hand' to 'follows from pairs + positivity'. The input that remains is A1, which experiment supports (no third-order interference). Same caveats as 'Why amplitudes cancel'.
-- **To work through.** Why pairs (A1)? Lead: Joshi, Srikanth & Sinha 2016 — higher-order sum rules permit signalling under stated assumptions. Not yet read.
-- **Prior art.** Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383 (circular derivation).
-- **Worked through.** 9 Oct 2026 (SIM-SPEC-02, RESULTS-03)
+- **RFF placement.** If the candidate derivation holds, the square is the pairing: probability built from pairs of histories (A1) gives P = |sum of hands|². It currently rests on strong positivity, whose justification failed independent review (REVIEW-03, it borrows a quantum system).
+- **Built from.** Pairs of histories; Herglotz.
+- **Assessment.** Stays at strains. Moves only if the A3 repair is adopted and passes a fresh check. A1 (why pairs) would remain the named input.
+- **To work through.** Neil's call on the A3 repair; then why pairs (Joshi, Srikanth & Sinha 2016, not yet read).
+- **Prior art.** Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383.
+- **Worked through.** 9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)
 
 #### Why amplitudes cancel  `q-cancel`
 
-**Status:** Fits with work *(draft; agreed status: Strains)*
+**Status:** Strains *(draft; agreed status: Strains)*
 **Builds on:** Superposition and the double slit
 
 - **What it is.** Possibilities combine like arrows that can cancel, not like chances that only add. Nobody knows why.
-- **RFF placement.** Derived, given RFF's own commitments (SIM-SPEC-02, 9 Oct): probability comes from pairs of histories (A1); two histories are compared only by the difference of their clock readings (A2); probabilities stay non-negative when the system meets any other system (A3). A theorem (Herglotz) then forces the comparison to be a mix of pure rotations; with one sharp clock rate it is exactly 'each link turns the hand by a fixed angle; hands add; square'. The cancellation is not put in: it is what a sharp clock rate means once probabilities come in pairs and stay positive.
-- **Built from.** Pairs of histories (4 Oct); comparing = subtracting clock readings; positivity under composition; Herglotz's theorem.
-- **Assessment.** Tests pass (RESULTS-03): link counts on random discrete spacetime work as clocks for the double slit (pattern correlation 0.95 at 7 million elements, converging); rules that break positivity give negative probabilities once composed with a qubit (52/52); decoherence is exactly a spread of clock rates. Owed: an independent check that A1–A5 hide no phase rule, and a full read of the Sorkin-school literature before claiming novelty.
-- **To work through.** Independent circularity check; read the Sorkin-school literature; then decide whether 'fits with work' can become 'fits'.
-- **Prior art.** Feynman 1948; Sorkin 1994 (quantum measure); Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022.
-- **Worked through.** 9 Oct 2026 (SIM-SPEC-02, RESULTS-03)
+- **RFF placement.** Candidate derivation (SIM-SPEC-02, 9 Oct): probability from pairs of histories (A1), comparison by difference of clock readings (A2), strong positivity (A3) and one sharp rate (A5) force, by Herglotz's theorem, 'each link turns the hand by a fixed angle; hands add; square'. The mathematics passed independent review. The justification of A3 did not: it borrows a quantum system (REVIEW-03). So the cancellation is still put in, now as strong positivity.
+- **Built from.** Pairs of histories (4 Oct); comparing = subtracting clock readings; Herglotz's theorem; link count = clock.
+- **Assessment.** Stays at strains. What survived: link counts on random discrete spacetime work as clocks for the double slit (RESULTS-03 Test 1); A2 and A5 hide no phase rule. Lead, unchecked: Dowker–Wilkes Theorem 4 says a world of mutually composable systems is either all strongly positive or all positive-entry (no cancellation anywhere); one observed dark fringe would then force strong positivity everywhere, borrowing no quantum system. That would explain the form of interference, given that it exists, not why it exists.
+- **To work through.** Neil's call on the A3 repair (tensor closure + an observed dark fringe); if adopted, a fresh independent check.
+- **Prior art.** Feynman 1948; Sorkin 1994; Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022 (Theorem 4).
+- **Worked through.** 9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)
 
 #### Decoherence and the classical world  `q-decoh`
 

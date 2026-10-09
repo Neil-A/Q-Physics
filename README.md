@@ -31,7 +31,7 @@ its average. There RFF is a semiclassical theory, and it can be proved wrong by 
 | How known physics fits, item by item (provisional until all items are done) | [stress-map/STRESS-MAP.md](stress-map/STRESS-MAP.md) |
 | What the simulations actually returned | [RESULTS-01.md](RESULTS-01.md) (coherence), [RESULTS-02-gravity.md](RESULTS-02-gravity.md) (gravity), [RESULTS-03-amplitudes.md](RESULTS-03-amplitudes.md) (amplitudes) |
 | Current status, risks, next actions | [REVIEW.md](REVIEW.md) — v4, 8 October, with a response section |
-| What an independent reviewer should check on the amplitude work | [REVIEW-BRIEF-03-amplitudes.md](REVIEW-BRIEF-03-amplitudes.md) |
+| The independent review of the amplitude work, and its brief | [REVIEW-03-amplitudes.md](REVIEW-03-amplitudes.md) (verdict: kill condition 1 met), [REVIEW-BRIEF-03-amplitudes.md](REVIEW-BRIEF-03-amplitudes.md) |
 | The literature, and what each paper was read for | [SOURCES.md](SOURCES.md) |
 | The computational specs | [SIM-SPEC-01-coherence.md](SIM-SPEC-01-coherence.md) (coherence), [SIM-SPEC-02-amplitudes.md](SIM-SPEC-02-amplitudes.md) (amplitudes from ordering) |
 | The code | [sim/](sim/) |

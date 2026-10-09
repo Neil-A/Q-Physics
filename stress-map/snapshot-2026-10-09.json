@@ -1083,22 +1083,22 @@
    "session": "Aug 2026; 9 Oct 2026 (link count = clock)"
   },
   "q-born": {
-   "assess": "Moves from 'put in by hand' to 'follows from pairs + positivity'. The input that remains is A1, which experiment supports (no third-order interference). Same caveats as 'Why amplitudes cancel'.",
-   "basis": "Pairs of histories; positivity under composition; Herglotz.",
-   "next": "Why pairs (A1)? Lead: Joshi, Srikanth & Sinha 2016 — higher-order sum rules permit signalling under stated assumptions. Not yet read.",
-   "prior": "Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383 (circular derivation).",
-   "rff": "The square is the pairing. Once probability is built from pairs of histories (A1), the same argument that gives cancellation gives P(A) = |sum of hands|² (SIM-SPEC-02 §4). What remains put in is A1 itself: why pairs, not triples.",
-   "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03)",
-   "status": "work"
+   "status": "strains",
+   "rff": "If the candidate derivation holds, the square is the pairing: probability built from pairs of histories (A1) gives P = |sum of hands|². It currently rests on strong positivity, whose justification failed independent review (REVIEW-03, it borrows a quantum system).",
+   "assess": "Stays at strains. Moves only if the A3 repair is adopted and passes a fresh check. A1 (why pairs) would remain the named input.",
+   "basis": "Pairs of histories; Herglotz.",
+   "prior": "Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383.",
+   "next": "Neil's call on the A3 repair; then why pairs (Joshi, Srikanth & Sinha 2016, not yet read).",
+   "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)"
   },
   "q-cancel": {
-   "assess": "Tests pass (RESULTS-03): link counts on random discrete spacetime work as clocks for the double slit (pattern correlation 0.95 at 7 million elements, converging); rules that break positivity give negative probabilities once composed with a qubit (52/52); decoherence is exactly a spread of clock rates. Owed: an independent check that A1–A5 hide no phase rule, and a full read of the Sorkin-school literature before claiming novelty.",
-   "basis": "Pairs of histories (4 Oct); comparing = subtracting clock readings; positivity under composition; Herglotz's theorem.",
-   "next": "Independent circularity check; read the Sorkin-school literature; then decide whether 'fits with work' can become 'fits'.",
-   "prior": "Feynman 1948; Sorkin 1994 (quantum measure); Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022.",
-   "rff": "Derived, given RFF's own commitments (SIM-SPEC-02, 9 Oct): probability comes from pairs of histories (A1); two histories are compared only by the difference of their clock readings (A2); probabilities stay non-negative when the system meets any other system (A3). A theorem (Herglotz) then forces the comparison to be a mix of pure rotations; with one sharp clock rate it is exactly 'each link turns the hand by a fixed angle; hands add; square'. The cancellation is not put in: it is what a sharp clock rate means once probabilities come in pairs and stay positive.",
-   "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03)",
-   "status": "work"
+   "status": "strains",
+   "rff": "Candidate derivation (SIM-SPEC-02, 9 Oct): probability from pairs of histories (A1), comparison by difference of clock readings (A2), strong positivity (A3) and one sharp rate (A5) force, by Herglotz's theorem, 'each link turns the hand by a fixed angle; hands add; square'. The mathematics passed independent review. The justification of A3 did not: it borrows a quantum system (REVIEW-03). So the cancellation is still put in, now as strong positivity.",
+   "assess": "Stays at strains. What survived: link counts on random discrete spacetime work as clocks for the double slit (RESULTS-03 Test 1); A2 and A5 hide no phase rule. Lead, unchecked: Dowker–Wilkes Theorem 4 says a world of mutually composable systems is either all strongly positive or all positive-entry (no cancellation anywhere); one observed dark fringe would then force strong positivity everywhere, borrowing no quantum system. That would explain the form of interference, given that it exists, not why it exists.",
+   "basis": "Pairs of histories (4 Oct); comparing = subtracting clock readings; Herglotz's theorem; link count = clock.",
+   "prior": "Feynman 1948; Sorkin 1994; Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022 (Theorem 4).",
+   "next": "Neil's call on the A3 repair (tensor closure + an observed dark fringe); if adopted, a fresh independent check.",
+   "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)"
   },
   "q-decoh": {
    "assess": "A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together.",
