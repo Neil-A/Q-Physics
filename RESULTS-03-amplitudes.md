@@ -110,7 +110,7 @@ One family of rate distributions throughout: the law of ω = Σ ±g_k (independe
 **Established, by argument (spec §4), not by test:** given A1–A5, Herglotz's theorem forces "each link turns the hand by a fixed angle; hands add; square." The tests check the inputs and the carrier, not the argument.
 
 **Not established:**
-- **That A1–A5 contain no phase rule in disguise.** The spec's first kill condition. A self-review found none (spec §4, "possible circularity"); an independent read is still owed.
+- **That A1–A5 contain no phase rule in disguise.** The spec's first kill condition. A self-review found none (spec §4, "possible circularity"); an independent read is still owed. Brief for that read: [REVIEW-BRIEF-03-amplitudes.md](REVIEW-BRIEF-03-amplitudes.md).
 - **That this is new.** A short search found no published derivation of this form. The Sorkin-school literature on decoherence functionals has not been read in full.
 - **Why pairs (A1).** Still the single named input of the quantum column. Lead: higher-order sum rules permit signalling under stated assumptions (Joshi, Srikanth & Sinha), not yet read.
 - **Beyond the tested case:** one free particle, two stationary histories, 1+1 dimensions. Not the full sum over all histories, not 3+1, not many particles, not spin. The 4 October calculation had the same scope.
