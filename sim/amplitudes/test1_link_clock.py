@@ -26,6 +26,12 @@ Fixed before the run (9 Oct 2026):
      a wrapped phase error saturates at about 1.8 rad and would bend the fit.)
   The raw clock tau_hat = n / sqrt(2 rho), with no calibration, is reported
   alongside as a secondary result.
+
+Change after the first launch (9 Oct, before any metric was computed): the
+first launch stopped at rho = 1e4 because a slit held no elements in one
+sprinkling (expected ~4 elements per slit at that density). A slit with no
+elements is not a slit, so 1e4 was dropped and the run starts at 3e4
+(~12 elements per slit). Nothing else changed.
 """
 import json
 import time
@@ -33,7 +39,7 @@ import numpy as np
 import cs
 
 M = 90.0
-DENSITIES = [1e4, 3e4, 1e5, 3e5, 1e6, 3e6, 1e7]
+DENSITIES = [3e4, 1e5, 3e5, 1e6, 3e6, 1e7]   # 1e4 dropped after the first launch crashed: see docstring
 N_CAL = 10
 N_TEST = 20
 CAL_T = np.linspace(0.7, 1.0, 31)
