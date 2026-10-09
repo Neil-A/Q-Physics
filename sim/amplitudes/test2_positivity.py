@@ -14,7 +14,7 @@ Three settings are searched for an event with P < 0:
   QUBIT      — composed with one independent quantum two-state system with
                amplitudes (1, -1) (a valid, positive decoherence functional
                D2 = psi_b psi_b'). An event picks counts at (a, 0) and (a, 1);
-               P = c^T F c with c_a = count(a,0) - count(a,1) in {-3,..,3}.
+               P = c^T F c with c_a = count(a,0) - count(a,1) in {-30,..,30}.
 
 Whether f is positive semidefinite (as a function on the integers) is decided
 independently by Herglotz: its Fourier series must be >= 0 everywhere.
@@ -32,6 +32,16 @@ windowed matrix has a negative eigenvalue; ALONE and COPY use W <= 16 and
 W <= 8 per factor. Searches: exhaustive 0/1 events where small, roundings of
 negative eigenvectors, and single-move local search from random starts.
 
+Change after the first run (9 Oct). The first run used counts up to 3 and
+stopped growing the window at the first negative eigenvalue. It missed two
+non-PSD kernels (K3 #07, K3 #23): their windowed matrices had negative
+eigenvalues of only -0.007 and -0.0005, too small to show through events
+built from at most 3 histories per reading. The pass condition is about
+whether a negative-probability event EXISTS, so the search was strengthened:
+the window now grows until its most negative eigenvalue reaches half the
+infinite-window value, and up to 30 histories may share a reading. Nothing
+else changed. First-run table kept in results/test2_first_run_console.txt.
+
 Pass (SIM-SPEC-02 §5 Test 2, fixed before the run): every kernel that is not
 positive semidefinite gives P < 0 in at least one setting; no positive
 semidefinite kernel ever does. Kernels caught only under composition are
@@ -43,6 +53,7 @@ import numpy as np
 
 rng = np.random.default_rng(20261009)
 TOL = 1e-10
+QMAX = 30      # most histories sharing one reading, per qubit branch (was 3 in the first run)
 
 
 def short_range(vals):
@@ -83,7 +94,7 @@ def local_search(Fm, lo, hi, starts, iters=4000):
                         val = newval
                         g = g + d * Fm[:, i]
                         improved = True
-        best = min(best, val)
+        best = min(best, val, 0.0)     # the empty event always has P = 0
         if best < -TOL:
             return best
     return best
@@ -94,7 +105,7 @@ def rounded_eig_starts(Fm, lo, hi, n_rand=60):
     starts = []
     for j in range(min(3, len(w))):
         v = V[:, j] / np.abs(V[:, j]).max()
-        for scale in (1, 2, 3):
+        for scale in (1, 2, 3, 5, 10, 20, 30):
             starts.append(np.clip(np.round(v * scale), lo, hi))
             starts.append(np.clip(np.round(-v * scale), lo, hi))
     W = Fm.shape[0]
@@ -131,7 +142,7 @@ def search_copy(Fm):
 
 
 def search_qubit(Fm):
-    return local_search(Fm, -3, 3, rounded_eig_starts(Fm, -3, 3))
+    return local_search(Fm, -QMAX, QMAX, rounded_eig_starts(Fm, -QMAX, QMAX))
 
 
 def evaluate(name, f, R=None, psd_exact=None):
@@ -146,7 +157,10 @@ def evaluate(name, f, R=None, psd_exact=None):
         psd = psd_exact
     W = 16
     Fm = toeplitz(f, W)
-    while not psd and np.linalg.eigvalsh(Fm).min() >= -TOL and W < 256:
+    # grow the window until its most negative eigenvalue is a clear fraction
+    # of the infinite-window value (Herglotz min), or -0.01 if that is unknown
+    target = 0.5 * hmin if np.isfinite(hmin) else -0.01
+    while not psd and np.linalg.eigvalsh(Fm).min() > target and W < 512:
         W *= 2
         Fm = toeplitz(f, W)
     a = search_alone(toeplitz(f, min(W, 16)))
