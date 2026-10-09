@@ -126,7 +126,9 @@ One family of rate distributions throughout: the law of ω = Σ ±g_k (independe
 
 **Stress Map:** ~~"Why amplitudes cancel" and "Born rule" from *strains* to *fits with work*~~ withdrawn after review; both stay at *strains*. Still proposed as drafts: "Granular spacetime" (the link count is the clock, from Test 1) and "Decoherence" (spread of clock rates, as a known identity).
 
-### Lead after the review — a possible repair of A3 *(adopted by Neil 9 Oct; written up as [SIM-SPEC-02 §9](SIM-SPEC-02-amplitudes.md); awaiting review, [brief 04](REVIEW-BRIEF-04-amplitudes-repair.md))*
+### Repair of A3 — adopted, and passed independent review *(9 Oct; [SIM-SPEC-02 §9](SIM-SPEC-02-amplitudes.md); [REVIEW-04](REVIEW-04-amplitudes-repair.md))*
+
+> **Outcome:** the repair holds. Theorem 4 is applied correctly; a dark fringe does not put the phase rule back in by hand. Corrections made in §9: A4 added to the named inputs; the product rule named as part of A3′; "no theory attached" softened (reading the fringe uses A1); finite experiments only (the infinite history space is open). **It derives the form of the phase, not amplitudes from ordering: ordering remains the clock.** The text below is as written before the review.
 
 Dowker & Wilkes (arXiv:2011.06120) also prove **Theorem 4: any tensor-closed set of systems lies entirely within the strongly positive systems, or entirely within the positive-entry systems** (every D(A, B) real and non-negative). No other hypothesis. *(Wording checked against the paper's text on 9 October; the reviewer should confirm.)*
 
@@ -138,7 +140,7 @@ A positive-entry system can never show a dark fringe: destructive interference n
 
 This would borrow no qubit, no Hilbert space and no Gram matrix: only the observed fact that something, somewhere, cancels. It would explain the **form** of interference everywhere (clock hands, the square), **given** that interference exists. It would **not** explain why interference exists at all. Test 2's pattern fits it: f(±1) = 0.8 is positive-entry and survives copies of itself forever, but cannot share a world with a system that cancels.
 
-Neil signed off on 9 October. It still needs a fresh independent check, since the author proposed both the original and this repair.
+Neil signed off on 9 October; the independent check (REVIEW-04) passed it.
 
 ---
 

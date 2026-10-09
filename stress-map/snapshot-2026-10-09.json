@@ -1077,28 +1077,28 @@
    "status": "fits"
   },
   "g-planck": {
-   "assess": "The open question 'does the pairwise ordering connect to the pairwise interference rule?' is answered yes in 1+1 for a free particle: ordering supplies the clock reading; pairing plus positivity supply the turning. Not yet 3+1, many particles or spin.",
+   "assess": "The open question 'does the pairwise ordering connect to the pairwise interference rule?' is answered in part, in 1+1 for a free particle: ordering supplies the clock reading (the link count). The form of the phase comes from pairs, combinability and an observed dark fringe, not from the ordering itself (REVIEW-04). So 'ordering generates amplitudes' is not achieved; ordering generates the clock. Not yet 3+1, many particles or spin.",
    "next": "Extend Test 1 to 3+1 dimensions and to the full sum over histories.",
    "rff": "Neil chose a discrete front: events get ordered pairwise as the front passes, which lines up with causal set theory. Since 9 Oct the link count is the clock: the number of links along the longest chain between two events tracks their proper time, and on random discrete spacetime it reproduces the double-slit pattern as density grows (RESULTS-03 Test 1). Pairwise comparison of those counts carries the phase. Since 8 Oct spacetime isn't quantized in RFF, so granularity at the Planck scale comes from the front's ordering, not from quantum geometry.",
    "session": "Aug 2026; 9 Oct 2026 (link count = clock)"
   },
   "q-born": {
-   "status": "strains",
-   "rff": "If the candidate derivation holds, the square is the pairing: probability built from pairs of histories (A1) gives P = |sum of hands|². It currently rests on strong positivity, whose justification failed independent review (REVIEW-03, it borrows a quantum system).",
-   "assess": "Stays at strains. Moves only if the A3 repair is adopted and passes a fresh check. A1 (why pairs) would remain the named input.",
-   "basis": "Pairs of histories; Herglotz.",
-   "prior": "Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383.",
-   "next": "Repair adopted (SIM-SPEC-02 §9), awaiting review (REVIEW-BRIEF-04). Then why pairs (Joshi, Srikanth & Sinha 2016, not yet read).",
-   "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)"
+   "assess": "Fits with work. The square is no longer put in by hand; it follows from pairs plus positivity forced by combinability. What stays put in: pairs (A1) and the existence of cancellation (E1). Same limits as 'Why amplitudes cancel'.",
+   "basis": "Pairs of histories; Dowker–Wilkes Theorem 4; Herglotz.",
+   "next": "Why pairs (Joshi, Srikanth & Sinha 2016, not yet read).",
+   "prior": "Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383 (circular derivation).",
+   "rff": "The square is the pairing. With probability built from pairs of histories (A1), the same argument that fixes the form of cancellation gives P = |sum of hands|² (SIM-SPEC-02 §9, passed REVIEW-04). It needs a dark fringe to exist somewhere (E1) and all systems to be combinable (A3′).",
+   "session": "9 Oct 2026 (SIM-SPEC-02 §9, REVIEW-03, REVIEW-04)",
+   "status": "work"
   },
   "q-cancel": {
-   "status": "strains",
-   "rff": "Candidate derivation (SIM-SPEC-02, 9 Oct): probability from pairs of histories (A1), comparison by difference of clock readings (A2), strong positivity (A3) and one sharp rate (A5) force, by Herglotz's theorem, 'each link turns the hand by a fixed angle; hands add; square'. The mathematics passed independent review. The justification of A3 did not: it borrows a quantum system (REVIEW-03). So the cancellation is still put in, now as strong positivity.",
-   "assess": "Stays at strains. What survived: link counts on random discrete spacetime work as clocks for the double slit (RESULTS-03 Test 1); A2 and A5 hide no phase rule. Lead, unchecked: Dowker–Wilkes Theorem 4 says a world of mutually composable systems is either all strongly positive or all positive-entry (no cancellation anywhere); one observed dark fringe would then force strong positivity everywhere, borrowing no quantum system. That would explain the form of interference, given that it exists, not why it exists.",
-   "basis": "Pairs of histories (4 Oct); comparing = subtracting clock readings; Herglotz's theorem; link count = clock.",
-   "prior": "Feynman 1948; Sorkin 1994; Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022 (Theorem 4).",
-   "next": "Repair adopted by Neil (9 Oct): A3 re-justified by Dowker–Wilkes Theorem 4 (a world of combinable systems is all strongly positive or all non-cancelling) plus the observed existence of dark fringes (SIM-SPEC-02 §9). Awaiting a fresh independent review (REVIEW-BRIEF-04). Stays at strains until it passes.",
-   "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)"
+   "assess": "Fits with work. Inputs named: pairs (A1), comparison by difference (A2), combinability with the product rule (A3′), whole-number readings (A4), one sharp rate (A5), a dark fringe exists (E1). Limits: finite experiments only (the infinite history space is open); equal weights only; one particle can't tell real from complex hands. Why anything cancels at all stays unexplained. Not found in the literature.",
+   "basis": "Pairs of histories (4 Oct); comparing = subtracting clock readings; link count = clock (RESULTS-03 Test 1); Dowker–Wilkes Theorem 4; Herglotz / Carathéodory–Toeplitz.",
+   "next": "Why does anything cancel at all? Extend beyond finite experiments and equal weights.",
+   "prior": "Feynman 1948; Sorkin 1994; Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022.",
+   "rff": "The form of cancellation is derived; its existence is an input (SIM-SPEC-02 §9, passed REVIEW-04, 9 Oct). If something somewhere shows a dark fringe, and all systems can be combined, then every system whose histories are compared by clock-reading differences must combine them as clock hands: each link turns the hand by a fixed angle, hands add, and the result is squared. Route: Dowker–Wilkes Theorem 4 (a world of combinable systems is all strongly positive or all non-cancelling), then Herglotz. Ordering supplies the clock reading (the link count), not the phase.",
+   "session": "9 Oct 2026 (SIM-SPEC-02 §9, REVIEW-03, REVIEW-04)",
+   "status": "work"
   },
   "q-decoh": {
    "assess": "A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together.",

@@ -2,7 +2,7 @@
 
 *Written 9 October 2026, before any code. Purpose: attack the open problem behind the map items "Why amplitudes cancel" and "Born rule" (both marked **strains**), and the "granular spacetime" question of whether pairwise ordering connects to pairwise interference. Failure is a good outcome if it is clean.*
 
-> **REVISED 9 October 2026 (§9), awaiting review.** A3's justification is replaced by tensor closure plus an observed dark fringe (Dowker–Wilkes Theorem 4), adopted by Neil.
+> **REVISED 9 October 2026 (§9), and the revision PASSED independent review** ([REVIEW-04](REVIEW-04-amplitudes-repair.md)), with corrections made in §9. A3's justification is replaced by tensor closure plus an observed dark fringe (Dowker–Wilkes Theorem 4). It covers finite experiments; it derives the form of the phase, not amplitudes from ordering.
 >
 > **STATUS of §1–§8: FAILED kill condition 1 on independent review, 9 October 2026** ([REVIEW-03-amplitudes.md](REVIEW-03-amplitudes.md)). A3's justification borrows a quantum system: Boes & Navascués force strong positivity only on a world that already contains quantum systems, and Dowker & Wilkes's uniqueness theorem needs Galois self-duality as well as tensor closure. The §3 table row for Dowker & Wilkes and the §4 sentence under A3 ("by Boes–Navascués and Dowker–Wilkes this is strong positivity") overstate both papers. A2, A5 and the Herglotz step passed review. A candidate repair (A3′ + an observed dark fringe, via Dowker–Wilkes Theorem 4) is recorded, unchecked, at the end of RESULTS-03.
 >
@@ -168,7 +168,7 @@ Selection (#10, #16); complex vs real in networks; spin and the Dirac equation (
 
 ## 9. Revision 1 — A3 re-justified *(9 October 2026, after REVIEW-03)*
 
-> **Status: adopted by Neil, 9 October 2026; awaiting independent review** ([REVIEW-BRIEF-04-amplitudes-repair.md](REVIEW-BRIEF-04-amplitudes-repair.md)). §1–§8 above are the original spec, which failed kill condition 1 ([REVIEW-03](REVIEW-03-amplitudes.md)). This section replaces only the justification of A3. A1, A2, A4, A5, the Herglotz step and the tests are unchanged.
+> **Status: adopted by Neil, 9 October 2026; passed independent review the same day** ([REVIEW-04](REVIEW-04-amplitudes-repair.md); brief: [REVIEW-BRIEF-04](REVIEW-BRIEF-04-amplitudes-repair.md)). The review's corrections are marked *(REVIEW-04)* below. §1–§8 above are the original spec, which failed kill condition 1 ([REVIEW-03](REVIEW-03-amplitudes.md)). This section replaces only the justification of A3. A1, A2, A4, A5, the Herglotz step and the tests are unchanged.
 
 ### Why a revision
 
@@ -188,22 +188,24 @@ REVIEW-03 found that A3 was justified by composition with **quantum** systems (B
 
 ### The revised assumptions
 
-- **A3′ — the world's systems can all be combined.** The set of physical systems is tensor-closed: any two independent physical systems form a joint physical system, and its probabilities are non-negative.
-- **E1 — something cancels.** At least one physical system shows destructive interference: there are disjoint events A, B with P(A ∪ B) < P(A) + P(B). This is an observation (dark fringes in any double-slit experiment), with no theory attached.
+- **A3′ — the world's systems can all be combined.** The set of physical systems is tensor-closed: any two independent physical systems form a joint physical system, and its probabilities are non-negative. Independent systems combine by the product rule D₁₂ = D₁ ⊗ D₂, the same rule classical probability uses; it hides no phase, but it is a real assumption, and a different rule would fall outside the theorem *(REVIEW-04)*.
+- **E1 — something cancels.** At least one physical system shows destructive interference: there are disjoint events A, B with P(A ∪ B) < P(A) + P(B). This is an observation (dark fringes in any double-slit experiment). Reading it as Re D(A, B) < 0 uses only the pair formula, which is A1; it assumes nothing about clock hands. *(REVIEW-04: "no theory attached" was too strong.)*
 
 ### The argument
 
 1. P(A ∪ B) = P(A) + P(B) + 2 Re D(A, B) for disjoint A, B. So E1 means Re D(A, B) < 0 for some pair: that system is **not** in R⁺.
 2. By A3′ the physical systems form a tensor-closed set. By Theorem 4 it lies wholly in S or wholly in R⁺. Step 1 rules out R⁺. **So every physical system is strongly positive**, including one free particle's histories compared by clock readings (A1, A2).
 3. Take events that are single histories with readings n₁, …, n_k. Strong positivity makes every matrix f(nᵢ − nⱼ) positive semidefinite.
-4. If every difference of readings can occur, Herglotz gives f(n) = ∫ e^{inθ} dμ(θ) with μ ≥ 0. If only a finite range occurs, the Carathéodory–Toeplitz theorem gives the same form for that range: a finite positive semidefinite Toeplitz matrix is always the moment sequence of a positive measure on the circle.
+4. If every difference of readings can occur, Herglotz gives f(n) = ∫ e^{inθ} dμ(θ) with μ ≥ 0. If only a finite range occurs, the Carathéodory–Toeplitz theorem gives the same form for that range: a finite positive semidefinite Toeplitz matrix is always the moment sequence of a positive measure on the circle. That measure is not unique; A5 is what picks one angle *(REVIEW-04)*.
 5. From here §4 is unchanged: with A1, P(A) = ∫ dμ |Σ_{h∈A} e^{iθn(h)}|²; with A5, one angle: "each link turns the hand by a fixed angle; hands add; square."
 
 ### What it claims, and what it does not
 
 - **Claims:** if any system anywhere shows a dark fringe, and all systems can be combined, then every system whose comparison depends only on clock-reading differences combines its histories as clock hands, with the Born square. **The form of interference is forced by its existence somewhere.**
 - **Does not claim:** to explain why anything cancels at all. That is now an observed input (E1), not derived.
-- **Inputs, named:** A1 (pairs), A2 (comparison by difference), A3′ (combinability), A5 (one sharp rate), E1 (a dark fringe exists).
+- **Inputs, named:** A1 (pairs), A2 (comparison by difference), A3′ (combinability, with the product rule), A4 (readings are whole numbers), A5 (one sharp rate), E1 (a dark fringe exists). *(REVIEW-04: A4 was missing.)*
+- **Does not derive amplitudes from ordering.** Ordering supplies the clock reading (the link count, Test 1). The form of the phase comes from cancellation existing somewhere, combinability, and comparison by clock differences *(REVIEW-04)*.
+- **Finite experiments only.** The free-particle comparison is a system in Dowker & Wilkes's sense once normalised, D(Ω, Ω) = 1, which is immediate for a finite set of histories (scale the matrix). For every chain at once the sum over histories need not be finite, so that object is not yet one of their systems. The infinite history space is open *(REVIEW-04)*.
 - **Limits carried over from REVIEW-03:** equal weights only (A2), so not the general path-integral weight; real and complex kernels give the same one-particle probabilities, so A5's single complex angle is stronger than one-particle data; Test 2 used real kernels only.
 
 ### Evidence already in hand
