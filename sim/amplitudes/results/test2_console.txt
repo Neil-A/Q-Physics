@@ -1,10 +1,10 @@
 kernel       PSD   Herglotz min    W      alone       copy      qubit  verdict
-K1 a=-1.0    False      -1.0000   16    -14.000    -24.000   -126.000  NEGATIVE alone
-K1 a=-0.9    False      -0.8000   16    -11.000    -18.720    -99.000  NEGATIVE alone
-K1 a=-0.8    False      -0.6000   16     -8.000     -0.640    -72.400  NEGATIVE alone
+K1 a=-1.0    False      -1.0000   16    -14.000    -24.000 -12600.000  NEGATIVE alone
+K1 a=-0.9    False      -0.8000   16    -11.000    -18.720  -9918.000  NEGATIVE alone
+K1 a=-0.8    False      -0.6000   16     -8.000     -0.640  -7272.000  NEGATIVE alone
 K1 a=-0.7    False      -0.4000   16     -5.000     -0.360     -5.000  NEGATIVE alone
 K1 a=-0.6    False      -0.2000   16     -2.000     -0.160     -2.000  NEGATIVE alone
-K1 a=-0.5    True        0.0000   16      0.000      0.000      1.000  never negative
+K1 a=-0.5    True        0.0000   16      0.000      0.000      0.000  never negative
 K1 a=-0.4    True        0.2000   16     -0.000     -0.000     -0.000  never negative
 K1 a=-0.3    True        0.4000   16     -0.000     -0.000     -0.000  never negative
 K1 a=-0.2    True        0.6000   16     -0.000     -0.000     -0.000  never negative
@@ -14,74 +14,74 @@ K1 a=+0.1    True        0.8000   16     -0.000     -0.000     -0.000  never neg
 K1 a=+0.2    True        0.6000   16     -0.000     -0.000     -0.000  never negative
 K1 a=+0.3    True        0.4000   16     -0.000     -0.000     -0.000  never negative
 K1 a=+0.4    True        0.2000   16     -0.000     -0.000     -0.000  never negative
-K1 a=+0.5    True        0.0000   16      0.000      0.000      1.000  never negative
+K1 a=+0.5    True        0.0000   16      0.000      0.000      0.000  never negative
 K1 a=+0.6    False      -0.2000   16     -0.000     -0.000     -2.000  NEGATIVE only under composition
 K1 a=+0.7    False      -0.4000   16     -0.000     -0.000     -5.000  NEGATIVE only under composition
-K1 a=+0.8    False      -0.6000   16     -0.000     -0.000    -72.400  NEGATIVE only under composition
-K1 a=+0.9    False      -0.8000   16     -0.000     -0.000    -99.000  NEGATIVE only under composition
-K1 a=+1.0    False      -1.0000   16      0.000      0.000   -126.000  NEGATIVE only under composition
-K2 #00       True           nan   16      0.000      0.000      0.110  never negative
-K2 #01       True           nan   16      0.000      0.348      0.093  never negative
-K2 #02       True           nan   16      0.000      0.000      0.076  never negative
+K1 a=+0.8    False      -0.6000   16     -0.000     -0.000  -7272.000  NEGATIVE only under composition
+K1 a=+0.9    False      -0.8000   16     -0.000     -0.000  -9918.000  NEGATIVE only under composition
+K1 a=+1.0    False      -1.0000   16      0.000      0.000 -12600.000  NEGATIVE only under composition
+K2 #00       True           nan   16      0.000      0.000      0.000  never negative
+K2 #01       True           nan   16      0.000      0.000      0.000  never negative
+K2 #02       True           nan   16      0.000      0.000      0.000  never negative
 K2 #03       True           nan   16      0.000      0.000      0.000  never negative
-K2 #04       True           nan   16      0.000     -0.000      0.058  never negative
-K2 #05       True           nan   16      0.000      0.346      0.124  never negative
-K2 #06       True           nan   16      0.000      0.601      0.104  never negative
-K2 #07       True           nan   16      0.000     -0.000      0.091  never negative
-K2 #08       True           nan   16      0.000      0.000      0.117  never negative
-K2 #09       True           nan   16      0.000     -0.000      0.056  never negative
-K2 #10       True           nan   16      0.000      0.000      0.118  never negative
-K2 #11       True           nan   16      0.000      0.106      0.040  never negative
-K2 #12       True           nan   16      0.000      0.175      0.094  never negative
-K2 #13       True           nan   16      0.000      0.651      0.117  never negative
-K2 #14       True           nan   16      0.000      0.817      0.169  never negative
-K2 #15       False          nan   16    -35.182    -80.575  -1041.030  NEGATIVE alone
-K2 #16       False          nan   16    -31.649   -181.925   -937.713  NEGATIVE alone
-K2 #17       False          nan   16   -359.442 -12079.143 -12068.552  NEGATIVE alone
-K2 #18       False          nan   16    -19.215   -228.193   -512.119  NEGATIVE alone
-K2 #19       False          nan   16    -17.602   -177.783   -467.322  NEGATIVE alone
-K2 #20       False          nan   16    -11.005    -36.029   -389.546  NEGATIVE alone
-K2 #21       False          nan   16    -20.546   -138.471   -700.980  NEGATIVE alone
-K2 #22       False          nan   16    -10.110    -66.586   -278.117  NEGATIVE alone
-K2 #23       False          nan   16   -121.653  -1207.860  -4390.870  NEGATIVE alone
-K2 #24       False          nan   16    -35.486   -183.066  -1224.564  NEGATIVE alone
-K2 #25       False          nan   16    -43.020   -639.202  -1551.455  NEGATIVE alone
-K2 #26       False          nan   16    -44.649   -105.671   -979.121  NEGATIVE alone
-K2 #27       False          nan   16    -48.428   -566.265  -1008.794  NEGATIVE alone
-K2 #28       False          nan   16    -24.963   -369.348   -869.736  NEGATIVE alone
-K2 #29       False          nan   16    -14.509    -74.406   -488.621  NEGATIVE alone
-K3 #00       False      -0.5469   16     -0.000     -0.676    -37.894  NEGATIVE only under composition
-K3 #01       False      -0.6579   16     -0.000     -0.000    -41.763  NEGATIVE only under composition
-K3 #02       True        0.2442   16     -0.000     -0.000     -0.000  never negative
-K3 #03       True        0.3184   16     -0.000     -0.000     -0.000  never negative
-K3 #04       False      -0.5014   16     -0.000     -0.000    -30.208  NEGATIVE only under composition
-K3 #05       False      -0.2289   16     -0.000     -0.000     -1.024  NEGATIVE only under composition
-K3 #06       True        0.7569   16     -0.000     -0.000     -0.000  never negative
-K3 #07       False      -0.1164   16     -0.000     -0.000     -0.000  never negative   <-- MISMATCH
-K3 #08       False      -0.2752   16     -0.000     -0.000     -4.390  NEGATIVE only under composition
-K3 #09       False      -0.9163   16     -0.000     -0.000   -100.358  NEGATIVE only under composition
-K3 #10       True        0.0038   16     -0.000     -0.000      0.898  never negative
-K3 #11       True        0.0623   16     -0.000     -0.000     -0.000  never negative
-K3 #12       True        0.3687   16     -0.000     -0.000     -0.000  never negative
-K3 #13       True        0.2553   16     -0.000     -0.000     -0.000  never negative
-K3 #14       False      -1.4728   16     -0.000     -6.367   -165.914  NEGATIVE only under composition
-K3 #15       False      -0.2724   16      0.000     -0.029     -1.175  NEGATIVE only under composition
-K3 #16       True        0.0679   16     -0.000     -0.000     -0.000  never negative
-K3 #17       False      -0.6500   16     -0.000     -0.277    -41.742  NEGATIVE only under composition
-K3 #18       False      -0.2597   16     -0.000     -0.000     -0.216  NEGATIVE only under composition
-K3 #19       False      -0.0588   32     -0.000     -0.000     -2.243  NEGATIVE only under composition
-K3 #20       False      -0.3588   16     -0.000     -0.000    -20.373  NEGATIVE only under composition
-K3 #21       True        0.0295   16     -0.000     -0.000     -0.000  never negative
-K3 #22       False      -0.6846   16     -6.951     -0.971    -62.561  NEGATIVE alone
-K3 #23       False      -0.0229   32      0.000      0.000     -0.000  never negative   <-- MISMATCH
-K3 #24       True        0.4295   16     -0.000     -0.000     -0.000  never negative
-K3 #25       False      -0.1637   16     -0.227      0.000     -1.455  NEGATIVE alone
-K3 #26       True        0.0456   16     -0.000     -0.000     -0.000  never negative
-K3 #27       False      -0.2513   16     -0.398     -0.000    -10.178  NEGATIVE alone
-K3 #28       True        0.0714   16     -0.000     -0.000     -0.000  never negative
-K3 #29       False      -0.4558   16      0.000     -0.093    -27.319  NEGATIVE only under composition
+K2 #04       True           nan   16      0.000      0.000      0.000  never negative
+K2 #05       True           nan   16      0.000     -0.000      0.000  never negative
+K2 #06       True           nan   16      0.000      0.000      0.000  never negative
+K2 #07       True           nan   16      0.000     -0.000      0.000  never negative
+K2 #08       True           nan   16      0.000      0.000      0.000  never negative
+K2 #09       True           nan   16      0.000      0.000      0.000  never negative
+K2 #10       True           nan   16      0.000      0.000      0.000  never negative
+K2 #11       True           nan   16      0.000      0.000      0.000  never negative
+K2 #12       True           nan   16      0.000      0.000      0.000  never negative
+K2 #13       True           nan   16      0.000      0.000      0.000  never negative
+K2 #14       True           nan   16      0.000      0.000      0.000  never negative
+K2 #15       False          nan   16     -2.100     -2.558  -6790.604  NEGATIVE alone
+K2 #16       False          nan   16    -42.467   -766.034 -151144.579  NEGATIVE alone
+K2 #17       False          nan   16     -2.200     -3.785  -8100.736  NEGATIVE alone
+K2 #18       False          nan   16     -7.534    -47.141 -28291.010  NEGATIVE alone
+K2 #19       False          nan   16     -8.276    -70.159 -21764.870  NEGATIVE alone
+K2 #20       False          nan   16    -38.636   -475.291 -140896.237  NEGATIVE alone
+K2 #21       False          nan   16     -0.683      0.000     -0.651  NEGATIVE alone
+K2 #22       False          nan   16    -26.374   -150.510 -75280.757  NEGATIVE alone
+K2 #23       False          nan   16    -83.708   -836.802 -171087.021  NEGATIVE alone
+K2 #24       False          nan   16     -2.038     -1.011  -6043.165  NEGATIVE alone
+K2 #25       False          nan   16     -9.870    -42.489 -20843.262  NEGATIVE alone
+K2 #26       False          nan   16    -22.263   -129.443 -74926.123  NEGATIVE alone
+K2 #27       False          nan   16    -25.402   -291.588 -80018.071  NEGATIVE alone
+K2 #28       False          nan   16    -17.246    -67.169 -62257.255  NEGATIVE alone
+K2 #29       False          nan   16    -20.078   -212.208 -72390.142  NEGATIVE alone
+K3 #00       False      -0.2487   32     -0.724      0.000     -4.703  NEGATIVE alone
+K3 #01       False      -0.4073   16     -1.866     -1.155  -3056.183  NEGATIVE alone
+K3 #02       False      -0.1328   16     -0.000     -0.000     -0.649  NEGATIVE only under composition
+K3 #03       False      -0.8968   16     -0.000     -0.000  -6440.451  NEGATIVE only under composition
+K3 #04       True        0.3787   16     -0.000     -0.000     -0.000  never negative
+K3 #05       True        0.1581   16     -0.000     -0.000     -0.000  never negative
+K3 #06       False      -0.7381   16     -0.000     -0.347  -5032.262  NEGATIVE only under composition
+K3 #07       False      -1.5646   16     -0.000     -9.402 -18529.555  NEGATIVE only under composition
+K3 #08       False      -0.0729   32     -0.000     -0.000     -1.496  NEGATIVE only under composition
+K3 #09       True        0.3059   16     -0.000     -0.000     -0.000  never negative
+K3 #10       False      -0.0977   32     -0.000     -0.000     -0.420  NEGATIVE only under composition
+K3 #11       True        0.1761   16     -0.000     -0.000     -0.000  never negative
+K3 #12       False      -0.1885   16     -0.000     -0.000     -0.864  NEGATIVE only under composition
+K3 #13       False      -0.1847   16      0.000      0.000     -0.133  NEGATIVE only under composition
+K3 #14       False      -0.4109   16     -1.343     -1.393  -4369.312  NEGATIVE alone
+K3 #15       False      -0.3760   16     -0.095     -2.065     -1.911  NEGATIVE alone
+K3 #16       False      -0.0810   32     -0.000     -0.000     -2.778  NEGATIVE only under composition
+K3 #17       True        0.0401   16     -0.000     -0.000     -0.000  never negative
+K3 #18       True        0.1589   16     -0.000     -0.000     -0.000  never negative
+K3 #19       False      -0.3531   16     -0.000     -0.000     -1.935  NEGATIVE only under composition
+K3 #20       True        0.6043   16     -0.000     -0.000     -0.000  never negative
+K3 #21       False      -0.3820   16     -0.000     -0.000     -1.581  NEGATIVE only under composition
+K3 #22       False      -0.5460   16     -0.000     -0.000  -3367.307  NEGATIVE only under composition
+K3 #23       False      -0.8262   16     -0.000     -0.000  -5646.305  NEGATIVE only under composition
+K3 #24       False      -0.2695   16     -0.000     -0.000   -949.025  NEGATIVE only under composition
+K3 #25       False      -0.7986   16     -0.000     -0.046  -5580.716  NEGATIVE only under composition
+K3 #26       True        0.2348   16     -0.000     -0.000     -0.000  never negative
+K3 #27       True        0.0358   16     -0.000     -0.000     -0.000  never negative
+K3 #28       False      -0.2490   16     -0.000     -0.000  -1192.826  NEGATIVE only under composition
+K3 #29       True        0.0715   16      0.000      0.000      0.000  never negative
 
-Kernels: 81 (38 positive semidefinite, 43 not)
-Not PSD and caught: 41/43; of those, caught only under composition: 18
-PSD and ever negative: 0/38
-TEST 2: FAIL  mismatches: ['K3 #07', 'K3 #23']
+Kernels: 81 (36 positive semidefinite, 45 not)
+Not PSD and caught: 45/45; of those, caught only under composition: 21
+PSD and ever negative: 0/36
+TEST 2: PASS

@@ -41,6 +41,10 @@ whether a negative-probability event EXISTS, so the search was strengthened:
 the window now grows until its most negative eigenvalue reaches half the
 infinite-window value, and up to 30 histories may share a reading. Nothing
 else changed. First-run table kept in results/test2_first_run_console.txt.
+A second change: the first run drew kernels from the same random stream as
+the search, so changing the search changed the kernels. Kernels now have
+their own stream, and the two missed kernels are carried over exactly
+(recovered by re-running the first-run code), as K3x.
 
 Pass (SIM-SPEC-02 §5 Test 2, fixed before the run): every kernel that is not
 positive semidefinite gives P < 0 in at least one setting; no positive
@@ -51,8 +55,14 @@ import json
 import itertools
 import numpy as np
 
-rng = np.random.default_rng(20261009)
+rng = np.random.default_rng(1)             # search only
+kern = np.random.default_rng(20261009)     # kernel draws only, so the kernel set
+                                           # does not depend on how the search runs
 TOL = 1e-10
+FIRST_RUN_MISSES = {
+    "K3x old#07": {0: 1.0, 1: 0.035936159593634054, 2: 0.14946818491417513, 3: -0.4596765931379333},
+    "K3x old#23": {0: 1.0, 1: -0.5018820665468099, 2: 0.489621784246841, 3: -0.2717978415945819},
+}
 QMAX = 30      # most histories sharing one reading, per qubit branch (was 3 in the first run)
 
 
@@ -179,10 +189,10 @@ def main():
     for a in np.round(np.arange(-1.0, 1.0001, 0.1), 2):
         rows.append(evaluate(f"K1 a={a:+.1f}", short_range({0: 1.0, 1: float(a)}), R=1))
     for k in range(30):
-        th = rng.uniform(0.2, np.pi, 3)
-        w = rng.uniform(0.2, 1.0, 3)
+        th = kern.uniform(0.2, np.pi, 3)
+        w = kern.uniform(0.2, 1.0, 3)
         if k >= 15:
-            w[rng.integers(3)] *= -1
+            w[kern.integers(3)] *= -1
         if w.sum() <= 0.05:
             w[np.argmax(w)] += 1.0
         w = w / w.sum()
@@ -191,8 +201,11 @@ def main():
         rows.append(evaluate(f"K2 #{k:02d}", fv, psd_exact=bool(np.all(w >= 0))))
     for k in range(30):
         vals = {0: 1.0}
-        vals.update({n: float(rng.uniform(-0.6, 0.6)) for n in (1, 2, 3)})
+        vals.update({n: float(kern.uniform(-0.6, 0.6)) for n in (1, 2, 3)})
         rows.append(evaluate(f"K3 #{k:02d}", short_range(vals), R=3))
+    # the two kernels the first run missed, carried over exactly
+    for name, vals in FIRST_RUN_MISSES.items():
+        rows.append(evaluate(name, short_range(vals), R=3))
 
     log = []
     say = lambda s: (print(s), log.append(s))
