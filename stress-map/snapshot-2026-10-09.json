@@ -1088,7 +1088,7 @@
    "assess": "Stays at strains. Moves only if the A3 repair is adopted and passes a fresh check. A1 (why pairs) would remain the named input.",
    "basis": "Pairs of histories; Herglotz.",
    "prior": "Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383.",
-   "next": "Neil's call on the A3 repair; then why pairs (Joshi, Srikanth & Sinha 2016, not yet read).",
+   "next": "Repair adopted (SIM-SPEC-02 §9), awaiting review (REVIEW-BRIEF-04). Then why pairs (Joshi, Srikanth & Sinha 2016, not yet read).",
    "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)"
   },
   "q-cancel": {
@@ -1097,7 +1097,7 @@
    "assess": "Stays at strains. What survived: link counts on random discrete spacetime work as clocks for the double slit (RESULTS-03 Test 1); A2 and A5 hide no phase rule. Lead, unchecked: Dowker–Wilkes Theorem 4 says a world of mutually composable systems is either all strongly positive or all positive-entry (no cancellation anywhere); one observed dark fringe would then force strong positivity everywhere, borrowing no quantum system. That would explain the form of interference, given that it exists, not why it exists.",
    "basis": "Pairs of histories (4 Oct); comparing = subtracting clock readings; Herglotz's theorem; link count = clock.",
    "prior": "Feynman 1948; Sorkin 1994; Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022 (Theorem 4).",
-   "next": "Neil's call on the A3 repair (tensor closure + an observed dark fringe); if adopted, a fresh independent check.",
+   "next": "Repair adopted by Neil (9 Oct): A3 re-justified by Dowker–Wilkes Theorem 4 (a world of combinable systems is all strongly positive or all non-cancelling) plus the observed existence of dark fringes (SIM-SPEC-02 §9). Awaiting a fresh independent review (REVIEW-BRIEF-04). Stays at strains until it passes.",
    "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)"
   },
   "q-decoh": {

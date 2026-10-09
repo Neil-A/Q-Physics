@@ -819,7 +819,7 @@
 - **RFF placement.** If the candidate derivation holds, the square is the pairing: probability built from pairs of histories (A1) gives P = |sum of hands|². It currently rests on strong positivity, whose justification failed independent review (REVIEW-03, it borrows a quantum system).
 - **Built from.** Pairs of histories; Herglotz.
 - **Assessment.** Stays at strains. Moves only if the A3 repair is adopted and passes a fresh check. A1 (why pairs) would remain the named input.
-- **To work through.** Neil's call on the A3 repair; then why pairs (Joshi, Srikanth & Sinha 2016, not yet read).
+- **To work through.** Repair adopted (SIM-SPEC-02 §9), awaiting review (REVIEW-BRIEF-04). Then why pairs (Joshi, Srikanth & Sinha 2016, not yet read).
 - **Prior art.** Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383.
 - **Worked through.** 9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)
 
@@ -832,7 +832,7 @@
 - **RFF placement.** Candidate derivation (SIM-SPEC-02, 9 Oct): probability from pairs of histories (A1), comparison by difference of clock readings (A2), strong positivity (A3) and one sharp rate (A5) force, by Herglotz's theorem, 'each link turns the hand by a fixed angle; hands add; square'. The mathematics passed independent review. The justification of A3 did not: it borrows a quantum system (REVIEW-03). So the cancellation is still put in, now as strong positivity.
 - **Built from.** Pairs of histories (4 Oct); comparing = subtracting clock readings; Herglotz's theorem; link count = clock.
 - **Assessment.** Stays at strains. What survived: link counts on random discrete spacetime work as clocks for the double slit (RESULTS-03 Test 1); A2 and A5 hide no phase rule. Lead, unchecked: Dowker–Wilkes Theorem 4 says a world of mutually composable systems is either all strongly positive or all positive-entry (no cancellation anywhere); one observed dark fringe would then force strong positivity everywhere, borrowing no quantum system. That would explain the form of interference, given that it exists, not why it exists.
-- **To work through.** Neil's call on the A3 repair (tensor closure + an observed dark fringe); if adopted, a fresh independent check.
+- **To work through.** Repair adopted by Neil (9 Oct): A3 re-justified by Dowker–Wilkes Theorem 4 (a world of combinable systems is all strongly positive or all non-cancelling) plus the observed existence of dark fringes (SIM-SPEC-02 §9). Awaiting a fresh independent review (REVIEW-BRIEF-04). Stays at strains until it passes.
 - **Prior art.** Feynman 1948; Sorkin 1994; Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022 (Theorem 4).
 - **Worked through.** 9 Oct 2026 (SIM-SPEC-02, RESULTS-03, REVIEW-03)
 
