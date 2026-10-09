@@ -37,13 +37,13 @@
     "c-dm"
    ],
    "name": "Why dark energy and matter are similar now",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.",
    "ord": 9,
    "plain": "Dark energy and matter have comparable densities today, though they change very differently over time.",
+   "queued": "9 Oct 2026",
    "rff": "In the vase, matter thins as the rubber stretches while dark energy doesn't, so they cross at one age. RFF has no reason we live near that age. If the wake proposal for dark matter holds, it might give a link.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026",
-   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then."
+   "status": "outside"
   },
   "c-de": {
    "assess": "Resolved in part (5 Oct): the balloon's radius is the age, and the rubber's size at each age is separate, so the balloon flares like a vase. Dark energy shapes the flare, driving the stretching of space, which is standard. It does not drive the age, which avoids the clock problem. Still open: what dark energy is.",
@@ -110,10 +110,10 @@
    "plain": "Early-universe and local measurements of the expansion rate disagree.",
    "prior": "",
    "proposal": "",
+   "queued": "9 Oct 2026",
    "rff": "An observational disagreement. RFF has no stake in which value is right.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026"
+   "status": "outside"
   },
   "c-infl": {
    "assess": "None detected so far. Simons Observatory, LiteBIRD and CMB-S4 aim for sensitivity near r ~ 10⁻³. A non-detection settles nothing (many inflation models sit below that line); a detection at the level standard inflation predicts for the same inflaton would count against RFF. What drives inflation (the inflaton) stays outside an interpretation.",
@@ -147,10 +147,10 @@
    "plain": "Quantum vacuum energy predicts a dark-energy value ~10¹²⁰ times too large.",
    "prior": "Jacobson 1995 (Λ as integration constant); unimodular gravity; Weinberg 1987 (anthropic bound).",
    "proposal": "",
+   "queued": "9 Oct 2026",
    "rff": "In the area-law route (reopened 7 Oct), a uniform vacuum energy doesn't curve spacetime: Λ appears as a free constant. That matches RFF's 'vacuum linking is texture, not thickness'. The 10¹²⁰ mismatch then becomes 'what fixes Λ's value?', which is still dynamics.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026"
+   "status": "outside"
   },
   "c-struct": {
    "assess": "",
@@ -384,10 +384,10 @@
    "plain": "The universe is made of matter, not equal parts of each.",
    "prior": "Sakharov 1967.",
    "proposal": "",
+   "queued": "9 Oct 2026",
    "rff": "Explaining the imbalance needs three conditions (Sakharov). RFF's arrow supplies one of them, being out of equilibrium, for free. The amount of matter–antimatter difference in the laws is dynamics.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026"
+   "status": "outside"
   },
   "p-confine": {
    "basis": "Verify-or-leave-open.",
@@ -396,13 +396,13 @@
     "p-qft"
    ],
    "name": "Quark confinement",
+   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then.",
    "ord": 14,
    "plain": "Quarks never appear alone. Proving why from the theory is still open.",
+   "queued": "9 Oct 2026",
    "rff": "Dynamics of the strong force. Left to particle physics.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026",
-   "next": "Queued for review with Neil (9 Oct). 'Outside an interpretation' is provisional until then."
+   "status": "outside"
   },
   "p-cp": {
    "assess": "",
@@ -417,10 +417,10 @@
    "plain": "The strong force treats matter and mirror-matter the same to absurd precision.",
    "prior": "",
    "proposal": "",
+   "queued": "9 Oct 2026",
    "rff": "Dynamics. Left to particle physics.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026"
+   "status": "outside"
   },
   "p-gen": {
    "assess": "",
@@ -435,10 +435,10 @@
    "plain": "Matter comes in three copies of different mass. No one knows why three.",
    "prior": "",
    "proposal": "",
+   "queued": "9 Oct 2026",
    "rff": "Nothing in the balloon picture prefers three generations. Left as an input.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026"
+   "status": "outside"
   },
   "p-hier": {
    "assess": "",
@@ -453,10 +453,10 @@
    "plain": "Gravity is far weaker than the other forces, with no accepted reason.",
    "prior": "",
    "proposal": "",
+   "queued": "9 Oct 2026",
    "rff": "Dynamics. RFF says nothing about why gravity is so weak.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026"
+   "status": "outside"
   },
   "p-higgs": {
    "assess": "",
@@ -471,10 +471,10 @@
    "plain": "Particles get mass from the Higgs field; the masses themselves are unexplained inputs.",
    "prior": "",
    "proposal": "",
+   "queued": "9 Oct 2026",
    "rff": "Mass sets how fast a particle's clock ticks (de Broglie, mc²/h, from Oct 4), so the Higgs field sets clock rates. RFF can say what mass does, but the values themselves are inputs.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026"
+   "status": "outside"
   },
   "p-ident": {
    "assess": "Strong fit. It is the same pairing that gives fourth-order interference for two particles (Pleinert 2021).",
@@ -523,10 +523,10 @@
    "plain": "Neutrinos have mass, which the Standard Model didn't predict.",
    "prior": "Super-Kamiokande 1998; SNO 2001 (Nobel 2015).",
    "proposal": "",
+   "queued": "9 Oct 2026",
    "rff": "The mass values are inputs. But neutrino oscillation is a clean example of your relative-time idea working: a neutrino is a mix of components whose clocks tick at slightly different rates, so their comparison drifts and the flavour changes along the way.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026"
+   "status": "outside"
   },
   "p-qft": {
    "assess": "If particles are patterns, waviness is native and the thing to explain is the dot, which settling does. Replaces the Oct 4 'particles really are particles' framing.",
@@ -576,10 +576,10 @@
    "plain": "Many constants sit in narrow windows that allow structure and life.",
    "prior": "",
    "proposal": "",
+   "queued": "9 Oct 2026",
    "rff": "The seed is a starting condition. By the verify-or-leave-open rule, RFF doesn't explain the constants' values.",
    "session": "9 Oct 2026 (merged from draft)",
-   "status": "outside",
-   "queued": "9 Oct 2026"
+   "status": "outside"
   },
   "p-vac": {
    "assess": "Adds no new commitment. 'What sources the thickness?' stays open. The Casimir force can also be computed as ordinary forces between the plates' atoms, so it isn't proof that the vacuum holds energy.",
@@ -1075,6 +1075,40 @@
    "prior": "Hawking 1992 (chronology protection); Deutsch 1991.",
    "rff": "The front only moves outward. A loop back into the past would need it to revisit settled rubber. Folds can reach back (delayed choice), but they never rewrite settled outcomes, so RFF rules out loops through settled history.",
    "status": "fits"
+  },
+  "g-planck": {
+   "assess": "The open question 'does the pairwise ordering connect to the pairwise interference rule?' is answered yes in 1+1 for a free particle: ordering supplies the clock reading; pairing plus positivity supply the turning. Not yet 3+1, many particles or spin.",
+   "next": "Extend Test 1 to 3+1 dimensions and to the full sum over histories.",
+   "rff": "Neil chose a discrete front: events get ordered pairwise as the front passes, which lines up with causal set theory. Since 9 Oct the link count is the clock: the number of links along the longest chain between two events tracks their proper time, and on random discrete spacetime it reproduces the double-slit pattern as density grows (RESULTS-03 Test 1). Pairwise comparison of those counts carries the phase. Since 8 Oct spacetime isn't quantized in RFF, so granularity at the Planck scale comes from the front's ordering, not from quantum geometry.",
+   "session": "Aug 2026; 9 Oct 2026 (link count = clock)"
+  },
+  "q-born": {
+   "assess": "Moves from 'put in by hand' to 'follows from pairs + positivity'. The input that remains is A1, which experiment supports (no third-order interference). Same caveats as 'Why amplitudes cancel'.",
+   "basis": "Pairs of histories; positivity under composition; Herglotz.",
+   "next": "Why pairs (A1)? Lead: Joshi, Srikanth & Sinha 2016 — higher-order sum rules permit signalling under stated assumptions. Not yet read.",
+   "prior": "Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383 (circular derivation).",
+   "rff": "The square is the pairing. Once probability is built from pairs of histories (A1), the same argument that gives cancellation gives P(A) = |sum of hands|² (SIM-SPEC-02 §4). What remains put in is A1 itself: why pairs, not triples.",
+   "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03)",
+   "status": "work"
+  },
+  "q-cancel": {
+   "assess": "Tests pass (RESULTS-03): link counts on random discrete spacetime work as clocks for the double slit (pattern correlation 0.95 at 7 million elements, converging); rules that break positivity give negative probabilities once composed with a qubit (52/52); decoherence is exactly a spread of clock rates. Owed: an independent check that A1–A5 hide no phase rule, and a full read of the Sorkin-school literature before claiming novelty.",
+   "basis": "Pairs of histories (4 Oct); comparing = subtracting clock readings; positivity under composition; Herglotz's theorem.",
+   "next": "Independent circularity check; read the Sorkin-school literature; then decide whether 'fits with work' can become 'fits'.",
+   "prior": "Feynman 1948; Sorkin 1994 (quantum measure); Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022.",
+   "rff": "Derived, given RFF's own commitments (SIM-SPEC-02, 9 Oct): probability comes from pairs of histories (A1); two histories are compared only by the difference of their clock readings (A2); probabilities stay non-negative when the system meets any other system (A3). A theorem (Herglotz) then forces the comparison to be a mix of pure rotations; with one sharp clock rate it is exactly 'each link turns the hand by a fixed angle; hands add; square'. The cancellation is not put in: it is what a sharp clock rate means once probabilities come in pairs and stay positive.",
+   "session": "9 Oct 2026 (SIM-SPEC-02, RESULTS-03)",
+   "status": "work"
+  },
+  "q-decoh": {
+   "assess": "A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together.",
+   "rff": "Quantum at the rubber's leading edge, classical in its bulk. A fold closes when undoing it becomes impossible, and it really closes. Since 9 Oct: decoherence is a spread of clock rates. Each environment configuration gives the two branches a different relative rate; averaging over them blurs the hands, and coupling more environment widens the spread. Exact on both August dephasing data sets (RESULTS-03 Test 3). Thickness is how sharply a history's clock rate is defined.",
+   "session": "4 Oct 2026; 5 Oct 2026; 9 Oct 2026"
+  },
+  "q-pairs": {
+   "assess": "Since 9 Oct this is load-bearing: it is assumption A1 of the amplitude derivation (SIM-SPEC-02). The cancellation rule and the Born square both follow from it plus positivity, so 'why pairs' is now the single named input of the quantum column.",
+   "next": "Why pairs and not triples? Lead: Joshi, Srikanth & Sinha 2016 (higher-order sum rules permit signalling). Not yet read.",
+   "session": "4 Oct 2026; 9 Oct 2026"
   },
   "r-holo": {
    "basis": "Area law; dead-ends ledger.",

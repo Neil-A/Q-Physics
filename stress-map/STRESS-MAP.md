@@ -798,6 +798,67 @@
 - **Assessment.** Agrees with Hawking's chronology protection conjecture. It's a claim, but no experiment contradicts it.
 - **Prior art.** Hawking 1992 (chronology protection); Deutsch 1991.
 
+#### Granular spacetime at the Planck scale  `g-planck`
+
+**Status:** Fits with work *(draft; agreed status: Fits with work)*
+**Builds on:** The flow of time and the 'now'
+
+- **What it is.** At about 10⁻³⁵ m, quantum effects on spacetime itself should matter. No experiment reaches it.
+- **RFF placement.** Neil chose a discrete front: events get ordered pairwise as the front passes, which lines up with causal set theory. Since 9 Oct the link count is the clock: the number of links along the longest chain between two events tracks their proper time, and on random discrete spacetime it reproduces the double-slit pattern as density grows (RESULTS-03 Test 1). Pairwise comparison of those counts carries the phase. Since 8 Oct spacetime isn't quantized in RFF, so granularity at the Planck scale comes from the front's ordering, not from quantum geometry.
+- **Assessment.** The open question 'does the pairwise ordering connect to the pairwise interference rule?' is answered yes in 1+1 for a free particle: ordering supplies the clock reading; pairing plus positivity supply the turning. Not yet 3+1, many particles or spin.
+- **To work through.** Extend Test 1 to 3+1 dimensions and to the full sum over histories.
+- **Prior art.** Causal sets; Rideout–Sorkin classical sequential growth.
+- **Worked through.** Aug 2026; 9 Oct 2026 (link count = clock)
+
+#### Born rule: probability is a square  `q-born`
+
+**Status:** Fits with work *(draft; agreed status: Strains)*
+**Builds on:** Measurement: why one outcome, Why amplitudes cancel
+
+- **What it is.** Probabilities equal the squared size of the amplitude. It's a postulate.
+- **RFF placement.** The square is the pairing. Once probability is built from pairs of histories (A1), the same argument that gives cancellation gives P(A) = |sum of hands|² (SIM-SPEC-02 §4). What remains put in is A1 itself: why pairs, not triples.
+- **Built from.** Pairs of histories; positivity under composition; Herglotz.
+- **Assessment.** Moves from 'put in by hand' to 'follows from pairs + positivity'. The input that remains is A1, which experiment supports (no third-order interference). Same caveats as 'Why amplitudes cancel'.
+- **To work through.** Why pairs (A1)? Lead: Joshi, Srikanth & Sinha 2016 — higher-order sum rules permit signalling under stated assumptions. Not yet read.
+- **Prior art.** Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383 (circular derivation).
+- **Worked through.** 9 Oct 2026 (SIM-SPEC-02, RESULTS-03)
+
+#### Why amplitudes cancel  `q-cancel`
+
+**Status:** Fits with work *(draft; agreed status: Strains)*
+**Builds on:** Superposition and the double slit
+
+- **What it is.** Possibilities combine like arrows that can cancel, not like chances that only add. Nobody knows why.
+- **RFF placement.** Derived, given RFF's own commitments (SIM-SPEC-02, 9 Oct): probability comes from pairs of histories (A1); two histories are compared only by the difference of their clock readings (A2); probabilities stay non-negative when the system meets any other system (A3). A theorem (Herglotz) then forces the comparison to be a mix of pure rotations; with one sharp clock rate it is exactly 'each link turns the hand by a fixed angle; hands add; square'. The cancellation is not put in: it is what a sharp clock rate means once probabilities come in pairs and stay positive.
+- **Built from.** Pairs of histories (4 Oct); comparing = subtracting clock readings; positivity under composition; Herglotz's theorem.
+- **Assessment.** Tests pass (RESULTS-03): link counts on random discrete spacetime work as clocks for the double slit (pattern correlation 0.95 at 7 million elements, converging); rules that break positivity give negative probabilities once composed with a qubit (52/52); decoherence is exactly a spread of clock rates. Owed: an independent check that A1–A5 hide no phase rule, and a full read of the Sorkin-school literature before claiming novelty.
+- **To work through.** Independent circularity check; read the Sorkin-school literature; then decide whether 'fits with work' can become 'fits'.
+- **Prior art.** Feynman 1948; Sorkin 1994 (quantum measure); Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022.
+- **Worked through.** 9 Oct 2026 (SIM-SPEC-02, RESULTS-03)
+
+#### Decoherence and the classical world  `q-decoh`
+
+**Status:** Fits naturally *(draft; agreed status: Fits naturally)*
+**Builds on:** Entanglement and Bell correlations, Arrow of time
+
+- **What it is.** Big warm things never show superposition; their links spread into the environment almost instantly.
+- **RFF placement.** Quantum at the rubber's leading edge, classical in its bulk. A fold closes when undoing it becomes impossible, and it really closes. Since 9 Oct: decoherence is a spread of clock rates. Each environment configuration gives the two branches a different relative rate; averaging over them blurs the hands, and coupling more environment widens the spread. Exact on both August dephasing data sets (RESULTS-03 Test 3). Thickness is how sharply a history's clock rate is defined.
+- **Assessment.** A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together.
+- **Prior art.** Zurek, einselection.
+- **Worked through.** 4 Oct 2026; 5 Oct 2026; 9 Oct 2026
+
+#### Interference only ever in pairs  `q-pairs`
+
+**Status:** Fits naturally *(draft; agreed status: Fits naturally)*
+**Builds on:** Born rule: probability is a square
+
+- **What it is.** One particle: no third-order interference. M particles: maximum order 2M, always even.
+- **RFF placement.** Settling is a two-ended handshake, so interference is between pairs of whole histories. It passes because it inherits QM; the result constrains any future selection story.
+- **Assessment.** Since 9 Oct this is load-bearing: it is assumption A1 of the amplitude derivation (SIM-SPEC-02). The cancellation rule and the Born square both follow from it plus positivity, so 'why pairs' is now the single named input of the quantum column.
+- **To work through.** Why pairs and not triples? Lead: Joshi, Srikanth & Sinha 2016 (higher-order sum rules permit signalling). Not yet read.
+- **Prior art.** Sinha et al. 2010; Kauten et al. 2017; Pleinert et al. 2021.
+- **Worked through.** 4 Oct 2026; 9 Oct 2026
+
 #### Holographic principle  `r-holo`
 
 **Status:** Strains

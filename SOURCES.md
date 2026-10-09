@@ -200,6 +200,14 @@ Out of scope for SIM-SPEC-01 anyway. Don't let it carry weight in a write-up wit
 
 Jacobson (1995, 2016) and the gravity papers cited in [RESULTS-02-gravity.md](RESULTS-02-gravity.md) left the "not to read" list below when gravity-origin was reopened on 7 October.
 
+**October 2026 — for SIM-SPEC-02 (amplitudes).** Full list and what each was read for: [SIM-SPEC-02](SIM-SPEC-02-amplitudes.md) §3. Still owed before any novelty claim:
+
+**`[ ]` The Sorkin-school decoherence-functional literature** (Sorkin 1994 onward; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022) — read in full, not at abstract level.
+> Has anyone derived the clock-hand rule from pairs + comparison by clock difference + strong positivity, via Herglotz/Bochner?
+
+**`[ ]` Joshi, Srikanth & Sinha (2016), arXiv:1308.6065.**
+> Under what assumptions do higher-order sum rules permit signalling? If they hold in RFF, A1 (pairs) follows from RFF's no-signalling commitment.
+
 ---
 
 ## Not to read

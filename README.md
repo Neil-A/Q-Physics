@@ -29,10 +29,10 @@ its average. There RFF is a semiclassical theory, and it can be proved wrong by 
 | The idea, no jargon | [Framework-Summary-Plain.md](Framework-Summary-Plain.md) — predates October and contradicts §15 on gravity |
 | The full argument and all sixteen posits (canonical) | [FRAMEWORK.md](FRAMEWORK.md) |
 | How known physics fits, item by item (provisional until all items are done) | [stress-map/STRESS-MAP.md](stress-map/STRESS-MAP.md) |
-| What the simulations actually returned | [RESULTS-01.md](RESULTS-01.md) (coherence), [RESULTS-02-gravity.md](RESULTS-02-gravity.md) (gravity) |
+| What the simulations actually returned | [RESULTS-01.md](RESULTS-01.md) (coherence), [RESULTS-02-gravity.md](RESULTS-02-gravity.md) (gravity), [RESULTS-03-amplitudes.md](RESULTS-03-amplitudes.md) (amplitudes) |
 | Current status, risks, next actions | [REVIEW.md](REVIEW.md) — v4, 8 October, with a response section |
 | The literature, and what each paper was read for | [SOURCES.md](SOURCES.md) |
-| The computational spec | [SIM-SPEC-01-coherence.md](SIM-SPEC-01-coherence.md) |
+| The computational specs | [SIM-SPEC-01-coherence.md](SIM-SPEC-01-coherence.md) (coherence), [SIM-SPEC-02-amplitudes.md](SIM-SPEC-02-amplitudes.md) (amplitudes from ordering) |
 | The code | [sim/](sim/) |
 
 ## Reproducing the simulations

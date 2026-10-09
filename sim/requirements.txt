@@ -4,3 +4,5 @@ numpy==2.5.1
 scipy==1.18.0
 qutip==5.3.1
 matplotlib==3.11.1
+# SIM-SPEC-02 (sim/amplitudes) additionally needs:
+numba==0.68.0

@@ -2,7 +2,15 @@
 
 *Written 9 October 2026, before any code. Purpose: attack the open problem behind the map items "Why amplitudes cancel" and "Born rule" (both marked **strains**), and the "granular spacetime" question of whether pairwise ordering connects to pairwise interference. Failure is a good outcome if it is clean.*
 
-> **STATUS: assumptions A1–A5 accepted by Neil, 9 October 2026.** Test 1 code committed before its run: [sim/amplitudes/](sim/amplitudes/). Results in RESULTS-03 when run.
+> **STATUS: executed 9 October 2026.** A1–A5 accepted by Neil before the run. Results in [RESULTS-03-amplitudes.md](RESULTS-03-amplitudes.md).
+>
+> | Test | Outcome |
+> |---|---|
+> | 1 | **PASS** — pattern correlation 0.20 → 0.95 with density; spacing 0.981 at ρ = 10⁷ (0.991 at 3 × 10⁷ in a follow-up); phase error ∝ ρ^(−0.29) |
+> | 2 | **PASS** — 52/52 non-positive rules give negative probabilities (22 only under composition); 0/31 positive rules do |
+> | 3 | **PASS** — decoherence is exactly a spread of clock rates on both August data sets |
+>
+> Still owed: an independent check that A1–A5 hide no phase rule (kill condition 1), and a full read of the prior art for novelty. The spec below is left as written.
 
 ---
 

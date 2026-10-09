@@ -1,0 +1,9 @@
+{
+ "A_max_err": 1.1102230246251565e-16,
+ "A_sigma_monotone": true,
+ "B_enum_max_err": 1.6653345369377348e-16,
+ "B_slope": -0.8097300888025921,
+ "B_sigma_monotone": true,
+ "B_sigma_growth_exponent": 0.503119445930587,
+ "passed": true
+}

@@ -1,0 +1,5 @@
+A  Test 1 sweep: max |visibility from mu - (1-p)| = 1.11e-16;  sigma rises with p: True  (sigma from 0.000 to 1.571)
+B  central spin: enumeration vs product formula, N <= 16: max difference 1.67e-16
+   slope of log median coherence vs N: -0.8097  (August: -0.8097)
+   sigma rises at every added spin (1000 spins): True;  median sigma grows as N^0.503
+TEST 3: PASS
