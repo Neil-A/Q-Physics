@@ -9,8 +9,8 @@
 | Status | Count |
 |---|---|
 | Fits naturally | 32 |
-| Fits with work | 13 |
-| Strains | 3 |
+| Fits with work | 15 |
+| Strains | 1 |
 | Breaks | 0 |
 | Outside an interpretation | 11 |
 | Not yet examined | 2 |
@@ -54,13 +54,14 @@
 10. The seed gives the beginning; outward gives the arrow.
 11. The rubber is the front, the 'now'. Its thickness varies and it can leave very long folds of unsettled past.
 12. Particles are stable patterns in the rubber (ripples, standing waves, vortices), not little objects. Waviness comes from paired histories; the dot comes from settling.
-13. The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.
-14. Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
-15. Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.
-16. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
-17. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
-18. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
-19. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
+13. Ordering generates the clock (restated 9 Oct, replacing 'ordering generates amplitudes'): the number of links along a history is its clock reading. The phase's form (each link turns the hand by a fixed angle; hands add; the result is squared) follows from three things: something somewhere cancels (a dark fringe is observed), all systems can be combined, and histories are compared by clock differences. Why anything cancels at all is an observed input, not derived. Finite experiments only, so far.
+14. The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.
+15. Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
+16. Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.
+17. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
+18. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
+19. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
+20. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
 
 **Open questions:** Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.
 
@@ -144,10 +145,11 @@
 **Builds on:** The flow of time and the 'now'
 
 - **What it is.** At about 10⁻³⁵ m, quantum effects on spacetime itself should matter. No experiment reaches it.
-- **RFF placement.** Neil chose a discrete front: events get ordered pairwise as the front passes. That lines up with causal set theory. Since 8 Oct spacetime isn't quantized in RFF, so any granularity at the Planck scale comes from the front's pairwise ordering, not from quantum geometry.
-- **To work through.** Does the pairwise ordering connect to the pairwise interference rule?
+- **RFF placement.** Neil chose a discrete front: events get ordered pairwise as the front passes, which lines up with causal set theory. Since 9 Oct the link count is the clock: the number of links along the longest chain between two events tracks their proper time, and on random discrete spacetime it reproduces the double-slit pattern as density grows (RESULTS-03 Test 1). Comparing those counts in pairs gives each history's phase difference; that the comparison is a turning hand comes from pairs, combinability and an observed dark fringe (SIM-SPEC-02 §9), not from the ordering itself. Since 8 Oct spacetime isn't quantized in RFF, so granularity at the Planck scale comes from the front's ordering, not from quantum geometry.
+- **Assessment.** The open question 'does the pairwise ordering connect to the pairwise interference rule?' is answered in part, in 1+1 for a free particle: ordering supplies the clock reading (the link count). The form of the phase comes from pairs, combinability and an observed dark fringe, not from the ordering itself (REVIEW-04). So 'ordering generates amplitudes' is not achieved; ordering generates the clock. Not yet 3+1, many particles or spin.
+- **To work through.** Extend Test 1 to 3+1 dimensions and to the full sum over histories.
 - **Prior art.** Causal sets; Rideout–Sorkin classical sequential growth.
-- **Worked through.** Aug 2026
+- **Worked through.** Aug 2026; 9 Oct 2026 (link count = clock)
 
 #### Remembering the past, not the future  `g-psych`
 
@@ -183,25 +185,29 @@
 
 #### Why amplitudes cancel  `q-cancel`
 
-**Status:** Strains
+**Status:** Fits with work
 **Builds on:** Superposition and the double slit
 
 - **What it is.** Possibilities combine like arrows that can cancel, not like chances that only add. Nobody knows why.
-- **RFF placement.** Oct 4 simulations: give each path its own clock and combine as arrows, and the exact fringes appear. Positive weights never made a dark band. Two-ended reading: compare clocks pairwise where histories meet.
-- **To work through.** Derive why the comparison is the cosine of the clock difference.
-- **Prior art.** Feynman sum over histories (1948); Sorkin quantum measure (1994).
-- **Worked through.** 4 Oct 2026
+- **RFF placement.** The form of cancellation is derived; its existence is an input (SIM-SPEC-02 §9, passed REVIEW-04, 9 Oct). If something somewhere shows a dark fringe, and all systems can be combined, then every system whose histories are compared by clock-reading differences must combine them as clock hands: each link turns the hand by a fixed angle, hands add, and the result is squared. Route: Dowker–Wilkes Theorem 4 (a world of combinable systems is all strongly positive or all non-cancelling), then Herglotz. Ordering supplies the clock reading (the link count), not the phase.
+- **Built from.** Pairs of histories (4 Oct); comparing = subtracting clock readings; link count = clock (RESULTS-03 Test 1); Dowker–Wilkes Theorem 4; Herglotz / Carathéodory–Toeplitz.
+- **Assessment.** Fits with work. Inputs named: pairs (A1), comparison by difference (A2), combinability with the product rule (A3′), whole-number readings (A4), one sharp rate (A5), a dark fringe exists (E1). Limits: finite experiments only (the infinite history space is open); equal weights only; one particle can't tell real from complex hands. Why anything cancels at all stays unexplained. Not found in the literature.
+- **To work through.** Why does anything cancel at all? Extend beyond finite experiments and equal weights.
+- **Prior art.** Feynman 1948; Sorkin 1994; Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022.
+- **Worked through.** 9 Oct 2026 (SIM-SPEC-02 §9, REVIEW-03, REVIEW-04)
 
 #### Born rule: probability is a square  `q-born`
 
-**Status:** Strains
+**Status:** Fits with work
 **Builds on:** Measurement: why one outcome, Why amplitudes cancel
 
 - **What it is.** Probabilities equal the squared size of the amplitude. It's a postulate.
-- **RFF placement.** Read as offer × confirmation, or as a pair of histories compared at the screen. Still put in by hand, though comparing clock readings explains the conjugate better than the transactional version did.
-- **To work through.** Get the square from the two-ended picture rather than assuming it.
-- **Prior art.** Cramer/Kastner transactional picture; Strubbe arXiv:2505.10383 (circular derivation).
-- **Worked through.** 4 Oct 2026
+- **RFF placement.** The square is the pairing. With probability built from pairs of histories (A1), the same argument that fixes the form of cancellation gives P = |sum of hands|² (SIM-SPEC-02 §9, passed REVIEW-04). It needs a dark fringe to exist somewhere (E1) and all systems to be combinable (A3′).
+- **Built from.** Pairs of histories; Dowker–Wilkes Theorem 4; Herglotz.
+- **Assessment.** Fits with work. The square is no longer put in by hand; it follows from pairs plus positivity forced by combinability. What stays put in: pairs (A1) and the existence of cancellation (E1). Same limits as 'Why amplitudes cancel'.
+- **To work through.** Why pairs (Joshi, Srikanth & Sinha 2016, not yet read).
+- **Prior art.** Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383 (circular derivation).
+- **Worked through.** 9 Oct 2026 (SIM-SPEC-02 §9, REVIEW-03, REVIEW-04)
 
 #### Interference only ever in pairs  `q-pairs`
 
@@ -210,9 +216,10 @@
 
 - **What it is.** One particle: no third-order interference. M particles: maximum order 2M, always even.
 - **RFF placement.** Settling is a two-ended handshake, so interference is between pairs of whole histories. It passes because it inherits QM; the result constrains any future selection story.
-- **To work through.** Why pairs and not triples?
+- **Assessment.** Since 9 Oct this is load-bearing: it is assumption A1 of the amplitude argument (SIM-SPEC-02 §9, passed REVIEW-04). With combinability and an observed dark fringe, the clock-hand rule and the Born square both follow from it, so 'why pairs' is a named input of the quantum column, alongside the existence of cancellation.
+- **To work through.** Why pairs and not triples? Lead: Joshi, Srikanth & Sinha 2016 (higher-order sum rules permit signalling). Not yet read.
 - **Prior art.** Sinha et al. 2010; Kauten et al. 2017; Pleinert et al. 2021.
-- **Worked through.** 4 Oct 2026
+- **Worked through.** 4 Oct 2026; 9 Oct 2026
 
 #### Entanglement and Bell correlations  `q-ent`
 
@@ -243,9 +250,10 @@
 **Builds on:** Entanglement and Bell correlations, Arrow of time
 
 - **What it is.** Big warm things never show superposition; their links spread into the environment almost instantly.
-- **RFF placement.** Quantum at the rubber's leading edge, classical in its bulk. A fold closes when undoing it becomes impossible, and it really closes.
+- **RFF placement.** Quantum at the rubber's leading edge, classical in its bulk. A fold closes when undoing it becomes impossible, and it really closes. Since 9 Oct: decoherence is a spread of clock rates. Each environment configuration gives the two branches a different relative rate; averaging over them blurs the hands, and coupling more environment widens the spread. Exact on both August dephasing data sets (RESULTS-03 Test 3). Thickness is how sharply a history's clock rate is defined.
+- **Assessment.** A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together.
 - **Prior art.** Zurek, einselection.
-- **Worked through.** 4 Oct 2026; 5 Oct 2026
+- **Worked through.** 4 Oct 2026; 5 Oct 2026; 9 Oct 2026
 
 #### Classical paths: least action  `q-least`
 
@@ -797,67 +805,6 @@
 - **Built from.** Arrow; folds never rewrite settled outcomes.
 - **Assessment.** Agrees with Hawking's chronology protection conjecture. It's a claim, but no experiment contradicts it.
 - **Prior art.** Hawking 1992 (chronology protection); Deutsch 1991.
-
-#### Granular spacetime at the Planck scale  `g-planck`
-
-**Status:** Fits with work *(draft; agreed status: Fits with work)*
-**Builds on:** The flow of time and the 'now'
-
-- **What it is.** At about 10⁻³⁵ m, quantum effects on spacetime itself should matter. No experiment reaches it.
-- **RFF placement.** Neil chose a discrete front: events get ordered pairwise as the front passes, which lines up with causal set theory. Since 9 Oct the link count is the clock: the number of links along the longest chain between two events tracks their proper time, and on random discrete spacetime it reproduces the double-slit pattern as density grows (RESULTS-03 Test 1). Pairwise comparison of those counts carries the phase. Since 8 Oct spacetime isn't quantized in RFF, so granularity at the Planck scale comes from the front's ordering, not from quantum geometry.
-- **Assessment.** The open question 'does the pairwise ordering connect to the pairwise interference rule?' is answered in part, in 1+1 for a free particle: ordering supplies the clock reading (the link count). The form of the phase comes from pairs, combinability and an observed dark fringe, not from the ordering itself (REVIEW-04). So 'ordering generates amplitudes' is not achieved; ordering generates the clock. Not yet 3+1, many particles or spin.
-- **To work through.** Extend Test 1 to 3+1 dimensions and to the full sum over histories.
-- **Prior art.** Causal sets; Rideout–Sorkin classical sequential growth.
-- **Worked through.** Aug 2026; 9 Oct 2026 (link count = clock)
-
-#### Born rule: probability is a square  `q-born`
-
-**Status:** Fits with work *(draft; agreed status: Strains)*
-**Builds on:** Measurement: why one outcome, Why amplitudes cancel
-
-- **What it is.** Probabilities equal the squared size of the amplitude. It's a postulate.
-- **RFF placement.** The square is the pairing. With probability built from pairs of histories (A1), the same argument that fixes the form of cancellation gives P = |sum of hands|² (SIM-SPEC-02 §9, passed REVIEW-04). It needs a dark fringe to exist somewhere (E1) and all systems to be combinable (A3′).
-- **Built from.** Pairs of histories; Dowker–Wilkes Theorem 4; Herglotz.
-- **Assessment.** Fits with work. The square is no longer put in by hand; it follows from pairs plus positivity forced by combinability. What stays put in: pairs (A1) and the existence of cancellation (E1). Same limits as 'Why amplitudes cancel'.
-- **To work through.** Why pairs (Joshi, Srikanth & Sinha 2016, not yet read).
-- **Prior art.** Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383 (circular derivation).
-- **Worked through.** 9 Oct 2026 (SIM-SPEC-02 §9, REVIEW-03, REVIEW-04)
-
-#### Why amplitudes cancel  `q-cancel`
-
-**Status:** Fits with work *(draft; agreed status: Strains)*
-**Builds on:** Superposition and the double slit
-
-- **What it is.** Possibilities combine like arrows that can cancel, not like chances that only add. Nobody knows why.
-- **RFF placement.** The form of cancellation is derived; its existence is an input (SIM-SPEC-02 §9, passed REVIEW-04, 9 Oct). If something somewhere shows a dark fringe, and all systems can be combined, then every system whose histories are compared by clock-reading differences must combine them as clock hands: each link turns the hand by a fixed angle, hands add, and the result is squared. Route: Dowker–Wilkes Theorem 4 (a world of combinable systems is all strongly positive or all non-cancelling), then Herglotz. Ordering supplies the clock reading (the link count), not the phase.
-- **Built from.** Pairs of histories (4 Oct); comparing = subtracting clock readings; link count = clock (RESULTS-03 Test 1); Dowker–Wilkes Theorem 4; Herglotz / Carathéodory–Toeplitz.
-- **Assessment.** Fits with work. Inputs named: pairs (A1), comparison by difference (A2), combinability with the product rule (A3′), whole-number readings (A4), one sharp rate (A5), a dark fringe exists (E1). Limits: finite experiments only (the infinite history space is open); equal weights only; one particle can't tell real from complex hands. Why anything cancels at all stays unexplained. Not found in the literature.
-- **To work through.** Why does anything cancel at all? Extend beyond finite experiments and equal weights.
-- **Prior art.** Feynman 1948; Sorkin 1994; Goyal, Knuth & Skilling 2010; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022.
-- **Worked through.** 9 Oct 2026 (SIM-SPEC-02 §9, REVIEW-03, REVIEW-04)
-
-#### Decoherence and the classical world  `q-decoh`
-
-**Status:** Fits naturally *(draft; agreed status: Fits naturally)*
-**Builds on:** Entanglement and Bell correlations, Arrow of time
-
-- **What it is.** Big warm things never show superposition; their links spread into the environment almost instantly.
-- **RFF placement.** Quantum at the rubber's leading edge, classical in its bulk. A fold closes when undoing it becomes impossible, and it really closes. Since 9 Oct: decoherence is a spread of clock rates. Each environment configuration gives the two branches a different relative rate; averaging over them blurs the hands, and coupling more environment widens the spread. Exact on both August dephasing data sets (RESULTS-03 Test 3). Thickness is how sharply a history's clock rate is defined.
-- **Assessment.** A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together.
-- **Prior art.** Zurek, einselection.
-- **Worked through.** 4 Oct 2026; 5 Oct 2026; 9 Oct 2026
-
-#### Interference only ever in pairs  `q-pairs`
-
-**Status:** Fits naturally *(draft; agreed status: Fits naturally)*
-**Builds on:** Born rule: probability is a square
-
-- **What it is.** One particle: no third-order interference. M particles: maximum order 2M, always even.
-- **RFF placement.** Settling is a two-ended handshake, so interference is between pairs of whole histories. It passes because it inherits QM; the result constrains any future selection story.
-- **Assessment.** Since 9 Oct this is load-bearing: it is assumption A1 of the amplitude derivation (SIM-SPEC-02). The cancellation rule and the Born square both follow from it plus positivity, so 'why pairs' is now the single named input of the quantum column.
-- **To work through.** Why pairs and not triples? Lead: Joshi, Srikanth & Sinha 2016 (higher-order sum rules permit signalling). Not yet read.
-- **Prior art.** Sinha et al. 2010; Kauten et al. 2017; Pleinert et al. 2021.
-- **Worked through.** 4 Oct 2026; 9 Oct 2026
 
 #### Holographic principle  `r-holo`
 
