@@ -2,7 +2,7 @@
 
 *Written 9 October 2026, before any code. Purpose: attack the open problem behind the map items "Why amplitudes cancel" and "Born rule" (both marked **strains**), and the "granular spacetime" question of whether pairwise ordering connects to pairwise interference. Failure is a good outcome if it is clean.*
 
-> **STATUS: specified, not run.** Assumptions A1–A5 below need Neil's sign-off before Tests 1–3 are run.
+> **STATUS: assumptions A1–A5 accepted by Neil, 9 October 2026.** Test 1 code committed before its run: [sim/amplitudes/](sim/amplitudes/). Results in RESULTS-03 when run.
 
 ---
 
