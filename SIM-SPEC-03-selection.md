@@ -221,6 +221,40 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 | Test 1a: N = 10⁵ → 5 × 10⁴ for the main runs | Compute time at the shorter step. The equivariance check keeps 10⁵. The fit window changes little, because H̄ stays far above the floor for most runs |
 | All tests: set-up checks added | Equivariance and step size are known properties; a code that fails them is wrong |
 
+### 5.6 W2 second test *(written 10 October, 23:40, before any code for it)*
+
+**Why.** In the first W2 run, the step check failed (RESULTS-04). It failed on τ_q, the fitted relaxation time of Hardel et al. In that run, the τ_q fit was degenerate, and the fit window changed τ_q by 1.3 to 2.6 times. So τ_q did not measure the dynamics. On 10 October, Neil approved option (b) of RESULTS-04: replace τ_q with a time that needs no fitted curve, and run W2 again on fresh seeds.
+
+**This is a second test, not a first one.** Claude saw the first W2 run before writing these rules. The fresh seeds make sure that the rerun does not repeat the same noise.
+
+**Unchanged from Test 1b:** the double slit, σ ∈ {0.2, 0.3, 0.4, 0.5, 0.6, 0.7}, N = 4 × 10⁵, start at x = ±a, Euler–Maruyama with dt = 10⁻⁴, run to t = 1.5, L1 over 100 bins of equal Born weight, the noise floors.
+
+**Changes:**
+
+- *Fresh random streams:* default_rng([2026, 10, 11, round(100σ), 0]) for the kicks, and [2026, 10, 11, 40, 1] for the Born start of the equivariance check.
+- *Finer output at early times:* every 10⁻⁴ to t = 0.01, every 10⁻³ to t = 0.1, and every 10⁻² to t = 1.5. The first run could not resolve the early decay at σ = 0.2.
+- *Relaxation time:* t½, the first time at which L1 falls to half its start value, with linear interpolation between output times. It needs no fitted curve.
+- *Completion time (report only):* t₃, the first output time at which L1 is at or below 3 times its floor.
+
+**Checks to do before the pass condition:**
+
+1. *Equivariance:* as in Test 1b, with the fresh Born start.
+2. *Step size:* run σ = 0.2 and σ = 0.7 again with dt = 5 × 10⁻⁵. The two values of t½ must agree within 5%. Report also the largest difference of L1 between the two runs.
+
+**Test 1b, second test — report only.** For each σ, report t½, t₃, the literal τ_int, the visible-peak τ_int, and L1 at the literal τ_int. There is no single pass condition, because "Born before the fringes" is true or false depending on which part of the relaxation one means. The first run already showed this (RESULTS-04).
+
+**Test 2, second test (W2, σ = 0.4), with a pass condition:**
+
+1. The half time of TV over the 20 outcome bins lies between 0.25 t½ and 4 t½, where t½ is the half time of L1 in the same run.
+2. At t_rec = 1.5, TV lies below its floor plus 3 standard deviations.
+
+**Fail:** either condition is not met. Then "relaxation before the record" does not describe W2, and §9 point 3 must change for W2.
+
+### 5.7 Decisions recorded on 10 October (Neil)
+
+1. **W2 rerun:** option (b) of RESULTS-04, as specified in §5.6.
+2. **Relaxation is not always complete:** yes. Precise form (Claude's correction of the looser wording "simple isolated systems can keep odds that are not Born"): *a system that starts away from Born, and has only a few modes, can stay away from Born* (RESULTS-04, M = 4). A system that we prepare starts from relaxed matter, so it starts at Born and stays there (equivariance). Open for Neil: such a system would permit signals faster than light (Test 3), and RFF commits that nothing shows a faster-than-light effect.
+
 ---
 
 ## 6. Kill conditions — set in advance
