@@ -22,6 +22,7 @@
    "The handshake is a comparison, not an exchange (Neil, 10 Oct). A change of state in one part is recorded and updated into the rest, which checks it for consistency. Its bookkeeping is an out-and-back loop over two whole histories, touching the record once; its net clock reading is the difference of the two. Nothing travels back and nothing is timed.",
    "The only comparison is the difference of two clock readings (10 Oct). Agreement is a relation between two things, so a record's strength is total pairwise agreement and no three-way term appears. One posit gives both pairs (A1) and comparison by difference (A2).",
    "Isolation (10 Oct). A lone particle can't be compared, so it stays open. A few particles link (entangle) but the link undoes itself. A record needs the update to spread past the point of return. A big enough sealed group settles inside and stays open outside: entanglement is the inside view, coherence the outside view, of one sealed fold.",
+   "Relaxation is not always complete (Neil, 10 Oct). A system that starts away from Born, and has only a few modes, can stay away from Born (RESULTS-04: with 4 modes a residue stays). A system that we prepare starts from relaxed matter, so it starts at Born and stays there. Only a relic that never relaxed, such as a fold from the early universe, could carry statistics that are not Born: that is the possible CMB test.",
    "The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.",
    "Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.",
    "Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.",
@@ -31,7 +32,8 @@
    "No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density."
   ],
   "questions": [
-   "Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final."
+   "Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.",
+   "Relic statistics that are not Born (the possible CMB test) would permit signals faster than light (RESULTS-04, Test 3), but RFF commits that nothing shows a faster-than-light effect. Reconcile the two, or choose one (10 Oct)."
   ],
   "updated": "10 Oct 2026"
  },

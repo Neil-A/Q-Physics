@@ -61,15 +61,16 @@
 17. The handshake is a comparison, not an exchange (Neil, 10 Oct). A change of state in one part is recorded and updated into the rest, which checks it for consistency. Its bookkeeping is an out-and-back loop over two whole histories, touching the record once; its net clock reading is the difference of the two. Nothing travels back and nothing is timed.
 18. The only comparison is the difference of two clock readings (10 Oct). Agreement is a relation between two things, so a record's strength is total pairwise agreement and no three-way term appears. One posit gives both pairs (A1) and comparison by difference (A2).
 19. Isolation (10 Oct). A lone particle can't be compared, so it stays open. A few particles link (entangle) but the link undoes itself. A record needs the update to spread past the point of return. A big enough sealed group settles inside and stays open outside: entanglement is the inside view, coherence the outside view, of one sealed fold.
-20. The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.
-21. Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
-22. Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.
-23. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
-24. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
-25. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
-26. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
+20. Relaxation is not always complete (Neil, 10 Oct). A system that starts away from Born, and has only a few modes, can stay away from Born (RESULTS-04: with 4 modes a residue stays). A system that we prepare starts from relaxed matter, so it starts at Born and stays there. Only a relic that never relaxed, such as a fold from the early universe, could carry statistics that are not Born: that is the possible CMB test.
+21. The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.
+22. Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
+23. Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.
+24. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
+25. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
+26. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
+27. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
 
-**Open questions:** Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.
+**Open questions:** Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.; Relic statistics that are not Born (the possible CMB test) would permit signals faster than light (RESULTS-04, Test 3), but RFF commits that nothing shows a faster-than-light effect. Reconcile the two, or choose one (10 Oct).
 
 ## Agreed map
 
