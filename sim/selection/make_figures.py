@@ -118,5 +118,30 @@ def fig_rerun():
     fig.tight_layout(); fig.savefig(R + "fig_w2_rerun.png", dpi=130)
 
 
+
+def fig_tail_box():
+    import analyse_box as ab
+    tl = json.load(open(R + "tail_w2.json"))
+    fig, ax = plt.subplots(1, 2, figsize=(11, 4.4))
+    fl, sd = tl["floors"]["TV"]
+    for rows, lab, m in ((tl["main"], "start at the slits", "o-"), (tl["control"], "Born start (control)", "s--")):
+        t = [r["t"] for r in rows][1:]; v = [r["TV"] for r in rows][1:]
+        ax[0].semilogy(t, v, m, label=lab)
+    ax[0].axhline(fl + 3 * sd, color="k", ls=":", label="floor + 3 sd")
+    ax[0].axhline(fl, color="grey", ls=":", lw=0.8, label="noise floor")
+    ax[0].set_xlabel("t_rec"); ax[0].set_ylabel("TV of the record from Born (20 bins)")
+    ax[0].set_title("W2 in the free double slit (σ = 0.4): a slow tail"); ax[0].legend(fontsize=7)
+    w2 = ab.load(R + "boxw2_ground_M64_s0.npz"); w2c = ab.load(R + "boxw2_born_M64_s0.npz")
+    w1 = ab.load(R + "box_main_M64_s0.npz")
+    ax[1].semilogy(w1["t"][:33] / PI, w1["H"][:33], label="W1 (steered seed)")
+    ax[1].semilogy(w2["t"] / PI, w2["H"], label="W2 (seed with kicks)")
+    ax[1].semilogy(w2c["t"] / PI, w2c["H"], "--", lw=1, label="W2, Born start (control)")
+    ax[1].semilogy(w2["t"] / PI, w2["Hf"][:, 0], "k:", label="noise floor")
+    ax[1].set_xlabel("t / π"); ax[1].set_ylabel("H̄")
+    ax[1].set_title("Same bounded box (M = 64, phase set 0)"); ax[1].legend(fontsize=7)
+    fig.tight_layout(); fig.savefig(R + "fig_w2_tail_box.png", dpi=130)
+
+
 if __name__ == "__main__":
     fig_rerun()
+    fig_tail_box()

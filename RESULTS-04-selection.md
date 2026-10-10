@@ -5,6 +5,8 @@
 > **Outcome.** W1 (the steered seed, pilot-wave type) passes all of its tests. The W2 verdicts (the seed with kicks, Nelson type) are **pending**. One W2 set-up check (step size) missed its limit by 0.26 percentage points, and spec §6 says: fix the code before you read any pass condition. The check failed on one number, τ_q, which is the published definition of the relaxation time. In this run τ_q is fragile: its fit reduces to a straight line through ln L1, and the fit window changes it by 1.3 to 2.6 times. The L1 curves themselves converged. The Test 2 band also used τ_q as a relaxation time. That is an error in the test design, and Claude made it.
 >
 > **Decision for Neil.** How to fix the W2 measure of relaxation time before a W2 rerun. Section "Decisions" gives two options and a recommendation. The W2 numbers below are for the record. They are not verdicts.
+>
+> **Update, 11 October: the W2 second test.** Neil chose option (b). The rerun used fresh seeds and the half time of L1, which needs no fitted curve (spec §5.6). Both checks pass. **Test 2 fails for W2 in the second test.** The record's error halves on the right time scale (1.25 times the half time of L1), but at t_rec = 1.5 it is still about twice the noise floor (0.0054 against a floor of 0.0028; band 0.0042). An independent check found this: the first version of the W2 analysis used a TV floor twice too high. By the kill condition, §9 point 3 must change for W2, and Neil decides how. Two measurements after the verdict: in the bounded box of Test 1a, W2 relaxes completely, faster than W1. So the rule can relax completely, and the tail is tied to the freely spreading double slit; free spreading is the likely cause. Test 1b, now a report: the half time of the relaxation is 9 to 17 times shorter than the time of the first fringe, and completion takes 3 to 4.5 times longer than it. This is a second test: Claude saw the first run before writing its rules.
 
 ---
 
@@ -15,9 +17,11 @@
 | 1a | Does W1 relax at the published rate? | W1 | **PASS** — τ ∝ M^p with p = −1.04 ± 0.09 (TRV: −1.05 ± 0.03; band −1.05 ± 0.20) |
 | 1b | Does W2 reach Born before the fringes form? | W2 | **PENDING** — a set-up check failed (step size 5.3%, limit 5%; spec §6) |
 | 2 | Is a record that forms early not Born, and a late one Born? | W1 | **PASS** — the record's error falls on 2.6 τ (band 0.5 τ to 4 τ) and reaches the noise floor |
-| 2 | (same) | W2 | **PENDING** — same check. The record's error falls from 0.90 to the floor; against the τ_q band it would not be met (0.08 τ_q) |
+| 2 | (same) | W2 | **PENDING** — same check. The record's error falls from 0.90 to 0.0054, twice the noise floor; against the τ_q band it would not be met (0.08 τ_q) |
 | 3 | Does equilibrium forbid signals? | W1 | **PASS** — no signal at equilibrium; out of equilibrium, up to 27% of B's probability moves |
-| 3 | (same, equilibrium part) | W2 | **PASS**; out of equilibrium (report only): a smaller signal that fades as the seeds relax |
+| 3 | (same, equilibrium part) | W2 | **PASS**; out of equilibrium (report only): a smaller signal, almost back at the band by t = 3 |
+| 1b, second test | (as 1b, report only) | W2 | Checks pass. The half time of the relaxation is 9 to 17 times shorter than the time of the first fringe; completion takes 3 to 4.5 times longer than it |
+| 2, second test | (as 2) | W2 | **FAIL** — the record's error halves at 1.25 × the half time of L1 (met), but at t_rec = 1.5 it is still twice the noise floor (0.0054; band 0.0042) |
 
 ---
 
@@ -102,7 +106,7 @@ Read as a verdict, this would be **partial**: τ_q < τ_int for every σ with th
 
 The physics does not depend on this. When the first central maximum forms (the literal τ_int), L1 is already down to 6% to 12% of its start, for every σ (6.1% at σ = 0.2, 7.1% at σ = 0.4, 12.2% at σ = 0.7). L1 halves between t = 0.0023 (σ = 0.2) and t = 0.033 (σ = 0.7), which is 9 to 17 times earlier than the first central maximum. So most of the relaxation comes first in every case. But complete relaxation (L1 down to 3 times its floor) takes 3 to 4 times longer than the literal τ_int, for every σ. So "Born before the fringes" is true for the bulk of the relaxation, and not true for its end.
 
-**A slow tail at every σ.** For t ≥ 1, L1 stays at 1.4 to 1.9 times its floor (0.0126), above the floor plus 3 standard deviations, for every σ. It still falls slowly. Only TV over 20 bins at σ = 0.4 (Test 2) reaches its band by t = 1.5. A Born start stays below 1.2 times the floor (the equivariance check), so the tail is most likely relaxation that is not complete, not an error of the integrator. This is reported only.
+**A slow tail at every σ.** For t ≥ 1, L1 stays on average at 1.4 to 1.9 times its floor (0.0126), for every σ; single points lie between 1.2 and 2.4 times the floor. At σ = 0.2 it no longer falls within the run. TV over 20 bins at σ = 0.4 (Test 2) also stays about twice its floor at t = 1.5. A Born start stays below 1.2 times the floor (the equivariance check), so the tail is most likely relaxation that is not complete, not an error of the integrator. This is reported only.
 
 ## Test 2 — The race between relaxation and the record
 
@@ -130,7 +134,7 @@ T_TV for the six phase sets: 1.83, 3.20, 1.76, 2.55, 3.68 and 3.20. The expected
 | Quantity | Result | Pass condition | Verdict |
 |---|---|---|---|
 | TV of the record at t_rec = 0 | 0.900 | — | — |
-| TV at t_rec = 1.5 | 0.0054 | below 0.0083 (floor + 3 sd) | would be met |
+| TV at t_rec = 1.5 | 0.0054 | below 0.0041 (floor + 3 sd; corrected on 11 Oct from 0.0083) | would not be met |
 | Half time t½ of TV | 0.0114 | between 0.25 τ_q and 4 τ_q (0.035 to 0.57) | would not be met (0.08 τ_q) |
 
 **By spec §6, this verdict is also pending**, because it uses the same run and the same τ_q. Read against the band, it would not be met. So the Test 2 kill condition has not fired.
@@ -141,7 +145,7 @@ T_TV for the six phase sets: 1.83, 3.20, 1.76, 2.55, 3.68 and 3.20. The expected
 |---|---|---|---|---|---|---|---|---|---|---|
 | TV of the record from Born | 0.777 | 0.567 | 0.475 | 0.336 | 0.188 | 0.096 | 0.046 | 0.023 | 0.009 | 0.005 |
 
-A record that forms early is far from Born. A record that forms late is at Born, within the noise. Against the half time of L1 (0.0092), the half time of TV (0.0114) has a ratio of 1.25. Claude computed that ratio after the verdict, so it is not a test.
+A record that forms early is far from Born. A record that forms late is close to Born, but at t_rec = 1.5 its error (0.0054) is still about twice the noise floor (0.0027). Against the half time of L1 (0.0092), the half time of TV (0.0114) has a ratio of 1.25. Claude computed that ratio after the verdict, so it is not a test.
 
 ## Test 3 — Equilibrium forbids signals
 
@@ -166,6 +170,83 @@ The rerun after the JSON fix gave the same numbers as the first run, to the last
 
 ---
 
+## W2 second test *(11 October 2026; spec §5.6)*
+
+**Why.** The first W2 run failed its step check on τ_q, whose fit was degenerate. Neil chose option (b) on 10 October. The rerun keeps the system, the dynamics and N of Test 1b. It changes three things: fresh random streams, finer output at early times, and t½ (the half time of L1, with no fitted curve) in place of τ_q. Code: [nelson_rerun.py](sim/selection/nelson_rerun.py), committed before the run.
+
+**This is a second test, not a first one.** Claude saw the first run before writing its rules. The seeds are fresh: after t = 0, the 20-bin histograms of the two runs differ at every common output time, by hundreds to thousands of counts.
+
+**Checks.**
+
+| Check | Result | Limit | Verdict |
+|---|---|---|---|
+| Equivariance: max L1 of a fresh Born start (σ = 0.4) | 0.0150 | 0.0173 | OK |
+| Step size, σ = 0.2: t½ at dt 10⁻⁴ and 5 × 10⁻⁵ | 0.00228 and 0.00228 (0.12%) | 5% | OK |
+| Step size, σ = 0.7: t½ at dt 10⁻⁴ and 5 × 10⁻⁵ | 0.03323 and 0.03327 (0.12%) | 5% | OK |
+
+The TV over 20 bins of the same Born start has one of 331 points above its band (0.0045 at t = 0.28). The largest difference of L1 between the two step sizes, over all output times, is 0.0052 (σ = 0.2) and 0.0036 (σ = 0.7). The console gives 0.0033 for σ = 0.7, because the code looks only where L1 is above 3 times its floor.
+
+**Test 1b, second test (report only).**
+
+| σ | t½ | τ_int, literal | τ_int, visible peak | τ_int / t½ | t₃ (L1 at 3 × floor) | t₃ / τ_int | L1 at τ_int (share of start) |
+|---|---|---|---|---|---|---|---|
+| 0.2 | 0.0023 | 0.0384 | 0.1026 | 16.9 | 0.17 | 4.4 | 6.1% |
+| 0.3 | 0.0051 | 0.0822 | 0.1545 | 16.0 | 0.37 | 4.5 | 6.4% |
+| 0.4 | 0.0091 | 0.1362 | 0.2120 | 14.9 | 0.51 | 3.7 | 7.1% |
+| 0.5 | 0.0147 | 0.1936 | 0.2705 | 13.1 | 0.64 | 3.3 | 8.9% |
+| 0.6 | 0.0228 | 0.2470 | 0.3233 | 10.8 | 0.79 | 3.2 | 10.8% |
+| 0.7 | 0.0332 | 0.2867 | 0.3567 | 8.6 | 0.89 | 3.1 | 12.2% |
+
+![W2 second test](sim/selection/results/fig_w2_rerun.png)
+
+**What Test 1b shows.** The half time of the relaxation is 9 to 17 times shorter than the time of the first central maximum, for every σ. When that maximum forms, L1 is down to 6% to 12% of its start. But L1 reaches 3 times its floor only 3 to 4.5 times after the first maximum. So Hardel et al.'s claim, "Born before the fringes", holds for the bulk of the relaxation and not for its end. t₃ is near the floor, where L1 falls slowly, so it is the least precise number in the table.
+
+**Test 2, second test (W2, σ = 0.4).**
+
+| Quantity | Result | Pass condition | Verdict |
+|---|---|---|---|
+| Half time of TV (20 outcome bins) | 0.01144 = 1.25 × t½ of L1 (0.00913) | between 0.25 t½ and 4 t½ | **met** |
+| TV at t_rec = 1.5 | 0.0054 | below 0.0042 (floor + 3 sd) | **not met** |
+
+The band in this table is the corrected one. The first version of the analysis gave 0.0084, because it used the full sum over the bins as the TV floor, and TV is half of that sum. An independent check found the error, and the fix is in the scripts (nelson1d.py and nelson_rerun.py) with its reason.
+
+**Test 2 fails for W2 in the second test**, on its floor condition. The record's error halves on the same time scale as the relaxation (condition 1 is met). But at t_rec = 1.5, about 160 half times after the start, the error is still about twice the noise floor. A Born start stays at the floor over the same run (mean TV 0.0026), so the excess is slow relaxation, not an error of the integrator. By the kill condition, "relaxation before the record" does not describe W2 in this run, and §9 point 3 must change for W2. The tail measurement below, made after the verdict, shows whether the tail reaches Born later.
+
+### Two measurements after the verdict *(11 October; they cannot change it)*
+
+**1. The tail over a longer time.** [nelson_tail.py](sim/selection/nelson_tail.py): σ = 0.4, fresh seeds, run to t = 6, with a Born start as the control.
+
+| t_rec | 1.5 | 2 | 2.5 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|---|
+| TV of the record (start at the slits) | 0.0053 | 0.0051 | 0.0053 | 0.0048 | 0.0045 | 0.0044 | 0.0043 |
+| TV of the control (Born start) | 0.0023 | 0.0033 | 0.0021 | 0.0038 | 0.0029 | 0.0032 | 0.0029 |
+
+The noise floor is 0.0027 and the band is 0.0041. The tail falls slowly and is still just above the band at t = 6, which is about 660 half times. The control stays inside the band, so the integrator does not cause the tail.
+
+**A likely reason (an estimate, not a result): free spreading.** In the double slit, each packet keeps spreading: its width grows as w² = (σ⁴ + t²)/(2σ²). In W2, the pull toward Born at the largest scale has a rate of about D/w² = σ²/(σ⁴ + t²). The total of this rate after t = 1.5 is π/2 − arctan(1.5/σ²) ≈ 0.11 for σ = 0.4: about a tenth of one e-fold. So relaxation at the largest scale slows strongly. The estimate is rough: from t = 1.5 to 6 it predicts about 0.08 of an e-fold, but the excess over the floor falls by about 0.5 of an e-fold (0.0026 to 0.0016), because smaller scales still relax. In a similar way, expansion suppresses relaxation in the early universe (Valentini; Colin & Valentini 2015).
+
+**2. W2 in a bounded system.** [box_w2.py](sim/selection/box_w2.py): W2 in the TRV box of Test 1a (M = 64, phase set 0), with the same start spread as W1, and a Born start as the control. Euler–Maruyama with dt = 10⁻⁴, N = 5 × 10⁴.
+
+| t / π | 0 | 1/8 | 1/4 | 1/2 | 3/4 | 1 | 2 | 4 |
+|---|---|---|---|---|---|---|---|---|
+| H̄, W2 | 1.015 | 0.080 | 0.021 | 0.0049 | 0.0031 | 0.0026 | 0.0027 | 0.0023 |
+| H̄, W1 (Test 1a, same set) | 1.015 | 0.63 | 0.40 | 0.20 | 0.10 | 0.041 | 0.0034 | 0.0026 |
+
+![W2 tail and box](sim/selection/results/fig_w2_tail_box.png)
+
+In the box, **W2 relaxes completely, and much faster than W1.** H̄ falls 12.7 times in the first π/8. It reaches the floor (within 5 standard deviations) at 0.75π, and the record's error (TV, 4 × 4 regions) is inside its band from 0.875π. W1 first reaches the same two marks at 2π and 2.5π, and its H̄ stays at the floor only from 2.625π; W2 stays there from 0.75π. The control stays at the floor (largest deviation about 2 floor units). About 0.4 wall reflections occur for each seed over the run. The control shows that they do not move a Born spread away from Born.
+
+**What the two measurements mean.** The rule W2 can relax completely: in a bounded system that mixes, it does, and fast. So the tail is tied to the double slit, which spreads freely, and free spreading is the likely cause. In such a system, the last, largest-scale part of relaxation slows strongly and possibly freezes. These are measurements after the verdict, with one phase set and no rule fixed in advance. W1 was not run in a freely spreading system here. In 1D it cannot relax at all (spec §5, Test 2), and in pilot-wave cosmology expansion suppresses its relaxation too (Valentini; Colin & Valentini 2015).
+
+**New decision for Neil: how §9 point 3 changes.** The kill condition fired for W2 in the second test, so point 3 must change for W2. Two options:
+
+- **(a) Change point 3 for both rules, in one way:** *relaxation finishes before the record in a bounded system that mixes. In a system that spreads freely, the largest-scale part of relaxation can freeze, and a record then keeps a small difference from Born.* The evidence: W2 relaxes fully in the box; the tail is tied to the spreading system; W1 cannot relax in 1D at all, and the literature says expansion suppresses its relaxation.
+- **(b) Change point 3 for W2 only:** W2 needs a bounded system; point 3 stays as it is for W1.
+
+**Recommendation: (a).** The box measurement suggests that the difference between the two results is mostly a difference of systems (box against free slit), not of rules. Option (a) also fits decision 2 and the possible CMB test: the early universe is a system that spreads. The part of (a) about W1 rests on the 1D argument and the literature, not on a run here.
+
+---
+
 ## What this shows, and what it does not
 
 **What it shows.** With W1, the loom of spec §1 works, in this box:
@@ -180,23 +261,29 @@ The rerun after the JSON fix gave the same numbers as the first run, to the last
 
 - **Nothing here is new physics.** Every result is published: Bohm (1952), Valentini (1991, 2002), Towler, Russell & Valentini (2012). RFF adopts this dynamics and reads it as the loom.
 - **Which rule nature uses.** The rules differ only out of equilibrium (spec §8).
-- **Relaxation is not always complete.** With few modes, a residue can stay (M = 4 here; Abraham, Colin & Valentini 2014). RFF needs this for its possible CMB test, but it also means that simple, isolated systems possibly keep statistics that are not Born.
+- **Relaxation is not always complete.** With few modes, a residue can stay (M = 4 here; Abraham, Colin & Valentini 2014). RFF needs this for its possible CMB test. It also means that a system that starts away from Born, with few modes, can stay away from Born (spec §5.7).
 - **A record that forms at a finite rate.** This run used an ideal, instant record (spec §8).
-- **W2.** Its verdicts are pending (decision 1 below). Wallstrom's extra condition for W2 is not treated here.
+- **W2 complete relaxation.** In the double slit, W2 relaxes fast in bulk but keeps a slow tail (second test). The second test is weaker than a first test, because Claude saw the first run. Wallstrom's extra condition for W2 is not treated here.
 - **One system for each rule, one start spread, one grain.**
 
 ---
 
 ## Decisions for Neil
 
+*Taken on 10 October, 23:26: decision 1 → option (b), done in the second test above, which fails its floor condition; decision 2 → yes, recorded in FRAMEWORK §15 in the precise form of spec §5.7, with an open conflict (below).*
+
+**New decision for Neil (11 October): how §9 point 3 changes.** See the end of the section "W2 second test": option (a) changes it for both rules (bounded systems relax fully; freely spreading systems can freeze a residue), option (b) for W2 only. Claude recommends (a).
+
 **1. How to fix the W2 measure of relaxation time.** The W2 step check failed, so by spec §6 both W2 verdicts are pending, and no kill condition has fired. The check failed on τ_q. In this run, τ_q is not a property of the dynamics: its fit is degenerate, and the window changes it by 1.3 to 2.6 times. The L1 curves at the two step sizes agree within 0.004.
 
 - **(a) Keep τ_q.** Rerun the step check with smaller steps, then read the verdicts. Claude does not recommend this. A 5% agreement of a degenerate fit is a matter of chance, and the Test 2 band would still treat τ_q as a relaxation time.
-- **(b) Replace τ_q with a time that needs no fitted model,** and rerun W2 on fresh seeds. Use the half time of L1 in the step check and as the reference time of the Test 2 band. For Test 1b, report the facts from the curves and set no single pass condition: the bulk of the relaxation comes 9 to 17 times before the first fringe, and complete relaxation (L1 at 3 times the floor) comes 3 to 4 times after it. Claude saw the data before this choice, so the write-up will mark the rerun as a second test, not a first one.
+- **(b) Replace τ_q with a time that needs no fitted model,** and rerun W2 on fresh seeds. Use the half time of L1 in the step check and as the reference time of the Test 2 band. For Test 1b, report the facts from the curves and set no single pass condition: the half time of the relaxation is 8 to 14 times shorter than the time of the first fringe, and complete relaxation (L1 at 3 times the floor) takes 3 to 4 times longer than it (first-run numbers; the second test gives 9 to 17 and 3 to 4.5). Claude saw the data before this choice, so the write-up will mark the rerun as a second test, not a first one.
 
 **Recommendation: (b).** If it holds, §9 point 3 stays, with one note: for W2, the last part of relaxation can come after the first fringes. Fringes are not records, so this does not conflict with point 3.
 
 **2. The few-mode residue.** With M = 4, the seeds do not relax within 4π. Should RFF state that simple isolated systems possibly keep statistics that are not Born? This is the same physics as the possible CMB test, so Claude recommends yes.
+
+*Precise form, as recorded:* a system that starts away from Born, and has only a few modes, can stay away from Born. A system that we prepare starts from relaxed matter, so it starts at Born and stays there. Only a relic that never relaxed could differ. **Open conflict for Neil:** such a relic would permit signals faster than light (Test 3), and RFF commits that nothing shows a faster-than-light effect.
 
 ---
 
@@ -204,7 +291,7 @@ The rerun after the JSON fix gave the same numbers as the first run, to the last
 
 | Item | Now | Proposed text change |
 |---|---|---|
-| Measurement: why one outcome | Fits with work | Selection named and shown for W1: a seed, steered by the pattern, relaxes to Born before the record (RESULTS-04). W2 waits for decision 1 |
+| Measurement: why one outcome | Fits with work | Selection named and shown for W1 (Tests 1a and 2 pass). W2 fails Test 2 on a slow tail in the free double slit; a measurement after the verdict shows that W2 relaxes fully in a bounded box |
 | Born rule | Fits with work | The form comes from SIM-SPEC-02; the sample comes from relaxation (shown for W1, RESULTS-04) |
 | Quantum seeds of galaxies | Fits with work | Few-mode systems can keep a residue that is not Born (M = 4 here); this is the mechanism of the possible CMB test |
 

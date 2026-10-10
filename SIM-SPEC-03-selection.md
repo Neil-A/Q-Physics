@@ -2,7 +2,7 @@
 
 *Written 10 October 2026, before any code. Purpose: start work on the selection problem, which is the last fully open item in the quantum column of the Stress Map ("Measurement: why one outcome"). The start point is the new position in [FRAMEWORK.md §9](FRAMEWORK.md).*
 
-> **STATUS: run 10 October 2026; results in [RESULTS-04-selection.md](RESULTS-04-selection.md).** W1 passes Tests 1a, 2 and 3. The W2 verdicts (Tests 1b and 2) are pending under §6, because the W2 step check failed. It failed on the fitted τ_q, which this run shows to be fragile. Neil decides how to fix it before a W2 rerun (RESULTS-04, "Decisions"). Neil approved the pass conditions on 10 October, on the condition that each matches known physics; §5.5 lists what changed and why.
+> **STATUS: run 10–11 October 2026; results in [RESULTS-04-selection.md](RESULTS-04-selection.md).** W1 passes Tests 1a, 2 and 3. The first W2 run failed its step check on the fitted τ_q, so its verdicts stayed pending (§6). The W2 second test (§5.6, fresh seeds, the half time of L1) passes both checks but fails Test 2 on its floor condition: a slow tail stays. By §6, point 3 of §9 must change for W2; Neil decides how. Neil approved the pass conditions on 10 October, on the condition that each matches known physics; §5.5 lists what changed and why.
 
 ---
 
@@ -221,7 +221,7 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 | Test 1a: N = 10⁵ → 5 × 10⁴ for the main runs | Compute time at the shorter step. The equivariance check keeps 10⁵. The fit window changes little, because H̄ stays far above the floor for most runs |
 | All tests: set-up checks added | Equivariance and step size are known properties; a code that fails them is wrong |
 
-### 5.6 W2 second test *(written 10 October, 23:40, before any code for it)*
+### 5.6 W2 second test *(written 10 October, 23:25, before any code for it)*
 
 **Why.** In the first W2 run, the step check failed (RESULTS-04). It failed on τ_q, the fitted relaxation time of Hardel et al. In that run, the τ_q fit was degenerate, and the fit window changed τ_q by 1.3 to 2.6 times. So τ_q did not measure the dynamics. On 10 October, Neil approved option (b) of RESULTS-04: replace τ_q with a time that needs no fitted curve, and run W2 again on fresh seeds.
 
