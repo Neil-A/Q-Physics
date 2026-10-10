@@ -295,7 +295,7 @@
 - **What it is.** Position and momentum can't both be sharp.
 - **RFF placement.** Settling anchors one quantity and solves the rest. The Oct 4 model already worked this way: fringes came out right only when both ends of each history were fixed in place and time (the anchor); each path's speed was then worked out, and across paths it varied, so momentum came out spread. Position is a point; momentum is a rate along the region (how fast a path's clock changes), which needs a stretch to read. 'Force x, y grows' is the trade-off in shape.
 - **Neil's proposal.** Nothing should be built in. Resolution is a convergence of all possible states, like solving a system of equations: the solve needs an anchor ('let x be this value') and the rest is worked out relative to it. From inside the system you can't anchor both. Force x, and y spreads into probabilities. Not a hidden value.
-- **Assessment.** Gets the shape of the trade-off. Not yet the size: the minimum is set by Planck's constant, which also sets each path's clock rate. The time–energy version may connect to the front's thickness.
+- **Assessment.** Gets the shape of the trade-off. Not yet the size: the minimum is set by Planck's constant, which also sets each path's clock rate. The time–energy version may connect to the front's thickness. Since 10 Oct (choice (a)): position is the one quantity with a value before the record (the seed); momentum, a rate along the region, gets its value only at the anchor.
 - **To work through.** What sets how coarse the anchoring can be (Planck's constant), without building it in? Then, optionally, the time–energy link to thickness.
 - **Prior art.** Fourier pairs (standard wave mechanics); Kochen–Specker / Bell (no pre-existing values).
 - **Worked through.** 5 Oct 2026
@@ -338,16 +338,17 @@
 - **Prior art.** Landauer 1961; Bérut et al., Nature 2012 (measured).
 - **Worked through.** 9 Oct 2026 (merged from draft)
 
-#### No values before measurement (contextuality)  `q-context`
+#### No context-free values before measurement (contextuality)  `q-context`
 
 **Status:** Fits naturally
 **Builds on:** Measurement: why one outcome, Uncertainty principle
 
 - **What it is.** You can't assign every quantity a definite value in advance that doesn't depend on what else you measure.
-- **RFF placement.** Nothing has a value until it's anchored, and which question is asked sets the anchor. So a value can depend on what else is measured alongside it. That is your 'not a hidden value' point from the uncertainty discussion.
-- **Built from.** Anchor-and-solve; no pre-existing values.
+- **RFF placement.** Only position has a value before the record: it is the seed (choice (a), Neil, 10 Oct). Every other quantity gets its value when it is anchored, and the question asked sets the anchor, so that value can depend on what else is measured. The Kochen–Specker theorem forbids context-free values; it permits this. Pilot-wave theory works in the same way.
+- **Built from.** Anchor-and-solve; the seed has a position (10 Oct).
+- **Assessment.** Changed on 10 Oct from 'no values before measurement'. Relaxation to the Born weights needs a value that exists and moves before the record, so the seed must have a position. This also removes an older conflict with FRAMEWORK §9, which places RFF in the hidden-variable family.
 - **Prior art.** Kochen & Specker 1967.
-- **Worked through.** 9 Oct 2026 (merged from draft)
+- **Worked through.** 9 Oct 2026 (merged from draft); 10 Oct 2026 (choice (a))
 
 #### No-cloning and teleportation  `q-clone`
 

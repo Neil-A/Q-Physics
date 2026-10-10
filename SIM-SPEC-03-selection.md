@@ -2,7 +2,7 @@
 
 *Written 10 October 2026, before any code. Purpose: start work on the selection problem, which is the last fully open item in the quantum column of the Stress Map ("Measurement: why one outcome"). The start point is the new position in [FRAMEWORK.md §9](FRAMEWORK.md).*
 
-> **STATUS: specified, not run.** The choices in §4 and the pass conditions in §5 need Neil's sign-off before any test runs.
+> **STATUS: specified, not run.** Neil decided the §4 choices on 10 October: **test both rules**, and **choice (a)** for the conflict. The pass conditions in §5 still need his sign-off before any test runs.
 
 ---
 
@@ -61,9 +61,9 @@ Both rules exist in the literature. If one works, RFF adopts that published dyna
 - **W1 — steered seed** (pilot-wave type). The seed is a point. It moves in the direction that the summed clock hands set (the gradient of the phase). There is no randomness after the seed. The nodes of the pattern mix the seeds, and that mix gives relaxation. *In RFF terms:* the immediate conditions steer each thread. This matches "above the seed level, everything is conditional" most closely.
 - **W2 — thread with kicks** (Nelson type). The seed point moves in the same steered direction. It also gets small random kicks from the primed substrate all the time. The kick size is ħ/2m. The kicks and the steered motion together give relaxation. *In RFF terms:* the substrate continues to feed fluctuations into the loom. This matches "the front carries fresh seeds all the time" most closely.
 
-**Neil's call:** test both, or one. The two rules agree with quantum mechanics once relaxation is complete. They differ only before it is complete.
+**Decided 10 Oct (Neil): test both.** The two rules agree with quantum mechanics once relaxation is complete. They differ only before it is complete.
 
-### A conflict to settle first *(found on the map recheck, 10 Oct)*
+### A conflict to settle first *(found on the map recheck, 10 Oct; decided: choice (a))*
 
 Both rules give the seed a definite value (a position) before the record forms. Relaxation needs this: a spread of values can only settle if the values exist and move. But the map item "No values before measurement" says: *nothing has a value until it is anchored*.
 

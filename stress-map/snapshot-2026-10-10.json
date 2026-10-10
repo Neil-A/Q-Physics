@@ -656,19 +656,20 @@
    "status": "fits"
   },
   "q-context": {
-   "basis": "Anchor-and-solve; no pre-existing values.",
+   "basis": "Anchor-and-solve; the seed has a position (10 Oct).",
    "col": 1,
    "deps": [
     "q-meas",
     "q-uncert"
    ],
-   "name": "No values before measurement (contextuality)",
+   "name": "No context-free values before measurement (contextuality)",
    "ord": 16,
    "plain": "You can't assign every quantity a definite value in advance that doesn't depend on what else you measure.",
    "prior": "Kochen & Specker 1967.",
-   "rff": "Nothing has a value until it's anchored, and which question is asked sets the anchor. So a value can depend on what else is measured alongside it. That is your 'not a hidden value' point from the uncertainty discussion.",
-   "session": "9 Oct 2026 (merged from draft)",
-   "status": "fits"
+   "rff": "Only position has a value before the record: it is the seed (choice (a), Neil, 10 Oct). Every other quantity gets its value when it is anchored, and the question asked sets the anchor, so that value can depend on what else is measured. The Kochen–Specker theorem forbids context-free values; it permits this. Pilot-wave theory works in the same way.",
+   "session": "9 Oct 2026 (merged from draft); 10 Oct 2026 (choice (a))",
+   "status": "fits",
+   "assess": "Changed on 10 Oct from 'no values before measurement'. Relaxation to the Born weights needs a value that exists and moves before the record, so the seed must have a position. This also removes an older conflict with FRAMEWORK §9, which places RFF in the hidden-variable family."
   },
   "q-decoh": {
    "assess": "A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together. Since 10 Oct: with few partners the spread is small and the hands realign (the link undoes itself); with many it never realigns, and that is a record.",
@@ -819,7 +820,7 @@
    "status": "fits"
   },
   "q-uncert": {
-   "assess": "Gets the shape of the trade-off. Not yet the size: the minimum is set by Planck's constant, which also sets each path's clock rate. The time–energy version may connect to the front's thickness.",
+   "assess": "Gets the shape of the trade-off. Not yet the size: the minimum is set by Planck's constant, which also sets each path's clock rate. The time–energy version may connect to the front's thickness. Since 10 Oct (choice (a)): position is the one quantity with a value before the record (the seed); momentum, a rate along the region, gets its value only at the anchor.",
    "col": 1,
    "deps": [
     "q-super"
