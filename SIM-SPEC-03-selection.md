@@ -2,7 +2,7 @@
 
 *Written 10 October 2026, before any code. Purpose: start work on the selection problem, which is the last fully open item in the quantum column of the Stress Map ("Measurement: why one outcome"). The start point is the new position in [FRAMEWORK.md §9](FRAMEWORK.md).*
 
-> **STATUS: specified, not run.** Neil decided the §4 choices on 10 October: **test both rules**, and **choice (a)** for the conflict. On the same day he approved the pass conditions, on one condition: each must match known physics. Section 5 now gives each condition with its published source, and §5.5 lists what changed.
+> **STATUS: run 10 October 2026; results in [RESULTS-04-selection.md](RESULTS-04-selection.md).** W1 passes Tests 1a, 2 and 3. The W2 verdicts (Tests 1b and 2) are pending under §6, because the W2 step check failed. It failed on the fitted τ_q, which this run shows to be fragile. Neil decides how to fix it before a W2 rerun (RESULTS-04, "Decisions"). Neil approved the pass conditions on 10 October, on the condition that each matches known physics; §5.5 lists what changed and why.
 
 ---
 
@@ -217,7 +217,7 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 | Test 2: a band for the time scale of TV, set from τ | For a small difference, TV ∝ √H̄ (Pinsker's inequality gives the bound TV ≤ √(H̄/2)); coarser regions relax faster (TRV Table II) |
 | Test 3: a pulse in x₁², not a kick in x₁ | A kick in x₁ leaves particle 2's guidance unchanged in this state |
 | Test 3: W2 equilibrium given a pass condition | Equivariance holds for Nelson's dynamics too (Nelson 1966) |
-| Test 1a: step limit 0.02 → 0.01 → 0.005, step check 0.01 → 0.0025 (code checks, before any main run) | The equivariance check failed at 0.02 (H̄ of the Born start rose from 0.0012 to 0.0035 by 4π) and, by a small margin, at 0.01 (on average 2.4 floor deviations high, maximum 5.1 against the limit 5). The drift falls fast with the step |
+| Test 1a: step limit 0.02 → 0.01 → 0.005, step check 0.01 → 0.0025 (code checks, before any main run) | The equivariance check failed at 0.02 (H̄ of the Born start rose from 0.0012 to a maximum of 0.0035) and, by a small margin, at 0.01 (on average 2.4 floor deviations high, maximum 5.1 against the limit 5). The drift falls fast with the step |
 | Test 1a: N = 10⁵ → 5 × 10⁴ for the main runs | Compute time at the shorter step. The equivariance check keeps 10⁵. The fit window changes little, because H̄ stays far above the floor for most runs |
 | All tests: set-up checks added | Equivariance and step size are known properties; a code that fails them is wrong |
 

@@ -211,6 +211,25 @@ Jacobson (1995, 2016) and the gravity papers cited in [RESULTS-02-gravity.md](RE
 **Answer: the assumptions borrow quantum theory, so this does not give RFF a reason for pairs.** The argument keeps the standard Hilbert-space state space (the theory must match QM for one and two slits, with "only the dynamical part altered") and changes only the probability rule. It then uses Gleason's theorem and the Hughston–Jozsa–Wootters steering result, in a two-party entangled protocol, to show that three-way interference would let one party signal the other. The proof is a sketch built on a worked 3 × 2 example. The authors limit their own claim ("our result does not rule out violation of higher sum rules"), and note that with non-Hilbert (L^p, p ≠ 2) state spaces Gleason fails and the argument does not go through. So: within quantum state space, pairs are forced by no-signalling. From no-signalling alone, they are not. This is the same borrowing REVIEW-03 found in A3's first justification.
 > Side note: they also set to zero the small three-way term that standard QM itself predicts in real triple-slit set-ups from looped paths. Blocking a slit changes the boundary conditions, so the measured proxy is not exactly Sorkin's sum. A tiny measured three-way term would not by itself refute pairs.
 
+**October 2026 — for SIM-SPEC-03 (selection).** Full list: [SIM-SPEC-03](SIM-SPEC-03-selection.md) §3.
+
+**`[x]` Towler, Russell & Valentini (2012)** — entry 3 above. *Checked again 10 Oct 2026, for the set-up of Test 1a.* Table I gives p = −1.05 ± 0.03 at the coarsest grain (ε = 64) and −1.06 ± 0.18 to −1.09 ± 0.12 at the finer grains, from 6 phase sets for each point. M = 4 is not in the fit. They compute H̄ by backtracking from a 1024 × 1024 lattice, with Runge–Kutta–Fehlberg steps.
+
+**`[x]` Hardel, Hervieux & Manfredi, Found. Phys. (2023); arXiv:2305.04084.** *Set-up checked 10 Oct 2026 (§4.1, Eqs. 10–14, Figs. 4–5).*
+> Do Nelson trajectories that start at one point reach Born before the fringes form?
+
+**Answer: yes, they say so for every σ/a from 0.2 to 0.7, but their τ_int has no formula.** They define τ_int in words ("the time when the first maximum appears in between the two original wavepackets"). Their τ_q is the tangent intercept of a fitted curve. In our run (RESULTS-04), τ_q changes by 2 to 2.5 times with the fit window, so the comparison depends on these definitions. Their Eq. 10 prints √(πσ) in the normalisation; the overlap factor shows that it must be √π·σ.
+
+**`[x]` Abraham, Colin & Valentini, J. Phys. A 47, 395306 (2014); arXiv:1310.1899.** *Abstract read 10 Oct 2026.*
+> Does relaxation always complete?
+
+**Answer: not with very few modes.** In a 2D oscillator with 4 states, H̄ can keep a residue above 10% of its start for 50 periods, if the phases confine the paths. With 25 states, the decay is close to exponential.
+
+**`[x]` Valentini, "Subquantum information and computation", Pramana 59, 269 (2002); arXiv:quant-ph/0203049.** *Abstract read 10 Oct 2026.*
+> Is the race of Test 2 (a record before relaxation is not Born) already in the literature?
+
+**Answer: in substance, yes.** Matter out of equilibrium gives statistics that are not Born, and it can send instant signals. RFF adopts this. The number that Test 2 gives (how far from Born, as a function of t_rec/τ) is a use of it, not a new result.
+
 ---
 
 ## Not to read

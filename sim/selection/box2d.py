@@ -27,8 +27,8 @@ default_rng([2026,10,10,M,s,1]). The step check uses the same start points as
 the main run. The equivariance check uses default_rng([2026,10,10,M,s,2]).
 
 Change before the main runs (10 Oct). The first equivariance run used
-DELTA = 0.02 and failed: H-bar of the Born start rose from 0.0012 to 0.0035 by
-4 pi (limit about 0.0018). A diagnostic to t = pi gave H-bar 0.0024 at 0.02,
+DELTA = 0.02 and failed: H-bar of the Born start rose from 0.0012 to a maximum
+of 0.0035 (0.0030 at 4 pi; limit about 0.0018). A diagnostic to t = pi gave H-bar 0.0024 at 0.02,
 0.0013 at 0.01 and 0.0012 at 0.005 (floor 0.0013). So DELTA is now 0.01 and
 the step check uses 0.005. The failed run is kept as
 results/box_equiv_M64_s0_step002_FAILED.npz.

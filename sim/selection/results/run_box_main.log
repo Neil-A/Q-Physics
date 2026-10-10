@@ -1,0 +1,105 @@
+step M=64 s=0: 1617s, mean steps 18031, reflections 17 (0.0003 per seed) -> results/box_step_M64_s0.npz
+main M=64 s=0: 2071s, mean steps 26778, reflections 130 (0.0026 per seed) -> results/box_main_M64_s0.npz
+main M=64 s=1: 1653s, mean steps 26608, reflections 156 (0.0031 per seed) -> results/box_main_M64_s1.npz
+main M=64 s=2: 1633s, mean steps 26448, reflections 126 (0.0025 per seed) -> results/box_main_M64_s2.npz
+main M=64 s=3: 1699s, mean steps 26538, reflections 99 (0.0020 per seed) -> results/box_main_M64_s3.npz
+main M=64 s=4: 1845s, mean steps 26695, reflections 186 (0.0037 per seed) -> results/box_main_M64_s4.npz
+main M=64 s=5: 1783s, mean steps 27085, reflections 157 (0.0031 per seed) -> results/box_main_M64_s5.npz
+main M=4 s=0: 81s, mean steps 2700, reflections 0 (0.0000 per seed) -> results/box_main_M04_s0.npz
+main M=4 s=1: 62s, mean steps 2113, reflections 0 (0.0000 per seed) -> results/box_main_M04_s1.npz
+main M=4 s=2: 67s, mean steps 2009, reflections 0 (0.0000 per seed) -> results/box_main_M04_s2.npz
+main M=4 s=3: 76s, mean steps 2554, reflections 0 (0.0000 per seed) -> results/box_main_M04_s3.npz
+main M=4 s=4: 49s, mean steps 1707, reflections 0 (0.0000 per seed) -> results/box_main_M04_s4.npz
+main M=4 s=5: 56s, mean steps 1997, reflections 0 (0.0000 per seed) -> results/box_main_M04_s5.npz
+main M=9 s=0: 107s, mean steps 3114, reflections 0 (0.0000 per seed) -> results/box_main_M09_s0.npz
+main M=9 s=1: 114s, mean steps 3297, reflections 0 (0.0000 per seed) -> results/box_main_M09_s1.npz
+main M=9 s=2: 113s, mean steps 3167, reflections 0 (0.0000 per seed) -> results/box_main_M09_s2.npz
+main M=9 s=3: 107s, mean steps 3114, reflections 1 (0.0000 per seed) -> results/box_main_M09_s3.npz
+main M=9 s=4: 102s, mean steps 3156, reflections 0 (0.0000 per seed) -> results/box_main_M09_s4.npz
+main M=9 s=5: 126s, mean steps 3502, reflections 0 (0.0000 per seed) -> results/box_main_M09_s5.npz
+main M=16 s=0: 161s, mean steps 4508, reflections 1 (0.0000 per seed) -> results/box_main_M16_s0.npz
+main M=16 s=1: 171s, mean steps 4515, reflections 0 (0.0000 per seed) -> results/box_main_M16_s1.npz
+main M=16 s=2: 160s, mean steps 4279, reflections 1 (0.0000 per seed) -> results/box_main_M16_s2.npz
+main M=16 s=3: 149s, mean steps 4318, reflections 2 (0.0000 per seed) -> results/box_main_M16_s3.npz
+main M=16 s=4: 157s, mean steps 4345, reflections 1 (0.0000 per seed) -> results/box_main_M16_s4.npz
+main M=16 s=5: 171s, mean steps 4498, reflections 2 (0.0000 per seed) -> results/box_main_M16_s5.npz
+main M=25 s=0: 235s, mean steps 5535, reflections 1 (0.0000 per seed) -> results/box_main_M25_s0.npz
+main M=25 s=1: 251s, mean steps 5777, reflections 1 (0.0000 per seed) -> results/box_main_M25_s1.npz
+main M=25 s=2: 246s, mean steps 5683, reflections 0 (0.0000 per seed) -> results/box_main_M25_s2.npz
+main M=25 s=3: 256s, mean steps 5736, reflections 2 (0.0000 per seed) -> results/box_main_M25_s3.npz
+main M=25 s=4: 246s, mean steps 5701, reflections 3 (0.0001 per seed) -> results/box_main_M25_s4.npz
+main M=25 s=5: 245s, mean steps 5732, reflections 2 (0.0000 per seed) -> results/box_main_M25_s5.npz
+main M=36 s=0: 322s, mean steps 6712, reflections 10 (0.0002 per seed) -> results/box_main_M36_s0.npz
+main M=36 s=1: 335s, mean steps 6858, reflections 12 (0.0002 per seed) -> results/box_main_M36_s1.npz
+main M=36 s=2: 323s, mean steps 6870, reflections 12 (0.0002 per seed) -> results/box_main_M36_s2.npz
+main M=36 s=3: 305s, mean steps 6680, reflections 3 (0.0001 per seed) -> results/box_main_M36_s3.npz
+main M=36 s=4: 333s, mean steps 6695, reflections 5 (0.0001 per seed) -> results/box_main_M36_s4.npz
+main M=36 s=5: 358s, mean steps 6724, reflections 6 (0.0001 per seed) -> results/box_main_M36_s5.npz
+main M=49 s=0: 452s, mean steps 7782, reflections 21 (0.0004 per seed) -> results/box_main_M49_s0.npz
+main M=49 s=1: 428s, mean steps 7880, reflections 23 (0.0005 per seed) -> results/box_main_M49_s1.npz
+main M=49 s=2: 434s, mean steps 7845, reflections 21 (0.0004 per seed) -> results/box_main_M49_s2.npz
+main M=49 s=3: 457s, mean steps 7804, reflections 34 (0.0007 per seed) -> results/box_main_M49_s3.npz
+main M=49 s=4: 437s, mean steps 7765, reflections 24 (0.0005 per seed) -> results/box_main_M49_s4.npz
+main M=49 s=5: 416s, mean steps 7867, reflections 9 (0.0002 per seed) -> results/box_main_M49_s5.npz
+Check, equivariance (M=64, Born start): max H-bar 0.00155, max of H-bar minus limit -0.00027 -> OK
+Check, step size (M=64, set 0): tau 1.037 at 0.005, 1.040 at 0.0025, difference 0.29% -> OK
+M= 4 set 0: H-bar 0.460 -> 0.2114 at 4pi (floor 0.0025); tau = 19.127 from 33 points; reflections 0
+M= 4 set 1: H-bar 0.587 -> 0.3910 at 4pi (floor 0.0026); tau = 34.432 from 33 points; reflections 0
+M= 4 set 2: H-bar 0.449 -> 0.1796 at 4pi (floor 0.0025); tau = 20.093 from 33 points; reflections 0
+M= 4 set 3: H-bar 0.450 -> 0.1994 at 4pi (floor 0.0026); tau = 16.713 from 33 points; reflections 0
+M= 4 set 4: H-bar 0.475 -> 0.2383 at 4pi (floor 0.0025); tau = 29.397 from 33 points; reflections 0
+M= 4 set 5: H-bar 0.636 -> 0.4054 at 4pi (floor 0.0026); tau = 31.301 from 33 points; reflections 0
+M= 9 set 0: H-bar 0.473 -> 0.1086 at 4pi (floor 0.0026); tau = 10.212 from 33 points; reflections 0
+M= 9 set 1: H-bar 1.204 -> 0.3058 at 4pi (floor 0.0026); tau = 11.116 from 33 points; reflections 0
+M= 9 set 2: H-bar 0.604 -> 0.0834 at 4pi (floor 0.0026); tau = 7.517 from 33 points; reflections 0
+M= 9 set 3: H-bar 0.652 -> 0.1219 at 4pi (floor 0.0026); tau = 7.9 from 33 points; reflections 1
+M= 9 set 4: H-bar 0.721 -> 0.0514 at 4pi (floor 0.0026); tau = 5.069 from 33 points; reflections 0
+M= 9 set 5: H-bar 0.905 -> 0.1458 at 4pi (floor 0.0026); tau = 7.044 from 33 points; reflections 0
+M=16 set 0: H-bar 0.937 -> 0.0195 at 4pi (floor 0.0026); tau = 3.608 from 30 points; reflections 1
+M=16 set 1: H-bar 0.908 -> 0.0490 at 4pi (floor 0.0025); tau = 4.62 from 33 points; reflections 0
+M=16 set 2: H-bar 0.816 -> 0.0280 at 4pi (floor 0.0026); tau = 3.871 from 33 points; reflections 1
+M=16 set 3: H-bar 0.618 -> 0.0480 at 4pi (floor 0.0026); tau = 5.064 from 33 points; reflections 2
+M=16 set 4: H-bar 1.059 -> 0.0629 at 4pi (floor 0.0025); tau = 5.376 from 33 points; reflections 1
+M=16 set 5: H-bar 0.683 -> 0.0463 at 4pi (floor 0.0025); tau = 4.93 from 33 points; reflections 2
+M=25 set 0: H-bar 0.826 -> 0.0054 at 4pi (floor 0.0026); tau = 2.31 from 20 points; reflections 1
+M=25 set 1: H-bar 0.845 -> 0.0122 at 4pi (floor 0.0026); tau = 3.028 from 26 points; reflections 1
+M=25 set 2: H-bar 0.932 -> 0.0109 at 4pi (floor 0.0026); tau = 2.799 from 26 points; reflections 0
+M=25 set 3: H-bar 1.248 -> 0.0254 at 4pi (floor 0.0025); tau = 3.329 from 32 points; reflections 2
+M=25 set 4: H-bar 0.589 -> 0.0103 at 4pi (floor 0.0026); tau = 3.017 from 23 points; reflections 3
+M=25 set 5: H-bar 1.088 -> 0.0104 at 4pi (floor 0.0025); tau = 2.789 from 24 points; reflections 2
+M=36 set 0: H-bar 0.956 -> 0.0039 at 4pi (floor 0.0026); tau = 1.599 from 15 points; reflections 10
+M=36 set 1: H-bar 0.764 -> 0.0038 at 4pi (floor 0.0025); tau = 1.918 from 17 points; reflections 12
+M=36 set 2: H-bar 0.795 -> 0.0035 at 4pi (floor 0.0026); tau = 1.739 from 15 points; reflections 12
+M=36 set 3: H-bar 0.869 -> 0.0046 at 4pi (floor 0.0025); tau = 2.047 from 17 points; reflections 3
+M=36 set 4: H-bar 0.940 -> 0.0069 at 4pi (floor 0.0026); tau = 2.613 from 22 points; reflections 5
+M=36 set 5: H-bar 0.827 -> 0.0077 at 4pi (floor 0.0026); tau = 2.489 from 21 points; reflections 6
+M=49 set 0: H-bar 0.711 -> 0.0028 at 4pi (floor 0.0026); tau = 1.43 from 12 points; reflections 21
+M=49 set 1: H-bar 0.681 -> 0.0028 at 4pi (floor 0.0025); tau = 1.486 from 13 points; reflections 23
+M=49 set 2: H-bar 0.917 -> 0.0033 at 4pi (floor 0.0025); tau = 1.495 from 15 points; reflections 21
+M=49 set 3: H-bar 0.876 -> 0.0024 at 4pi (floor 0.0025); tau = 1.453 from 13 points; reflections 34
+M=49 set 4: H-bar 0.802 -> 0.0026 at 4pi (floor 0.0026); tau = 1.609 from 14 points; reflections 24
+M=49 set 5: H-bar 0.761 -> 0.0024 at 4pi (floor 0.0026); tau = 1.257 from 11 points; reflections 9
+M=64 set 0: H-bar 1.015 -> 0.0026 at 4pi (floor 0.0025); tau = 1.037 from 10 points; reflections 130
+M=64 set 1: H-bar 0.972 -> 0.0026 at 4pi (floor 0.0025); tau = 0.926 from 9 points; reflections 156
+M=64 set 2: H-bar 0.816 -> 0.0026 at 4pi (floor 0.0026); tau = 1.012 from 9 points; reflections 126
+M=64 set 3: H-bar 0.869 -> 0.0023 at 4pi (floor 0.0025); tau = 1.048 from 10 points; reflections 99
+M=64 set 4: H-bar 0.793 -> 0.0027 at 4pi (floor 0.0026); tau = 1.258 from 12 points; reflections 186
+M=64 set 5: H-bar 1.028 -> 0.0030 at 4pi (floor 0.0026); tau = 1.052 from 10 points; reflections 157
+tau(M=4) = 25.177154231740133 ± 6.770691602979955 (6 runs with a fit, 0 without)
+tau(M=9) = 8.143187744807285 ± 2.0094906929431224 (6 runs with a fit, 0 without)
+tau(M=16) = 4.578138085031864 ± 0.6376333882199874 (6 runs with a fit, 0 without)
+tau(M=25) = 2.878515948018824 ± 0.31156737684681796 (6 runs with a fit, 0 without)
+tau(M=36) = 2.067440892977342 ± 0.3709362272651051 (6 runs with a fit, 0 without)
+tau(M=49) = 1.4550122693684573 ± 0.10512649434244394 (6 runs with a fit, 0 without)
+tau(M=64) = 1.0555809025912135 ± 0.09983008968865384 (6 runs with a fit, 0 without)
+Fit tau = A M^p over M = [9, 16, 25, 36, 49, 64]: A = 82.595, p = -1.042 ± 0.086
+TEST 1a: PASS (band -1.05 ± 0.20; TRV: -1.05 ± 0.03)
+Test 2 W1, set 0: TV 0.454 -> 0.0047 at 4pi -> 0.0077 at 12pi (band 0.0107); T_TV = 1.832 from 15 points
+Test 2 W1, set 1: TV 0.443 -> 0.0087 at 4pi -> 0.0081 at 12pi (band 0.0106); T_TV = 3.2 from 22 points
+Test 2 W1, set 2: TV 0.406 -> 0.0064 at 4pi -> 0.0066 at 12pi (band 0.0111); T_TV = 1.763 from 13 points
+Test 2 W1, set 3: TV 0.399 -> 0.0071 at 4pi -> 0.0056 at 12pi (band 0.0106); T_TV = 2.549 from 20 points
+Test 2 W1, set 4: TV 0.410 -> 0.0120 at 4pi -> 0.0073 at 12pi (band 0.0108); T_TV = 3.68 from 25 points
+Test 2 W1, set 5: TV 0.441 -> 0.0103 at 4pi -> 0.0047 at 12pi (band 0.0108); T_TV = 3.198 from 22 points
+Mean T_TV = 2.704; tau(64) = 1.056; ratio 2.56 (band 0.5 to 4) -> True
+Median TV at 12pi = 0.0069; median band = 0.0107 -> True
+TEST 2 (W1): PASS

@@ -34,7 +34,8 @@ def fig_box():
     A, p = d["test1a"]["A"], d["test1a"]["p"]
     ax[1].loglog(xx, A * xx ** p, "-", label=f"fit: p = {p:.2f} ± {d['test1a']['p_se']:.2f}")
     ax[1].loglog(xx, A * xx ** p * (xx / fitM[0]) ** (-1.05 - p), "--", color="grey", label="slope −1.05 (TRV)")
-    ax[1].set_xlabel("M (modes)"); ax[1].set_ylabel("τ"); ax[1].set_title("Test 1a: τ against M")
+    ax[1].set_xticks(Ms); ax[1].set_xticklabels([str(M) for M in Ms]); ax[1].minorticks_off()
+    ax[1].set_xlabel("M (modes)"); ax[1].set_ylabel("τ"); ax[1].set_title("Test 1a: τ against M (M = 4 not fitted)")
     ax[1].legend(fontsize=7)
     for s in range(6):
         k = c[f"M64_s{s}"]
