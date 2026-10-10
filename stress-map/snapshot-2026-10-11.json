@@ -1,6 +1,6 @@
 {
  "source": "RFF Stress Map artifact (private), database export",
- "exported": "2026-10-10",
+ "exported": "2026-10-11",
  "meta": {
   "commitments": [
    "Charter (updated 8 Oct): RFF is an interpretation of quantum mechanics plus one semiclassical claim about gravity. Everywhere else it adds a story, not dynamics; for gravity it is a physical theory that can be proved wrong. If no conserved source can be written for averaged gravity, the claim is parked and RFF returns to an interpretation.",
@@ -749,13 +749,13 @@
     "g-now"
    ],
    "name": "Measurement: why one outcome",
-   "next": "W2 (the seed with kicks) waits for Neil's decision on how to measure its relaxation time before a rerun (RESULTS-04, decision 1). Not yet tested: a record that forms at a finite rate. Any mechanism must still act on pairs only.",
+   "next": "Neil decides how 'relaxation finishes before the record' (FRAMEWORK §9 point 3) changes after W2 failed Test 2 on a slow tail in the free double slit (RESULTS-04, new decision; Claude recommends: bounded systems that mix relax fully, and in freely spreading systems the largest-scale part can freeze, for both rules). Also open: relic statistics that are not Born would permit signals faster than light. Not yet tested: a record that forms at a finite rate. Any mechanism must still act on pairs only.",
    "ord": 2,
    "plain": "Quantum mechanics predicts the odds but never says why one result happens.",
    "prior": "Bohm 1952; Valentini 1991 and 2002; Towler, Russell & Valentini 2012; Abraham, Colin & Valentini 2014; Nelson 1966; Hardel, Hervieux & Manfredi 2023.",
    "proposal": "Randomness is in the substrate deep down, like a random seed from which an image model resolves a picture; it quickly becomes conditional as the immediate layers resolve. The rubber resolves seeds from its immediate conditions, like a loom that weaves vibrating threads into a tapestry (Neil, 10 Oct).",
-   "rff": "Settling happens when a record forms. Since 10 Oct, the shape of the answer to 'what picks which outcome' is: a seed from the fluctuations of the primed substrate, resolved by the immediate conditions, as a loom weaves a thread. Above the seed level, everything is conditional. The Born weights come from relaxation, which must finish before the record forms. Shown for W1 (10 Oct, RESULTS-04): a spread far from Born relaxes at the published rate (τ ∝ M^(−1.04 ± 0.09)), and the record's error falls on about 2.6 τ. This is all published physics; RFF adopts it and reads it as the loom.",
-   "session": "4 Oct 2026; 10 Oct 2026 (seed and loom; SIM-SPEC-03 run, RESULTS-04)",
+   "rff": "Settling happens when a record forms. Since 10 Oct, the shape of the answer to 'what picks which outcome' is: a seed from the fluctuations of the primed substrate, resolved by the immediate conditions, as a loom weaves a thread. Above the seed level, everything is conditional. The Born weights come from relaxation, which must finish before the record forms. Shown for W1 (10 Oct, RESULTS-04): a spread far from Born relaxes at the published rate (τ ∝ M^(−1.04 ± 0.09)), and the record's error falls on about 2.6 τ. W2 (11 Oct, second test): in the free double slit it relaxes fast in bulk but keeps a slow tail, so it fails the race test; in a bounded box (a measurement after the verdict) it relaxes completely, faster than W1. This is all published physics; RFF adopts it and reads it as the loom.",
+   "session": "4 Oct 2026; 10 Oct 2026 (seed and loom; SIM-SPEC-03 run, RESULTS-04); 11 Oct 2026 (W2 second test and two measurements)",
    "status": "work"
   },
   "q-pairs": {
