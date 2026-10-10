@@ -4,6 +4,8 @@
 
 > **REVISED 9 October 2026 (§9), and the revision PASSED independent review** ([REVIEW-04](REVIEW-04-amplitudes-repair.md)), with corrections made in §9. A3's justification is replaced by tensor closure plus an observed dark fringe (Dowker–Wilkes Theorem 4). It covers finite experiments; it derives the form of the phase, not amplitudes from ordering.
 >
+> *10 Oct:* FRAMEWORK §15 now gives RFF reasons for two of §9's inputs: E1 ("resolution prunes inconsistent timelines") and A1 ("resolution is binary, over whole histories"). Both are posits. §9's argument is unchanged.
+>
 > **STATUS of §1–§8: FAILED kill condition 1 on independent review, 9 October 2026** ([REVIEW-03-amplitudes.md](REVIEW-03-amplitudes.md)). A3's justification borrows a quantum system: Boes & Navascués force strong positivity only on a world that already contains quantum systems, and Dowker & Wilkes's uniqueness theorem needs Galois self-duality as well as tensor closure. The §3 table row for Dowker & Wilkes and the §4 sentence under A3 ("by Boes–Navascués and Dowker–Wilkes this is strong positivity") overstate both papers. A2, A5 and the Herglotz step passed review. A candidate repair (A3′ + an observed dark fringe, via Dowker–Wilkes Theorem 4) is recorded, unchecked, at the end of RESULTS-03.
 >
 > **Executed 9 October 2026.** A1–A5 accepted by Neil before the run. Results in [RESULTS-03-amplitudes.md](RESULTS-03-amplitudes.md).
