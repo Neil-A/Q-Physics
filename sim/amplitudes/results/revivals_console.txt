@@ -1,0 +1,6 @@
+N= 1: time with coherence back above 0.5 = 0.6666; best return = 1.000
+N= 2: time with coherence back above 0.5 = 0.3695; best return = 1.000
+N= 3: time with coherence back above 0.5 = 0.1785; best return = 0.999
+N= 5: time with coherence back above 0.5 = 0.0302; best return = 0.950
+N=10: time with coherence back above 0.5 = 0.0001; best return = 0.524
+N=20: time with coherence back above 0.5 = 0.0000; best return = 0.028

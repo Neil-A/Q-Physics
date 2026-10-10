@@ -12,6 +12,7 @@ Needs NumPy, SciPy, Numba, Matplotlib (no QuTiP).
 | `test2_positivity.py` | Test 2: positivity alone and under composition |
 | `test3_spread_rate.py` | Test 3: decoherence as a spread of clock rates |
 | `make_figures.py` | Figures from the committed JSON |
+| `revivals.py` | August central-spin model: how often coherence comes back with few vs many partners (10 Oct, supports the isolation commitment) |
 
 Things to know before changing anything:
 1. Chain lengths count elements, both ends included. Calibration and test use the same convention, so it cancels.

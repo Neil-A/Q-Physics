@@ -56,14 +56,17 @@
 12. Particles are stable patterns in the rubber (ripples, standing waves, vortices), not little objects. Waviness comes from paired histories; the dot comes from settling.
 13. Ordering generates the clock (restated 9 Oct, replacing 'ordering generates amplitudes'): the number of links along a history is its clock reading. The phase's form (each link turns the hand by a fixed angle; hands add; the result is squared) follows from three things: something somewhere cancels (a dark fringe is observed), all systems can be combined, and histories are compared by clock differences. Why anything cancels at all is an observed input, not derived. Finite experiments only, so far.
 14. Resolution prunes inconsistent timelines (Neil, 10 Oct). When unresolved histories meet and their clocks disagree, they can't become one record, and neither is recorded; when they agree, they reinforce. Cancellation is what pruning looks like. This is RFF's reason that something cancels; the theorem then fixes the form. A posit: it governs the pattern, not which dot appears.
-15. Resolution is binary, over whole histories (10 Oct). Every comparison is between two whole histories of all the particles involved; more alternatives are resolved two at a time, the order can't change the outcome, and nothing is recorded until all have been compared. Matches the data: no three-way interference for one particle, order up to 2M for M particles. Why binary is not yet shown (candidate: the two-ended handshake). Any order set by local configuration can't change an outcome, so it's left open.
-16. The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.
-17. Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
-18. Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.
-19. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
-20. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
-21. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
-22. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
+15. Resolution is binary, over whole histories (10 Oct). Every comparison is between two whole histories of all the particles involved; more alternatives are resolved two at a time, the order can't change the outcome, and nothing is recorded until all have been compared. Matches the data: no three-way interference for one particle, order up to 2M for M particles. Why binary: the only comparison is the difference of two clock readings (next). Any order set by local configuration can't change an outcome, so it's left open.
+16. The handshake is a comparison, not an exchange (Neil, 10 Oct). A change of state in one part is recorded and updated into the rest, which checks it for consistency. Its bookkeeping is an out-and-back loop over two whole histories, touching the record once; its net clock reading is the difference of the two. Nothing travels back and nothing is timed.
+17. The only comparison is the difference of two clock readings (10 Oct). Agreement is a relation between two things, so a record's strength is total pairwise agreement and no three-way term appears. One posit gives both pairs (A1) and comparison by difference (A2).
+18. Isolation (10 Oct). A lone particle can't be compared, so it stays open. A few particles link (entangle) but the link undoes itself. A record needs the update to spread past the point of return. A big enough sealed group settles inside and stays open outside: entanglement is the inside view, coherence the outside view, of one sealed fold.
+19. The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.
+20. Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
+21. Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.
+22. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
+23. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
+24. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
+25. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
 
 **Open questions:** Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.
 
@@ -220,10 +223,10 @@
 - **What it is.** One particle: no third-order interference. M particles: maximum order 2M, always even.
 - **RFF placement.** Resolution is binary, over whole histories (10 Oct). Every comparison is between two whole histories of all the particles involved. More alternatives are resolved two at a time; the order can't change the outcome, and nothing is recorded until all have been compared. That gives no three-way interference for one particle, and interference up to order 2M for M particles, since a pair of whole M-particle histories spans up to 2M paths. Pairs of single-particle paths would contradict the multi-particle data; pairs of whole histories fit them.
 - **Neil's proposal.** If you add a third state, resolve any two first, then resolve the third. There may be an order set by the local configuration, but it has too many variables (Neil, 10 Oct).
-- **Assessment.** Load-bearing: this is assumption A1 of the amplitude argument (SIM-SPEC-02 §9). Merging two at a time doesn't force pairs by itself (adding hands two at a time and taking a fourth power at the end gives a three-way term); what forces pairs is that each comparison is between exactly two. Any order set by local configuration can't change an outcome, so it can't be observed and is left open.
-- **To work through.** Why is resolution binary? Joshi, Srikanth & Sinha (read 10 Oct) don't supply it: their no-signalling argument assumes the quantum state space, the same borrowing as A3's first justification. Remaining candidate: the two-ended handshake, under discussion with Neil.
+- **Assessment.** Load-bearing: this is assumption A1 of the amplitude argument (SIM-SPEC-02 §9). Reason given (10 Oct): the only comparison is the difference of two clock readings. Agreement is a relation between two things, so a record's strength is total pairwise agreement and no three-way term appears; the same posit gives comparison by difference (A2). Merging two at a time alone wouldn't force pairs (a fourth power at the end gives a three-way term). Any order set by local configuration can't change an outcome, so it is left open.
+- **To work through.** The reason is a posit. Joshi, Srikanth & Sinha (read 10 Oct) don't supply an independent one: their no-signalling argument assumes the quantum state space.
 - **Prior art.** Sinha et al. 2010; Kauten et al. 2017; Pleinert et al. 2021.
-- **Worked through.** 4 Oct 2026; 9 Oct 2026; 10 Oct 2026 (binary resolution)
+- **Worked through.** 4 Oct 2026; 9 Oct 2026; 10 Oct 2026 (binary resolution; handshake)
 
 #### Entanglement and Bell correlations  `q-ent`
 
@@ -234,9 +237,10 @@
 - **RFF placement.** They're one open region, not two things talking. When one side looks, the result is settled on that side first; from the other side the fold is still open. The two results become a shared fact only when records can meet, at light speed or slower. So the correlation is real, but nothing either side can see changes before the news arrives, which is why entanglement can't be used to signal.
 - **Neil's proposal.** If we cannot verify the results until Bob's result reaches Alice or vice versa, the system has not truly resolved yet. It eventually settles so that no apparent faster-than-light effect ever happens.
 - **Built from.** Nested folds (Wigner's friend); c commitment.
+- **Assessment.** Since 10 Oct: entanglement is the inside view, coherence the outside view, of one sealed fold. Inside a group, each part's coherence turns into entanglement with the others; from outside, the group is still one open, coherent fold. A few parts link but don't resolve (the link undoes itself); a record needs the update to spread past the point of return.
 - **To work through.** None pressing.
 - **Prior art.** Rovelli, relational quantum mechanics (facts relative to systems)
-- **Worked through.** 4 Oct; 8 Oct 2026
+- **Worked through.** 4 Oct; 8 Oct 2026; 10 Oct 2026 (isolation)
 
 #### Quantum eraser and delayed choice  `q-eraser`
 
@@ -255,9 +259,9 @@
 
 - **What it is.** Big warm things never show superposition; their links spread into the environment almost instantly.
 - **RFF placement.** Quantum at the rubber's leading edge, classical in its bulk. A fold closes when undoing it becomes impossible, and it really closes. Since 9 Oct: decoherence is a spread of clock rates. Each environment configuration gives the two branches a different relative rate; averaging over them blurs the hands, and coupling more environment widens the spread. Exact on both August dephasing data sets (RESULTS-03 Test 3). Thickness is how sharply a history's clock rate is defined.
-- **Assessment.** A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together.
+- **Assessment.** A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together. Since 10 Oct: with few partners the spread is small and the hands realign (the link undoes itself); with many it never realigns, and that is a record.
 - **Prior art.** Zurek, einselection.
-- **Worked through.** 4 Oct 2026; 5 Oct 2026; 9 Oct 2026
+- **Worked through.** 4 Oct 2026; 5 Oct 2026; 9 Oct 2026; 10 Oct 2026
 
 #### Classical paths: least action  `q-least`
 
@@ -275,9 +279,10 @@
 
 - **What it is.** A friend measures inside a sealed lab. Outside, the whole lab is still in superposition. Who's right?
 - **RFF placement.** The sealed lab is a fold. Inside it, the friend's result is settled for everything the fold contains; from outside, the fold is still open. Both are true at once. The result becomes a fact for everyone only when the fold unfolds into the rubber. Folds nest (friend inside lab inside building); each closes by unfolding into its parent. If Wigner undoes the whole lab, the friend's result never reaches the rubber, and only the act of undoing is recorded.
+- **Assessment.** Since 10 Oct: the friend's lab settles inside only because it is big enough. A sealed group of only a few particles would link but not resolve: the link undoes itself (August central-spin model: coherence back above half 67% of the time with 1 partner, never with 20).
 - **To work through.** None pressing. RFF's stance on the no-go theorems: results aren't absolute until their fold merges with the rubber.
 - **Prior art.** Frauchiger–Renner 2018; Bong et al. 2020 (local friendliness no-go); Rovelli's relational QM (facts relative to systems, but never becoming absolute).
-- **Worked through.** 5 Oct 2026
+- **Worked through.** 5 Oct 2026; 10 Oct 2026 (isolation)
 
 #### Uncertainty principle  `q-uncert`
 
