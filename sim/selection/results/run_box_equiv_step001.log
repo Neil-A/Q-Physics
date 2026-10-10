@@ -1,0 +1,1 @@
+equiv M=64 s=0: 667s, mean steps 4421, reflections 260 (0.0026 per seed) -> results/box_equiv_M64_s0.npz

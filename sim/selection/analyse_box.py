@@ -14,8 +14,8 @@ Test 1a.
   tau(M) = mean over the 6 phase sets; its error = their standard deviation.
   Fit tau = A M^p by weighted least squares over M = 9..64 (M = 4 reported only).
   Checks first: equivariance (H-bar of the Born start stays below
-  floor + 5 sd at every output time) and step size (tau at step limit 0.005 and
-  0.01 agree within 5%, M = 64, phase set 0).
+  floor + 5 sd at every output time) and step size (tau at step limit 0.0025 and
+  0.005 agree within 5%, M = 64, phase set 0).
   PASS: p in [-1.25, -0.85].
 
 Test 2, W1 (M = 64, 6 phase sets, runs to 12 pi).
@@ -98,9 +98,9 @@ def main():
     ts_, _ = efold(st["t"], st["H"], st["Hf"][:, 0], 10)
     tm_, _ = efold(m0["t"], m0["H"], m0["Hf"][:, 0], 10)
     ok_st = ts_ is not None and tm_ is not None and abs(ts_ - tm_) / tm_ < 0.05
-    say(f"Check, step size (M=64, set 0): tau {tm_:.3f} at 0.01, {ts_:.3f} at 0.005, "
+    say(f"Check, step size (M=64, set 0): tau {tm_:.3f} at 0.005, {ts_:.3f} at 0.0025, "
         f"difference {100 * abs(ts_ - tm_) / tm_:.2f}% -> {'OK' if ok_st else 'FAILED'}")
-    res["checks"] = dict(equivariance=ok_eq, step=bool(ok_st), tau_step001=tm_, tau_step0005=ts_,
+    res["checks"] = dict(equivariance=ok_eq, step=bool(ok_st), tau_step0005=tm_, tau_step00025=ts_,
                          equiv_max_H=float(eq["H"].max()))
 
     # Test 1a

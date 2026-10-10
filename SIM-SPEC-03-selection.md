@@ -101,8 +101,8 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 
 **Method.**
 
-- Sample N = 10⁵ seeds from the start spread. Move each seed with the guidance equation v = Im(∇ψ/ψ).
-- Integrator: RK4. The step is h = min(0.05, 0.01/|v|), so that no step moves a seed more than 0.01.
+- Sample N = 5 × 10⁴ seeds from the start spread. Move each seed with the guidance equation v = Im(∇ψ/ψ).
+- Integrator: RK4. The step is h = min(0.05, 0.005/|v|), so that no step moves a seed more than 0.005.
 - If a step puts a seed outside the box, reflect it back into the box. Count these events.
 - Coarse cells: 16 × 16. This is the coarsest grain in TRV (ε = 64 on their 1024 lattice).
 - Compute H̄ every π/8 from t = 0 to 4π. Compute |ψ|²‾ in each cell by Gauss–Legendre quadrature.
@@ -112,8 +112,8 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 
 **Checks to do before the pass condition** (each one is a code check from known physics):
 
-1. *Equivariance.* Start N seeds from the exact Born spread (M = 64, phase set 0). H̄ must stay below the noise floor plus 5 standard deviations of the floor at every output time.
-2. *Step size.* Run M = 64, phase set 0 again with the step limit 0.005. The two values of τ must agree within 5%.
+1. *Equivariance.* Start 10⁵ seeds from the exact Born spread (M = 64, phase set 0). The larger N makes this the stricter check. H̄ must stay below the noise floor plus 5 standard deviations of the floor at every output time.
+2. *Step size.* Run M = 64, phase set 0 again with the step limit 0.0025. The two values of τ must agree within 5%.
 
 **Pass:** p lies in −1.05 ± 0.20. TRV found p = −1.05 ± 0.03 at this grain, and p from −1.05 to −1.09 at the other grains. Their largest error bar is 0.18; this test rounds it to 0.20.
 **Fail:** p outside that band. That is a code error until shown otherwise.
@@ -217,7 +217,8 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 | Test 2: a band for the time scale of TV, set from τ | For a small difference, TV ∝ √H̄ (Pinsker's inequality gives the bound TV ≤ √(H̄/2)); coarser regions relax faster (TRV Table II) |
 | Test 3: a pulse in x₁², not a kick in x₁ | A kick in x₁ leaves particle 2's guidance unchanged in this state |
 | Test 3: W2 equilibrium given a pass condition | Equivariance holds for Nelson's dynamics too (Nelson 1966) |
-| Test 1a: step limit 0.02 → 0.01, step check 0.01 → 0.005 (code check, before any main run) | The first equivariance check failed at 0.02: H̄ of the Born start rose from 0.0012 to 0.0035 by 4π. At 0.01 the drift was gone at t = π |
+| Test 1a: step limit 0.02 → 0.01 → 0.005, step check 0.01 → 0.0025 (code checks, before any main run) | The equivariance check failed at 0.02 (H̄ of the Born start rose from 0.0012 to 0.0035 by 4π) and, by a small margin, at 0.01 (on average 2.4 floor deviations high, maximum 5.1 against the limit 5). The drift falls fast with the step |
+| Test 1a: N = 10⁵ → 5 × 10⁴ for the main runs | Compute time at the shorter step. The equivariance check keeps 10⁵. The fit window changes little, because H̄ stays far above the floor for most runs |
 | All tests: set-up checks added | Equivariance and step size are known properties; a code that fails them is wrong |
 
 ---

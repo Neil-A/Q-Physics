@@ -8,7 +8,7 @@ Start spread: the ground state rho = (4/pi^2) sin^2 x sin^2 y.
 
 Each seed moves with the guidance equation v = Im(grad psi / psi) (rule W1).
 Integrator: RK4, step h = min(0.05, DELTA/|v|), so no step moves a seed more
-than DELTA = 0.01. If a step puts a seed outside the box, the code reflects it
+than DELTA = 0.005. If a step puts a seed outside the box, the code reflects it
 back (psi is odd across each wall, so the flow is symmetric there) and counts
 the event.
 
@@ -17,11 +17,11 @@ and the exact Born weight of each cell (Gauss-Legendre quadrature, 8 x 8 nodes
 per cell). The analysis script computes H-bar, TV and the fits.
 
 Runs (fixed before any run, 10 Oct 2026; SIM-SPEC-03 section 5):
-  main   M in {4, 9, 16, 25, 36, 49, 64}, phase sets 0..5, N = 1e5, to 4 pi;
+  main   M in {4, 9, 16, 25, 36, 49, 64}, phase sets 0..5, N = 5e4, to 4 pi;
          M = 64 runs continue to 12 pi for Test 2.
-  step   M = 64, phase set 0, step limit 0.005, to 4 pi (step check).
-  equiv  M = 64, phase set 0, seeds from the exact Born spread, to 4 pi
-         (equivariance check).
+  step   M = 64, phase set 0, N = 5e4, step limit 0.0025, to 4 pi (step check).
+  equiv  M = 64, phase set 0, N = 1e5, seeds from the exact Born spread, to 4 pi
+         (equivariance check; the larger N makes it the stricter test).
 Random streams: phases use default_rng([2026,10,10,M,s,0]); start points use
 default_rng([2026,10,10,M,s,1]). The step check uses the same start points as
 the main run. The equivariance check uses default_rng([2026,10,10,M,s,2]).
@@ -32,6 +32,15 @@ DELTA = 0.02 and failed: H-bar of the Born start rose from 0.0012 to 0.0035 by
 0.0013 at 0.01 and 0.0012 at 0.005 (floor 0.0013). So DELTA is now 0.01 and
 the step check uses 0.005. The failed run is kept as
 results/box_equiv_M64_s0_step002_FAILED.npz.
+
+Second change (10 Oct), also before the main runs. The equivariance run at
+DELTA = 0.01 failed by a smaller margin: over the 33 output times H-bar sat
+on average 2.4 floor deviations above the floor, with a maximum of 5.1 (the
+limit is 5). The drift grows with time and falls by about 8 times from 0.02
+to 0.01. So DELTA is now 0.005 and the step check uses 0.0025. To keep the
+compute time near 4 to 5 hours on two cores, the main and step runs use
+N = 5e4. The equivariance check keeps N = 1e5. The failed run is kept as
+results/box_equiv_M64_s0_step001_FAILED.npz.
 
 Usage:  python box2d.py main|step|equiv [M ...]
 """
@@ -45,8 +54,9 @@ import numpy as np
 PI = np.pi
 NCELL = 16
 GL = 8                       # Gauss-Legendre nodes per cell per axis
-N = 100_000
-DELTA = 0.01
+N = 50_000          # main and step runs
+N_EQUIV = 100_000   # equivariance check
+DELTA = 0.005
 HMAX = 0.05
 DT_OUT = PI / 8
 MS = [4, 9, 16, 25, 36, 49, 64]
@@ -194,16 +204,17 @@ def density_pts(xs, ys, t, amp):
 
 def run(M, s, kind, t_end):
     amp = amplitudes(M, s)
+    n = N_EQUIV if kind == "equiv" else N
     if kind == "equiv":
-        X, Y = sample_born(N, amp, np.random.default_rng([2026, 10, 10, M, s, 2]))
+        X, Y = sample_born(n, amp, np.random.default_rng([2026, 10, 10, M, s, 2]))
     else:
-        X, Y = sample_ground(N, np.random.default_rng([2026, 10, 10, M, s, 1]))
-    delta = 0.005 if kind == "step" else DELTA
+        X, Y = sample_ground(n, np.random.default_rng([2026, 10, 10, M, s, 1]))
+    delta = 0.0025 if kind == "step" else DELTA
     nout = int(round(t_end / DT_OUT))
     times = np.arange(nout + 1) * DT_OUT
     C = np.zeros((nout + 1, NCELL, NCELL), np.int64)
     Q = np.zeros((nout + 1, NCELL, NCELL))
-    steps = np.zeros(N, np.int64); refl = np.zeros(N, np.int64)
+    steps = np.zeros(n, np.int64); refl = np.zeros(n, np.int64)
     C[0] = counts(X, Y); Q[0] = born_cells(0.0, amp)
     assert abs(Q[0].sum() - 1) < 1e-9, Q[0].sum()
     t0 = time.time()
@@ -214,10 +225,10 @@ def run(M, s, kind, t_end):
         assert abs(Q[k + 1].sum() - 1) < 1e-9
     el = time.time() - t0
     name = f"{OUT}box_{kind}_M{M:02d}_s{s}.npz"
-    np.savez_compressed(name, times=times, counts=C, born=Q, M=M, seed=s, N=N, delta=delta,
+    np.savez_compressed(name, times=times, counts=C, born=Q, M=M, seed=s, N=n, delta=delta,
                         mean_steps=steps.mean(), reflections=int(refl.sum()), seconds=el)
     print(f"{kind} M={M} s={s}: {el:.0f}s, mean steps {steps.mean():.0f}, "
-          f"reflections {int(refl.sum())} ({refl.sum() / N:.4f} per seed) -> {name}", flush=True)
+          f"reflections {int(refl.sum())} ({refl.sum() / n:.4f} per seed) -> {name}", flush=True)
 
 
 def main():
