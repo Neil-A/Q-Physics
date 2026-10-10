@@ -1,0 +1,16 @@
+Floors (N = 400000): L1 over 100 bins 0.0126 ± 0.0009; TV over 20 bins 0.0054 ± 0.0010
+Check, figure (sigma=0.09, t=0.12): |psi|^2 at x = -1e-3, 0, 1e-3 = 0.48230, 0.48233, 0.48230 -> OK
+Check, equivariance (sigma=0.4, Born start): max L1 0.0150, limit 0.0171 -> OK
+Check, step size (sigma=0.2): tau_q 0.0401 at dt 1e-4, 0.0423 at 5e-5, difference 5.26%
+Check, step size (sigma=0.7): tau_q 0.2415 at dt 1e-4, 0.2431 at 5e-5, difference 0.69%
+Check, step size -> FAILED
+sigma=0.2: tau_q = 0.0401 (fit on 105 points to t = 0.140); tau_int literal 0.0384 (numerical 0.0385), visible peak 0.1026; L1 1.960 -> 0.0214; tau_q with the 10x window 0.0160 (report only)
+sigma=0.3: tau_q = 0.0945 (fit on 123 points to t = 0.320); tau_int literal 0.0822 (numerical 0.0823), visible peak 0.1545; L1 1.960 -> 0.0192; tau_q with the 10x window 0.0367 (report only)
+sigma=0.4: tau_q = 0.1415 (fit on 138 points to t = 0.470); tau_int literal 0.1362 (numerical 0.1362), visible peak 0.2120; L1 1.960 -> 0.0170; tau_q with the 10x window 0.0563 (report only)
+sigma=0.5: tau_q = 0.1904 (fit on 157 points to t = 0.660); tau_int literal 0.1936 (numerical 0.1937), visible peak 0.2705; L1 1.960 -> 0.0160; tau_q with the 10x window 0.1037 (report only)
+sigma=0.6: tau_q = 0.2170 (fit on 168 points to t = 0.770); tau_int literal 0.2470 (numerical 0.2470), visible peak 0.3233; L1 1.960 -> 0.0193; tau_q with the 10x window 0.1555 (report only)
+sigma=0.7: tau_q = 0.2415 (fit on 180 points to t = 0.890); tau_int literal 0.2867 (numerical 0.2867), visible peak 0.3567; L1 1.960 -> 0.0212; tau_q with the 10x window 0.1855 (report only)
+TEST 1b: PARTIAL (only with the visible-peak definition)  -- NOT VALID: a check failed
+Test 2 W2 (sigma=0.4): TV 0.900 -> 0.0054 at t = 1.5 (band 0.0083) -> True
+t_half = 0.0114; tau_q = 0.1415; ratio 0.08 (band 0.25 to 4) -> False
+TEST 2 (W2): FAIL

@@ -31,6 +31,11 @@ Checks first: the closed forms agree with a direct numerical evolution
 difference of ln psi (< 1e-6), and B's Born marginal is the same for both
 choices (max difference < 1e-10).
 
+Change after the first run (10 Oct): the first run printed all verdicts, then
+stopped at the JSON write (a numpy bool). The fix casts to bool. The seeds are
+fixed, so the second run must print the same numbers; its log is compared with
+results/run_signal_first_crash.log.
+
 Usage:  python signal2p.py
 """
 import json
@@ -211,7 +216,8 @@ def main():
               "not equilibrium": sample_neq(N, np.random.default_rng([2026, 10, 10, 3, 1]))}
     noise = {"equilibrium": [2026, 10, 10, 3, 2], "not equilibrium": [2026, 10, 10, 3, 3]}
     res = dict(band=band, null_mean=float(np.mean(null)), null_sd=float(np.std(null)),
-               checks=dict(closed_form=ok_cf, closed_form_err=err, marginal=ok_m, marginal_diff=mdiff),
+               checks=dict(closed_form=bool(ok_cf), closed_form_err=float(err), marginal=bool(ok_m),
+                           marginal_diff=float(mdiff)),
                tv={})
     for rule in ("W1", "W2"):
         for ens, (a1, a2) in starts.items():

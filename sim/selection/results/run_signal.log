@@ -1,0 +1,10 @@
+Check, closed forms vs split-step evolution: max error 2.47e-08 -> OK
+  gradient check (pulse, t = 1, x1 = 0.7, x2 = -0.4): max difference 2.4e-09
+Check, B's Born marginal equal for both choices: max difference 5.6e-16 -> OK
+Null band: TV mean 0.0082, sd 0.0013, band 0.0122
+W1, equilibrium: TV between choices at t = [0.5, 1.0, 2.0, 3.0]: 0.0026, 0.0051, 0.0094, 0.0102  (band 0.0122)
+W1, not equilibrium: TV between choices at t = [0.5, 1.0, 2.0, 3.0]: 0.0860, 0.1821, 0.2723, 0.2586  (band 0.0122)
+W2, equilibrium: TV between choices at t = [0.5, 1.0, 2.0, 3.0]: 0.0026, 0.0038, 0.0073, 0.0086  (band 0.0122)
+W2, not equilibrium: TV between choices at t = [0.5, 1.0, 2.0, 3.0]: 0.0196, 0.0355, 0.0371, 0.0126  (band 0.0122)
+TEST 3 (W1): PASS (equilibrium inside band: True; not equilibrium above band once or more: True)
+TEST 3 (W2, equilibrium part): PASS; W2 not in equilibrium: report only (above band once or more: True)
