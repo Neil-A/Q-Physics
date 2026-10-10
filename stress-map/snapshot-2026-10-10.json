@@ -33,7 +33,7 @@
   "questions": [
    "Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final."
   ],
-  "updated": "9 Oct 2026"
+  "updated": "10 Oct 2026"
  },
  "phenomena": {
   "c-coinc": {
@@ -160,7 +160,7 @@
    "status": "outside"
   },
   "c-struct": {
-   "assess": "Since 10 Oct, a possible test: folds from the early universe that closed much later possibly did not relax, so they can keep statistics that are not Born. Colin & Valentini (2015) show that this gives a power deficit at the largest scales of the CMB, and observers report a deficit there. Their calculation uses pilot-wave theory; RFF must show that its own weave relaxes in the same way.",
+   "assess": "Since 10 Oct, a possible test: folds from the early universe that closed much later possibly did not relax, so they can keep statistics that are not Born. Colin & Valentini (2015) show that this gives a power deficit at the largest scales of the CMB, and observers report a deficit there. Their calculation uses pilot-wave theory; RFF must show that its own weave relaxes in the same way. RESULTS-04 (10 Oct): with only 4 modes, the W1 seeds keep a residue that is not Born, as Abraham, Colin & Valentini (2014) found. That is the mechanism of the test.",
    "col": 4,
    "deps": [
     "c-infl",
@@ -173,7 +173,7 @@
    "prior": "Perez, Sahlmann & Sudarsky 2006 (collapse needed for the seeds of structure).",
    "proposal": "",
    "rff": "The early universe had little to keep records, so it was more open. Folds closed as structure formed. The universe gets more classical with age. Since 8 Oct (gravity follows the average for unsettled mass): quantum fluctuations gravitate only by their average, which is uniform, so the seeds' gravity appears only as their folds close. RFF's real settling is what supplies the seeds, the same move Sudarsky and colleagues make.",
-   "session": "Aug 2026",
+   "session": "Aug 2026; 10 Oct 2026 (RESULTS-04)",
    "status": "work"
   },
   "c-time": {
@@ -615,13 +615,13 @@
     "q-cancel"
    ],
    "name": "Born rule: probability is a square",
-   "next": "Why pairs (Joshi, Srikanth & Sinha 2016, not yet read).",
+   "next": "Why pairs: Joshi, Srikanth & Sinha (read 10 Oct) get pairs from no-signalling only inside quantum state space, so they give RFF no independent reason. Pairs still rest on the single comparison rule.",
    "ord": 4,
    "plain": "Probabilities equal the squared size of the amplitude. It's a postulate.",
    "prior": "Sorkin 1994 (level-2 sum rule gives the square); Goyal, Knuth & Skilling 2010; Strubbe arXiv:2505.10383 (circular derivation).",
    "proposal": "",
-   "rff": "The square is the pairing. With probability built from pairs of histories (A1), the same argument that fixes the form of cancellation gives P = |sum of hands|² (SIM-SPEC-02 §9, passed REVIEW-04). It needs a dark fringe to exist somewhere (E1) and all systems to be combinable (A3′).",
-   "session": "9 Oct 2026 (SIM-SPEC-02 §9, REVIEW-03, REVIEW-04)",
+   "rff": "The square is the pairing. With probability built from pairs of histories (A1), the same argument that fixes the form of cancellation gives P = |sum of hands|² (SIM-SPEC-02 §9, passed REVIEW-04). It needs a dark fringe to exist somewhere (E1) and all systems to be combinable (A3′). The square fixes the form; the sample comes from relaxation. With W1, a spread far from the square relaxes to it at the published rate (RESULTS-04, one start spread).",
+   "session": "9 Oct 2026 (SIM-SPEC-02 §9, REVIEW-03, REVIEW-04); 10 Oct 2026 (RESULTS-04)",
    "status": "work"
   },
   "q-cancel": {
@@ -656,6 +656,7 @@
    "status": "fits"
   },
   "q-context": {
+   "assess": "Changed on 10 Oct from 'no values before measurement'. Relaxation to the Born weights needs a value that exists and moves before the record, so the seed must have a position. This also removes an older conflict with FRAMEWORK §9, which places RFF in the hidden-variable family.",
    "basis": "Anchor-and-solve; the seed has a position (10 Oct).",
    "col": 1,
    "deps": [
@@ -668,8 +669,7 @@
    "prior": "Kochen & Specker 1967.",
    "rff": "Only position has a value before the record: it is the seed (choice (a), Neil, 10 Oct). Every other quantity gets its value when it is anchored, and the question asked sets the anchor, so that value can depend on what else is measured. The Kochen–Specker theorem forbids context-free values; it permits this. Pilot-wave theory works in the same way.",
    "session": "9 Oct 2026 (merged from draft); 10 Oct 2026 (choice (a))",
-   "status": "fits",
-   "assess": "Changed on 10 Oct from 'no values before measurement'. Relaxation to the Born weights needs a value that exists and moves before the record, so the seed must have a position. This also removes an older conflict with FRAMEWORK §9, which places RFF in the hidden-variable family."
+   "status": "fits"
   },
   "q-decoh": {
    "assess": "A known identity (dephasing as an average over random phases) seen through RFF; it ties thickness, local coupling and the amplitude derivation together. Since 10 Oct: with few partners the spread is small and the hands realign (the link undoes itself); with many it never realigns, and that is a record.",
@@ -740,20 +740,20 @@
    "status": "fits"
   },
   "q-meas": {
-   "assess": "",
+   "assess": "Fits with work. Since 10 Oct, a working loom exists from published physics: with pilot-wave guidance (W1), the seeds relax to Born, a record that forms first is not Born, and equilibrium forbids signals (RESULTS-04). Which rule nature uses is open; the rules differ only out of equilibrium.",
    "col": 1,
    "deps": [
     "q-super",
     "g-now"
    ],
    "name": "Measurement: why one outcome",
-   "next": "SIM-SPEC-03: test two published weave rules (pilot-wave and Nelson type) for relaxation, and the race between relaxation and the record. Awaits Neil's sign-off. Any mechanism must still act on pairs only.",
+   "next": "W2 (the seed with kicks) waits for Neil's decision on how to measure its relaxation time before a rerun (RESULTS-04, decision 1). Not yet tested: a record that forms at a finite rate. Any mechanism must still act on pairs only.",
    "ord": 2,
    "plain": "Quantum mechanics predicts the odds but never says why one result happens.",
-   "prior": "",
+   "prior": "Bohm 1952; Valentini 1991 and 2002; Towler, Russell & Valentini 2012; Abraham, Colin & Valentini 2014; Nelson 1966; Hardel, Hervieux & Manfredi 2023.",
    "proposal": "Randomness is in the substrate deep down, like a random seed from which an image model resolves a picture; it quickly becomes conditional as the immediate layers resolve. The rubber resolves seeds from its immediate conditions, like a loom that weaves vibrating threads into a tapestry (Neil, 10 Oct).",
-   "rff": "Settling happens when a record forms. Since 10 Oct, the shape of the answer to 'what picks which outcome' is: a seed from the fluctuations of the primed substrate, resolved by the immediate conditions, as a loom weaves a thread. Above the seed level, everything is conditional. The Born weights come from relaxation, which must finish before the record forms.",
-   "session": "4 Oct 2026; 10 Oct 2026 (seed and loom)",
+   "rff": "Settling happens when a record forms. Since 10 Oct, the shape of the answer to 'what picks which outcome' is: a seed from the fluctuations of the primed substrate, resolved by the immediate conditions, as a loom weaves a thread. Above the seed level, everything is conditional. The Born weights come from relaxation, which must finish before the record forms. Shown for W1 (10 Oct, RESULTS-04): a spread far from Born relaxes at the published rate (τ ∝ M^(−1.04 ± 0.09)), and the record's error falls on about 2.6 τ. This is all published physics; RFF adopts it and reads it as the loom.",
+   "session": "4 Oct 2026; 10 Oct 2026 (seed and loom; SIM-SPEC-03 run, RESULTS-04)",
    "status": "work"
   },
   "q-pairs": {
