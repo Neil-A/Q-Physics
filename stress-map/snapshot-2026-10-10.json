@@ -758,7 +758,7 @@
     "q-born"
    ],
    "name": "Interference only ever in pairs",
-   "next": "Why is resolution binary? Candidate: the two-ended handshake. Lead: Joshi, Srikanth & Sinha 2016 (higher-order sum rules permit signalling), not yet read.",
+   "next": "Why is resolution binary? Joshi, Srikanth & Sinha (read 10 Oct) don't supply it: their no-signalling argument assumes the quantum state space, the same borrowing as A3's first justification. Remaining candidate: the two-ended handshake, under discussion with Neil.",
    "ord": 5,
    "plain": "One particle: no third-order interference. M particles: maximum order 2M, always even.",
    "prior": "Sinha et al. 2010; Kauten et al. 2017; Pleinert et al. 2021.",

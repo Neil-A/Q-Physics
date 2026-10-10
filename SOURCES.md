@@ -205,8 +205,11 @@ Jacobson (1995, 2016) and the gravity papers cited in [RESULTS-02-gravity.md](RE
 **`[ ]` The Sorkin-school decoherence-functional literature** (Sorkin 1994 onward; Dowker, Johnston & Sorkin 2010; Boes & Navascués 2017; Dowker & Wilkes 2022) — read in full, not at abstract level.
 > Has anyone derived the clock-hand rule from pairs + comparison by clock difference + strong positivity, via Herglotz/Bochner?
 
-**`[ ]` Joshi, Srikanth & Sinha (2016), arXiv:1308.6065.**
+**`[x]` Joshi, Srikanth & Sinha, "Violation of no signaling in higher order quantum measure theories", Int. J. Quantum Inf. (2016), DOI 10.1142/S0219749916500246; arXiv:1308.6065.** *Read 10 Oct 2026.*
 > Under what assumptions do higher-order sum rules permit signalling? If they hold in RFF, A1 (pairs) follows from RFF's no-signalling commitment.
+
+**Answer: the assumptions borrow quantum theory, so this does not give RFF a reason for pairs.** The argument keeps the standard Hilbert-space state space (the theory must match QM for one and two slits, with "only the dynamical part altered") and changes only the probability rule. It then uses Gleason's theorem and the Hughston–Jozsa–Wootters steering result, in a two-party entangled protocol, to show that three-way interference would let one party signal the other. The proof is a sketch built on a worked 3 × 2 example. The authors limit their own claim ("our result does not rule out violation of higher sum rules"), and note that with non-Hilbert (L^p, p ≠ 2) state spaces Gleason fails and the argument does not go through. So: within quantum state space, pairs are forced by no-signalling. From no-signalling alone, they are not. This is the same borrowing REVIEW-03 found in A3's first justification.
+> Side note: they also set to zero the small three-way term that standard QM itself predicts in real triple-slit set-ups from looped paths. Blocking a slit changes the boundary conditions, so the measured proxy is not exactly Sorkin's sum. A tiny measured three-way term would not by itself refute pairs.
 
 ---
 
