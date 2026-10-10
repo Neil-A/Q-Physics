@@ -41,6 +41,12 @@ Analysis (fixed before any run):
   t_half = first time TV <= TV(0)/2 (linear interpolation between outputs).
   PASS: 0.25 tau_q <= t_half <= 4 tau_q, and TV(1.5) < floor + 3 sd.
 
+Fix after the run (11 Oct, found by an independent check): the TV floor was
+computed as the mean of the full sum of |p - 1/K| over the 20 bins. TV is
+half of that sum, as the spec defines it, so the floor and its band were
+twice too high. Only the TV floor changes; the L1 floor was correct. The
+fix changes Test 2 condition 2 from met to not met.
+
 Usage:  python nelson1d.py main|step|equiv|analyse
 """
 import json
@@ -202,7 +208,7 @@ def analyse():
     say = lambda s_: (print(s_, flush=True), log.append(s_))
     res = dict(checks={}, sigma={}, test1b={}, test2_w2={})
     fl1, sd1 = floor(KL1, N)
-    fl2, sd2 = floor(KTV, N)
+    fl2, sd2 = (x / 2 for x in floor(KTV, N))   # TV is half the sum (fix of 11 Oct)
     say(f"Floors (N = {N}): L1 over 100 bins {fl1:.4f} ± {sd1:.4f}; TV over 20 bins {fl2:.4f} ± {sd2:.4f}")
 
     # figure check

@@ -1,0 +1,15 @@
+Floors (N = 400000): L1 0.0125 ± 0.0010; TV over 20 bins 0.0028 ± 0.0005
+Check, equivariance (sigma=0.4, Born start): max L1 0.0150, limit 0.0173 -> OK
+Check, step size (sigma=0.2): t_half 0.00228 at dt 1e-4, 0.00228 at 5e-5, difference 0.12%; largest L1 difference 0.0052
+Check, step size (sigma=0.7): t_half 0.03323 at dt 1e-4, 0.03327 at 5e-5, difference 0.12%; largest L1 difference 0.0033
+Check, step size -> OK
+Test 1b, second test (report only):
+  sigma=0.2: t_half 0.0023; t_3 0.17; tau_int literal 0.0384, visible 0.1026; tau_int/t_half 16.9; t_3/tau_int 4.42; L1 at literal tau_int 0.1198 (6.1% of start)
+  sigma=0.3: t_half 0.0051; t_3 0.37; tau_int literal 0.0822, visible 0.1545; tau_int/t_half 16.0; t_3/tau_int 4.50; L1 at literal tau_int 0.1255 (6.4% of start)
+  sigma=0.4: t_half 0.0091; t_3 0.51; tau_int literal 0.1362, visible 0.2120; tau_int/t_half 14.9; t_3/tau_int 3.75; L1 at literal tau_int 0.1396 (7.1% of start)
+  sigma=0.5: t_half 0.0147; t_3 0.64; tau_int literal 0.1936, visible 0.2705; tau_int/t_half 13.1; t_3/tau_int 3.30; L1 at literal tau_int 0.1744 (8.9% of start)
+  sigma=0.6: t_half 0.0228; t_3 0.79; tau_int literal 0.2470, visible 0.3233; tau_int/t_half 10.8; t_3/tau_int 3.20; L1 at literal tau_int 0.2121 (10.8% of start)
+  sigma=0.7: t_half 0.0332; t_3 0.89; tau_int literal 0.2867, visible 0.3567; tau_int/t_half 8.6; t_3/tau_int 3.10; L1 at literal tau_int 0.2382 (12.2% of start)
+Test 2 W2 (sigma=0.4), second test: TV 0.900 -> 0.0054 at t = 1.5 (band 0.0042) -> False
+  TV half time 0.01144; L1 half time 0.00913; ratio 1.25 (band 0.25 to 4) -> True
+TEST 2 (W2), second test: FAIL

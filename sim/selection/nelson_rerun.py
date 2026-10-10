@@ -23,6 +23,12 @@ Test 1b (second test): report only: t_half, t_3, tau_int (literal and visible
 Test 2 (second test, W2, s = 0.4): PASS if the half time of TV (20 bins) lies
   between 0.25 t_half and 4 t_half, and TV(1.5) < floor + 3 sd.
 
+Fix after the run (11 Oct, found by an independent check): the TV floor was
+computed as the mean of the full sum of |p - 1/K| over the 20 bins. TV is
+half of that sum, as the spec defines it, so the floor and its band were
+twice too high. Only the TV floor changes; the L1 floor was correct. The
+fix changes Test 2 condition 2 from met to not met.
+
 Usage:  python nelson_rerun.py equiv|step|main|analyse
 """
 import json
@@ -96,7 +102,7 @@ def analyse():
     log = []
     say = lambda x: (print(x, flush=True), log.append(x))
     fl1, sd1 = floor(KL1)
-    fl2, sd2 = floor(KTV)
+    fl2, sd2 = (x / 2 for x in floor(KTV))   # TV is half the sum (fix of 11 Oct)
     say(f"Floors (N = {N}): L1 {fl1:.4f} ± {sd1:.4f}; TV over 20 bins {fl2:.4f} ± {sd2:.4f}")
     res = dict(floors=dict(L1=(fl1, sd1), TV20=(fl2, sd2)), checks={}, sigma={}, test2_w2={})
 

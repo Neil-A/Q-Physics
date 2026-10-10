@@ -92,3 +92,31 @@ if __name__ == "__main__":
             f()
         except FileNotFoundError as e:
             print("skip", f.__name__, e)
+
+
+def fig_rerun():
+    d = json.load(open(R + "rerun_w2.json"))
+    fig, ax = plt.subplots(1, 2, figsize=(11, 4.4))
+    sig = sorted(d["curves"], key=float)
+    cmap = plt.get_cmap("plasma")
+    fl = d["floors"]["L1"][0]
+    for i, s in enumerate(sig):
+        k = d["curves"][s]; v = d["sigma"][s]; col = cmap(i / len(sig))
+        t = np.array(k["t"]); L = np.array(k["L1"])
+        ax[0].loglog(t[1:], L[1:], color=col, label=f"σ = {s}")
+        ax[0].plot(v["t_half"], L[0] / 2, "o", color=col, ms=4)
+        ax[0].plot(v["tau_int_literal"], v["L1_at_literal"], "s", color=col, ms=5, mfc="none")
+    ax[0].axhline(3 * fl, color="k", ls=":", label="3 × noise floor")
+    ax[0].set_xlabel("t"); ax[0].set_ylabel("L1 from Born")
+    ax[0].set_title("W2 second test: dots = half time, squares = first fringe"); ax[0].legend(fontsize=7)
+    x = np.array([float(s) for s in sig])
+    ax[1].semilogy(x, [d["sigma"][s]["t_half"] for s in sig], "o-", label="t½ (half of the relaxation)")
+    ax[1].semilogy(x, [d["sigma"][s]["tau_int_literal"] for s in sig], "s-", label="τ_int, literal (first fringe)")
+    ax[1].semilogy(x, [d["sigma"][s]["t_3"] for s in sig], "^-", label="t₃ (L1 at 3 × floor)")
+    ax[1].set_xlabel("σ / a"); ax[1].set_ylabel("time")
+    ax[1].set_title("Bulk before the first fringe; completion after it"); ax[1].legend(fontsize=7)
+    fig.tight_layout(); fig.savefig(R + "fig_w2_rerun.png", dpi=130)
+
+
+if __name__ == "__main__":
+    fig_rerun()
