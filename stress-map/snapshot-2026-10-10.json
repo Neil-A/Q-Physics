@@ -13,6 +13,7 @@
    "Results become facts across regions only when records can meet, at light speed or slower. Until then, what is settled on one side is still open from the other, so nothing, averaged gravity included, ever shows a faster-than-light effect.",
    "The seed is a point in spacetime, taken as a starting condition. What can't be verified is left open, not explained.",
    "The seed gives the beginning; outward gives the arrow.",
+   "Randomness exists only at the root (Neil, 10 Oct; replaces 'nothing is random'). The seeds are the fluctuations of the primed substrate at the front; the balloon's seed is the first. The immediate conditions resolve each seed, as a loom weaves threads; above the seed level, everything is conditional. The Born weights come from relaxation, which finishes before the record forms wherever we can test. The front is coherent (low entropy); the wake holds definite records (high entropy). Possible test: statistics that are not Born at the largest scales of the CMB.",
    "The rubber is the front, the 'now'. Its thickness varies and it can leave very long folds of unsettled past.",
    "Particles are stable patterns in the rubber (ripples, standing waves, vortices), not little objects. Waviness comes from paired histories; the dot comes from settling.",
    "Ordering generates the clock (restated 9 Oct, replacing 'ordering generates amplitudes'): the number of links along a history is its clock reading. The phase's form (each link turns the hand by a fixed angle; hands add; the result is squared) follows from three things: something somewhere cancels (a dark fringe is observed), all systems can be combined, and histories are compared by clock differences. Why anything cancels at all is an observed input, not derived. Finite experiments only, so far.",
@@ -159,7 +160,7 @@
    "status": "outside"
   },
   "c-struct": {
-   "assess": "",
+   "assess": "Since 10 Oct, a possible test: folds from the early universe that closed much later possibly did not relax, so they can keep statistics that are not Born. Colin & Valentini (2015) show that this gives a power deficit at the largest scales of the CMB, and observers report a deficit there. Their calculation uses pilot-wave theory; RFF must show that its own weave relaxes in the same way.",
    "col": 4,
    "deps": [
     "c-infl",
@@ -193,7 +194,7 @@
    "status": "fits"
   },
   "g-arrow": {
-   "assess": "",
+   "assess": "Since 10 Oct, the words are fixed: the front is coherent and has low entropy; the wake holds definite records and has high entropy. 'Definite', not 'ordered', because in physics 'ordered' means low entropy. The expansion can supply fresh low entropy to the front: when a region expands, its maximum possible entropy grows faster than its actual entropy (Frautschi 1982). A possible link, not a claim.",
    "col": 0,
    "deps": [
     "g-past"
@@ -205,7 +206,7 @@
    "prior": "",
    "proposal": "",
    "rff": "Two descriptions of one arrow. The geometry points outward from the seed, and folds only ever close on net, because links always spread. Folds closing is entropy rising.",
-   "session": "4 Oct 2026; 5 Oct 2026",
+   "session": "4 Oct 2026; 5 Oct 2026; 10 Oct 2026",
    "status": "fits"
   },
   "g-c": {
@@ -588,7 +589,7 @@
    "status": "outside"
   },
   "p-vac": {
-   "assess": "Adds no new commitment. 'What sources the thickness?' stays open. The Casimir force can also be computed as ordinary forces between the plates' atoms, so it isn't proof that the vacuum holds energy.",
+   "assess": "Adds no new commitment by itself. 'What sources the thickness?' was answered on 9 Oct (local coupling). Since 10 Oct, the fluctuations of the primed substrate are the seeds of resolution (FRAMEWORK §9). The Casimir force can also be computed as ordinary forces between the plates' atoms, so it isn't proof that the vacuum holds energy.",
    "basis": "Vacuum = rubber with no patterns; area-law route; 3D lattice check.",
    "col": 2,
    "deps": [
@@ -745,13 +746,13 @@
     "g-now"
    ],
    "name": "Measurement: why one outcome",
-   "next": "Write selection as a story, not a mechanism. Any mechanism must act on pairs only.",
+   "next": "SIM-SPEC-03: test two published weave rules (pilot-wave and Nelson type) for relaxation, and the race between relaxation and the record. Awaits Neil's sign-off. Any mechanism must still act on pairs only.",
    "ord": 2,
    "plain": "Quantum mechanics predicts the odds but never says why one result happens.",
    "prior": "",
-   "proposal": "",
-   "rff": "Settling happens when a record forms. What picks *which* outcome (posits #10 and #16) is still open.",
-   "session": "4 Oct 2026",
+   "proposal": "Randomness is in the substrate deep down, like a random seed from which an image model resolves a picture; it quickly becomes conditional as the immediate layers resolve. The rubber resolves seeds from its immediate conditions, like a loom that weaves vibrating threads into a tapestry (Neil, 10 Oct).",
+   "rff": "Settling happens when a record forms. Since 10 Oct, the shape of the answer to 'what picks which outcome' is: a seed from the fluctuations of the primed substrate, resolved by the immediate conditions, as a loom weaves a thread. Above the seed level, everything is conditional. The Born weights come from relaxation, which must finish before the record forms.",
+   "session": "4 Oct 2026; 10 Oct 2026 (seed and loom)",
    "status": "work"
   },
   "q-pairs": {

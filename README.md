@@ -33,7 +33,7 @@ its average. There RFF is a semiclassical theory, and it can be proved wrong by 
 | Current status, risks, next actions | [REVIEW.md](REVIEW.md) — v4, 8 October, with a response section |
 | The independent review of the amplitude work, and its briefs | [REVIEW-03-amplitudes.md](REVIEW-03-amplitudes.md) (verdict: kill condition 1 met), [REVIEW-BRIEF-03-amplitudes.md](REVIEW-BRIEF-03-amplitudes.md); the repair's review and brief: [REVIEW-04-amplitudes-repair.md](REVIEW-04-amplitudes-repair.md) (verdict: the repair holds), [REVIEW-BRIEF-04-amplitudes-repair.md](REVIEW-BRIEF-04-amplitudes-repair.md) |
 | The literature, and what each paper was read for | [SOURCES.md](SOURCES.md) |
-| The computational specs | [SIM-SPEC-01-coherence.md](SIM-SPEC-01-coherence.md) (coherence), [SIM-SPEC-02-amplitudes.md](SIM-SPEC-02-amplitudes.md) (amplitudes from ordering) |
+| The computational specs | [SIM-SPEC-01-coherence.md](SIM-SPEC-01-coherence.md) (coherence), [SIM-SPEC-02-amplitudes.md](SIM-SPEC-02-amplitudes.md) (amplitudes from ordering), [SIM-SPEC-03-selection.md](SIM-SPEC-03-selection.md) (selection; not run) |
 | The code | [sim/](sim/) |
 
 ## Reproducing the simulations

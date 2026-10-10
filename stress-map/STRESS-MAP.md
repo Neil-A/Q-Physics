@@ -52,21 +52,22 @@
 8. Results become facts across regions only when records can meet, at light speed or slower. Until then, what is settled on one side is still open from the other, so nothing, averaged gravity included, ever shows a faster-than-light effect.
 9. The seed is a point in spacetime, taken as a starting condition. What can't be verified is left open, not explained.
 10. The seed gives the beginning; outward gives the arrow.
-11. The rubber is the front, the 'now'. Its thickness varies and it can leave very long folds of unsettled past.
-12. Particles are stable patterns in the rubber (ripples, standing waves, vortices), not little objects. Waviness comes from paired histories; the dot comes from settling.
-13. Ordering generates the clock (restated 9 Oct, replacing 'ordering generates amplitudes'): the number of links along a history is its clock reading. The phase's form (each link turns the hand by a fixed angle; hands add; the result is squared) follows from three things: something somewhere cancels (a dark fringe is observed), all systems can be combined, and histories are compared by clock differences. Why anything cancels at all is an observed input, not derived. Finite experiments only, so far.
-14. Resolution prunes inconsistent timelines (Neil, 10 Oct). When unresolved histories meet and their clocks disagree, they can't become one record, and neither is recorded; when they agree, they reinforce. Cancellation is what pruning looks like. This is RFF's reason that something cancels; the theorem then fixes the form. A posit: it governs the pattern, not which dot appears.
-15. Resolution is binary, over whole histories (10 Oct). Every comparison is between two whole histories of all the particles involved; more alternatives are resolved two at a time, the order can't change the outcome, and nothing is recorded until all have been compared. Matches the data: no three-way interference for one particle, order up to 2M for M particles. Why binary: the only comparison is the difference of two clock readings (next). Any order set by local configuration can't change an outcome, so it's left open.
-16. The handshake is a comparison, not an exchange (Neil, 10 Oct). A change of state in one part is recorded and updated into the rest, which checks it for consistency. Its bookkeeping is an out-and-back loop over two whole histories, touching the record once; its net clock reading is the difference of the two. Nothing travels back and nothing is timed.
-17. The only comparison is the difference of two clock readings (10 Oct). Agreement is a relation between two things, so a record's strength is total pairwise agreement and no three-way term appears. One posit gives both pairs (A1) and comparison by difference (A2).
-18. Isolation (10 Oct). A lone particle can't be compared, so it stays open. A few particles link (entangle) but the link undoes itself. A record needs the update to spread past the point of return. A big enough sealed group settles inside and stays open outside: entanglement is the inside view, coherence the outside view, of one sealed fold.
-19. The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.
-20. Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
-21. Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.
-22. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
-23. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
-24. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
-25. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
+11. Randomness exists only at the root (Neil, 10 Oct; replaces 'nothing is random'). The seeds are the fluctuations of the primed substrate at the front; the balloon's seed is the first. The immediate conditions resolve each seed, as a loom weaves threads; above the seed level, everything is conditional. The Born weights come from relaxation, which finishes before the record forms wherever we can test. The front is coherent (low entropy); the wake holds definite records (high entropy). Possible test: statistics that are not Born at the largest scales of the CMB.
+12. The rubber is the front, the 'now'. Its thickness varies and it can leave very long folds of unsettled past.
+13. Particles are stable patterns in the rubber (ripples, standing waves, vortices), not little objects. Waviness comes from paired histories; the dot comes from settling.
+14. Ordering generates the clock (restated 9 Oct, replacing 'ordering generates amplitudes'): the number of links along a history is its clock reading. The phase's form (each link turns the hand by a fixed angle; hands add; the result is squared) follows from three things: something somewhere cancels (a dark fringe is observed), all systems can be combined, and histories are compared by clock differences. Why anything cancels at all is an observed input, not derived. Finite experiments only, so far.
+15. Resolution prunes inconsistent timelines (Neil, 10 Oct). When unresolved histories meet and their clocks disagree, they can't become one record, and neither is recorded; when they agree, they reinforce. Cancellation is what pruning looks like. This is RFF's reason that something cancels; the theorem then fixes the form. A posit: it governs the pattern, not which dot appears.
+16. Resolution is binary, over whole histories (10 Oct). Every comparison is between two whole histories of all the particles involved; more alternatives are resolved two at a time, the order can't change the outcome, and nothing is recorded until all have been compared. Matches the data: no three-way interference for one particle, order up to 2M for M particles. Why binary: the only comparison is the difference of two clock readings (next). Any order set by local configuration can't change an outcome, so it's left open.
+17. The handshake is a comparison, not an exchange (Neil, 10 Oct). A change of state in one part is recorded and updated into the rest, which checks it for consistency. Its bookkeeping is an out-and-back loop over two whole histories, touching the record once; its net clock reading is the difference of the two. Nothing travels back and nothing is timed.
+18. The only comparison is the difference of two clock readings (10 Oct). Agreement is a relation between two things, so a record's strength is total pairwise agreement and no three-way term appears. One posit gives both pairs (A1) and comparison by difference (A2).
+19. Isolation (10 Oct). A lone particle can't be compared, so it stays open. A few particles link (entangle) but the link undoes itself. A record needs the update to spread past the point of return. A big enough sealed group settles inside and stays open outside: entanglement is the inside view, coherence the outside view, of one sealed fold.
+20. The vacuum is not the future. There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its linking is that priming: texture, not thickness, until something couples to it.
+21. Folds nest. A fold closes by unfolding into its parent, and finally into the smooth rubber; only then is its result a fact for everyone.
+22. Two kinds of fold (9 Oct). Shielded: weak coupling keeps the system unsettled in itself, so its rubber is thick (an isolated electron, a quantum computer). Sealed: settled within, but open for everyone else because its records can't meet the outside (Wigner's lab, a black hole); its rubber is thin. A fold's size and its thickness are different things.
+23. Quantum at the rubber's leading edge, classical in its bulk; least action shapes the bulk. Gravity is the exception: it is never quantum.
+24. A fold closes when undoing becomes impossible, and really closes. Every fold eventually closes: that's entropy rising.
+25. At balance, settling measured on a far-away clock is the same everywhere: deeper regions churn more per tick, and their slower ticks exactly compensate.
+26. No clock stops anywhere. Near a black hole's horizon, churn per tick grows without limit and ticks slow without limit, seen from far away. The cause is the place, not density.
 
 **Open questions:** Review queue (9 Oct): the 11 items marked 'outside an interpretation' — Neil goes through each before any is final.
 
@@ -100,7 +101,8 @@
 
 - **What it is.** The laws run the same forwards and backwards, yet entropy only rises.
 - **RFF placement.** Two descriptions of one arrow. The geometry points outward from the seed, and folds only ever close on net, because links always spread. Folds closing is entropy rising.
-- **Worked through.** 4 Oct 2026; 5 Oct 2026
+- **Assessment.** Since 10 Oct, the words are fixed: the front is coherent and has low entropy; the wake holds definite records and has high entropy. 'Definite', not 'ordered', because in physics 'ordered' means low entropy. The expansion can supply fresh low entropy to the front: when a region expands, its maximum possible entropy grows faster than its actual entropy (Frautschi 1982). A possible link, not a claim.
+- **Worked through.** 4 Oct 2026; 5 Oct 2026; 10 Oct 2026
 
 #### Big bang singularity  `g-sing`
 
@@ -184,9 +186,10 @@
 **Builds on:** Superposition and the double slit, The flow of time and the 'now'
 
 - **What it is.** Quantum mechanics predicts the odds but never says why one result happens.
-- **RFF placement.** Settling happens when a record forms. What picks *which* outcome (posits #10 and #16) is still open.
-- **To work through.** Write selection as a story, not a mechanism. Any mechanism must act on pairs only.
-- **Worked through.** 4 Oct 2026
+- **RFF placement.** Settling happens when a record forms. Since 10 Oct, the shape of the answer to 'what picks which outcome' is: a seed from the fluctuations of the primed substrate, resolved by the immediate conditions, as a loom weaves a thread. Above the seed level, everything is conditional. The Born weights come from relaxation, which must finish before the record forms.
+- **Neil's proposal.** Randomness is in the substrate deep down, like a random seed from which an image model resolves a picture; it quickly becomes conditional as the immediate layers resolve. The rubber resolves seeds from its immediate conditions, like a loom that weaves vibrating threads into a tapestry (Neil, 10 Oct).
+- **To work through.** SIM-SPEC-03: test two published weave rules (pilot-wave and Nelson type) for relaxation, and the race between relaxation and the record. Awaits Neil's sign-off. Any mechanism must still act on pairs only.
+- **Worked through.** 4 Oct 2026; 10 Oct 2026 (seed and loom)
 
 #### Why amplitudes cancel  `q-cancel`
 
@@ -417,7 +420,7 @@
 - **RFF placement.** There is no empty space (Neil, 8 Oct): rubber with no settled patterns is still primed for a resolution event. Its neighbouring patches are slightly linked, and that linking is the priming: texture, not thickness, until something couples to it. Priming is readiness, not resolving: nothing settles in the vacuum on its own. Since 7 Oct the linking is also what gravity keeps in balance (area-law route); a uniform vacuum energy doesn't curve spacetime in that route. In 3D, the linking across a surface includes a surface term of its own.
 - **Neil's proposal.** The front is not advancing into vacuum. Don't conflate the vacuum with the future; the balloon is just an analogy.
 - **Built from.** Vacuum = rubber with no patterns; area-law route; 3D lattice check.
-- **Assessment.** Adds no new commitment. 'What sources the thickness?' stays open. The Casimir force can also be computed as ordinary forces between the plates' atoms, so it isn't proof that the vacuum holds energy.
+- **Assessment.** Adds no new commitment by itself. 'What sources the thickness?' was answered on 9 Oct (local coupling). Since 10 Oct, the fluctuations of the primed substrate are the seeds of resolution (FRAMEWORK §9). The Casimir force can also be computed as ordinary forces between the plates' atoms, so it isn't proof that the vacuum holds energy.
 - **To work through.** None pressing.
 - **Prior art.** Srednicki 1993; Unruh 1976; Jaffe 2005 (Casimir without vacuum energy).
 - **Worked through.** 7 Oct 2026; 8 Oct 2026
@@ -715,6 +718,7 @@
 
 - **What it is.** Galaxies grew from quantum fluctuations in the early universe. How they became classical is unresolved.
 - **RFF placement.** The early universe had little to keep records, so it was more open. Folds closed as structure formed. The universe gets more classical with age. Since 8 Oct (gravity follows the average for unsettled mass): quantum fluctuations gravitate only by their average, which is uniform, so the seeds' gravity appears only as their folds close. RFF's real settling is what supplies the seeds, the same move Sudarsky and colleagues make.
+- **Assessment.** Since 10 Oct, a possible test: folds from the early universe that closed much later possibly did not relax, so they can keep statistics that are not Born. Colin & Valentini (2015) show that this gives a power deficit at the largest scales of the CMB, and observers report a deficit there. Their calculation uses pilot-wave theory; RFF must show that its own weave relaxes in the same way.
 - **To work through.** Show the quantum-to-classical step as fold closure.
 - **Prior art.** Perez, Sahlmann & Sudarsky 2006 (collapse needed for the seeds of structure).
 - **Worked through.** Aug 2026
