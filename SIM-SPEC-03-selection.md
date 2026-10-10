@@ -102,7 +102,7 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 **Method.**
 
 - Sample N = 10⁵ seeds from the start spread. Move each seed with the guidance equation v = Im(∇ψ/ψ).
-- Integrator: RK4. The step is h = min(0.05, 0.02/|v|), so that no step moves a seed more than 0.02.
+- Integrator: RK4. The step is h = min(0.05, 0.01/|v|), so that no step moves a seed more than 0.01.
 - If a step puts a seed outside the box, reflect it back into the box. Count these events.
 - Coarse cells: 16 × 16. This is the coarsest grain in TRV (ε = 64 on their 1024 lattice).
 - Compute H̄ every π/8 from t = 0 to 4π. Compute |ψ|²‾ in each cell by Gauss–Legendre quadrature.
@@ -113,7 +113,7 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 **Checks to do before the pass condition** (each one is a code check from known physics):
 
 1. *Equivariance.* Start N seeds from the exact Born spread (M = 64, phase set 0). H̄ must stay below the noise floor plus 5 standard deviations of the floor at every output time.
-2. *Step size.* Run M = 64, phase set 0 again with the step limit 0.01. The two values of τ must agree within 5%.
+2. *Step size.* Run M = 64, phase set 0 again with the step limit 0.005. The two values of τ must agree within 5%.
 
 **Pass:** p lies in −1.05 ± 0.20. TRV found p = −1.05 ± 0.03 at this grain, and p from −1.05 to −1.09 at the other grains. Their largest error bar is 0.18; this test rounds it to 0.20.
 **Fail:** p outside that band. That is a code error until shown otherwise.
@@ -139,7 +139,7 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 
 **Fit.** Fit L1(t) = α₁ exp(−α₂ e^(α₃ t)) to ln L1 (their Eq. 14). Use only the points where L1 is more than 3 times its noise floor. The relaxation time is τ_q = 1/(α₂α₃), the point where the tangent at t = 0 meets the time axis (their definition).
 
-**Interference time τ_int.** Hardel et al. define it in words: "the time when the first maximum appears in between the two original wavepackets". This test uses the literal definition: the first time that |ψ|² has a local maximum at x = 0. For this ψ, that time is τ_int = σ² √((a² − σ²)/(a² + σ²)). This definition gives the earliest time, so it gives the hardest test. The test also reports a second definition: the first time that |ψ(0)|² is half the highest peak of |ψ|².
+**Interference time τ_int.** Hardel et al. define it in words: "the time when the first maximum appears in between the two original wavepackets". This test uses the literal definition: the first time that |ψ|² has a local maximum at x = 0. For this ψ, that time is τ_int = σ² √((a² − σ²)/(a² + σ²)). This definition gives the earliest time, so it gives the hardest test. The test also reports a second definition, for a peak that is visible: the first time that the peak at x = 0 stands at least 10% of the highest peak above the next minimum.
 
 **Checks to do before the pass condition:**
 
@@ -211,11 +211,13 @@ Choice (a) is the only one that keeps relaxation and the possible CMB test. It n
 | Test 1a band for p: from −1 ± 0.2 to −1.05 ± 0.20 | TRV Table I gives p = −1.05 ± 0.03 at the grain this test uses |
 | Test 1a: M = 4 reported, not fitted | TRV left it out; Abraham, Colin & Valentini 2014 show that a few modes can leave a residue that does not relax |
 | Test 1b: τ_int defined by a formula | The paper defines it in words only; the literal definition gives the hardest test |
+| Test 1b: second definition of τ_int changed (code check, before any run) | The first version (centre at half the highest peak) is already true at t = 0 for σ = 0.7, because the packets overlap |
 | Test 2: W1 moved from the double slit to the box | 1D pilot-wave paths cannot cross, so W1 cannot relax in a 1D double slit |
 | Test 2: ideal record, not the N-partner model | The ideal record is the limit case; a finite-rate record needs many particles (§8) |
 | Test 2: a band for the time scale of TV, set from τ | For a small difference, TV ∝ √H̄ (Pinsker's inequality gives the bound TV ≤ √(H̄/2)); coarser regions relax faster (TRV Table II) |
 | Test 3: a pulse in x₁², not a kick in x₁ | A kick in x₁ leaves particle 2's guidance unchanged in this state |
 | Test 3: W2 equilibrium given a pass condition | Equivariance holds for Nelson's dynamics too (Nelson 1966) |
+| Test 1a: step limit 0.02 → 0.01, step check 0.01 → 0.005 (code check, before any main run) | The first equivariance check failed at 0.02: H̄ of the Born start rose from 0.0012 to 0.0035 by 4π. At 0.01 the drift was gone at t = π |
 | All tests: set-up checks added | Equivariance and step size are known properties; a code that fails them is wrong |
 
 ---

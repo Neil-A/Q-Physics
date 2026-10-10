@@ -8,7 +8,7 @@ Start spread: the ground state rho = (4/pi^2) sin^2 x sin^2 y.
 
 Each seed moves with the guidance equation v = Im(grad psi / psi) (rule W1).
 Integrator: RK4, step h = min(0.05, DELTA/|v|), so no step moves a seed more
-than DELTA = 0.02. If a step puts a seed outside the box, the code reflects it
+than DELTA = 0.01. If a step puts a seed outside the box, the code reflects it
 back (psi is odd across each wall, so the flow is symmetric there) and counts
 the event.
 
@@ -19,12 +19,19 @@ per cell). The analysis script computes H-bar, TV and the fits.
 Runs (fixed before any run, 10 Oct 2026; SIM-SPEC-03 section 5):
   main   M in {4, 9, 16, 25, 36, 49, 64}, phase sets 0..5, N = 1e5, to 4 pi;
          M = 64 runs continue to 12 pi for Test 2.
-  step   M = 64, phase set 0, step limit 0.01, to 4 pi (step check).
+  step   M = 64, phase set 0, step limit 0.005, to 4 pi (step check).
   equiv  M = 64, phase set 0, seeds from the exact Born spread, to 4 pi
          (equivariance check).
 Random streams: phases use default_rng([2026,10,10,M,s,0]); start points use
 default_rng([2026,10,10,M,s,1]). The step check uses the same start points as
 the main run. The equivariance check uses default_rng([2026,10,10,M,s,2]).
+
+Change before the main runs (10 Oct). The first equivariance run used
+DELTA = 0.02 and failed: H-bar of the Born start rose from 0.0012 to 0.0035 by
+4 pi (limit about 0.0018). A diagnostic to t = pi gave H-bar 0.0024 at 0.02,
+0.0013 at 0.01 and 0.0012 at 0.005 (floor 0.0013). So DELTA is now 0.01 and
+the step check uses 0.005. The failed run is kept as
+results/box_equiv_M64_s0_step002_FAILED.npz.
 
 Usage:  python box2d.py main|step|equiv [M ...]
 """
@@ -39,7 +46,7 @@ PI = np.pi
 NCELL = 16
 GL = 8                       # Gauss-Legendre nodes per cell per axis
 N = 100_000
-DELTA = 0.02
+DELTA = 0.01
 HMAX = 0.05
 DT_OUT = PI / 8
 MS = [4, 9, 16, 25, 36, 49, 64]
@@ -191,7 +198,7 @@ def run(M, s, kind, t_end):
         X, Y = sample_born(N, amp, np.random.default_rng([2026, 10, 10, M, s, 2]))
     else:
         X, Y = sample_ground(N, np.random.default_rng([2026, 10, 10, M, s, 1]))
-    delta = 0.01 if kind == "step" else DELTA
+    delta = 0.005 if kind == "step" else DELTA
     nout = int(round(t_end / DT_OUT))
     times = np.arange(nout + 1) * DT_OUT
     C = np.zeros((nout + 1, NCELL, NCELL), np.int64)
